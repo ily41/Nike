@@ -34,4 +34,34 @@
   font-weight: 100;
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* scrollbar behaviour on hover */
+
+.scroll-on-hover {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scroll-on-hover::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* Show scrollbar on hover */
+.scroll-on-hover:hover {
+  scrollbar-width: thin;
+}
+
+.scroll-on-hover:hover::-webkit-scrollbar {
+  display: block;
+  height: 8px;
+}
+
+.scroll-on-hover:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
 
