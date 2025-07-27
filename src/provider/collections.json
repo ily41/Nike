@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Jordan 1 Shoes",
+    "slug": "jordan-1-shoes",
+    "productIds": [101, 102, 103, 104]
+  },
+  {
+    "id": 2,
+    "name": "Air Force 1 Shoes",
+    "slug": "air-force-1-shoes",
+    "productIds": [201, 202, 203]
+  },
+  {
+    "id": 3,
+    "name": "Nike Dunk Shoes",
+    "slug": "nike-dunk-shoes",
+    "productIds": [301, 302]
+  },
+  {
+    "id": 4,
+    "name": "New Arrivals",
+    "slug": "new-arrivals",
+    "productIds": [401, 402, 403],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Best Sellers",
+    "slug": "best-sellers",
+    "productIds": [501, 502],
+    "filters": {
+      "gender": ["All"]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Latest Drops",
+    "slug": "latest-drops",
+    "productIds": [601, 602, 603],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Basketball",
+    "slug": "basketball",
+    "productIds": [701, 702],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Lifestyle",
+    "slug": "lifestyle",
+    "productIds": [801, 802],
+    "filters": {
+      "gender": ["Unisex"]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Jordan",
+    "slug": "jordan",
+    "productIds": [901, 902, 903],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Running",
+    "slug": "running",
+    "productIds": [1001, 1002],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Hoodies",
+    "slug": "hoodies",
+    "productIds": [1101, 1102],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Shorts",
+    "slug": "shorts",
+    "productIds": [1201, 1202],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Pants",
+    "slug": "pants",
+    "productIds": [1301, 1302],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Bags",
+    "slug": "bags",
+    "productIds": [1401, 1402],
+    "filters": {
+      "gender": ["Unisex"]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Belts",
+    "slug": "belts",
+    "productIds": [1501],
+    "filters": {
+      "gender": ["Men", "Women"]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Hats",
+    "slug": "hats",
+    "productIds": [1601, 1602],
+    "filters": {
+      "gender": ["Unisex"]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Socks",
+    "slug": "socks",
+    "productIds": [1701, 1702, 1703],
+    "filters": {
+      "gender": ["All"]
+    }
+   }
+
+  
+
+]

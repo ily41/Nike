@@ -1,0 +1,105 @@
+download header images 
+
+main categories
+
+start from one of the categories
+
+product page
+
+filters
+
+wishlist
+
+details
+
+basket
+
+
+goals of tomorrow 
+
+create rooting
+
+start product page
+
+qalanni gor nagarsan
+
+
+
+
+
+
+
+
+Need to be done
+
+slider gap
+
+
+
+
+problems
+
+the gap between header img and main
+
+downloading video
+
+data
+
+
+
+data structure 
+10 product each classic shoes  total 80 shoes
+
+70 shoes for navbar
+
+-- 80 --
+
+30 accessories
+
+40 clothing
+
+
+
+
+
+new Arrival
+
+Best seller
+
+latest drop
+
+basketball
+
+lifestyle
+
+Jordan
+
+Running
+
+Hoodie
+
+
+shorts
+
+pants
+
+bags
+
+belts
+
+hats
+
+socks
+
+
+
+
+Shoes
+clothing
+Accessories
+
+
+
+
+
+

@@ -1,10 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import Slider from "./Slider";
 
 
 
 const Main = () => {
   return (
     <main>
+      <Slider />
       <div className='sm:flex'>
 
           <div className='relative sm:w-2/4 h-[50vh] lg:h-[86vh]'>
@@ -54,7 +56,7 @@ const Main = () => {
           <h2 className="text-2xl px-8 font-thin font-[helveticaNow]">Shop The Classics</h2>
           <div className="flex gap-3">
             <div className="w-12 h-12 flex justify-center items-center rounded-full bg-[#f5f5f5]">
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
             </div>
 
             <div className="w-12 h-12 flex justify-center items-center rounded-full bg-[#CACACB]">
