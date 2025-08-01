@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Card from './Card'
+import { Link } from 'react-router'
 
 const Products = () => {
 
@@ -89,7 +90,8 @@ const Products = () => {
             
 
             <div className='grid grid-cols-2 lg:grid-cols-3  items-center justify-center gap-4'>
-                <Card />
+                <Link className='cursor-pointer' to="/details"><Card /></Link>
+                
                 <Card />
                 <Card />
                 <Card />

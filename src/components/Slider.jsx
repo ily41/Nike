@@ -3,10 +3,10 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const Slider = () => {
+const Slider = ({header}) => {
   return (
     <>
-    <Swiper
+    {header ? <Swiper
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000, disableOnInteraction: false }} 
         modules={[Pagination, Autoplay]} 
@@ -41,7 +41,37 @@ const Slider = () => {
 
           </div>
         </SwiperSlide>
+      </Swiper>  : 
+        <Swiper
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }} 
+        modules={[Pagination, Autoplay]} 
+        className="mySwiper "
+      >
+        <SwiperSlide className='relative w-full h-full'>
+          <img className ="block lg:hidden w-full object-cover" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
+        </SwiperSlide>
+        
+        <SwiperSlide className='relative w-full h-full'>
+          <img className ="block lg:hidden w-full object-cover" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
+        </SwiperSlide>
+        
+        <SwiperSlide className='relative w-full h-full'>
+          <img className ="block lg:hidden w-full object-cover" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
+        </SwiperSlide>
+        
+        <SwiperSlide className='relative w-full h-full'>
+          <img className ="block lg:hidden w-full object-cover" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
+        </SwiperSlide>
+        
+        <SwiperSlide className='relative w-full h-full'>
+          <img className ="block lg:hidden w-full object-cover" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
+        </SwiperSlide>
+        
+
       </Swiper>
+      }
+    
       </>
   )
 }

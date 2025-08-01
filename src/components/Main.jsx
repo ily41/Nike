@@ -6,7 +6,7 @@ import Slider from "./Slider";
 const Main = () => {
   return (
     <main>
-      <Slider />
+      <Slider header = {false}/>
       <div className='sm:flex'>
 
           <div className='relative sm:w-2/4 h-[50vh] lg:h-[86vh]'>

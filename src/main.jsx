@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Products from './components/Products'
 import { BrowserRouter, Route,  Routes } from 'react-router'
+import Details from './components/Details'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
           <Routes>
             <Route path ='/' element ={<Main />}></Route>
             <Route path='/products' element={<Products />}></Route>
+            <Route path='/details' element={<Details />}></Route>
           </Routes>
         
 

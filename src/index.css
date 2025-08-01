@@ -1,4 +1,35 @@
-@import "tailwindcss";
+    @import "tailwindcss";
+
+.custom-size-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* default */
+    gap: 0.5rem;
+  }
+
+  @media (min-width: 301px) {
+    .custom-size-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 500px) {
+    .custom-size-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 620px) {
+    .custom-size-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .custom-size-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
 
 
 .swiper-slide {
