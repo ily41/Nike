@@ -3,22 +3,156 @@
     "id": 1,
     "name": "Jordan 1 Shoes",
     "slug": "jordan-1-shoes",
-    "productIds": [101, 102, 103, 104]
+    "productIds": [
+                    "AJ1-001",
+                    "AJ1-002",
+                    "AJ1-003",
+                    "AJ1-004",
+                    "AJ1-005",
+                    "AJ1-006",
+                    "AJ1-007",
+                    "AJ1-008",
+                    "AJ1-009",
+                    "AJ1-010"
+                  ]
+
   },
   {
     "id": 2,
     "name": "Air Force 1 Shoes",
     "slug": "air-force-1-shoes",
-    "productIds": [201, 202, 203]
+    "productIds": [
+                    "airforce-1",
+                    "airforce-2",
+                    "airforce-3",
+                    "airforce-4",
+                    "airforce-5",
+                    "airforce-6",
+                    "airforce-7",
+                    "airforce-8",
+                    "airforce-9",
+                    "airforce-10",
+                    "airforce-11"
+                  ]
+
   },
   {
     "id": 3,
     "name": "Nike Dunk Shoes",
     "slug": "nike-dunk-shoes",
-    "productIds": [301, 302]
+    "productIds": [
+                    "dunk-1",
+                    "dunk-2",
+                    "dunk-3",
+                    "dunk-4",
+                    "dunk-5",
+                    "dunk-6",
+                    "dunk-7",
+                    "dunk-8",
+                    "dunk-9",
+                    "dunk-10",
+                    "dunk-11"
+                  ]
+
   },
   {
     "id": 4,
+    "name": "Nike Field General",
+    "slug": "nike-field-general",
+    "productIds": [
+                    
+                    "field-1",
+                    "field-2",
+                    "field-3",
+                    "field-4",
+                    "field-5",
+                    "field-6",
+                    "field-7",
+                    "field-8",
+                    "field-9",
+                    "field-10"
+                    
+
+                  ]
+
+  },
+  {
+    "id": 5,
+    "name": "Nike Air Max",
+    "slug": "nike-air-max",
+    "productIds": [
+                    "airmax-dn8-men",
+                    "airmax-dn8-women",
+                    "airmax-dn8-big-kids",
+                    "airmax-dn-lego-big-kids",
+                    "airmax-90-men",
+                    "airmax-90-premium-men",
+                    "airmax-90-easyon-little-kids",
+                    "airmax-phoenix-men",
+                    "airmax-dn-shoes",
+                    "airmax-dn-se-men"
+                  ]
+
+  },
+  {
+    "id": 6,
+    "name": "Nike Dunk Shoes",
+    "slug": "nike-dunk-shoes",
+    "productIds": [
+                    "dunk-1",
+                    "dunk-2",
+                    "dunk-3",
+                    "dunk-4",
+                    "dunk-5",
+                    "dunk-6",
+                    "dunk-7",
+                    "dunk-8",
+                    "dunk-9",
+                    "dunk-10",
+                    "dunk-11"
+                  ]
+
+  },
+  {
+    "id": 7,
+    "name": "Nike Dunk Shoes",
+    "slug": "nike-dunk-shoes",
+    "productIds": [
+                    "dunk-1",
+                    "dunk-2",
+                    "dunk-3",
+                    "dunk-4",
+                    "dunk-5",
+                    "dunk-6",
+                    "dunk-7",
+                    "dunk-8",
+                    "dunk-9",
+                    "dunk-10",
+                    "dunk-11"
+                  ]
+
+  },
+  {
+    "id": 8,
+    "name": "Nike Dunk Shoes",
+    "slug": "nike-dunk-shoes",
+    "productIds": [
+                    "dunk-1",
+                    "dunk-2",
+                    "dunk-3",
+                    "dunk-4",
+                    "dunk-5",
+                    "dunk-6",
+                    "dunk-7",
+                    "dunk-8",
+                    "dunk-9",
+                    "dunk-10",
+                    "dunk-11"
+                  ]
+
+  },
+  {
+    "id": 9,
     "name": "New Arrivals",
     "slug": "new-arrivals",
     "productIds": [401, 402, 403],
@@ -27,7 +161,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 10,
     "name": "Best Sellers",
     "slug": "best-sellers",
     "productIds": [501, 502],
@@ -36,7 +170,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 11,
     "name": "Latest Drops",
     "slug": "latest-drops",
     "productIds": [601, 602, 603],
@@ -45,7 +179,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 12,
     "name": "Basketball",
     "slug": "basketball",
     "productIds": [701, 702],
@@ -54,7 +188,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 13,
     "name": "Lifestyle",
     "slug": "lifestyle",
     "productIds": [801, 802],
@@ -63,7 +197,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 14,
     "name": "Jordan",
     "slug": "jordan",
     "productIds": [901, 902, 903],
@@ -72,7 +206,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 15,
     "name": "Running",
     "slug": "running",
     "productIds": [1001, 1002],
@@ -81,7 +215,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 16,
     "name": "Hoodies",
     "slug": "hoodies",
     "productIds": [1101, 1102],
@@ -90,7 +224,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 17,
     "name": "Shorts",
     "slug": "shorts",
     "productIds": [1201, 1202],
@@ -99,7 +233,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 18,
     "name": "Pants",
     "slug": "pants",
     "productIds": [1301, 1302],
@@ -108,7 +242,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 19,
     "name": "Bags",
     "slug": "bags",
     "productIds": [1401, 1402],
@@ -117,7 +251,7 @@
     }
   },
   {
-    "id": 15,
+    "id": 20,
     "name": "Belts",
     "slug": "belts",
     "productIds": [1501],
@@ -126,7 +260,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 21,
     "name": "Hats",
     "slug": "hats",
     "productIds": [1601, 1602],
@@ -135,7 +269,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 22,
     "name": "Socks",
     "slug": "socks",
     "productIds": [1701, 1702, 1703],

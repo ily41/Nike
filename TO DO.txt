@@ -62,41 +62,31 @@ data structure
 
 
 
-new Arrival
-
-Best seller
-
-latest drop
-
-basketball
-
-lifestyle
-
-Jordan
-
-Running
-
-Hoodie
-
-
-shorts
-
-pants
-
-bags
-
-belts
-
-hats
-
-socks
+Goal of next time
 
 
 
 
-Shoes
-clothing
-Accessories
+
+uidan men women falan bunlarin pageleri qalib
+
+kicik thingler
+
+
+burgermenu 
+
+homepage slider sag sol arrow fix
+
+
+Bugs:
+
+	gap between slider 
+	Footer flex add
+	when nav clicked disappearance
+
+
+butun productlari yigandan sonra basketi filteri yig sonra kicik thinglere basla
+
 
 
 

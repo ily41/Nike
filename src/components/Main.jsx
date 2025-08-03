@@ -1,12 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Slider from "./Slider";
+import { Link } from "react-router";
 
 
 
 const Main = () => {
   return (
     <main>
-      <Slider header = {false}/>
+      <Slider header = {true}/>
       <div className='sm:flex'>
 
           <div className='relative sm:w-2/4 h-[50vh] lg:h-[86vh]'>
@@ -69,46 +70,46 @@ const Main = () => {
 
 
         <div className="overflow-x-scroll scroll-on-hover p-3 flex gap-3">
-
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to ='/products/1'>
             <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
             <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
+          </Link>
+
+          
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to ='/products/3'>
+            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/60ce51e6-ab01-46fd-a0d0-e1987fa52554/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">Dunk</h3>
+          </Link>
+
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to ='/products/4'>
+            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/927d52e4-7593-40ef-ba4a-90685b225199/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">Field General</h3>
+          </Link>
+
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to ='/products/2'>
+            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/999d4075-e65c-4de9-8ad9-a54dddcc52ee/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Force 1</h3>
+          </Link>
+
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to ='/products/5'>
+            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/5fa3bdd7-062b-40b6-88a4-9d5802d2a6f8/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Max</h3>
+          </Link>
+
+          <div className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/537cf473-291c-48e9-bd29-5cb37ad013b1/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">Vomero</h3>
+          </div>
+          <div className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_300,c_limit/65805582-b64e-4b1d-83b8-49b69b34c41e/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">Cortez</h3>
           </div>
 
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
+          <div className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_300,c_limit/290542af-0464-4c20-955e-4f34a697e097/nike-just-do-it.jpg" alt="" />
+            <h3 className="mt-3 text-lg font-[helveticaNow]">City</h3>
           </div>
 
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
-          </div>
-
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
-          </div>
-
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
-          </div>
-
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
-          </div>
-
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
-          </div>
-
-          <div className="max-w-[60%] sm:max-w-[225px] flex-shrink-0">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/6ec248e4-ed58-436a-a9cb-78f1c009b1df/nike-just-do-it.jpg" alt="" />
-            <h3 className="mt-3 text-lg font-[helveticaNow]">Air Jordan</h3>
-          </div>
 
         </div>
       </section>

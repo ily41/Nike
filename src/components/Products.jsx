@@ -1,10 +1,26 @@
-import React, { useState } from 'react'
+import  { useEffect, useState } from 'react'
 import Card from './Card'
-import { Link } from 'react-router'
+import { Link, useParams } from 'react-router'
+import collectionData from '../provider/collections.json'
+import productData from '../provider/products.json'
+
 
 const Products = () => {
 
+    const {collectionId} = useParams()
+    const collections = collectionData.filter(el => el.id === Number(collectionId))[0]
+    const [products, setProducts] = useState([])
+
+    useEffect(() => {
+        console.log(productData.length)
+
+        setProducts(productData.filter(el => collections.productIds.includes(el.id)))
+
+    },[])
+
+
     const [showFilter, setShowFilter] = useState(true)
+
   return (
     <>
         <div className='w-full font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
@@ -31,16 +47,14 @@ const Products = () => {
                         <button 
                             onClick={() => {
                                 if (window.innerWidth < 1024) {
-                                  console.log("Mobile action");
                                 } else {
                                     setShowFilter(prev => !prev)
-                                    console.log(showFilter)
                                 }
                                                 }}
                             className='flex gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0'>
-                              <div>
+                              <div className='cursor-pointer'>
                                 <span className='hidden mr-2 font-[helveticaNow] lg:inline'>Show Filters</span>
-                                <span className="lg:hidden">Filter</span>
+                                <span className="lg:hidden ">Filter</span>
                               </div>
                               <svg aria-hidden="true" className="icon-filter-ds" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
                                 <path stroke="currentColor" strokeWidth="1.5" d="M21 8.25H10m-5.25 0H3"></path>
@@ -89,13 +103,12 @@ const Products = () => {
             </div> }
             
 
-            <div className='grid grid-cols-2 lg:grid-cols-3  items-center justify-center gap-4'>
-                <Link className='cursor-pointer' to="/details"><Card /></Link>
+            <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>
                 
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {products.map(el => (
+                    <Link to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image}/></Link>
+                ))}
+                
             </div>
         </section>
     </>

@@ -13,9 +13,10 @@ createRoot(document.getElementById('root')).render(
 
           <Routes>
             <Route path ='/' element ={<Main />}></Route>
-            <Route path='/products' element={<Products />}></Route>
-            <Route path='/details' element={<Details />}></Route>
+            <Route path='/products/:collectionId' element={<Products />}></Route>
+            <Route path='/details/:productId' element={<Details />}></Route>
           </Routes>
+      <Footer />
         
 
     </BrowserRouter>

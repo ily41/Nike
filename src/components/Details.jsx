@@ -1,20 +1,59 @@
+import { useParams } from "react-router";
 import Slider from "./Slider"
+import { useEffect, useRef, useState } from "react";
+import productData from '../provider/products.json'
 
+
+  
 
 const Details = () => {
 
-    const headerText = () => {
-        return  <div className="m-5 ">
-                <h3  className="font-[helveticaNow] text-xl">Air Jordan 1 Retro High OG "Black and Muslin"</h3>
-                <p className="text-[#818181] font-[helveticaNow] mb-4">Men's Shoes</p>
+    const {productId} = useParams()
+    const product = productData.find(el => el.id == productId)
 
-                <span className="font-[helveticaNow] ">$185</span>
+    
+    const imgRef = useRef();
+    const [imgHeight, setImgHeight] = useState(0);
+    
+
+    const updateImgHeight = () => {
+        if (imgRef.current) {
+          setImgHeight(imgRef.current.clientHeight);
+        }
+    };
+
+
+    const handleImgLoad = () => {
+      if (imgRef.current) {
+        updateImgHeight()
+      }
+    };
+
+     useEffect(() => {
+        updateImgHeight();
+
+        window.addEventListener("resize", updateImgHeight);
+
+        return () => {
+          window.removeEventListener("resize", updateImgHeight);
+        };
+    }, []);
+
+    
+
+    const headerText = () => {
+
+        return  <div className="m-5 ">
+                <h3  className="font-[helveticaNow] text-xl">{product.name}</h3>
+                <p className="text-[#818181] font-[helveticaNow] mb-4">{product.genders}'s Shoes</p>
+
+                <span className="font-[helveticaNow] ">{product.price}$</span>
             </div>
     }
 
   return (
     <div>
-        <div className='w-full col-span-2 font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
+        <div className='w-full  font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
             
             <div className="lg:hidden">
                 {headerText()}
@@ -23,23 +62,42 @@ const Details = () => {
 
             <Slider header={false} />
 
-            <div className="grid grid-cols-6">
-                <div className="col-span-1"></div>
+            <div className="lg:flex justify-center  mt-10  mx-[100px]">
 
-                <div className="inline-flex overflow-x-scroll col-span-2  max-h-[550px] w-full">
-                    <div className="order-2 hidden lg:block  ">
-                        <img className="  object-cover h-full  w-full rounded-sm" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
-                    </div>
-                    <div className="order-1 overflow-y-scroll flex lg:flex-col  ">
-                        <img className="w-30 my-8 object-cover h-30 mx-1 rounded-sm" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
-                        <img className="w-30 my-8 object-cover h-30 mx-1 rounded-sm" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
-                        <img className="w-30 my-8 object-cover h-30 mx-1 rounded-sm" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
-                        <img className="w-30 my-8 object-cover h-30 mx-1 rounded-sm" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
-                        <img className="w-30 my-8 object-cover h-30 mx-1 rounded-sm" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/556c6810-ed4f-4702-bb78-79e276fde8d2/W+NIKE+AIR+SUPERFLY.png" alt="" />
-                    </div>
-                </div>
+                <div className="">
+                    <div className="inline-flex sticky top-10 gap-2">
+                    
+                        <div className="order-2 max-h-[60vh] hidden lg:block  ">
+                            <div className="flex absolute right-8 bottom-8 gap-3">
+                              <div className="w-10 h-10 flex justify-center items-center rounded-full bg-[#f5f5f5]">
+                                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
+                              </div>
 
-                <div className="mx-5 mt-7 col-span-2">
+                              <div className="w-10 h-10 flex justify-center items-center rounded-full bg-[#FFFF]">
+                                <img src="../public/Icons/right-arrow.svg" alt="" />
+                              </div>
+
+                            </div>
+                            <img
+                            onLoad={handleImgLoad}
+                            ref={imgRef}
+                            className="object-contain max-w-[450px]  rounded-sm" src={product.image} alt="" />
+                        </div>
+
+                        <div 
+                        style={{ maxHeight: imgHeight ? `${imgHeight}px` : "auto" }}
+                        className="order-1 scrollbar-hide  overflow-y-scroll flex lg:flex-col  ">
+                            {product.detailImages.map((el,index) => (
+                                <img className="lg:max-w-15 mb-2 object-cover max-h-30 mx-1 rounded-sm" key={index} src={el} alt="" />
+                            ))
+                            }
+                            
+                            
+                        </div>
+                    </div>
+                    </div>
+
+                    <div className="mx-5 mt-7  lg:max-w-1/3">
                     <div className="hdiden lg:block">
                         {headerText()}
                     </div>
@@ -51,39 +109,25 @@ const Details = () => {
                 </div>
 
                 <div className="custom-size-grid my-5 gap-2">
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] rounded-sm ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
-                    <div className="w-full py-4 bg-white border-1 flex justify-center items-center border-[#d7d7d7] ">
-                        <span className="font-[helveticaNow]" >M 3.5 / W 5</span>
-                    </div>
+                    {product.availableSizesEU.map((el, index) => {
+                      return (
+                        product.sizeAvailability[el] ?
+                        <div
+                          key={index}
+                          className="w-full py-4 bg-[white] border-1 flex justify-center items-center border-[#d7d7d7] rounded-sm"
+                        >
+                            <span className="font-[helveticaNow]">Size {el}</span>
+                        </div>
+                        :
+                        <div
+                          key={index}
+                          className="w-full py-4 bg-[#F5F5F5] border-1 text-[#d7d7d7] line-through flex justify-center items-center border-[#d7d7d7] rounded-sm"
+                        >
+                          <span className="font-[helveticaNow]">Size {el}</span>
+                        </div>
+                      );
+                    })}
+                   
                  
                 </div>
 
@@ -126,7 +170,7 @@ const Details = () => {
                     </div>
 
                 </button>
-                </div>
+                    </div>
             </div>
 
 
