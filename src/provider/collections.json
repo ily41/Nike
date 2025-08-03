@@ -96,186 +96,148 @@
   },
   {
     "id": 6,
-    "name": "Nike Dunk Shoes",
-    "slug": "nike-dunk-shoes",
+    "name": "Nike Vomero Shoes",
+    "slug": "nike-vomero-shoes",
     "productIds": [
-                    "dunk-1",
-                    "dunk-2",
-                    "dunk-3",
-                    "dunk-4",
-                    "dunk-5",
-                    "dunk-6",
-                    "dunk-7",
-                    "dunk-8",
-                    "dunk-9",
-                    "dunk-10",
-                    "dunk-11"
+                    "vomero-zoom-5-men",
+                    "vomero-zoom-5-women",
+                    "vomero-5-kids",
+                    "vomero-5-toddler",
+                    "vomero-roam-women",
+                    "vomero-roam-men",
+                    "vomero-zoom-5-women-alt"
                   ]
 
   },
   {
     "id": 7,
-    "name": "Nike Dunk Shoes",
-    "slug": "nike-dunk-shoes",
-    "productIds": [
-                    "dunk-1",
-                    "dunk-2",
-                    "dunk-3",
-                    "dunk-4",
-                    "dunk-5",
-                    "dunk-6",
-                    "dunk-7",
-                    "dunk-8",
-                    "dunk-9",
-                    "dunk-10",
-                    "dunk-11"
+    "name": "Nike Cortez Shoes",
+    "slug": "nike-cortez-shoes",
+    "productIds":[
+                    "nike-cortez-women",
+                    "nike-cortez-leather-men",
+                    "nike-cortez-textile-men",
+                    "nike-cortez-leather-women-premium",
+                    "nike-cortez-leather-women",
+                    "nike-cortez-women-alt",
+                    "nike-cortez-textile-big-kids",
+                    "nike-cortez-big-kids",
+                    "nike-cortez-easyon-little-kids",
+                    "nike-cortez-easyon-toddler"
                   ]
 
   },
   {
     "id": 8,
-    "name": "Nike Dunk Shoes",
-    "slug": "nike-dunk-shoes",
+    "name": "Nike City Shoes",
+    "slug": "nike-city-shoes",
     "productIds": [
-                    "dunk-1",
-                    "dunk-2",
-                    "dunk-3",
-                    "dunk-4",
-                    "dunk-5",
-                    "dunk-6",
-                    "dunk-7",
-                    "dunk-8",
-                    "dunk-9",
-                    "dunk-10",
-                    "dunk-11"
+                    "nike-c1ty-premium-cordura-shoes-1",
+                    "nike-c1ty-big-kids-shoes-1",
+                    "nike-c1ty-big-kids-shoes-2",
+                    "nike-c1ty-mens-shoes",
+                    "nike-c1ty-phone-booth-shoes",
+                    "nike-c1ty-street-big-kids",
+                    "nike-c1ty-premium-cordura-mens",
+                    "nike-c1ty-fountain-shoes",
+                    "nike-c1ty-premium-cordura-shoes-2",
+                    "nike-c1ty-caution-tape-shoes"
                   ]
+
 
   },
   {
     "id": 9,
     "name": "New Arrivals",
     "slug": "new-arrivals",
-    "productIds": [401, 402, 403],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
+
   },
   {
     "id": 10,
     "name": "Best Sellers",
     "slug": "best-sellers",
-    "productIds": [501, 502],
-    "filters": {
-      "gender": ["All"]
-    }
+    "productIds": []
   },
   {
     "id": 11,
     "name": "Latest Drops",
     "slug": "latest-drops",
-    "productIds": [601, 602, 603],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
+
+
+
+
   {
     "id": 12,
     "name": "Basketball",
     "slug": "basketball",
-    "productIds": [701, 702],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
   {
     "id": 13,
     "name": "Lifestyle",
     "slug": "lifestyle",
-    "productIds": [801, 802],
-    "filters": {
-      "gender": ["Unisex"]
-    }
+    "productIds": []
   },
-  {
-    "id": 14,
-    "name": "Jordan",
-    "slug": "jordan",
-    "productIds": [901, 902, 903],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
-  },
+
   {
     "id": 15,
     "name": "Running",
     "slug": "running",
-    "productIds": [1001, 1002],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
+
+  {
+    "id": 14,
+    "name": "Jordan",
+    "slug": "jordan",
+    "productIds": []
+  },
+
+  
   {
     "id": 16,
     "name": "Hoodies",
     "slug": "hoodies",
-    "productIds": [1101, 1102],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
   {
     "id": 17,
     "name": "Shorts",
     "slug": "shorts",
-    "productIds": [1201, 1202],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
   {
     "id": 18,
     "name": "Pants",
     "slug": "pants",
-    "productIds": [1301, 1302],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
   {
     "id": 19,
     "name": "Bags",
     "slug": "bags",
-    "productIds": [1401, 1402],
-    "filters": {
-      "gender": ["Unisex"]
-    }
+    "productIds": []
   },
   {
     "id": 20,
     "name": "Belts",
     "slug": "belts",
-    "productIds": [1501],
-    "filters": {
-      "gender": ["Men", "Women"]
-    }
+    "productIds": []
   },
   {
     "id": 21,
     "name": "Hats",
     "slug": "hats",
-    "productIds": [1601, 1602],
-    "filters": {
-      "gender": ["Unisex"]
-    }
+    "productIds": []
   },
   {
     "id": 22,
     "name": "Socks",
     "slug": "socks",
-    "productIds": [1701, 1702, 1703],
-    "filters": {
-      "gender": ["All"]
-    }
+    "productIds": []
    }
 
   

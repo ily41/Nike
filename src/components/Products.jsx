@@ -3,12 +3,14 @@ import Card from './Card'
 import { Link, useParams } from 'react-router'
 import collectionData from '../provider/collections.json'
 import productData from '../provider/products.json'
+import Filter from './Filter'
 
 
 const Products = () => {
 
     const {collectionId} = useParams()
     const collections = collectionData.filter(el => el.id === Number(collectionId))[0]
+    console.log(collections)
     const [products, setProducts] = useState([])
 
     useEffect(() => {
@@ -20,6 +22,8 @@ const Products = () => {
 
 
     const [showFilter, setShowFilter] = useState(true)
+    console.log("products")
+    console.log(products)
 
   return (
     <>
@@ -69,39 +73,11 @@ const Products = () => {
                 </div>
             </div> 
         </div>
+
+        
         <section className='flex  lg:mx-10'>
-            {showFilter && <div className=' hidden lg:flex lg:flex-col mr-18'>
-                <ul className='font-[helveticaNow] text-lg flex flex-col gap-2'>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                    <li>Something</li>
-                </ul>
-
-                <hr className='px-4 my-4  text-[#b3b3b3]'/>
-
-                <div className='flex w-38 cursor-pointer justify-between'>
-                    <span>Sale & Offers</span>
-                    <img  className ="w-8" src="../public/Icons/down-arrow.svg" alt="" />
-                </div>
-
-                <hr className='px-4  my-4 text-[#b3b3b3]'/>
-
-
-
-
-
-            </div> }
             
+            <Filter showFilter={showFilter}/>
 
             <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>
                 
@@ -111,6 +87,8 @@ const Products = () => {
                 
             </div>
         </section>
+
+        
     </>
   )
 }

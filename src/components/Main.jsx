@@ -96,19 +96,20 @@ const Main = () => {
             <h3 className="mt-3 text-lg font-[helveticaNow]">Air Max</h3>
           </Link>
 
-          <div className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0">
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to='/products/6'>
             <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_300,c_limit/537cf473-291c-48e9-bd29-5cb37ad013b1/nike-just-do-it.jpg" alt="" />
             <h3 className="mt-3 text-lg font-[helveticaNow]">Vomero</h3>
-          </div>
-          <div className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0">
+          </Link>
+
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to='/products/7'>
             <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_300,c_limit/65805582-b64e-4b1d-83b8-49b69b34c41e/nike-just-do-it.jpg" alt="" />
             <h3 className="mt-3 text-lg font-[helveticaNow]">Cortez</h3>
-          </div>
+          </Link>
 
-          <div className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0">
+          <Link className="max-w-[60%] cursor-pointer sm:max-w-[225px] flex-shrink-0" to='/products/8'>
             <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_300,c_limit/290542af-0464-4c20-955e-4f34a697e097/nike-just-do-it.jpg" alt="" />
             <h3 className="mt-3 text-lg font-[helveticaNow]">City</h3>
-          </div>
+          </Link>
 
 
         </div>
