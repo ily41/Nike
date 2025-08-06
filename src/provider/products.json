@@ -930,7 +930,7 @@
     "collection": "nike-air-max-dn8",
     "price": 200,
     "genders": ["Women"],
-    "categories": ["Shoes", "Air Max Dn8"],
+    "categories": ["Shoes", "Air Max"],
     "colors": ["Multiple Colors (9 Colors)"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a6dba6ae-6c48-4220-9141-0bd33884e4f7/W+AIR+MAX+DN8.png",
     "detailImages": [
@@ -972,7 +972,7 @@
     "collection": "nike-air-max-dn-lego",
     "price": 155,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Air Max Dn", "LEGO Collection"],
+    "categories": ["Shoes", "Air Max"],
     "colors": ["Limited Color (1 Color)"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/39925bb5-3c6d-4cd0-b604-c48520b3eb51/AIR+MAX+DN+x+LEGO+COL+GS.png",
     "detailImages": [
@@ -1014,7 +1014,7 @@
     "collection": "nike-air-max-90",
     "price": 145,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Max 90 Premium"],
+    "categories": ["Shoes", "Air Max"],
     "colors": ["Multiple Colors (5 Colors)"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7df77916-8bbf-4a5d-b813-eb24bfabc747/AIR+MAX+90+PRM.png",
     "detailImages": [
@@ -1056,7 +1056,7 @@
     "collection": "nike-air-max-phoenix",
     "price": 155,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Max Phoenix"],
+    "categories": ["Shoes", "Air Max"],
     "colors": ["Multiple Colors (2 Colors)"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e355aa59-0b09-4fc3-b291-e82ef841a8da/NIKE+AIR+MAX+PHOENIX.png",
     "detailImages": [
@@ -1098,7 +1098,7 @@
     "collection": "nike-air-max-dn-se",
     "price": 180,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Max Dn SE"],
+    "categories": ["Shoes", "Air Max"],
     "colors": ["Multiple Colors (4 Colors)"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90bcb5ff-4685-4ac1-bc01-4bd0dde0728f/AIR+MAX+DN+SE.png",
     "detailImages": [
@@ -1146,7 +1146,7 @@
     "collection": "nike-zoom-vomero",
     "price": 170,
     "genders": ["Women"],
-    "categories": ["Shoes", "Running"],
+    "categories": ["Shoes", "Vomero"],
     "colors": ["7 Colors"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45d21cf8-942c-4768-a62a-c6a748cdaea7/W+NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
@@ -1165,7 +1165,7 @@
     "collection": "nike-vomero",
     "price": 90,
     "genders": ["Baby/Toddler"],
-    "categories": ["Shoes", "Kids"],
+    "categories": ["Shoes", "Vomero"],
     "colors": ["6 Colors"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/046708e0-2a85-49f4-b452-d963ff7a1c81/VOMERO+5+%28PS%29.png",
     "detailImages": [
@@ -1203,7 +1203,7 @@
     "collection": "nike-zoom-vomero",
     "price": 180,
     "genders": ["Women"],
-    "categories": ["Shoes", "Winterized"],
+    "categories": ["Shoes", "Vomero"],
     "colors": ["4 Colors"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b0d89796-9586-4dea-b4e2-ffc2bfaa8909/W+NIKE+ZOOM+VOMERO+ROAM.png",
     "detailImages": [
@@ -1222,7 +1222,7 @@
     "collection": "nike-zoom-vomero",
     "price": 180,
     "genders": ["Men"],
-    "categories": ["Shoes", "Winterized"],
+    "categories": ["Shoes", "Vomero"],
     "colors": ["6 Colors"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a0ff9f14-3ec3-457d-bd35-d46f17452ade/VOMERO+ROAM.png",
     "detailImages": [
@@ -1241,7 +1241,7 @@
     "collection": "nike-zoom-vomero",
     "price": 160,
     "genders": ["Women"],
-    "categories": ["Shoes", "Running"],
+    "categories": ["Shoes", "Vomero"],
     "colors": ["12 Colors"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e8eee2d-cede-40d9-bd70-b316da5e685f/W+NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
@@ -1482,7 +1482,7 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Big Kids"],
+    "categories": ["Shoes", "City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aac9b3ab-3462-4299-8545-5d8aaab1b85a/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
@@ -1501,7 +1501,7 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Big Kids"],
+    "categories": ["Shoes", "City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dbc84569-84a5-4d82-afe4-d726dc5350ea/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
@@ -1520,7 +1520,7 @@
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Men"],
-    "categories": ["Shoes"],
+    "categories": ["Shoes","City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/497f159e-fd7b-4064-8985-27edc067d105/NIKE+C1TY.png",
     "detailImages": [
@@ -1539,7 +1539,7 @@
     "collection": "nike-c1ty",
     "price": 100,
     "genders": ["Unisex"],
-    "categories": ["Shoes"],
+    "categories": ["Shoes","City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9fdd5d66-fbda-4a6d-982c-1d1b8e6e2309/NIKE+C1TY.png",
     "detailImages": [
@@ -1558,7 +1558,7 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Big Kids"],
+    "categories": ["Shoes", "City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/521f0cff-fd99-4f8c-9b3c-c878f180c99e/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
@@ -1577,7 +1577,7 @@
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Men"],
-    "categories": ["Shoes", "Premium"],
+    "categories": ["Shoes", "City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/549721bf-bf57-4d6b-bf35-9ddec91c5c3f/NIKE+C1TY+PRM.png",
     "detailImages": [
@@ -1596,7 +1596,7 @@
     "collection": "nike-c1ty",
     "price": 105,
     "genders": ["Unisex"],
-    "categories": ["Shoes"],
+    "categories": ["Shoes","City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15f61b59-52af-4fbd-8012-4b1b759307f9/NIKE+C1TY.png",
     "detailImages": [
@@ -1615,7 +1615,7 @@
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Unisex"],
-    "categories": ["Shoes", "Premium"],
+    "categories": ["Shoes", "City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e97f83f-cc3c-48e3-8cfa-03da70ec460e/NIKE+C1TY+PRM.png",
     "detailImages": [
@@ -1634,7 +1634,7 @@
     "collection": "nike-c1ty",
     "price": 100,
     "genders": ["Unisex"],
-    "categories": ["Shoes"],
+    "categories": ["Shoes","City"],
     "colors": ["1 Color"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aaebfafa-c137-495e-acd3-223be66de75b/NIKE+C1TY.png",
     "detailImages": [
@@ -1647,4 +1647,4 @@
     "quantityAvailable": 21,
     "description": "Nike C1TY \"Caution Tape\" shoes with standout design and comfort."
   }
-]
+]   

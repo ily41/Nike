@@ -6,21 +6,27 @@ import Footer from './components/Footer'
 import Products from './components/Products'
 import { BrowserRouter, Route,  Routes } from 'react-router'
 import Details from './components/Details'
+import ScrollToTop from './components/ScrollToTop'
+
+if ('scrollRestoration' in window.history) {
+  window.history.scrollRestoration = 'manual';
+}
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
-    <Header />
 
-          <Routes>
-            <Route path ='/' element ={<Main />}></Route>
-            <Route path='/products/:collectionId' element={<Products />}></Route>
-            <Route path='/details/:productId' element={<Details />}></Route>
-          </Routes>
+  <BrowserRouter>
+    <ScrollToTop />
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow">
+        <Routes>
+          <Route path='/' element={<Main />} />
+          <Route path='/products/:collectionId' element={<Products />} />
+          <Route path='/details/:productId' element={<Details />} />
+        </Routes>
+      </main>
       <Footer />
-        
+    </div>
+  </BrowserRouter>
+);
 
-    </BrowserRouter>
-    
-    
-
-)

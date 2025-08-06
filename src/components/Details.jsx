@@ -2,18 +2,37 @@ import { useParams } from "react-router";
 import Slider from "./Slider"
 import { useEffect, useRef, useState } from "react";
 import productData from '../provider/products.json'
-
-
-  
+import BagNotification from './BagNotification'
 
 const Details = () => {
 
     const {productId} = useParams()
     const product = productData.find(el => el.id == productId)
-
-    
     const imgRef = useRef();
     const [imgHeight, setImgHeight] = useState(0);
+    const [bagNotification,setBagNotification] = useState(false)
+
+    
+   useEffect(() => {
+  if (bagNotification) {
+    document.body.style.overflow = 'hidden';
+
+    const timer = setTimeout(() => {
+      setBagNotification(false);
+      document.body.style.overflow = ''; 
+    }, 8000); 
+
+    return () => {
+      clearTimeout(timer);
+      document.body.style.overflow = ''; 
+    };
+  }
+}, [bagNotification]);
+
+
+    const addToBag = () => {
+      setBagNotification(true);
+    };
     
 
     const updateImgHeight = () => {
@@ -53,6 +72,7 @@ const Details = () => {
 
   return (
     <div>
+      
         <div className='w-full  font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
             
             <div className="lg:hidden">
@@ -61,6 +81,8 @@ const Details = () => {
             
 
             <Slider header={false} />
+            
+            
 
             <div className="lg:flex justify-center  mt-10  mx-[100px]">
 
@@ -114,14 +136,14 @@ const Details = () => {
                         product.sizeAvailability[el] ?
                         <div
                           key={index}
-                          className="w-full py-4 bg-[white] border-1 flex justify-center items-center border-[#d7d7d7] rounded-sm"
+                          className="w-full py-4 bg-[white] border-1 flex justify-center items-center border-[#d7d7d7] cursor-pointer hover:border-[#070707] rounded-sm"
                         >
                             <span className="font-[helveticaNow]">Size {el}</span>
                         </div>
                         :
                         <div
                           key={index}
-                          className="w-full py-4 bg-[#F5F5F5] border-1 text-[#d7d7d7] line-through flex justify-center items-center border-[#d7d7d7] rounded-sm"
+                          className="w-full py-4 bg-[#F5F5F5] border-1 text-[#d7d7d7] line-through flex justify-center items-center  border-[#d7d7d7] rounded-sm"
                         >
                           <span className="font-[helveticaNow]">Size {el}</span>
                         </div>
@@ -131,7 +153,7 @@ const Details = () => {
                  
                 </div>
 
-                <button className="w-full py-4 rounded-4xl bg-black text-white font-[helveticaNow]"> Add to Bag</button>
+                <button onClick={() => addToBag()} className="w-full py-4 rounded-4xl bg-black text-white font-[helveticaNow]"> Add to Bag</button>
                 <button className="w-full py-4 flex gap-3 justify-center items-center rounded-4xl text-black border-2 mt-2 mb-10 border-[#d7d7d7] font-[helveticaNow]"> Favorite <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg></button>
             
                 <div className="mb-7">
@@ -174,7 +196,7 @@ const Details = () => {
             </div>
 
 
-
+{bagNotification && <BagNotification setBagNotification={setBagNotification} />}
 
     
     </div>

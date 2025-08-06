@@ -10,7 +10,7 @@ const Header = () => {
 
 
   return (
-    <header>
+    <header className='z-50'>
       {/* Top Nav */}
       <div className='bg-[#F5F5F5] hidden lg:flex  justify-between px-8 py-2'>
         <ul className=' flex gap-4 '>
@@ -25,11 +25,13 @@ const Header = () => {
             <li>Sign In</li>
         </ul>
       </div >
-      <nav className="  flex justify-between relative">
+      <nav className=" sticky top-0 flex justify-between relative">
  
           {/* logo */}
           <div className='px-8 py-3 flex flex-1 items-center'>
-            <img src="/Icons/Logo.svg" alt="Logo" />
+            <Link to='/' />
+              <img className='cursor-pointer' src="/Icons/Logo.svg" alt="Logo" />
+            <Link />
           </div>
 
           <div className='flex flex-1  items-stretch justify-center'>

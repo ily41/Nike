@@ -12,6 +12,9 @@ const Products = () => {
     const collections = collectionData.filter(el => el.id === Number(collectionId))[0]
     const [products, setProducts] = useState([])
     const [filtered, setFiltered] = useState([])
+    const [open,setOpen] = useState(false)
+
+
 
     useEffect(() => {
         const filteredProducts = productData.filter(el => collections.productIds.includes(el.id))
@@ -61,10 +64,10 @@ const Products = () => {
                                 } else {
                                     setShowFilter(prev => !prev)
                                 }
-                                                }}
+                                }}
                             className='flex gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0'>
                               <div className='cursor-pointer'>
-                                <span className='hidden mr-2 font-[helveticaNow] lg:inline'>Show Filters</span>
+                                <span className='hidden mr-2cursor-pointer font-[helveticaNow] lg:inline'>Show Filters</span>
                                 <span className="lg:hidden ">Filter</span>
                               </div>
                               <svg aria-hidden="true" className="icon-filter-ds" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
@@ -75,7 +78,16 @@ const Products = () => {
                               </svg>
                         </button>
 
-                        <button className='flex gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0'>Sort By <img src="../public/Icons/down-arrow.svg" alt="" /></button>
+                        <button onClick={() => setOpen(!open)}  className='flex cursor-pointer relative gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0 items-center'>Sort By
+                             <img className='w-5 h-5' src="../public/Icons/down-arrow.svg" alt="" />
+                                {open && 
+                                <div className=' text-right p-5  absolute whitespace-nowrap flex flex-col gap-2 top-10 right-0 rounded-xl text-sm  bg-white shadow-amber-100 '>
+                                    <span onClick={() => filtered.sort((a,b) => b.price - a.price)}>Price:Hig ht-Low</span>
+                                    <span onClick={() => filtered.sort((a,b) => a.price - b.price)}>Price:Low-High</span>
+                                </div>}
+                                
+                             
+                             </button>
                     </div>
                 </div>
             </div> 
@@ -90,8 +102,8 @@ const Products = () => {
 
             <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>
                 
-                {filtered.map(el => (
-                    <Link to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image}/></Link>
+                {filtered.map((el,idx) => (
+                    <Link key={idx} to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image}/></Link>
                 ))}
                 
             </div>

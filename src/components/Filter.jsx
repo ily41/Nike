@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import FIlterUi from './FIlterUi';
+import collections from '../provider/collections.json'
 
 const Filter = ({showFilter,products,filtered,setFiltered}) => {
     const [men, setMen] = useState(false);
@@ -13,8 +14,12 @@ const Filter = ({showFilter,products,filtered,setFiltered}) => {
     const [littleKids,setLittleKids] = useState(false)
     const [toddlers,setToddlers] = useState(false)
 
-
-
+    
+     const handleCollection = (id) => {
+        const collectionArr = collections.find(el => el.id == id).productIds
+        setFiltered(prev => prev.filter(el => collectionArr.includes(el.id)))
+      }
+    
     useEffect(() => {
       setFiltered([...products])
         const gendersToFilter = []
@@ -49,19 +54,23 @@ const Filter = ({showFilter,products,filtered,setFiltered}) => {
             });
           }
 
+         
+
 
 
         console.log("filter filtered")
         console.log(filtered)
     },[men,women,unisex,twentyF,fiftyH,HundF,overHf,bigKids,littleKids,toddlers])
 
+    
+
     return (
         showFilter && <div className=' hidden sticky top-10 lg:flex lg:flex-col mr-18'>
                     <ul className='font-[helveticaNow] cursor-pointer text-lg flex flex-col gap-2'>
-                        <li>Basketball</li>
-                        <li>Lifestyle</li>
-                        <li>Running</li>
-                        <li>Jordan</li>
+                        <li onClick={() => handleCollection(12)}>Basketball</li>
+                        <li onClick={() => handleCollection(13)}>Lifestyle</li>
+                        <li onClick={() => handleCollection(15)}>Running</li>
+                        <li onClick={() => handleCollection(14)}>Jordan</li>
                     </ul>
 
                     <hr className='px-4 my-4  text-[#b3b3b3]'/>
@@ -82,7 +91,7 @@ const Filter = ({showFilter,products,filtered,setFiltered}) => {
                     <hr className='px-4  my-4 text-[#b3b3b3]'/>
 
 
-                   <details className="group" open>
+                   <details className="group" >
                     <summary className="flex justify-between items-center cursor-pointer list-none">
                       <span>Shop by Price</span>
                       <img
@@ -102,7 +111,7 @@ const Filter = ({showFilter,products,filtered,setFiltered}) => {
 
                     <hr className="px-4 my-4 text-[#b3b3b3]" />
 
-                    <details className="group" open>
+                    <details className="group" >
                       <summary className="flex justify-between items-center cursor-pointer">
                         <span>Kids</span>
                         <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="../public/Icons/down-arrow.svg" alt="" />

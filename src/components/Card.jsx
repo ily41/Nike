@@ -9,7 +9,7 @@ const Card = ({color,price,name,gender,image}) => {
                 <h3 className='text-sm sm:text-lg font-[helveticaNow]'>{name}</h3>
                 <p className=' text-xs sm:text-sm'>{gender}'s Shoes</p>
                 <p className='text-xs sm:text-sm'>{color.length} Color</p>
-                <span className='my-2 font-[helveticaNow]'>{price}</span>
+                <span className='my-2 font-[helveticaNow]'>${price}</span>
                 <span className='text-[#007D48] font-[helveticaNow]'>See Price in Bag</span>
 	    	</div>
 	    </div>
