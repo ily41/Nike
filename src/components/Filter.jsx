@@ -1,13 +1,63 @@
-import React, { useState } from 'react'
+import { useEffect, useState } from 'react'
+import FIlterUi from './FIlterUi';
 
-const Filter = ({showFilter}) => {
-    const [men, setMen] = useState(true);
+const Filter = ({showFilter,products,filtered,setFiltered}) => {
+    const [men, setMen] = useState(false);
     const [women, setWomen] = useState(false);
     const [unisex, setUnisex] = useState(false);
+    const [twentyF, setTwentyF] = useState(false)
+    const [fiftyH, setFiftyH] = useState(false)
+    const [HundF, setHundF] = useState(false)
+    const [overHf, setOverHf] = useState(false)
+    const [bigKids,setBigKids] = useState(false)
+    const [littleKids,setLittleKids] = useState(false)
+    const [toddlers,setToddlers] = useState(false)
+
+
+
+    useEffect(() => {
+      setFiltered([...products])
+        const gendersToFilter = []
+      
+        if (men) gendersToFilter.push("Men")
+        if (women) gendersToFilter.push("Women")
+        if (unisex) gendersToFilter.push("Unisex")
+        if (bigKids) gendersToFilter.push("Big Kids")
+        if (littleKids) gendersToFilter.push("Little Kids")
+        if (toddlers) gendersToFilter.push("Baby/Toddler")
+
+        if(gendersToFilter.length > 0) {
+          setFiltered(prev => prev.filter(el => gendersToFilter.some(g => el.genders.includes(g))))
+        }
+
+        const pricesToFilter=[]
+        if(twentyF) pricesToFilter.push("25")
+        if(fiftyH) pricesToFilter.push("50")
+        if(HundF) pricesToFilter.push("100")
+        if(overHf) pricesToFilter.push("150")
+
+        if (pricesToFilter.length > 0) {
+            setFiltered(prev => {
+              return prev.filter(el => {
+                return (
+                  (pricesToFilter.includes("25") && el.price >= 25 && el.price < 50) ||
+                  (pricesToFilter.includes("50") && el.price >= 50 && el.price < 100) ||
+                  (pricesToFilter.includes("100") && el.price >= 100 && el.price < 150) ||
+                  (pricesToFilter.includes("150") && el.price >= 150)
+                );
+              });
+            });
+          }
+
+
+
+        console.log("filter filtered")
+        console.log(filtered)
+    },[men,women,unisex,twentyF,fiftyH,HundF,overHf,bigKids,littleKids,toddlers])
 
     return (
-        showFilter && <div className=' hidden lg:flex lg:flex-col mr-18'>
-                    <ul className='font-[helveticaNow] text-lg flex flex-col gap-2'>
+        showFilter && <div className=' hidden sticky top-10 lg:flex lg:flex-col mr-18'>
+                    <ul className='font-[helveticaNow] cursor-pointer text-lg flex flex-col gap-2'>
                         <li>Basketball</li>
                         <li>Lifestyle</li>
                         <li>Running</li>
@@ -15,88 +65,59 @@ const Filter = ({showFilter}) => {
                     </ul>
 
                     <hr className='px-4 my-4  text-[#b3b3b3]'/>
-                    <div>
-                        <div className='flex w-38 cursor-pointer justify-between'>
-                            <span>Gender</span>
-                            <img  className ="w-8" src="../public/Icons/down-arrow.svg" alt="" />
-                        </div>
-                        <div>
-                            {/* Men Checkbox */}
-                            <div>
-                                <label className="flex items-center cursor-pointer">
-                                  <div className="relative">
-                                    <input
-                                      type="checkbox"
-                                      checked={men}
-                                      onChange={(e) => setMen(e.target.checked)}
-                                      className="sr-only"
-                                    />
-                                    <div className={`w-5 h-5 border-2 rounded-sm flex items-center justify-center ${
-                                      men ? 'bg-black border-black' : 'bg-white border-gray-400'
-                                    }`}>
-                                      {men && (
-                                        <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                        </svg>
-                                      )}
-                                    </div>
-                                  </div>
-                                <span className='ml-3'>Men</span>
-                                </label>
-                            </div>
+                    <details className="group w-40" >
+                      <summary className="flex cursor-pointer justify-between items-center">
+                        <span>Gender</span>
+                        <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="../public/Icons/down-arrow.svg" alt="arrow" />
+                      </summary>
 
-                            {/* Women Checkbox */}
-                            <div>
-                                <label className="flex items-center cursor-pointer">
-                                  <div className="relative">
-                                    <input
-                                      type="checkbox"
-                                      checked={women}
-                                      onChange={(e) => setWomen(e.target.checked)}
-                                      className="sr-only"
-                                    />
-                                    <div className={`w-5 h-5 border-2 rounded-sm flex items-center justify-center ${
-                                      women ? 'bg-black border-black' : 'bg-white border-gray-400'
-                                    }`}>
-                                      {women && (
-                                        <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                        </svg>
-                                      )}
-                                    </div>
-                                  </div>
-                                  <span className="ml-3">Women</span>
-                                </label>
-                            </div>
+                      <div className="mt-2 space-y-1">
+                        <FIlterUi state={men} setState={setMen} name="Men" />
+                        <FIlterUi state={women} setState={setWomen} name="Women" />
+                        <FIlterUi state={unisex} setState={setUnisex} name="Unisex" />
+                      </div>
+                    </details>
 
-                            {/* Unisex Checkbox */}
-                            <div>
-                                <label className="flex items-center cursor-pointer">
-                                  <div className="relative">
-                                    <input
-                                      type="checkbox"
-                                      checked={unisex}
-                                      onChange={(e) => setUnisex(e.target.checked)}
-                                      className="sr-only"
-                                    />
-                                    <div className={`w-5 h-5 border-2 rounded-sm flex items-center justify-center ${
-                                      unisex ? 'bg-black border-black' : 'bg-white border-gray-400'
-                                    }`}>
-                                      {unisex && (
-                                        <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                        </svg>
-                                      )}
-                                    </div>
-                                  </div>
-                                  <span className="ml-3">Unisex</span>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
 
                     <hr className='px-4  my-4 text-[#b3b3b3]'/>
-                </div> 
+
+
+                   <details className="group" open>
+                    <summary className="flex justify-between items-center cursor-pointer list-none">
+                      <span>Shop by Price</span>
+                      <img
+                        className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center"
+                        src="../public/Icons/down-arrow.svg"
+                        alt=""
+                      />
+                    </summary>
+                    <div className="mt-2">
+                      <FIlterUi state={twentyF} setState={setTwentyF} name="$25 - $50" />
+                      <FIlterUi state={fiftyH} setState={setFiftyH} name="$50 - $100" />
+                      <FIlterUi state={HundF} setState={setHundF} name="$100 - $150" />
+                      <FIlterUi state={overHf} setState={setOverHf} name="Over $150" />
+                    </div>
+                  </details>
+
+
+                    <hr className="px-4 my-4 text-[#b3b3b3]" />
+
+                    <details className="group" open>
+                      <summary className="flex justify-between items-center cursor-pointer">
+                        <span>Kids</span>
+                        <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="../public/Icons/down-arrow.svg" alt="" />
+                      </summary>
+                      <div className="mt-2">
+                        <FIlterUi state={bigKids} setState={setBigKids} name="Big Kids" />
+                        <FIlterUi state={littleKids} setState={setLittleKids} name="Little Kids" />
+                        <FIlterUi state={toddlers} setState={setToddlers} name="Baby/Toddlers" />
+                      </div>
+                    </details>
+
+
+                    <hr className='px-4  my-4 text-[#b3b3b3]'/>
+
+                  </div> 
     )
 }
 

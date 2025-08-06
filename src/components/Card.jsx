@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Card = ({color,price,name,gender,image}) => {
-  console.log(color)
   return (
     <div className="w-full rounded-md  dark:bg-gray-50 dark:text-gray-800">
 	    <img src={image} alt="" className="object-cover object-center w-full rounded-t-md dark:bg-gray-500" />

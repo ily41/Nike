@@ -7,23 +7,26 @@ import Filter from './Filter'
 
 
 const Products = () => {
-
+    const [showFilter, setShowFilter] = useState(true)
     const {collectionId} = useParams()
     const collections = collectionData.filter(el => el.id === Number(collectionId))[0]
-    console.log(collections)
     const [products, setProducts] = useState([])
+    const [filtered, setFiltered] = useState([])
 
     useEffect(() => {
-        console.log(productData.length)
+        const filteredProducts = productData.filter(el => collections.productIds.includes(el.id))
+        setProducts(filteredProducts)
+        setFiltered([...filteredProducts])
+        const allGenders = [...new Set(products.flatMap(product => product.genders))];
 
-        setProducts(productData.filter(el => collections.productIds.includes(el.id)))
-
+        console.log(allGenders); // Example output: ["Men", "Big Kids"]
+        console.log(
+            "slaam"
+        )
     },[])
 
 
-    const [showFilter, setShowFilter] = useState(true)
-    console.log("products")
-    console.log(products)
+
 
   return (
     <>
@@ -44,8 +47,12 @@ const Products = () => {
                 <hr className='px-4 mt-4 lg:hidden text-[#b3b3b3]'/>
 
                 <div className='flex my-5 justify-between'>
-                    <span className='lg:hidden'>80 results</span>
-                    <h2 className='font-[helveticaNow] hidden lg:block text-2xl'>Picante Red</h2>
+                    <div className='lg:flex items-center lg:font-[helveticaNow] lg:text-2xl'>
+                            <h2 className='font-[helveticaNow] hidden lg:block text-2xl'>{collections.name}</h2>
+                            <span className='lg:ml-4'>({products.length}) </span>
+                            <span className='lg:hidden'>results</span>
+                    </div>
+
 
                     <div className='flex'>
                         <button 
@@ -76,12 +83,14 @@ const Products = () => {
 
         
         <section className='flex  lg:mx-10'>
+            <div className="hidden lg:block">
             
-            <Filter showFilter={showFilter}/>
+                <Filter showFilter={showFilter} setProducts={setProducts} products={products} filtered={filtered} setFiltered={setFiltered}/>
+            </div>
 
             <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>
                 
-                {products.map(el => (
+                {filtered.map(el => (
                     <Link to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image}/></Link>
                 ))}
                 
