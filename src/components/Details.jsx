@@ -4,13 +4,26 @@ import { useEffect, useRef, useState } from "react";
 import productData from '../provider/products.json'
 import BagNotification from './BagNotification'
 
-const Details = () => {
+const Details = ({bagNotification, setBagNotification}) => {
 
     const {productId} = useParams()
     const product = productData.find(el => el.id == productId)
     const imgRef = useRef();
     const [imgHeight, setImgHeight] = useState(0);
-    const [bagNotification,setBagNotification] = useState(false)
+    const [sizeChosen, setSizeChosen] = useState(null);
+    const [sizeError, setSizeError] = useState(false);
+    console.log(sizeError)
+
+    const addToBag = () => {
+      if(sizeChosen) {
+        setBagNotification(true);
+        setSizeError(false);
+      } else {
+        setSizeError(true);
+      }
+    };
+
+    console.log(sizeChosen)
 
     
    useEffect(() => {
@@ -30,9 +43,7 @@ const Details = () => {
 }, [bagNotification]);
 
 
-    const addToBag = () => {
-      setBagNotification(true);
-    };
+
     
 
     const updateImgHeight = () => {
@@ -124,37 +135,48 @@ const Details = () => {
                         {headerText()}
                     </div>
                 <div className="flex justify-between w-full ">
-                    <h5>Select Size</h5>
+                    <h5 className={`${sizeError ? 'text-red-500 ' : 'text-black'}`}>Select Size</h5>
                     <h5 className="flex"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M21.75 10.5v6.75a1.5 1.5 0 01-1.5 1.5H3.75a1.5 1.5 0 01-1.5-1.5V10.5m3.308-2.25h12.885"></path><path stroke="currentColor" stroke-width="1.5" d="M15.79 5.599l2.652 2.65-2.652 2.653M8.21 5.599l-2.652 2.65 2.652 2.653M17.25 19v-2.5M12 19v-2.5M6.75 19v-2.5"></path></svg> 
                         Size Guide
                     </h5>
                 </div>
 
-                <div className="custom-size-grid my-5 gap-2">
+                  <div className={`custom-size-grid ${sizeError ? 'border-red-500 border-1 mb-2' : 'border-none'} my-5 gap-2`}>
                     {product.availableSizesEU.map((el, index) => {
-                      return (
-                        product.sizeAvailability[el] ?
-                        <div
-                          key={index}
-                          className="w-full py-4 bg-[white] border-1 flex justify-center items-center border-[#d7d7d7] cursor-pointer hover:border-[#070707] rounded-sm"
-                        >
+                        const isAvailable = product.sizeAvailability[el];
+
+                        return isAvailable ? (
+                          <div
+                            key={index}
+                            onClick={() => {setSizeChosen(el) 
+                              setSizeError(false);} }
+                            className={`w-full py-4 bg-white border-1 flex justify-center items-center 
+                              ${sizeChosen === el ? 'border-[#070707]' : 'border-[#d7d7d7]'} 
+                              cursor-pointer hover:border-[#070707] rounded-sm`}>
+
                             <span className="font-[helveticaNow]">Size {el}</span>
-                        </div>
-                        :
-                        <div
-                          key={index}
-                          className="w-full py-4 bg-[#F5F5F5] border-1 text-[#d7d7d7] line-through flex justify-center items-center  border-[#d7d7d7] rounded-sm"
-                        >
-                          <span className="font-[helveticaNow]">Size {el}</span>
-                        </div>
-                      );
-                    })}
+
+                          </div>
+                        ) : (
+                          <div
+                            key={index}
+                            className="w-full py-4 bg-[#F5F5F5] border-1 text-[#d7d7d7] line-through flex justify-center items-center border-[#d7d7d7] rounded-sm"
+                          >
+                            <span className="font-[helveticaNow]">Size {el}</span>
+                          </div>
+                        );
+                      })}
+
+                      
+
                    
                  
                 </div>
+                <span className={`${sizeError ? 'block' : 'hidden'} font-[helveticaNow] text-red-500 whitespace-nowrap mb-3`} >Please select a size.</span>
 
-                <button onClick={() => addToBag()} className="w-full py-4 rounded-4xl bg-black text-white font-[helveticaNow]"> Add to Bag</button>
-                <button className="w-full py-4 flex gap-3 justify-center items-center rounded-4xl text-black border-2 mt-2 mb-10 border-[#d7d7d7] font-[helveticaNow]"> Favorite <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg></button>
+
+                <button onClick={() => addToBag()} className="w-full py-4 cursor-pointer rounded-4xl bg-black text-white font-[helveticaNow]"> Add to Bag</button>
+                <button className="w-full py-4 flex gap-3 justify-center cursor-pointer items-center rounded-4xl text-black border-2 mt-2 mb-10 border-[#d7d7d7] font-[helveticaNow]"> Favorite <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg></button>
             
                 <div className="mb-7">
                     <h3 className="font-[helveticaNow]">Shipping</h3>
@@ -196,7 +218,7 @@ const Details = () => {
             </div>
 
 
-{bagNotification && <BagNotification setBagNotification={setBagNotification} />}
+{bagNotification && <BagNotification setBagNotification={setBagNotification} product={product} sizeChosen={sizeChosen}/>}
 
     
     </div>

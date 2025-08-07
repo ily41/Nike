@@ -1,9 +1,15 @@
 import React from 'react'
+import ScrollToTop from './ScrollToTop'
 
-const BagNotification = ({setBagNotification}) => {
+const BagNotification = ({setBagNotification,product,sizeChosen}) => {
   return (
     <>
-        <div className='fixed top-0 left-0 w-screen h-screen bg-[#000000] opacity-55 hidden lg:block z-40'></div>
+        <div
+          className="fixed top-28 left-0 w-screen h-screen bg-black opacity-55 z-40 pointer-events-auto"
+          onClick={() => setBagNotification(false)} 
+          
+        ><ScrollToTop /></div>
+
         <div className="fixed bottom-0 w-full p-4 h-[310px] bg-white rounded-xl z-50 lg:w-auto lg:right-10 lg:top-26">
             <div className=' flex justify-between'>
                 <div className='flex gap-3'>
@@ -16,12 +22,12 @@ const BagNotification = ({setBagNotification}) => {
             </div>
 
             <div className='w-full h-[100px]  flex gap-4'>
-                <img className='' src= "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aaebfafa-c137-495e-acd3-223be66de75b/NIKE+C1TY.png" alt="" />
+                <img className='' src= {product.image} alt="" />
                 <div className='flex flex-col '>
-                    <h3 className='font-[helveticaNow] text-md'>Nike Fiel General Leather</h3>
-                    <p className='text-[#878787]'>Men's Shoes</p>
-                    <p className='text-[#878787]'>Size M 11.5 / W 13</p>
-                    <p className='font-[helveticaNow]'>$115</p>
+                    <h3 className='font-[helveticaNow] text-md'>{product.name}</h3>
+                    <p className='text-[#878787]'>{product.genders}'s Shoes</p>
+                    <p className='text-[#878787]'>{sizeChosen} Size </p>
+                    <p className='font-[helveticaNow]'>${product.price}</p>
                 </div>
             </div>
 

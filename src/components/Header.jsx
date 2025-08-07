@@ -10,7 +10,7 @@ const Header = () => {
 
 
   return (
-    <header className='z-50'>
+    <header className='z-[51]'>
       {/* Top Nav */}
       <div className='bg-[#F5F5F5] hidden lg:flex  justify-between px-8 py-2'>
         <ul className=' flex gap-4 '>
@@ -25,7 +25,7 @@ const Header = () => {
             <li>Sign In</li>
         </ul>
       </div >
-      <nav className=" sticky top-0 flex justify-between relative">
+      <nav className=" sticky top-0 flex justify-between ">
  
           {/* logo */}
           <div className='px-8 py-3 flex flex-1 items-center'>
@@ -60,7 +60,7 @@ const Header = () => {
 
 
           {/* search bar */}
-          <div className='flex px-8 py-3 flex-1 items-center justify-end gap-2'>
+          <div className='flex px-8 py-3 flex-1  items-center justify-end gap-2'>
 
           <img src="/Icons/Search-icon.svg" className='lg:hidden' alt="Search" />
               <div className='relative'>
