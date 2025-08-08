@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import productData from '../provider/products.json'
 import BagNotification from './BagNotification'
 
-const Details = ({bagNotification, setBagNotification}) => {
+const Details = ({bagNotification, setBagNotification,basket, setBasket}) => {
 
     const {productId} = useParams()
     const product = productData.find(el => el.id == productId)
@@ -18,6 +18,30 @@ const Details = ({bagNotification, setBagNotification}) => {
       if(sizeChosen) {
         setBagNotification(true);
         setSizeError(false);
+        if(basket?.some(g => g.id == product.id && g.size == sizeChosen)) {
+          setBasket(prev => 
+
+          
+          prev.map(el =>
+                         el.id === product.id
+                           ? { ...el, quantity: el.quantity + 1 }
+                           : el
+  ))
+        }else {
+        setBasket(prev => ([
+                            ...prev,{
+                            name: product.name,
+                            price: product.price,
+                            gender: product.genders,
+                            size: sizeChosen,
+                            id: product.id,
+                            image: product.image,
+                          quantity:1}
+                          ]));
+                        }
+
+        console.log(basket)
+
       } else {
         setSizeError(true);
       }
