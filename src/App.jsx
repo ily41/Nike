@@ -6,6 +6,7 @@ import { BrowserRouter, Route,  Routes } from 'react-router'
 import Details from './components/Details'
 import ScrollToTop from './components/ScrollToTop'
 import { useState } from 'react'
+import Cart from './components/Cart'
 
 const App = () => {
     const [bagNotification,setBagNotification] = useState(false)
@@ -20,9 +21,9 @@ const App = () => {
           <Route path='/' element={<Main />} />
           <Route path='/products/:collectionId' element={<Products />} />
           <Route path='/details/:productId' element={<Details  bagNotification={bagNotification} setBagNotification={setBagNotification}/>} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
       </main>
-      <Footer />
     </div>
   </BrowserRouter>
   )

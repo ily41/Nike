@@ -1,5 +1,6 @@
 import React from 'react'
 import ScrollToTop from './ScrollToTop'
+import { Link } from 'react-router'
 
 const BagNotification = ({setBagNotification,product,sizeChosen}) => {
   return (
@@ -32,8 +33,8 @@ const BagNotification = ({setBagNotification,product,sizeChosen}) => {
             </div>
 
             <div className='mt-4'>
-                <button className="w-full cursor-pointer min-w-[300px] py-3 rounded-4xl text-black border-2 mb-2 border-[#d7d7d7] font-[helveticaNow]"> View Bag (3) </button>
-                <button className="w-full cursor-pointer  py-3 rounded-4xl bg-black text-white font-[helveticaNow]"> Add to Bag</button>
+                <Link to='/cart' ><button  className="w-full cursor-pointer min-w-[300px] py-3 rounded-4xl text-black border-2 mb-2 border-[#d7d7d7] font-[helveticaNow]"> View Bag (3) </button></Link>
+                <button className="w-full cursor-pointer  py-3 rounded-4xl bg-black text-white font-[helveticaNow]"> Go to Checkout</button>
 
             </div>
         </div>
