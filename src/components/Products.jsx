@@ -22,10 +22,6 @@ const Products = () => {
         setFiltered([...filteredProducts])
         const allGenders = [...new Set(products.flatMap(product => product.genders))];
 
-        console.log(allGenders); // Example output: ["Men", "Big Kids"]
-        console.log(
-            "slaam"
-        )
     },[])
 
 
@@ -52,7 +48,7 @@ const Products = () => {
                 <div className='flex my-5 justify-between'>
                     <div className='lg:flex items-center lg:font-[helveticaNow] lg:text-2xl'>
                             <h2 className='font-[helveticaNow] hidden lg:block text-2xl'>{collections.name}</h2>
-                            <span className='lg:ml-4'>({products.length}) </span>
+                            <span className='lg:ml-4'>({filtered.length}) </span>
                             <span className='lg:hidden'>results</span>
                     </div>
 
