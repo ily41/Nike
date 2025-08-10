@@ -17,12 +17,16 @@ const Products = () => {
 
 
     useEffect(() => {
-        const filteredProducts = productData.filter(el => collections.productIds.includes(el.id))
+        const currentCollection = collectionData.find(
+        el => el.id === Number(collectionId)
+        );
+
+        const filteredProducts = productData.filter(el => currentCollection.productIds.includes(el.id))
         setProducts(filteredProducts)
         setFiltered([...filteredProducts])
-        const allGenders = [...new Set(products.flatMap(product => product.genders))];
 
-    },[])
+    },[collectionId])
+    console.log(products)
 
 
 
@@ -92,7 +96,6 @@ const Products = () => {
         
         <section className='flex  lg:mx-10'>
             <div className="hidden lg:block">
-            
                 <Filter showFilter={showFilter} setProducts={setProducts} products={products} filtered={filtered} setFiltered={setFiltered}/>
             </div>
 

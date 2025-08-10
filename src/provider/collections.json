@@ -213,13 +213,19 @@
     "id": 16,
     "name": "Hoodies",
     "slug": "hoodies",
-    "productIds": []
-  },
-  {
-    "id": 17,
-    "name": "Shorts",
-    "slug": "shorts",
-    "productIds": []
+    "productIds": [
+                    "nike-club-mens-pullover-fleece-hoodie",
+                    "nike-sportswear-club-fleece-crew",
+                    "nike-tech-mens-fleece-loose-fit-crew",
+                    "nike-sportswear-club-air-max-fleece-hoodie",
+                    "nike-sportswear-club-mens-fleece-hoodie",
+                    "nike-tech-mens-fleece-oversized-hoodie",
+                    "nike-club-mens-fleece-pullover-hoodie",
+                    "nike-sportswear-club-mens-fleece-hoodie-2",
+                    "nike-standard-issue-mens-therma-fit-pullover-basketball-hoodie",
+                    "nike-air-mens-fleece-pullover-hoodie"
+                  ]
+
   },
   {
     "id": 18,
@@ -232,25 +238,7 @@
     "name": "Bags",
     "slug": "bags",
     "productIds": []
-  },
-  {
-    "id": 20,
-    "name": "Belts",
-    "slug": "belts",
-    "productIds": []
-  },
-  {
-    "id": 21,
-    "name": "Hats",
-    "slug": "hats",
-    "productIds": []
-  },
-  {
-    "id": 22,
-    "name": "Socks",
-    "slug": "socks",
-    "productIds": []
-   }
+  }
 
   
 

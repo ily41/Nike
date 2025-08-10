@@ -1710,6 +1710,195 @@
     "inStock": true,
     "quantityAvailable": 21,
     "description": "Nike C1TY \"Caution Tape\" shoes with standout design and comfort."
+  },
+  {
+    "id": "nike-club-mens-pullover-fleece-hoodie",
+    "name": "Nike Club",
+    "collection": "nike-club",
+    "price": 65,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies", "sweatshirts"],
+    "colors": ["white","grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/058ea263-4c74-41f8-b9dc-83a9e03fa569/M+NK+CLUB+BB+PO+HOODIE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/058ea263-4c74-41f8-b9dc-83a9e03fa569/M+NK+CLUB+BB+PO+HOODIE.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Soft fleece fabric", "Pullover design", "Adjustable hood"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Men's pullover fleece hoodie with classic Nike Club comfort."
+  },
+  {
+    "id": "nike-sportswear-club-fleece-crew",
+    "name": "Nike Sportswear Club",
+    "collection": "nike-sportswear-club",
+    "price": 75,
+    "genders": ["Men"],
+    "categories": ["cloth", "sweatshirts"],
+    "colors": ["grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3cbd0a7c-f5d9-4fde-a6ca-04eb35cc8157/U+NSW+CREW+CLUB+BB+OC+3.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3cbd0a7c-f5d9-4fde-a6ca-04eb35cc8157/U+NSW+CREW+CLUB+BB+OC+3.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Crew neck design", "Soft fleece", "Classic fit"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Comfortable fleece crew sweatshirt for everyday wear."
+  },
+  {
+    "id": "nike-tech-mens-fleece-loose-fit-crew",
+    "name": "Nike Tech",
+    "collection": "nike-tech",
+    "price": 130,
+    "genders": ["Men"],
+    "categories": ["cloth", "sweatshirts"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4bccc911-2a0a-49ae-9d5b-a6ca2fbbbd26/M+NK+TCH+FLC+CREW.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4bccc911-2a0a-49ae-9d5b-a6ca2fbbbd26/M+NK+TCH+FLC+CREW.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Loose fit", "Premium fleece", "Minimalist design"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Men's fleece loose fit crew with a sleek Nike Tech style."
+  },
+  {
+    "id": "nike-sportswear-club-air-max-fleece-hoodie",
+    "name": "Nike Sportswear Club Air Max",
+    "collection": "nike-sportswear-club-air-max",
+    "price": 75,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["black grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a068c529-988d-4848-ac0f-9383d9776bb7/U+NSW+HDY+CLUB+BB+FW.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a068c529-988d-4848-ac0f-9383d9776bb7/U+NSW+HDY+CLUB+BB+FW.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Air Max branding", "Soft fleece", "Drawstring hood"],
+    "inStock": true,
+    "quantityAvailable": 17,
+    "description": "Nike Sportswear Club Air Max fleece hoodie for warmth and style."
+  },
+  {
+    "id": "nike-sportswear-club-mens-fleece-hoodie",
+    "name": "Nike Sportswear Club",
+    "collection": "nike-sportswear-club",
+    "price": 75,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2515a0bc-4ea5-4b1f-a893-353fe75c42a2/M+NK+CLUB+BB+FZ+HDY+MECHA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2515a0bc-4ea5-4b1f-a893-353fe75c42a2/M+NK+CLUB+BB+FZ+HDY+MECHA.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Full zip design", "Soft fleece", "Adjustable hood"],
+    "inStock": true,
+    "quantityAvailable": 19,
+    "description": "Men's fleece hoodie with versatile zip-up design."
+  },
+  {
+    "id": "nike-tech-mens-fleece-oversized-hoodie",
+    "name": "Nike Tech",
+    "collection": "nike-tech",
+    "price": 140,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a31ccced-082b-4e38-9580-6e4695b8d9f9/M+NK+TCH+FLC+HOODIE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a31ccced-082b-4e38-9580-6e4695b8d9f9/M+NK+TCH+FLC+HOODIE.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Oversized fit", "Premium fleece", "Minimalist style"],
+    "inStock": true,
+    "quantityAvailable": 15,
+    "description": "Men's fleece oversized hoodie with modern Nike Tech design."
+  },
+  {
+    "id": "nike-club-mens-fleece-pullover-hoodie",
+    "name": "Nike Club",
+    "collection": "nike-club",
+    "price": 75,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["white grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/285c719d-d7b4-4022-aede-dea14737464f/M+NK+CLUB+BB+PO+HDY+NEXTUP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/285c719d-d7b4-4022-aede-dea14737464f/M+NK+CLUB+BB+PO+HDY+NEXTUP.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Pullover design", "Soft fleece", "Adjustable hood"],
+    "inStock": true,
+    "quantityAvailable": 21,
+    "description": "Men's fleece pullover hoodie with Nike Club comfort."
+  },
+  {
+    "id": "nike-sportswear-club-mens-fleece-hoodie-neo",
+    "name": "Nike Sportswear Club",
+    "collection": "nike-sportswear-club",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["orange white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c58abe83-367b-47c8-bd05-a4f52b4c8dc8/M+NK+CLUB+BB+GX+HDY+NEO+VAR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c58abe83-367b-47c8-bd05-a4f52b4c8dc8/M+NK+CLUB+BB+GX+HDY+NEO+VAR.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Graphic print", "Soft fleece", "Drawstring hood"],
+    "inStock": true,
+    "quantityAvailable": 16,
+    "description": "Men's fleece hoodie with bold graphic design."
+  },
+  {
+    "id": "nike-standard-issue-mens-therma-fit-pullover-basketball-hoodie",
+    "name": "Nike Standard Issue",
+    "collection": "nike-standard-issue",
+    "price": 110,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["multicolor black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50f467e2-7ef5-4d50-a00f-41c383f50b36/M+NK+TF+SI+BRSH+PO+HD+NAOS+AOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50f467e2-7ef5-4d50-a00f-41c383f50b36/M+NK+TF+SI+BRSH+PO+HD+NAOS+AOP.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Therma-FIT fabric", "Pullover design", "Basketball style"],
+    "inStock": true,
+    "quantityAvailable": 14,
+    "description": "Men's Therma-FIT pullover basketball hoodie from Nike Standard Issue."
+  },
+  {
+    "id": "nike-air-mens-fleece-pullover-hoodie",
+    "name": "Nike Air",
+    "collection": "nike-air",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["cloth", "hoodies"],
+    "colors": ["black white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67bd7a6a-d4d8-493f-985c-0b3f49b5ceb0/M+NIKE+AIR+FLC+PO+HOODIE+BFT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67bd7a6a-d4d8-493f-985c-0b3f49b5ceb0/M+NIKE+AIR+FLC+PO+HOODIE+BFT.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Nike Air branding", "Soft fleece", "Pullover design"],
+    "inStock": true,
+    "quantityAvailable": 19,
+    "description": "Men's fleece pullover hoodie with Nike Air style."
   }
-
-]   
+]

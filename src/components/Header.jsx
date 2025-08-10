@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import data from '../provider/HomePage.json'
+import collectionData from '../provider/collections.json'
 import { Link } from 'react-router';
 
 const Header = () => {
 
   const [hoveredItem, sethoveredItem] = useState(null)
+  console.log(collectionData.find(el => el.slug == 'lifestyle').id)
+
   
 
 
@@ -43,13 +46,15 @@ const Header = () => {
                   onMouseLeave={() => {sethoveredItem(null)}}
                   className='flex items-center'
                 >
+                  {
+                  
                   <li
-                    
-                    key={item}
                     className='relative pb-1 px-2 hover:after:content-[""] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:h-[2px] hover:after:w-11/12 hover:after:bg-black hover:after:translate-y-[4px]'
                   >
                     {item}
                   </li>
+                  
+                  }
                 </div>
               ))}
             </ul>
@@ -95,8 +100,7 @@ const Header = () => {
                 <h5 className='font-semibold cursor-pointer mb-3'><Link to ='/products'>{item.title}</Link ></h5>
                 <ul>
                   {item.links.map(link => 
-                    
-                      <li className='text-sm py-1 cursor-pointer hover:text-black font-[helveticaNow] text-[#707072]'><Link to ='/products'>{link.name}</Link></li>
+                      <li className='text-sm py-1 cursor-pointer hover:text-black font-[helveticaNow] text-[#707072]'><Link to={`/products/${collectionData.find(el => el.slug === link.slug)?.id}`}>{link.slug}</Link></li>
                     
                   )}
                 </ul>
