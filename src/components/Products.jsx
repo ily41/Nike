@@ -2,31 +2,51 @@ import  { useEffect, useState } from 'react'
 import Card from './Card'
 import { Link, useParams } from 'react-router'
 import collectionData from '../provider/collections.json'
-import productData from '../provider/products.json'
+import productData from '../provider/productsTest.json'
 import Filter from './Filter'
 
 
 const Products = () => {
     const [showFilter, setShowFilter] = useState(true)
-    const {collectionId} = useParams()
+    const {collectionId,gender} = useParams()
     const collections = collectionData.filter(el => el.id === Number(collectionId))[0]
     const [products, setProducts] = useState([])
     const [filtered, setFiltered] = useState([])
     const [open,setOpen] = useState(false)
 
+   function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
 
 
     useEffect(() => {
-        const currentCollection = collectionData.find(
+    const currentCollection = collectionData.find(
         el => el.id === Number(collectionId)
-        );
+    );
+    if (!currentCollection) return;
 
-        const filteredProducts = productData.filter(el => currentCollection.productIds.includes(el.id))
-        setProducts(filteredProducts)
-        setFiltered([...filteredProducts])
+    
 
-    },[collectionId])
-    console.log(products)
+
+     const genderKey = gender?.toLowerCase()
+     console.log(currentCollection.productIds[genderKey] )
+     console.log("GENDER")
+        console.log(gender)
+     const genderCollectionIDs = currentCollection.productIds.genderKey ?? Object.values(currentCollection.productIds).flat()
+
+    let filteredProducts = productData.filter(el =>
+        genderCollectionIDs.includes(el.id)
+    );
+
+    setProducts(filteredProducts);
+    setFiltered(filteredProducts);
+
+}, [collectionId, gender]);
+
+
+    
+
 
 
 
@@ -96,7 +116,7 @@ const Products = () => {
         
         <section className='flex  lg:mx-10'>
             <div className="hidden lg:block">
-                <Filter showFilter={showFilter} setProducts={setProducts} products={products} filtered={filtered} setFiltered={setFiltered}/>
+                <Filter showFilter={showFilter} setProducts={setProducts} products={products} filtered={filtered} setFiltered={setFiltered} />
             </div>
 
             <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>

@@ -146,6 +146,12 @@
 
 
   },
+
+
+
+
+
+
   {
     "id": 9,
     "name": "New Arrivals",
@@ -165,26 +171,41 @@
     "slug": "latest-drops",
     "productIds": []
   },
+
   {
-    "id": 12,
-    "name": "Basketball",
-    "slug": "basketball",
-    "productIds": ["nike-c1ty-big-kids-shoes-2",
-                    "nike-c1ty-mens-shoes",
-                    "nike-c1ty-phone-booth-shoes",
-                    "nike-c1ty-street-big-kids",
-                    "nike-c1ty-premium-cordura-mens",
-                    "AJ1-005",
-                    "AJ1-006",
-                    "AJ1-007",
-                    "AJ1-008",
-                    "AJ1-009",
-                    "AJ1-010"]
-  },
+  "id": 12,
+  "name": "Basketball",
+  "slug": "basketball",
+  "productIds": {
+    "men": [
+                    "AJ1-001",
+                    "AJ1-002",
+                    "AJ1-003"
+                    
+    ],
+    "women": [
+            
+    ],
+    "bigKid": [
+      "... big kid products ..."
+    ],
+    "littleKid": [
+      "... little kid products ..."
+    ],
+    "toddler": [
+      "... toddler products ..."
+    ],
+    "unisex": [
+      "... unisex products ..."
+    ]
+  }
+},
+
   {
     "id": 13,
     "name": "Lifestyle",
     "slug": "lifestyle",
+    "gender":"men",
     "productIds": ["AJ1-005",
                     "AJ1-006",
                     "AJ1-007",
@@ -197,6 +218,7 @@
     "id": 15,
     "name": "Running",
     "slug": "running",
+    "gender":"men",
     "productIds": [ "AJ1-009",
                     "AJ1-010"]
   },

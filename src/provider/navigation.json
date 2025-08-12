@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "name": "New",
+    "slug": "new",
+    "subCategories": [
+      {
+        "title": "New & Featured",
+        "categories": [
+          { "id": 11, "name": "New Arrivals", "slug": "new-arrivals" },
+          { "id": 12, "name": "Best Sellers", "slug": "best-sellers" },
+          { "id": 13, "name": "Latest Drops", "slug": "latest-drops" }
+        ]
+      },
+      {
+        "title": "New & Featured",
+        "categories": [
+          { "id": 11, "name": "New Arrivals", "slug": "new-arrivals" },
+          { "id": 12, "name": "Best Sellers", "slug": "best-sellers" },
+          { "id": 13, "name": "Latest Drops", "slug": "latest-drops" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Men",
+    "slug": "men",
+    "subCategories": [
+      {
+        "title": "New & Featured",
+        "categories": [
+          { "id": 21, "name": "New Arrivals", "slug": "new-arrivals" },
+          { "id": 22, "name": "Best Sellers", "slug": "best-sellers" },
+          { "id": 23, "name": "Latest Drops", "slug": "latest-drops" }
+        ]
+      },
+      {
+        "title": "Clothing",
+        "categories": [
+          { "id": 24, "name": "All Clothing", "slug": "all-clothing" },
+          { "id": 25, "name": "Hoodies & Sweatshirts", "slug": "hoodies" },
+          { "id": 26, "name": "Jordan", "slug": "jordan" },
+          { "id": 27, "name": "Shorts", "slug": "shorts" },
+          { "id": 28, "name": "Pants", "slug": "pants" }
+        ]
+      },
+      {
+        "title": "Shoes",
+        "categories": [
+          { "id": 29, "name": "All Shoes", "slug": "all-shoes" },
+          { "id": 30, "name": "Basketball", "slug": "basketball" },
+          { "id": 31, "name": "Lifestyle", "slug": "lifestyle" },
+          { "id": 32, "name": "Jordan", "slug": "jordan" },
+          { "id": 33, "name": "Running", "slug": "running" }
+        ]
+      },
+      {
+        "title": "Accessories",
+        "categories": [
+          { "id": 34, "name": "Bags", "slug": "bags" },
+          { "id": 35, "name": "Socks", "slug": "socks" },
+          { "id": 36, "name": "Hats", "slug": "hats" },
+          { "id": 37, "name": "Belts", "slug": "belts" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Women",
+    "slug": "women",
+    "subCategories": [
+      {
+        "title": "New & Featured",
+        "categories": [
+          { "id": 41, "name": "New Arrivals", "slug": "new-arrivals" },
+          { "id": 42, "name": "Best Sellers", "slug": "best-sellers" },
+          { "id": 43, "name": "Latest Drops", "slug": "latest-drops" }
+        ]
+      },
+      {
+        "title": "Clothing",
+        "categories": [
+          { "id": 44, "name": "All Clothing", "slug": "all-clothing" },
+          { "id": 45, "name": "Hoodies & Sweatshirts", "slug": "hoodies" },
+          { "id": 46, "name": "Jordan", "slug": "jordan" },
+          { "id": 47, "name": "Shorts", "slug": "shorts" },
+          { "id": 48, "name": "Pants", "slug": "pants" },
+          { "id": 49, "name": "Skirts & Dresses", "slug": null }
+        ]
+      },
+      {
+        "title": "Shoes",
+        "categories": [
+          { "id": 50, "name": "All Shoes", "slug": "all-shoes" },
+          { "id": 51, "name": "Basketball", "slug": "basketball" },
+          { "id": 52, "name": "Lifestyle", "slug": "lifestyle" },
+          { "id": 53, "name": "Jordan", "slug": "jordan" },
+          { "id": 54, "name": "Running", "slug": "running" }
+        ]
+      },
+      {
+        "title": "Accessories",
+        "categories": [
+          { "id": 55, "name": "Bags", "slug": "bags" },
+          { "id": 56, "name": "Socks", "slug": "socks" },
+          { "id": 57, "name": "Hats", "slug": "hats" },
+          { "id": 58, "name": "Belts", "slug": "belts" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kids",
+    "slug": "kids",
+    "subCategories": [
+      {
+        "title": "Get Set for School",
+        "categories": [
+          { "id": 61, "name": "New Arrivals", "slug": "new-arrivals" },
+          { "id": 62, "name": "Best Sellers", "slug": "best-sellers" },
+          { "id": 63, "name": "Teens", "slug": null }
+        ]
+      },
+      {
+        "title": "Shoes",
+        "categories": [
+          { "id": 64, "name": "All Shoes", "slug": "all-shoes" },
+          { "id": 65, "name": "Basketball", "slug": "basketball" },
+          { "id": 66, "name": "Lifestyle", "slug": "lifestyle" },
+          { "id": 67, "name": "Jordan", "slug": "jordan" },
+          { "id": 68, "name": "Running", "slug": "running" },
+          { "id": 69, "name": "Big Kids (7-15 yrs)", "slug": "big-kids" },
+          { "id": 70, "name": "Little Kids (4-7 yrs)", "slug": "little-kids" },
+          { "id": 71, "name": "Baby & Toddler (0-4 yrs)", "slug": "toddlers" }
+        ]
+      },
+      {
+        "title": "Clothing",
+        "categories": [
+          { "id": 72, "name": "All Clothing", "slug": "all-clothing" },
+          { "id": 73, "name": "Hoodies & Sweatshirts", "slug": "hoodies" },
+          { "id": 74, "name": "Jordan", "slug": "jordan" },
+          { "id": 75, "name": "Shorts", "slug": "shorts" },
+          { "id": 76, "name": "Pants", "slug": "pants" }
+        ]
+      },
+      {
+        "title": "Accessories",
+        "categories": [
+          { "id": 77, "name": "Bags", "slug": "bags" },
+          { "id": 78, "name": "Socks", "slug": "socks" },
+          { "id": 79, "name": "Hats", "slug": "hats" },
+          { "id": 80, "name": "Belts", "slug": "belts" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Jordan",
+    "slug": "jordan",
+    "subCategories": [
+      {
+        "title": "New & Featured",
+        "categories": [
+          { "id": 81, "name": "New Arrivals", "slug": "new-arrivals" },
+          { "id": 82, "name": "Best Sellers", "slug": "best-sellers" }
+        ]
+      },
+      {
+        "title": "Sport",
+        "categories": [
+          { "id": 83, "name": "Jordan Basketball", "slug": "jordan-basketball" },
+          { "id": 84, "name": "Jordan Golf", "slug": "jordan-golf" }
+        ]
+      },
+      {
+        "title": "Men",
+        "categories": [
+          { "id": 85, "name": "Shop All", "slug": "jordan-men-all" },
+          { "id": 86, "name": "Shoes", "slug": "jordan-men-shoes" },
+          { "id": 87, "name": "Clothing", "slug": "jordan-men-clothing" }
+        ]
+      },
+      {
+        "title": "Women",
+        "categories": [
+          { "id": 88, "name": "Shop All", "slug": "jordan-women-all" },
+          { "id": 89, "name": "Shoes", "slug": "jordan-women-shoes" },
+          { "id": 90, "name": "Clothing", "slug": "jordan-women-clothing" }
+        ]
+      },
+      {
+        "title": "Kids",
+        "categories": [
+          { "id": 91, "name": "Shop All", "slug": "jordan-kids-all" },
+          { "id": 92, "name": "Shoes", "slug": "jordan-kids-shoes" },
+          { "id": 93, "name": "Clothing", "slug": null },
+          { "id": 94, "name": "Big Kids (7-15 yrs)", "slug": "jordan-big-kids" },
+          { "id": 95, "name": "Little Kids (4-7 yrs)", "slug": "jordan-little-kids" },
+          { "id": 96, "name": "Baby & Toddler (0-4 yrs)", "slug": "jordan-toddler-kids" }
+        ]
+      },
+      {
+        "title": "Accessories",
+        "categories": [
+          { "id": 97, "name": "Shop All", "slug": "jordan-accessories-all" },
+          { "id": 98, "name": "Bags & Backpacks", "slug": "bags" },
+          { "id": 99, "name": "Hats", "slug": "hats" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sport",
+    "slug": "sport",
+    "subCategories": [
+      {
+        "title": "Basketball",
+        "categories": [
+          { "id": 100, "name": "Shoes", "slug": "sport-shoes" },
+          { "id": 101, "name": "Jordan", "slug": "jordan" }
+        ]
+      },
+      {
+        "title": "Running",
+        "categories": [
+          { "id": 102, "name": "Road", "slug": "running-road" },
+          { "id": 103, "name": "Race", "slug": "running-race" },
+          { "id": 104, "name": "Trail", "slug": "running-trail" }
+        ]
+      },
+      {
+        "title": "Training",
+        "categories": [
+          { "id": 105, "name": "Shoes", "slug": "training-shoes" },
+          { "id": 106, "name": "Socks", "slug": "socks" },
+          { "id": 107, "name": "Accessories", "slug": "training-accessories" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import data from '../provider/HomePage.json'
-import collectionData from '../provider/collections.json'
+import data from '../provider/navigation.json'
 import { Link } from 'react-router';
 
 const Header = () => {
 
   const [hoveredItem, sethoveredItem] = useState(null)
-  console.log(collectionData.find(el => el.slug == 'lifestyle').id)
+  // console.log(hoveredItem)
+  // console.log(data[0])
+  // console.log(data[hoveredItem])
 
   
 
@@ -39,7 +40,7 @@ const Header = () => {
 
           <div className='flex flex-1  items-stretch justify-center'>
             <ul className=' font-semibold hidden lg:flex cursor-pointer'>
-              {Object.keys(data).map((item,idx) => (
+              {/* {Object.keys(data).map((item,idx) => (
                 <div
                 key={idx}
                   onMouseEnter={() => {sethoveredItem(item)}}
@@ -56,7 +57,27 @@ const Header = () => {
                   
                   }
                 </div>
+              ))} */}
+            
+              {data.map((item,idx) => (
+                
+                <div
+                  key={idx}
+                  onMouseEnter={() => {sethoveredItem(idx)}}
+                  onMouseLeave={() => {sethoveredItem(null)}}
+                  className='flex items-center'
+                >
+                  <li
+                    className='relative pb-1 px-2 hover:after:content-[""] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:h-[2px] hover:after:w-11/12 hover:after:bg-black hover:after:translate-y-[4px]'
+                  >
+                    {item.name}
+                  </li>
+                </div>
               ))}
+
+
+
+              
             </ul>
 
 
@@ -89,20 +110,29 @@ const Header = () => {
 
 
      
-        {hoveredItem && 
+        {hoveredItem !== null && hoveredItem !== undefined  && 
         <div 
         onMouseEnter={() => {sethoveredItem(hoveredItem)}}
         onMouseLeave={() => {sethoveredItem(null)}}
         className='absolute  left-0 top-15 z-1000 w-screen flex justify-center items-start py-10 bg-white'>
-          {data[hoveredItem]?.map(item => {
+          {data[hoveredItem].subCategories.map(item => {
             return (
               <div className='px-12' key={item.title}>
                 <h5 className='font-semibold cursor-pointer mb-3'><Link to ='/products'>{item.title}</Link ></h5>
                 <ul>
-                  {item.links.map(link => 
-                      <li className='text-sm py-1 cursor-pointer hover:text-black font-[helveticaNow] text-[#707072]'><Link to={`/products/${collectionData.find(el => el.slug === link.slug)?.id}`}>{link.slug}</Link></li>
-                    
-                  )}
+                  {item.categories.map((link,idx) => {
+                        return (
+                          <li 
+                            key={idx} 
+                            className='text-sm py-1 cursor-pointer hover:text-black font-[helveticaNow] text-[#707072]'
+                          >                     
+                          <Link to={`/products/${data[hoveredItem].slug}/${link.slug}`}>
+                            {link.name}
+                          </Link>
+                          </li>
+                        );
+                      })}
+
                 </ul>
               </div>
             );
