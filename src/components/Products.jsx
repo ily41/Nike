@@ -1,55 +1,33 @@
-import  { useEffect, useState } from 'react'
+import  { useContext, useEffect, useState } from 'react'
 import Card from './Card'
-import { Link, useParams } from 'react-router'
-import collectionData from '../provider/collections.json'
-import productData from '../provider/productsTest.json'
+import { Link, useLocation, useParams } from 'react-router'
+import productData from '../provider/products.json'
 import Filter from './Filter'
+import { FilterContext } from '../provider/context'
 
 
 const Products = () => {
-    const [showFilter, setShowFilter] = useState(true)
-    const {collectionId,gender} = useParams()
-    const collections = collectionData.filter(el => el.id === Number(collectionId))[0]
-    const [products, setProducts] = useState([])
-    const [filtered, setFiltered] = useState([])
+    const {setShowFilter, setProducts,filtered, setFiltered} = useContext(FilterContext)
+    const {category,subCategory} = useParams()
     const [open,setOpen] = useState(false)
-
-   function capitalize(str) {
-      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-    }
+    const location = useLocation();
+    const title = location.state?.title || "";
 
 
 
-    useEffect(() => {
-    const currentCollection = collectionData.find(
-        el => el.id === Number(collectionId)
+
+    useEffect(() => {        
+     let filteredProducts = productData.filter(el =>
+      subCategory
+        ? el.categories.includes(category) && el.categories.includes(subCategory)
+        : el.categories.includes(category)
     );
-    if (!currentCollection) return;
 
-    
-
-
-     const genderKey = gender?.toLowerCase()
-     console.log(currentCollection.productIds[genderKey] )
-     console.log("GENDER")
-        console.log(gender)
-     const genderCollectionIDs = currentCollection.productIds.genderKey ?? Object.values(currentCollection.productIds).flat()
-
-    let filteredProducts = productData.filter(el =>
-        genderCollectionIDs.includes(el.id)
-    );
 
     setProducts(filteredProducts);
     setFiltered(filteredProducts);
 
-}, [collectionId, gender]);
-
-
-    
-
-
-
-
+    }, [category, subCategory]);
 
   return (
     <>
@@ -71,7 +49,7 @@ const Products = () => {
 
                 <div className='flex my-5 justify-between'>
                     <div className='lg:flex items-center lg:font-[helveticaNow] lg:text-2xl'>
-                            <h2 className='font-[helveticaNow] hidden lg:block text-2xl'>{collections.name}</h2>
+                            <h2 className='font-[helveticaNow] hidden lg:block text-2xl'>{title}</h2>
                             <span className='lg:ml-4'>({filtered.length}) </span>
                             <span className='lg:hidden'>results</span>
                     </div>
@@ -105,8 +83,6 @@ const Products = () => {
                                     <span onClick={() => filtered.sort((a,b) => b.price - a.price)}>Price:Hig ht-Low</span>
                                     <span onClick={() => filtered.sort((a,b) => a.price - b.price)}>Price:Low-High</span>
                                 </div>}
-                                
-                             
                              </button>
                     </div>
                 </div>
@@ -116,7 +92,7 @@ const Products = () => {
         
         <section className='flex  lg:mx-10'>
             <div className="hidden lg:block">
-                <Filter showFilter={showFilter} setProducts={setProducts} products={products} filtered={filtered} setFiltered={setFiltered} />
+                <Filter />
             </div>
 
             <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>

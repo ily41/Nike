@@ -1,5 +1,3 @@
-
-
 const FIlterUi = ({state,setState,name}) => {
   return (
    <div>

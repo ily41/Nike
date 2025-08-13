@@ -2,7 +2,6 @@ import React from 'react';
 import colordata from '../provider/products.json';
 
 const Colors = () => {
-  console.log(colordata);
 
   return (
     <div className='grid grid-cols-10'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cart = ({basket,setBasket}) => {
+const Cart = () => {
 
   const changeQuan = (ch,idx) => {
       setBasket(prev =>
@@ -16,6 +16,8 @@ const Cart = ({basket,setBasket}) => {
   const deleteFromBasket = (idx) => {
     setBasket(prev => prev.filter(el => el != basket[idx] ))
   }
+
+  const {basket, setBasket} = useContext(BasketContext)
 
 
 

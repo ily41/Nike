@@ -1,11 +1,13 @@
-  import { useEffect, useState } from 'react'
+  import { useContext, useEffect, useState } from 'react'
   import FIlterUi from './FIlterUi';
-  import collections from '../provider/collections.json'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
   import { faCheck } from '@fortawesome/free-solid-svg-icons';
+  import { FilterContext } from '../provider/context';
 
 
-  const Filter = ({showFilter,products,filtered,setFiltered}) => {
+  const Filter = () => {
+      const {showFilter,products,setFiltered} = useContext(FilterContext)
+
       const [men, setMen] = useState(false);
       const [women, setWomen] = useState(false);
       const [unisex, setUnisex] = useState(false);
@@ -16,6 +18,7 @@
       const [bigKids,setBigKids] = useState(false)
       const [littleKids,setLittleKids] = useState(false)
       const [toddlers,setToddlers] = useState(false)
+
       const [colorFilters,setColorFilters] = useState([
                     { name: "black", selected: false },
                     { name: "orange", selected: false },
@@ -55,9 +58,8 @@
       };
 
 
-      const handleCollection = (id) => {
-          const collectionArr = collections.find(el => el.id == id).productIds
-          setFiltered(prev => prev.filter(el => collectionArr.includes(el.id)))
+        const handleCollection = (slug) => {
+          setFiltered(prev => prev.filter(el => el.categories.includes(slug)))
         }
 
 
@@ -94,8 +96,6 @@
                 });
               ;
             }
-            console.log("redult")
-            console.log(result)
             const selectedColors = colorFilters.filter(el => el.selected).map(el => el.name)
 
             if(selectedColors.length > 0 ) { 
@@ -112,10 +112,10 @@
     return (
         showFilter && <div className=' hidden sticky top-10 lg:flex lg:flex-col mr-18'>
                     <ul className='font-[helveticaNow] cursor-pointer text-lg flex flex-col gap-2'>
-                        <li onClick={() => handleCollection(12)}>Basketball</li>
-                        <li onClick={() => handleCollection(13)}>Lifestyle</li>
-                        <li onClick={() => handleCollection(15)}>Running</li>
-                        <li onClick={() => handleCollection(14)}>Jordan</li>
+                        <li onClick={() => handleCollection("basketball")}>Basketball</li>
+                        <li onClick={() => handleCollection("lifestyle")}>Lifestyle</li>
+                        <li onClick={() => handleCollection("running")}>Running</li>
+                        <li onClick={() => handleCollection("jordan")}>Jordan</li>
                     </ul>
 
                     <hr className='px-4 my-4  text-[#b3b3b3]'/>

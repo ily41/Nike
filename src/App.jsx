@@ -7,11 +7,18 @@ import Details from './components/Details'
 import ScrollToTop from './components/ScrollToTop'
 import { useEffect, useState } from 'react'
 import Cart from './components/Cart'
+import { BasketContext, FilterContext } from './provider/context'
+import Men from './components/Men'
 
 
 
 const App = () => {
   const [bagNotification, setBagNotification] = useState(false);
+  const [showFilter, setShowFilter] = useState(true)
+  const [products, setProducts] = useState([])
+  const [filtered, setFiltered] = useState([])
+
+
 
   const [basket, setBasket] = useState(() => {
     const stored = sessionStorage.getItem("basket");
@@ -26,28 +33,31 @@ const App = () => {
     <BrowserRouter>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen">
-        <Header basket={basket} setBasket={setBasket} />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/products/:collectionId/:gender?" element={<Products />} />
-
-            <Route
-              path="/details/:productId"
-              element={
-                <Details
-                  basket={basket}
-                  setBasket={setBasket}
-                  bagNotification={bagNotification}
-                  setBagNotification={setBagNotification}
-                />
-              }
-            />
-            <Route path="/cart" element={<Cart basket={basket} setBasket={setBasket}/>} />
-          </Routes>
-        </main>
-        <Footer />
+        <BasketContext value={{basket, setBasket, bagNotification, setBagNotification}}>
+          <FilterContext value = {{showFilter,setShowFilter,products, setProducts,filtered, setFiltered}}>
+          <Header />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/products/:category/:subCategory?" element={<Products />} />
+    
+              <Route
+                path="/details/:productId"
+                element={
+                  
+                    <Details />
+                  
+                }
+              />
+              <Route path="/cart" element={<Cart/>} />
+              <Route path='/men' element={<Men/>} />
+            </Routes>
+          </main>
+          {/* <Footer /> */}
+          </FilterContext>
+        </BasketContext>
       </div>
+        
     </BrowserRouter>
   );
 };

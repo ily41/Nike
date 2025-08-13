@@ -5,7 +5,7 @@
     "collection": "air-jordan-1",
     "price": 185,
     "genders": ["Men"],
-    "categories": ["men","new-arrivals","all-shoes","basketball","jordan"],
+    "categories": ["men", "new","new-arrivals", "all-shoes",  "air-jordan", "basketball", "jordan","jordan-men-shoes","jordan-men-all"],
     "colors": ["Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2b9c47da-7b03-4711-82e1-2e41e08abb3b/AIR+JORDAN+1+RTR+HIGH+OG+%28GS%29.png",
     "detailImages": [
@@ -32,7 +32,7 @@
     "collection": "air-jordan-1",
     "price": 140,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["kids", "all-shoes", "new","new-arrivals",  "air-jordan", "basketball", "jordan","jordan-big-kids","jordan-kids-shoes","jordan-kids-all", "big-kids"],
     "colors": ["Black", "Orange", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85d1d12f-b0a5-49c0-bc81-6238cfc5d9ac/JORDAN+1+RETRO+HIGH+OG+%28PS%29.png",
     "detailImages": ["https://example.com/images/aj1-high-og-black-and-muslin-detail1.jpg"],
@@ -49,7 +49,7 @@
     "collection": "air-jordan-1",
     "price": 85,
     "genders": ["Baby/Toddler"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["kids", "all-shoes",  "air-jordan","jordan-kids-shoes", "basketball", "jordan","jordan-toddler-kids","jordan-kids-all", "toddlers"],
     "colors": ["Black", "Orange", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9b1002d6-f058-4e77-ad78-a3fa54605eac/JORDAN+1+RETRO+HIGH+OG+%28TD%29.png",
     "detailImages": ["https://example.com/images/jordan-1-retro-high-og-shattered-backboard-detail1.jpg"],
@@ -66,7 +66,7 @@
     "collection": "air-jordan-1",
     "price": 70,
     "genders": ["Kids"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["kids", "all-shoes",  "air-jordan", "jordan-kids-shoes","basketball", "jordan","jordan-kids-all", "toddlers"],
     "colors": ["Black", "Orange", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/n7eya8uvz0zxazokyjye/JORDAN+1+CRIB+BOOTIE.png",
     "detailImages": ["https://example.com/images/jordan-1-retro-high-og-shattered-backboard-detail1.jpg"],
@@ -83,7 +83,7 @@
     "collection": "air-jordan-1",
     "price": 70,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["kids", "all-shoes",  "air-jordan","jordan-kids-shoes", "new" , "best-sellers", "lifestyle", "jordan","jordan-big-kids","jordan-kids-all", "big-kids"],
     "colors": ["Blue", "Green", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0426d057-4837-4950-a6eb-c8f928edf2bf/AIR+JORDAN+1+LOW.png",
     "detailImages": ["https://example.com/images/jordan-1-shattered-backboard-detail1.jpg"],
@@ -100,7 +100,7 @@
     "collection": "air-jordan-1",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["men", "all-shoes",  "air-jordan", "lifestyle", "jordan","jordan-men-shoes","jordan-men-all"],
     "colors": ["Blue", "Green", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8804605f-3dcc-490d-b8ee-fe0db827ff4c/AIR+JORDAN+1+LOW+%28GS%29.png",
     "detailImages": ["https://example.com/images/air-jordan-1-low-detail1.jpg"],
@@ -117,7 +117,7 @@
     "collection": "air-jordan-1",
     "price": 90,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["kids", "all-shoes",  "air-jordan","jordan-kids-shoes", "lifestyle", "jordan","jordan-big-kids","jordan-kids-all", "big-kids"],
     "colors": ["Blue", "White", "Red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ab8d8bb7-536e-43af-8f49-5d86c370b7a2/AIR+JORDAN+1+MID.png",
     "detailImages": ["https://example.com/images/air-jordan-1-low-kids-detail1.jpg"],
@@ -134,7 +134,7 @@
     "collection": "air-jordan-1",
     "price": 130,
     "genders": ["Men"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["men", "all-shoes",  "air-jordan", "basketball", "jordan","jordan-men-shoes","jordan-men-all"],
     "colors": ["Blue", "White", "Red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a42f7b99-9f77-4f13-bfaa-8dd30f40a0e7/AIR+JORDAN+1+MID+%28GS%29.png",
     "detailImages": ["https://example.com/images/air-jordan-1-mid-detail1.jpg"],
@@ -151,7 +151,7 @@
     "collection": "air-jordan-1",
     "price": 110,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["kids", "all-shoes",  "air-jordan","jordan-kids-shoes", "basketball", "jordan","jordan-men-shoes","jordan-men-all", "big-kids"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a0f62bef-d6c5-4325-b916-ace51b228129/WMNS+AIR+JORDAN+1+LOW+SE.png",
     "detailImages": ["https://example.com/images/air-jordan-1-mid-kids-detail1.jpg"],
@@ -168,7 +168,7 @@
     "collection": "air-jordan-1",
     "price": 130,
     "genders": ["Women"],
-    "categories": ["Shoes", "Jordan"],
+    "categories": ["women", "all-shoes",  "air-jordan", "lifestyle", "jordan","jordan-women-shoes","jordan-women-all"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/009119cc-39ec-4456-a4cf-c0fd1f7b7ca3/WMNS+AIR+JORDAN+1+LOW.png",
     "detailImages": ["https://example.com/images/air-jordan-1-low-se-detail1.jpg"],
@@ -185,7 +185,7 @@
     "collection": "nike-dunk",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["men", "dunk", "all-shoes", "new","new-arrivals", "dunk", "basketball", "lifestyle"],
     "colors": ["Brown", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d416b2b2-3931-47a8-8680-862c94846f18/NIKE+DUNK+LOW+RETRO.png",
     "detailImages": [
@@ -212,15 +212,15 @@
     "features": ["Timeless style", "Durable leather", "Versatile colorways"],
     "inStock": true,
     "quantityAvailable": 100,
-    "description": "The Nike Dunk Low Retro combines classic basketball heritage with modern street style."
+    "description": "The Nike Dunk Low Retro SE combines classic basketball heritage with modern street style."
   },
-  {
+    {
     "id": "dunk-2",
     "name": "Nike Dunk Low N7",
     "collection": "nike-dunk",
     "price": 135,
     "genders": ["Men"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["men", "all-shoes", "dunk", "lifestyle", "running"],
     "colors": ["Blue", "White", "Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f737a0d-e3e2-4ea4-9670-2ce2c15061d8/NIKE+DUNK+LOW+NN+N7.png",
     "detailImages": [],
@@ -244,7 +244,7 @@
     "collection": "nike-dunk",
     "price": 120,
     "genders": ["Women"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["women", "all-shoes", "new" , "new-arrivals", "dunk", "lifestyle", "basketball"],
     "colors": ["Yellow", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f21d1d31-5eb1-40cd-bbb2-3cb67dd3e39b/WMNS+NIKE+DUNK+LOW.png",
     "detailImages": [],
@@ -268,7 +268,7 @@
     "collection": "nike-dunk",
     "price": 90,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["kids", "all-shoes", "dunk", "lifestyle", "new" , "best-sellers", "basketball", "big-kids"],
     "colors": ["Black", "Blue", "Brown", "Yellow", "Orange"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4f67288-80e9-4b0b-af35-7c6f12917e51/NIKE+DUNK+LOW+BG.png",
     "detailImages": [],
@@ -292,7 +292,7 @@
     "collection": "nike-dunk",
     "price": 70,
     "genders": ["Little Kids"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["kids", "all-shoes", "dunk", "lifestyle", "little-kids"],
     "colors": ["Black", "Blue", "Brown", "Yellow", "Orange"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6edee1f3-dfb5-4076-8405-c3ab2327add6/NIKE+DUNK+LOW+BP.png",
     "detailImages": [],
@@ -316,7 +316,7 @@
     "collection": "nike-dunk",
     "price": 70,
     "genders": ["Little Kids"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["kids", "all-shoes", "dunk", "lifestyle", "little-kids"],
     "colors": ["Pink", "Red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/66b6fa8a-e4ee-4f14-a30e-d71ccf7b9d72/NIKE+DUNK+LOW+%28PS%29.png",
     "detailImages": [],
@@ -340,7 +340,7 @@
     "collection": "nike-dunk",
     "price": 55,
     "genders": ["Baby/Toddler"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["kids", "all-shoes", "dunk", "lifestyle", "toddlers"],
     "colors": ["Pink", "Red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e642b610-9514-4e31-a764-ae44b9df16f5/NIKE+DUNK+LOW+%28TDE%29.png",
     "detailImages": [],
@@ -359,36 +359,12 @@
     "description": "The Nike Dunk Low (TDE) combines classic basketball heritage with modern street style."
   },
   {
-    "id": "dunk-8",
-    "name": "Nike Dunk Low Retro SE",
-    "collection": "nike-dunk",
-    "price": 125,
-    "genders": ["Men"],
-    "categories": ["Shoes", "Dunk"],
-    "colors": ["Brown", "White", "Gray"],
-    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fde79bcd-ff30-42e9-957e-82a2232bb92a/NIKE+DUNK+LOW+RETRO+SE.png",
-    "detailImages": [],
-    "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
-    "sizeAvailability": {
-      "39": true,
-      "40": true,
-      "41": false,
-      "42": true,
-      "43": false,
-      "44": true
-    },
-    "features": ["Timeless style", "Durable leather", "Versatile colorways"],
-    "inStock": true,
-    "quantityAvailable": 100,
-    "description": "The Nike Dunk Low Retro SE combines classic basketball heritage with modern street style."
-  },
-  {
     "id": "dunk-9",
     "name": "Nike Dunk Low",
     "collection": "nike-dunk",
     "price": 125,
     "genders": ["Women"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["women", "all-shoes", "dunk", "lifestyle", "basketball"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0a7ac760-c41f-4dec-95b6-03db4957493e/WMNS+NIKE+DUNK+LOW.png",
     "detailImages": [],
@@ -412,7 +388,7 @@
     "collection": "nike-dunk",
     "price": 140,
     "genders": ["Women"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["women", "all-shoes", "dunk", "lifestyle", "basketball"],
     "colors": ["White", "Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75d4e0f7-4593-45ad-906e-18e389397a28/W+NIKE+DUNK+LOW+SE.png",
     "detailImages": [],
@@ -430,15 +406,13 @@
     "quantityAvailable": 100,
     "description": "The Nike Dunk Low SE combines classic basketball heritage with modern street style."
   },
-
-
   {
     "id": "dunk-11",
     "name": "Nike Dunk Low Next Nature",
     "collection": "nike-dunk",
     "price": 120,
     "genders": ["Women"],
-    "categories": ["Shoes", "Dunk"],
+    "categories": ["women", "all-shoes", "dunk", "lifestyle", "new" , "best-sellers", "basketball"],
     "colors": ["pink", "red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/99120a42-1aba-4630-ab54-3362666e3714/W+NIKE+DUNK+LOW+NEXT+NATURE.png",
     "detailImages": [],
@@ -462,7 +436,7 @@
     "collection": "nike-field-general",
     "price": 105,
     "genders": ["Men"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["men", "all-shoes", "field","new","new-arrivals", "lifestyle", "basketball"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/332638c0-4ba9-4c88-9569-a930f1f4fc99/NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -497,7 +471,7 @@
     "collection": "nike-field-general",
     "price": 115,
     "genders": ["Women"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["women", "all-shoes", "field", "new" , "new-arrivals", "lifestyle", "basketball"],
     "colors": ["Gray", "Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/be0f03c6-1f18-423b-b1d5-1730807015b5/WMNS+NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -523,7 +497,7 @@
     "collection": "nike-field-general",
     "price": 115,
     "genders": ["Women"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["women", "all-shoes", "field", "lifestyle", "basketball"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d5d1a4e2-5ab6-47d5-b25b-e818d3ad0e6a/WMNS+NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -549,7 +523,7 @@
     "collection": "nike-field-general",
     "price": 105,
     "genders": ["Men"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["men", "all-shoes", "field", "lifestyle", "basketball"],
     "colors": ["Brown", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e5d59ca9-276c-4c48-b39a-550eb3f931ee/NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -575,7 +549,7 @@
     "collection": "nike-field-general",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["kids", "all-shoes", "field", "lifestyle", "basketball", "big-kids"],
     "colors": ["Brown", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4233edd-7ba8-43e4-a217-bbb2ec313566/NIKE+FIELD+GENERAL+LTR+%28GS%29.png",
     "detailImages": [
@@ -600,7 +574,7 @@
     "collection": "nike-field-general",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["kids", "all-shoes", "field", "lifestyle", "new" , "best-sellers", "basketball", "big-kids"],
     "colors": ["Brown", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/db9804c6-7ed2-464a-8536-2a7de00dc714/NIKE+FIELD+GENERAL+%28GS%29.png",
     "detailImages": [
@@ -625,7 +599,7 @@
     "collection": "nike-field-general",
     "price": 105,
     "genders": ["Men"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["men", "all-shoes", "field", "lifestyle", "basketball"],
     "colors": ["Green", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec3cc26a-d86c-4435-ab85-943429ab73bd/NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -651,7 +625,7 @@
     "collection": "nike-field-general",
     "price": 105,
     "genders": ["Men"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["men", "all-shoes", "field", "lifestyle", "basketball"],
     "colors": ["Black", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9b6f1471-47c4-4feb-920f-ef8dd5ad3613/NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -677,7 +651,7 @@
     "collection": "nike-field-general",
     "price": 115,
     "genders": ["Women"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["women", "all-shoes", "field", "lifestyle", "basketball"],
     "colors": ["Blue", "Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d82eb7eb-ad3c-4282-9cdb-252fe3369861/WMNS+NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -703,7 +677,7 @@
     "collection": "nike-field-general",
     "price": 105,
     "genders": ["Women"],
-    "categories": ["Shoes", "Field General"],
+    "categories": ["women", "all-shoes", "field", "lifestyle", "basketball"],
     "colors": ["Pink", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/855f040e-4ef0-4f40-a97d-e709a14a64d5/WMNS+NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -729,7 +703,7 @@
     "collection": "nike-air-force-1",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["men", "all-shoes", "airforce",  "lifestyle", "basketball"],
     "colors": ["Black", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bd6f24de-e7f8-4e6c-ba7d-32313b177f2d/AIR+FORCE+1+%2707+LV8.png",
     "detailImages": [
@@ -757,7 +731,7 @@
     "collection": "nike-air-force-1",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["men", "all-shoes", "new" , "new-arrivals", "airforce", "field", "lifestyle", "basketball"],
     "colors": ["Gray", "Blue"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98ab4dfa-9235-4b85-8d5c-e19c5eb5a94b/AIR+FORCE+1+%2707+LV8.png",
     "detailImages": [
@@ -778,7 +752,7 @@
     "collection": "nike-air-force-1",
     "price": 115,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["men", "all-shoes", "airforce", "lifestyle", "basketball"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5e88db34-b31e-4e7b-8cc3-acbb2f232b08/AIR+FORCE+1+%2707.png",
     "detailImages": [
@@ -799,7 +773,7 @@
     "collection": "nike-air-force-1",
     "price": 115,
     "genders": ["Women"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["women", "all-shoes", "airforce", "lifestyle", "basketball"],
     "colors": ["Pink", "Brown"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d1653bc7-dea9-44fd-af93-fa4391904f84/W+AIR+FORCE+1+%2707+NN.png",
     "detailImages": [
@@ -820,7 +794,7 @@
     "collection": "nike-air-force-1",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["men", "all-shoes", "airforce", "lifestyle", "basketball"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cf2fb652-d909-478c-9d86-710e97ae14ed/AIR+FORCE+1+%2707+LV8.png",
     "detailImages": [
@@ -841,7 +815,7 @@
     "collection": "nike-air-force-1",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["men", "all-shoes", "airforce", "lifestyle", "basketball"],
     "colors": ["Orange"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/654141ae-1e26-429d-b644-52b25052fc8c/AIR+FORCE+1+%2707+LV8.png",
     "detailImages": [
@@ -862,7 +836,7 @@
     "collection": "nike-air-force-1",
     "price": 135,
     "genders": ["Women"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["women", "all-shoes", "airforce", "lifestyle", "basketball"],
     "colors": ["White", "Pink"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/99897fd9-9ae2-4d3d-af8c-104e5add0f88/W+AF1+SHADOW.png",
     "detailImages": [
@@ -875,7 +849,7 @@
     "features": ["Modern style", "Comfort fit", "Lightweight"],
     "inStock": true,
     "quantityAvailable": 45,
-    "description": "Nike Air Force 1 Shadow, women’s shoes with modern style and multiple colors."
+    "description": "Nike Air Force 1 Shadow, women's shoes with modern style and multiple colors."
   },
   {
     "id": "airforce-8",
@@ -883,11 +857,11 @@
     "collection": "nike-air-force-1",
     "price": 125,
     "genders": ["Women"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["women", "all-shoes", "airforce", "lifestyle", "basketball"],
     "colors": ["Orange", "White"],
-    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0dc14fa9-8d93-433b-a1c6-6e50d553b64c/W+AF1+SAGE+LOW.png",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0dc14fa9-8d93-433b-b1d5-1730807015b5/W+AF1+SAGE+LOW.png",
     "detailImages": [
-      "https://static.nike.com/a/images/t_default/0dc14fa9-8d93-433b-a1c6-6e50d553b64c/W+AF1+SAGE+LOW.png"
+      "https://static.nike.com/a/images/t_default/0dc14fa9-8d93-433b-b1d5-1730807015b5/W+AF1+SAGE+LOW.png"
     ],
     "availableSizesEU": ["36", "37", "38", "39", "40", "41"],
     "sizeAvailability": {
@@ -896,7 +870,7 @@
     "features": ["Lightweight", "Comfort fit", "Stylish design"],
     "inStock": true,
     "quantityAvailable": 40,
-    "description": "Nike Air Force 1 Sage Low, women’s shoes with multiple colors."
+    "description": "Nike Air Force 1 Sage Low, women's shoes with multiple colors."
   },
   {
     "id": "airforce-9",
@@ -904,7 +878,7 @@
     "collection": "nike-air-force-1",
     "price": 90,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["kids", "all-shoes", "airforce", "lifestyle", "basketball", "big-kids"],
     "colors": ["White", "Gray"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0b89b09f-67d7-4f76-8569-626124420161/AIR+FORCE+1+%28GS%29.png",
     "detailImages": [
@@ -925,7 +899,7 @@
     "collection": "nike-air-force-1",
     "price": 45,
     "genders": ["Baby/Toddler"],
-    "categories": ["Bootie", "Air Force 1"],
+    "categories": ["kids", "all-shoes", "airforce", "lifestyle", "toddlers"],
     "colors": ["Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ehmxbh09gioulq4omksm/NIKE+FORCE+1+CRIB+%28CB%29.png",
     "detailImages": [
@@ -946,7 +920,7 @@
     "collection": "nike-air-force-1",
     "price": 120,
     "genders": ["Unisex"],
-    "categories": ["Shoes", "Air Force 1"],
+    "categories": ["men", "women", "all-shoes", "airforce", "new" , "best-sellers", "lifestyle", "basketball"],
     "colors": ["White", "Blue"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/zrhpg00meg0lsfrgkzkq/AIR+FORCE+1+FLYKNIT+2.0.png",
     "detailImages": [
@@ -961,232 +935,230 @@
     "quantityAvailable": 40,
     "description": "Nike Air Force 1 Flyknit 2.0 with advanced lightweight design."
   },
-
-
-{
-  "id": "airmax-dn8-men",
-  "name": "Nike Air Max Dn8",
-  "collection": "nike-air-max-dn8",
-  "price": 200,
-  "genders": ["Men"],
-  "categories": ["Shoes", "Air Max Dn8"],
-  "colors": ["black green"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/772de257-fbd7-49d8-abe6-b03247ded453/AIR+MAX+DN8.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/t_default/772de257-fbd7-49d8-abe6-b03247ded453/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/deab90eb-9778-4f6b-88ca-8c3f9780a4fa/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/4e4829dd-f887-4fae-b2d6-3d95f762b89b/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/269d4a7e-e907-44a2-8da5-731a0a296988/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/a7716e21-5896-4af2-b64c-fa42f8314377/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/394021f7-1407-4f0a-ae44-858acef76fbf/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/e67a4425-b269-4e2f-b5e4-ec4f62346349/AIR+MAX+DN8.png",
-    "https://static.nike.com/a/images/t_default/4f611023-ccc7-473d-a2bc-29f11f8d6ebd/AIR+MAX+DN8.png"
-  ],
-  "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45", "46"],
-  "sizeAvailability": {
-    "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": false, "46": false
+  {
+    "id": "airmax-dn8-men",
+    "name": "Nike Air Max Dn8",
+    "collection": "nike-air-max-dn8",
+    "price": 200,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "new" , "new-arrivals", "airmax",  "running", "lifestyle"],
+    "colors": ["black green"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/772de257-fbd7-49d8-abe6-b03247ded453/AIR+MAX+DN8.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/t_default/772de257-fbd7-49d8-abe6-b03247ded453/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/deab90eb-9778-4f6b-88ca-8c3f9780a4fa/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/4e4829dd-f887-4fae-b2d6-3d95f762b89b/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/269d4a7e-e907-44a2-8da5-731a0a296988/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/a7716e21-5896-4af2-b64c-fa42f8314377/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/394021f7-1407-4f0a-ae44-858acef76fbf/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/e67a4425-b269-4e2f-b5e4-ec4f62346349/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/t_default/4f611023-ccc7-473d-a2bc-29f11f8d6ebd/AIR+MAX+DN8.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {
+      "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": false, "46": false
+    },
+    "features": ["Air Max cushioning", "Durable construction", "Breathable mesh upper"],
+    "inStock": true,
+    "quantityAvailable": 100,
+    "description": "The Nike Air Max Dn8 Men's Shoes combine comfort and style with Air Max cushioning and a durable breathable design."
   },
-  "features": ["Air Max cushioning", "Durable construction", "Breathable mesh upper"],
-  "inStock": true,
-  "quantityAvailable": 100,
-  "description": "The Nike Air Max Dn8 Men's Shoes combine comfort and style with Air Max cushioning and a durable breathable design."
-},
-{
-  "id": "airmax-dn8-women",
-  "name": "Nike Air Max Dn8",
-  "collection": "nike-air-max-dn8",
-  "price": 200,
-  "genders": ["Women"],
-  "categories": ["Shoes", "Air Max"],
-  "colors": ["brown"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a6dba6ae-6c48-4220-9141-0bd33884e4f7/W+AIR+MAX+DN8.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a6dba6ae-6c48-4220-9141-0bd33884e4f7/W+AIR+MAX+DN8.png"
-  ],
-  "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
-  "sizeAvailability": {
-    "36": true, "37": true, "38": true, "39": true, "40": true, "41": false, "42": false
+  {
+    "id": "airmax-dn8-women",
+    "name": "Nike Air Max Dn8",
+    "collection": "nike-air-max-dn8",
+    "price": 200,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "airmax",  "new" , "new-arrivals", "running", "lifestyle"],
+    "colors": ["brown"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a6dba6ae-6c48-4220-9141-0bd33884e4f7/W+AIR+MAX+DN8.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a6dba6ae-6c48-4220-9141-0bd33884e4f7/W+AIR+MAX+DN8.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {
+      "36": true, "37": true, "38": true, "39": true, "40": true, "41": false, "42": false
+    },
+    "features": ["Air Max cushioning", "Lightweight design", "Comfort fit"],
+    "inStock": true,
+    "quantityAvailable": 80,
+    "description": "Nike Air Max Dn8 Women's Shoes deliver stylish comfort with multiple color options and breathable materials."
   },
-  "features": ["Air Max cushioning", "Lightweight design", "Comfort fit"],
-  "inStock": true,
-  "quantityAvailable": 80,
-  "description": "Nike Air Max Dn8 Women's Shoes deliver stylish comfort with multiple color options and breathable materials."
-},
-{
-  "id": "airmax-dn8-big-kids",
-  "name": "Nike Air Max Dn8",
-  "collection": "nike-air-max-dn8",
-  "price": 160,
-  "genders": ["Big Kids"],
-  "categories": ["Shoes", "Air Max Dn8"],
-  "colors": ["black green"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c5b8a83d-b453-4ca1-b74c-2e5b8ae8cb0f/AIR+MAX+DN8+%28GS%29.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c5b8a83d-b453-4ca1-b74c-2e5b8ae8cb0f/AIR+MAX+DN8+%28GS%29.png"
-  ],
-  "availableSizesEU": ["32", "33", "34", "35", "36", "37"],
-  "sizeAvailability": {
-    "32": true, "33": true, "34": true, "35": true, "36": true, "37": true
+  {
+    "id": "airmax-dn8-big-kids",
+    "name": "Nike Air Max Dn8",
+    "collection": "nike-air-max-dn8",
+    "price": 160,
+    "genders": ["Big Kids"],
+    "categories": ["kids", "all-shoes", "airmax", "running", "lifestyle", "new" , "latest-drops", "big-kids"],
+    "colors": ["black","green"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c5b8a83d-b453-4ca1-b74c-2e5b8ae8cb0f/AIR+MAX+DN8+%28GS%29.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c5b8a83d-b453-4ca1-b74c-2e5b8ae8cb0f/AIR+MAX+DN8+%28GS%29.png"
+    ],
+    "availableSizesEU": ["32", "33", "34", "35", "36", "37"],
+    "sizeAvailability": {
+      "32": true, "33": true, "34": true, "35": true, "36": true, "37": true
+    },
+    "features": ["Durable sole", "Air Max cushioning", "Supportive fit"],
+    "inStock": true,
+    "quantityAvailable": 70,
+    "description": "The Nike Air Max Dn8 for Big Kids offers a comfortable, supportive fit with Air Max technology and vibrant color options."
   },
-  "features": ["Durable sole", "Air Max cushioning", "Supportive fit"],
-  "inStock": true,
-  "quantityAvailable": 70,
-  "description": "The Nike Air Max Dn8 for Big Kids offers a comfortable, supportive fit with Air Max technology and vibrant color options."
-},
-{
-  "id": "airmax-dn-lego-big-kids",
-  "name": "Nike Air Max Dn x LEGO® Collection",
-  "collection": "nike-air-max-dn-lego",
-  "price": 155,
-  "genders": ["Big Kids"],
-  "categories": ["Shoes", "Air Max"],
-  "colors": ["yellow"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/39925bb5-3c6d-4cd0-b604-c48520b3eb51/AIR+MAX+DN+x+LEGO+COL+GS.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/39925bb5-3c6d-4cd0-b604-c48520b3eb51/AIR+MAX+DN+x+LEGO+COL+GS.png"
-  ],
-  "availableSizesEU": ["32", "33", "34", "35"],
-  "sizeAvailability": {
-    "32": true, "33": true, "34": true, "35": false
+  {
+    "id": "airmax-dn-lego-big-kids",
+    "name": "Nike Air Max Dn x LEGO® Collection",
+    "collection": "nike-air-max-dn-lego",
+    "price": 155,
+    "genders": ["Big Kids"],
+    "categories": ["kids", "all-shoes", "airmax", "lifestyle", "new" , "best-sellers", "running", "big-kids"],
+    "colors": ["yellow"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/39925bb5-3c6d-4cd0-b604-c48520b3eb51/AIR+MAX+DN+x+LEGO+COL+GS.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/39925bb5-3c6d-4cd0-b604-c48520b3eb51/AIR+MAX+DN+x+LEGO+COL+GS.png"
+    ],
+    "availableSizesEU": ["32", "33", "34", "35"],
+    "sizeAvailability": {
+      "32": true, "33": true, "34": true, "35": false
+    },
+    "features": ["Unique LEGO design", "Air Max cushioning", "Collectible style"],
+    "inStock": true,
+    "quantityAvailable": 40,
+    "description": "Exclusive Nike Air Max Dn x LEGO® shoes for Big Kids, combining Air Max comfort with a playful LEGO-inspired design."
   },
-  "features": ["Unique LEGO design", "Air Max cushioning", "Collectible style"],
-  "inStock": true,
-  "quantityAvailable": 40,
-  "description": "Exclusive Nike Air Max Dn x LEGO® shoes for Big Kids, combining Air Max comfort with a playful LEGO-inspired design."
-},
-{
-  "id": "airmax-90-men",
-  "name": "Nike Air Max 90",
-  "collection": "nike-air-max-90",
-  "price": 145,
-  "genders": ["Men"],
-  "categories": ["Shoes", "Air Max 90"],
-  "colors": ["blue"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f24b9d65-fd5a-4815-bec8-47864937dcb8/NIKE+AIR+MAX+90.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f24b9d65-fd5a-4815-bec8-47864937dcb8/NIKE+AIR+MAX+90.png"
-  ],
-  "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45"],
-  "sizeAvailability": {
-    "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": false
+  {
+    "id": "airmax-90-men",
+    "name": "Nike Air Max 90",
+    "collection": "nike-air-max-90",
+    "price": 145,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "airmax", "running", "lifestyle"],
+    "colors": ["blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f24b9d65-fd5a-4815-bec8-47864937dcb8/NIKE+AIR+MAX+90.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f24b9d65-fd5a-4815-bec8-47864937dcb8/NIKE+AIR+MAX+90.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45"],
+    "sizeAvailability": {
+      "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": false
+    },
+    "features": ["Classic Air Max cushioning", "Durable leather upper", "Iconic design"],
+    "inStock": true,
+    "quantityAvailable": 120,
+    "description": "Nike Air Max 90 Men's Shoes feature classic Air Max cushioning and a durable leather upper for timeless style."
   },
-  "features": ["Classic Air Max cushioning", "Durable leather upper", "Iconic design"],
-  "inStock": true,
-  "quantityAvailable": 120,
-  "description": "Nike Air Max 90 Men's Shoes feature classic Air Max cushioning and a durable leather upper for timeless style."
-},
-{
-  "id": "airmax-90-premium-men",
-  "name": "Nike Air Max 90 Premium",
-  "collection": "nike-air-max-90",
-  "price": 145,
-  "genders": ["Men"],
-  "categories": ["Shoes", "Air Max"],
-  "colors": ["black brown"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7df77916-8bbf-4a5d-b813-eb24bfabc747/AIR+MAX+90+PRM.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7df77916-8bbf-4a5d-b813-eb24bfabc747/AIR+MAX+90+PRM.png"
-  ],
-  "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
-  "sizeAvailability": {
-    "39": true, "40": true, "41": true, "42": true, "43": false, "44": false
+  {
+    "id": "airmax-90-premium-men",
+    "name": "Nike Air Max 90 Premium",
+    "collection": "nike-air-max-90",
+    "price": 145,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "airmax", "running", "lifestyle"],
+    "colors": ["black","brown"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7df77916-8bbf-4a5d-b813-eb24bfabc747/AIR+MAX+90+PRM.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7df77916-8bbf-4a5d-b813-eb24bfabc747/AIR+MAX+90+PRM.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
+    "sizeAvailability": {
+      "39": true, "40": true, "41": true, "42": true, "43": false, "44": false
+    },
+    "features": ["Premium leather", "Air Max cushioning", "Enhanced durability"],
+    "inStock": true,
+    "quantityAvailable": 60,
+    "description": "Premium Nike Air Max 90 with enhanced leather materials and classic Air Max comfort."
   },
-  "features": ["Premium leather", "Air Max cushioning", "Enhanced durability"],
-  "inStock": true,
-  "quantityAvailable": 60,
-  "description": "Premium Nike Air Max 90 with enhanced leather materials and classic Air Max comfort."
-},
-{
-  "id": "airmax-90-easyon-little-kids",
-  "name": "Nike Air Max 90 EasyOn",
-  "collection": "nike-air-max-90",
-  "price": 80,
-  "genders": ["Little Kids"],
-  "categories": ["Shoes", "Air Max 90 EasyOn"],
-  "colors": ["green black white"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4dbb0028-d97e-477d-b1b2-5e086b87ac6f/AIR+MAX+90+EASYON+LTR+%28PS%29.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4dbb0028-d97e-477d-b1b2-5e086b87ac6f/AIR+MAX+90+EASYON+LTR+%28PS%29.png"
-  ],
-  "availableSizesEU": ["28", "29", "30", "31", "32"],
-  "sizeAvailability": {
-    "28": true, "29": true, "30": true, "31": false, "32": false
+  {
+    "id": "airmax-90-easyon-little-kids",
+    "name": "Nike Air Max 90 EasyOn",
+    "collection": "nike-air-max-90",
+    "price": 80,
+    "genders": ["Little Kids"],
+    "categories": ["kids", "all-shoes", "airmax", "running", "lifestyle", "little-kids"],
+    "colors": ["green","black","white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4dbb0028-d97e-477d-b1b2-5e086b87ac6f/AIR+MAX+90+EASYON+LTR+%28PS%29.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4dbb0028-d97e-477d-b1b2-5e086b87ac6f/AIR+MAX+90+EASYON+LTR+%28PS%29.png"
+    ],
+    "availableSizesEU": ["28", "29", "30", "31", "32"],
+    "sizeAvailability": {
+      "28": true, "29": true, "30": true, "31": false, "32": false
+    },
+    "features": ["Easy slip-on design", "Air Max cushioning", "Comfort fit for little feet"],
+    "inStock": true,
+    "quantityAvailable": 50,
+    "description": "Easy slip-on Nike Air Max 90 designed for Little Kids, offering comfort and easy wear."
   },
-  "features": ["Easy slip-on design", "Air Max cushioning", "Comfort fit for little feet"],
-  "inStock": true,
-  "quantityAvailable": 50,
-  "description": "Easy slip-on Nike Air Max 90 designed for Little Kids, offering comfort and easy wear."
-},
-{
-  "id": "airmax-phoenix-men",
-  "name": "Nike Air Max Phoenix",
-  "collection": "nike-air-max-phoenix",
-  "price": 155,
-  "genders": ["Men"],
-  "categories": ["Shoes", "Air Max"],
-  "colors": ["white blue"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e355aa59-0b09-4fc3-b291-e82ef841a8da/NIKE+AIR+MAX+PHOENIX.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e355aa59-0b09-4fc3-b291-e82ef841a8da/NIKE+AIR+MAX+PHOENIX.png"
-  ],
-  "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
-  "sizeAvailability": {
-    "39": true, "40": true, "41": true, "42": true, "43": false, "44": false
+  {
+    "id": "airmax-phoenix-men",
+    "name": "Nike Air Max Phoenix",
+    "collection": "nike-air-max-phoenix",
+    "price": 155,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "airmax", "running", "lifestyle"],
+    "colors": ["white","blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e355aa59-0b09-4fc3-b291-e82ef841a8da/NIKE+AIR+MAX+PHOENIX.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e355aa59-0b09-4fc3-b291-e82ef841a8da/NIKE+AIR+MAX+PHOENIX.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
+    "sizeAvailability": {
+      "39": true, "40": true, "41": true, "42": true, "43": false, "44": false
+    },
+    "features": ["Modern design", "Air Max cushioning", "Lightweight materials"],
+    "inStock": true,
+    "quantityAvailable": 70,
+    "description": "The Nike Air Max Phoenix Men's Shoes offer a modern look with classic Air Max comfort and lightweight materials."
   },
-  "features": ["Modern design", "Air Max cushioning", "Lightweight materials"],
-  "inStock": true,
-  "quantityAvailable": 70,
-  "description": "The Nike Air Max Phoenix Men's Shoes offer a modern look with classic Air Max comfort and lightweight materials."
-},
-{
-  "id": "airmax-dn-shoes",
-  "name": "Nike Air Max Dn",
-  "collection": "nike-air-max-dn",
-  "price": 170,
-  "genders": ["Unisex"],
-  "categories": ["Shoes", "Air Max Dn"],
-  "colors": ["black white"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/10f9a159-3351-442c-81ec-a58be618a312/AIR+MAX+DN.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/10f9a159-3351-442c-81ec-a58be618a312/AIR+MAX+DN.png"
-  ],
-  "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45"],
-  "sizeAvailability": {
-    "39": true, "40": true, "41": true, "42": true, "43": true, "44": false, "45": false
+  {
+    "id": "airmax-dn-shoes",
+    "name": "Nike Air Max Dn",
+    "collection": "nike-air-max-dn",
+    "price": 170,
+    "genders": ["Unisex"],
+    "categories": ["men", "women", "all-shoes", "airmax", "running", "lifestyle"],
+    "colors": ["black","white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/10f9a159-3351-442c-81ec-a58be618a312/AIR+MAX+DN.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/10f9a159-3351-442c-81ec-a58be618a312/AIR+MAX+DN.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45"],
+    "sizeAvailability": {
+      "39": true, "40": true, "41": true, "42": true, "43": true, "44": false, "45": false
+    },
+    "features": ["Air Max cushioning", "Versatile style", "Durable sole"],
+    "inStock": true,
+    "quantityAvailable": 90,
+    "description": "Nike Air Max Dn shoes provide versatile comfort and style with Air Max cushioning and a durable design."
   },
-  "features": ["Air Max cushioning", "Versatile style", "Durable sole"],
-  "inStock": true,
-  "quantityAvailable": 90,
-  "description": "Nike Air Max Dn shoes provide versatile comfort and style with Air Max cushioning and a durable design."
-},
-{
-  "id": "airmax-dn-se-men",
-  "name": "Nike Air Max Dn SE",
-  "collection": "nike-air-max-dn-se",
-  "price": 180,
-  "genders": ["Men"],
-  "categories": ["Shoes", "Air Max"],
-  "colors": ["red gray"],
-  "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90bcb5ff-4685-4ac1-bc01-4bd0dde0728f/AIR+MAX+DN+SE.png",
-  "detailImages": [
-    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90bcb5ff-4685-4ac1-bc01-4bd0dde0728f/AIR+MAX+DN+SE.png"
-  ],
-  "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
-  "sizeAvailability": {
-    "39": true, "40": true, "41": true, "42": false, "43": false, "44": false
+  {
+    "id": "airmax-dn-se-men",
+    "name": "Nike Air Max Dn SE",
+    "collection": "nike-air-max-dn-se",
+    "price": 180,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "airmax", "running", "new" , "best-sellers", "lifestyle"],
+    "colors": ["red","gray"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90bcb5ff-4685-4ac1-bc01-4bd0dde0728f/AIR+MAX+DN+SE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90bcb5ff-4685-4ac1-bc01-4bd0dde0728f/AIR+MAX+DN+SE.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44"],
+    "sizeAvailability": {
+      "39": true, "40": true, "41": true, "42": false, "43": false, "44": false
+    },
+    "features": ["SE design", "Air Max cushioning", "Enhanced comfort"],
+    "inStock": true,
+    "quantityAvailable": 65,
+    "description": "Nike Air Max Dn SE shoes offer enhanced comfort and stylish SE design for men."
   },
-  "features": ["SE design", "Air Max cushioning", "Enhanced comfort"],
-  "inStock": true,
-  "quantityAvailable": 65,
-  "description": "Nike Air Max Dn SE shoes offer enhanced comfort and stylish SE design for men."
-},
   {
     "id": "vomero-zoom-5-men",
     "name": "Nike Zoom Vomero 5",
     "collection": "nike-zoom-vomero",
     "price": 170,
     "genders": ["Men"],
-    "categories": ["Shoes", "Running"],
+    "categories": ["men", "all-shoes", "vomero", "new" , "new-arrivals", "running", "lifestyle"],
     "colors": ["gray"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/46e5b31f-fa63-4762-beea-dc79b056af2d/NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
@@ -1212,8 +1184,8 @@
     "collection": "nike-zoom-vomero",
     "price": 170,
     "genders": ["Women"],
-    "categories": ["Shoes", "Vomero"],
-    "colors": ["black brown"],
+    "categories": ["women", "all-shoes", "vomero", "running", "lifestyle"],
+    "colors": ["black","brown"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45d21cf8-942c-4768-a62a-c6a748cdaea7/W+NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45d21cf8-942c-4768-a62a-c6a748cdaea7/W+NIKE+ZOOM+VOMERO+5.png"
@@ -1231,8 +1203,8 @@
     "collection": "nike-vomero",
     "price": 90,
     "genders": ["Baby/Toddler"],
-    "categories": ["Shoes", "Vomero"],
-    "colors": ["black brown white"],
+    "categories": ["kids", "all-shoes", "vomero", "new" , "new-arrivals", "running", "lifestyle", "little-kids"],
+    "colors": ["black","brown","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/046708e0-2a85-49f4-b452-d963ff7a1c81/VOMERO+5+%28PS%29.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/046708e0-2a85-49f4-b452-d963ff7a1c81/VOMERO+5+%28PS%29.png"
@@ -1250,8 +1222,8 @@
     "collection": "nike-vomero",
     "price": 70,
     "genders": ["Baby/Toddler"],
-    "categories": ["Shoes", "Toddler"],
-    "colors": ["gray blue black"],
+    "categories": ["kids", "all-shoes", "vomero", "running", "lifestyle", "toddlers"],
+    "colors": ["gray","blue","black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bc6aed5-89e4-41dc-b080-b95e213c0f6e/VOMERO+5+%28TD%29.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bc6aed5-89e4-41dc-b080-b95e213c0f6e/VOMERO+5+%28TD%29.png"
@@ -1269,7 +1241,7 @@
     "collection": "nike-zoom-vomero",
     "price": 180,
     "genders": ["Women"],
-    "categories": ["Shoes", "Vomero"],
+    "categories": ["women", "all-shoes", "vomero", "running", "trail"],
     "colors": ["white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b0d89796-9586-4dea-b4e2-ffc2bfaa8909/W+NIKE+ZOOM+VOMERO+ROAM.png",
     "detailImages": [
@@ -1288,8 +1260,8 @@
     "collection": "nike-zoom-vomero",
     "price": 180,
     "genders": ["Men"],
-    "categories": ["Shoes", "Vomero"],
-    "colors": ["white brown"],
+    "categories": ["men", "all-shoes", "vomero","new" , "latest-drops", "running", "trail"],
+    "colors": ["white","brown"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a0ff9f14-3ec3-457d-bd35-d46f17452ade/VOMERO+ROAM.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a0ff9f14-3ec3-457d-bd35-d46f17452ade/VOMERO+ROAM.png"
@@ -1307,8 +1279,8 @@
     "collection": "nike-zoom-vomero",
     "price": 160,
     "genders": ["Women"],
-    "categories": ["Shoes", "Vomero"],
-    "colors": ["brown white red"],
+    "categories": ["women", "all-shoes", "vomero", "running", "lifestyle"],
+    "colors": ["brown","white","red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e8eee2d-cede-40d9-bd70-b316da5e685f/W+NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e8eee2d-cede-40d9-bd70-b316da5e685f/W+NIKE+ZOOM+VOMERO+5.png"
@@ -1327,8 +1299,8 @@
     "collection": "nike-cortez",
     "price": 90,
     "genders": ["Women"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["green blue white"],
+    "categories": ["women", "all-shoes","cortez", "new" , "best-sellers",  "lifestyle", "running"],
+    "colors": ["green","blue","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ef41eee6-85a4-4313-9cdc-c861873645bc/W+NIKE+CORTEZ.png",
     "detailImages": [
       "https://static.nike.com/a/images/t_default/8f4728a2-4442-4e5b-b9dc-33f98a634dad/W+NIKE+CORTEZ.png",
@@ -1356,8 +1328,8 @@
     "collection": "nike-cortez",
     "price": 90,
     "genders": ["Men"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["white red"],
+    "categories": ["men", "all-shoes","cortez", "lifestyle", "new" , "best-sellers", "running"],
+    "colors": ["white","red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/464ab3ac-0dc0-4fd0-84bd-eae123a2db18/NIKE+CORTEZ.png",
     "detailImages": [],
     "availableSizesEU": [39, 40, 41, 42, 43, 44, 45],
@@ -1374,8 +1346,8 @@
     "collection": "nike-cortez",
     "price": 90,
     "genders": ["Men"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["brown white"],
+    "categories": ["men", "all-shoes","cortez", "lifestyle", "running"],
+    "colors": ["brown","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3208bb1f-0135-495f-91bb-7bb6d87763c8/NIKE+CORTEZ+TXT.png",
     "detailImages": [],
     "availableSizesEU": [39, 40, 41, 42, 43, 44],
@@ -1392,8 +1364,8 @@
     "collection": "nike-cortez",
     "price": 125,
     "genders": ["Women"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["white yellow"],
+    "categories": ["women", "all-shoes","cortez", "new" , "new-arrivals", "lifestyle", "running"],
+    "colors": ["white","yellow"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/16ca510e-a4ab-4fc9-8dfb-325a15c93204/W+NIKE+CORTEZ+LT.png",
     "detailImages": [],
     "availableSizesEU": [36, 37, 38, 39, 40],
@@ -1410,8 +1382,8 @@
     "collection": "nike-cortez",
     "price": 90,
     "genders": ["Women"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["white red"],
+    "categories": ["women", "all-shoes","cortez", "new" , "new-arrivals", "lifestyle", "running"],
+    "colors": ["white","red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1ffa33d7-7c39-4b91-805d-7db531db0d35/W+NIKE+CORTEZ.png",
     "detailImages": [],
     "availableSizesEU": [36, 37, 38, 39, 40],
@@ -1428,8 +1400,8 @@
     "collection": "nike-cortez",
     "price": 90,
     "genders": ["Women"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["green pink"],
+    "categories": ["women", "all-shoes","cortez", "new" , "latest-drops", "lifestyle", "running"],
+    "colors": ["green","pink"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2e4e7dad-e9d0-431b-b437-95300936d96c/W+NIKE+CORTEZ.png",
     "detailImages": [],
     "availableSizesEU": [36, 37, 38, 39],
@@ -1446,8 +1418,8 @@
     "collection": "nike-cortez",
     "price": 65,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["purple white"],
+    "categories": ["kids", "all-shoes","cortez", "lifestyle", "new" , "best-sellers", "running", "big-kids"],
+    "colors": ["purple","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f0632274-2525-4944-897e-a1d96520d1f8/NIKE+KIDS+CORTEZ+TXT+%28GS%29.png",
     "detailImages": [],
     "availableSizesEU": [35, 36, 37, 38],
@@ -1464,9 +1436,9 @@
     "collection": "nike-cortez",
     "price": 65,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["white pink"],
-    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2d26a172-172b-418c-977b-6664373e2fc0/NIKE+KIDS+CORTEZ+%28GS%29.png",
+    "categories": ["kids", "all-shoes","cortez", "lifestyle", "new" , "latest-drops", "running", "big-kids"],
+    "colors": ["white","pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2d26a172-172b-418c-81ec-a58be618a312/NIKE+KIDS+CORTEZ+%28GS%29.png",
     "detailImages": [],
     "availableSizesEU": [35, 36, 37, 38],
     "sizeAvailability": {},
@@ -1482,8 +1454,8 @@
     "collection": "nike-cortez",
     "price": 60,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["white pink"],
+    "categories": ["kids", "all-shoes","cortez", "lifestyle", "new" , "latest-drops", "running", "little-kids"],
+    "colors": ["white","pink"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1f72149d-530f-41eb-9731-7e979168571f/NIKE+KIDS+CORTEZ+EASYON+%28PSV%29.png",
     "detailImages": [],
     "availableSizesEU": [28, 29, 30, 31],
@@ -1500,8 +1472,8 @@
     "collection": "nike-cortez",
     "price": 50,
     "genders": ["Baby/Toddler"],
-    "categories": ["Shoes", "Cortez"],
-    "colors": ["white pink"],
+    "categories": ["kids", "all-shoes","cortez", "lifestyle", "running", "toddlers"],
+    "colors": ["white","pink"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ac1e439c-19df-4e82-807d-20532db4bfa2/NIKE+KIDS+CORTEZ+EASYON+%28TDV%29.png",
     "detailImages": [],
     "availableSizesEU": [22, 23, 24, 25],
@@ -1511,15 +1483,13 @@
     "quantityAvailable": 50,
     "description": "Nike Cortez EasyOn Toddler Shoes – comfort and ease for early steps."
   },
-
-  
   {
     "id": "nike-c1ty-premium-cordura-shoes-1",
     "name": "Nike C1TY Premium CORDURA®",
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Unisex"],
-    "categories": ["Shoes", "Premium"],
+    "categories": ["men","women","all-shoes", "city", "premium", "lifestyle"],
     "colors": ["yellow"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fe0ff39e-09c9-4c29-ad4c-0ad2ab8fcf4e/NIKE+C1TY+PRM.png",
     "detailImages": [
@@ -1548,8 +1518,8 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "City"],
-    "colors": ["white blue"],
+    "categories": ["kids", "all-shoes", "city", "lifestyle"],
+    "colors": ["white","blue"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aac9b3ab-3462-4299-8545-5d8aaab1b85a/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aac9b3ab-3462-4299-8545-5d8aaab1b85a/NIKE+C1TY+%28GS%29.png"
@@ -1567,8 +1537,8 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "City"],
-    "colors": ["white blue green"],
+    "categories": ["kids", "all-shoes", "city", "new" , "new-arrivals", "lifestyle"],
+    "colors": ["white","blue","green"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dbc84569-84a5-4d82-afe4-d726dc5350ea/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dbc84569-84a5-4d82-afe4-d726dc5350ea/NIKE+C1TY+%28GS%29.png"
@@ -1586,8 +1556,8 @@
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Men"],
-    "categories": ["Shoes","City"],
-    "colors": ["brown white"],
+    "categories": ["men", "all-shoes", "city", "new" , "new-arrivals", "lifestyle"],
+    "colors": ["brown","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/497f159e-fd7b-4064-8985-27edc067d105/NIKE+C1TY.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/497f159e-fd7b-4064-8985-27edc067d105/NIKE+C1TY.png"
@@ -1605,8 +1575,8 @@
     "collection": "nike-c1ty",
     "price": 100,
     "genders": ["Unisex"],
-    "categories": ["Shoes","City"],
-    "colors": ["gray black red"],
+    "categories": ["men","women","all-shoes", "city", "lifestyle"],
+    "colors": ["gray","black","red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9fdd5d66-fbda-4a6d-982c-1d1b8e6e2309/NIKE+C1TY.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9fdd5d66-fbda-4a6d-982c-1d1b8e6e2309/NIKE+C1TY.png"
@@ -1624,8 +1594,8 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["Shoes", "City"],
-    "colors": ["black white"],
+    "categories": ["kids", "all-shoes", "city", "lifestyle"],
+    "colors": ["black","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/521f0cff-fd99-4f8c-9b3c-c878f180c99e/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/521f0cff-fd99-4f8c-9b3c-c878f180c99e/NIKE+C1TY+%28GS%29.png"
@@ -1643,8 +1613,8 @@
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Men"],
-    "categories": ["Shoes", "City"],
-    "colors": ["green white red black"],
+    "categories": ["men", "all-shoes", "city", "premium", "new" , "latest-drops", "lifestyle"],
+    "colors": ["green","white","red","black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/549721bf-bf57-4d6b-bf35-9ddec91c5c3f/NIKE+C1TY+PRM.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/549721bf-bf57-4d6b-bf35-9ddec91c5c3f/NIKE+C1TY+PRM.png"
@@ -1662,8 +1632,8 @@
     "collection": "nike-c1ty",
     "price": 105,
     "genders": ["Unisex"],
-    "categories": ["Shoes","City"],
-    "colors": ["blue white"],
+    "categories": ["men","women","all-shoes", "new" , "latest-drops", "city", "lifestyle"],
+    "colors": ["blue","white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15f61b59-52af-4fbd-8012-4b1b759307f9/NIKE+C1TY.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15f61b59-52af-4fbd-8012-4b1b759307f9/NIKE+C1TY.png"
@@ -1681,8 +1651,8 @@
     "collection": "nike-c1ty",
     "price": 115,
     "genders": ["Unisex"],
-    "categories": ["Shoes", "City"],
-    "colors": ["orange black"],
+    "categories": ["men","women","all-shoes", "city", "premium", "lifestyle"],
+    "colors": ["orange","black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e97f83f-cc3c-48e3-8cfa-03da70ec460e/NIKE+C1TY+PRM.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e97f83f-cc3c-48e3-8cfa-03da70ec460e/NIKE+C1TY+PRM.png"
@@ -1700,8 +1670,8 @@
     "collection": "nike-c1ty",
     "price": 100,
     "genders": ["Unisex"],
-    "categories": ["Shoes","City"],
-    "colors": ["white black yellow"],
+    "categories": ["men","women","all-shoes", "new" , "latest-drops", "city", "lifestyle"],
+    "colors": ["white","black","yellow"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aaebfafa-c137-495e-acd3-223be66de75b/NIKE+C1TY.png",
     "detailImages": [
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aaebfafa-c137-495e-acd3-223be66de75b/NIKE+C1TY.png"
@@ -1719,7 +1689,7 @@
     "collection": "nike-club",
     "price": 65,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies", "sweatshirts"],
+    "categories": ["men", "all-clothing", "new" , "new-arrivals", "hoodies"],
     "colors": ["white","grey"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/058ea263-4c74-41f8-b9dc-83a9e03fa569/M+NK+CLUB+BB+PO+HOODIE.png",
     "detailImages": [
@@ -1738,7 +1708,7 @@
     "collection": "nike-sportswear-club",
     "price": 75,
     "genders": ["Men"],
-    "categories": ["cloth", "sweatshirts"],
+    "categories": ["men", "all-clothing", "new" , "new-arrivals", "sweatshirts"],
     "colors": ["grey"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3cbd0a7c-f5d9-4fde-a6ca-04eb35cc8157/U+NSW+CREW+CLUB+BB+OC+3.png",
     "detailImages": [
@@ -1757,7 +1727,7 @@
     "collection": "nike-tech",
     "price": 130,
     "genders": ["Men"],
-    "categories": ["cloth", "sweatshirts"],
+    "categories": ["men", "all-clothing", "sweatshirts" , "new" , "latest-drops", "premium"],
     "colors": ["black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4bccc911-2a0a-49ae-9d5b-a6ca2fbbbd26/M+NK+TCH+FLC+CREW.png",
     "detailImages": [
@@ -1776,7 +1746,7 @@
     "collection": "nike-sportswear-club-air-max",
     "price": 75,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies"],
+    "categories": ["men", "all-clothing", "hoodies"],
     "colors": ["black grey"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a068c529-988d-4848-ac0f-9383d9776bb7/U+NSW+HDY+CLUB+BB+FW.png",
     "detailImages": [
@@ -1795,7 +1765,7 @@
     "collection": "nike-sportswear-club",
     "price": 75,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies"],
+    "categories": ["men", "all-clothing", "hoodies"],
     "colors": ["grey"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2515a0bc-4ea5-4b1f-a893-353fe75c42a2/M+NK+CLUB+BB+FZ+HDY+MECHA.png",
     "detailImages": [
@@ -1814,7 +1784,7 @@
     "collection": "nike-tech",
     "price": 140,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies"],
+    "categories": ["men", "all-clothing", "hoodies", "premium"],
     "colors": ["black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a31ccced-082b-4e38-9580-6e4695b8d9f9/M+NK+TCH+FLC+HOODIE.png",
     "detailImages": [
@@ -1833,7 +1803,7 @@
     "collection": "nike-club",
     "price": 75,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies"],
+    "categories": ["men", "all-clothing", "hoodies"],
     "colors": ["white grey"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/285c719d-d7b4-4022-aede-dea14737464f/M+NK+CLUB+BB+PO+HDY+NEXTUP.png",
     "detailImages": [
@@ -1852,7 +1822,7 @@
     "collection": "nike-sportswear-club",
     "price": 80,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies"],
+    "categories": ["men", "all-clothing", "hoodies"],
     "colors": ["orange white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c58abe83-367b-47c8-bd05-a4f52b4c8dc8/M+NK+CLUB+BB+GX+HDY+NEO+VAR.png",
     "detailImages": [
@@ -1865,21 +1835,13 @@
     "quantityAvailable": 16,
     "description": "Men's fleece hoodie with bold graphic design."
   },
-
-
-
-
-
-
-
-
   {
     "id": "nike-standard-issue-mens-therma-fit-pullover-basketball-hoodie",
     "name": "Nike Standard Issue",
     "collection": "nike-standard-issue",
     "price": 110,
     "genders": ["Men"],
-    "categories": ["men","all-clothing","hoodies"],
+    "categories": ["men", "all-clothing", "hoodies"],
     "colors": ["multicolor black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50f467e2-7ef5-4d50-a00f-41c383f50b36/M+NK+TF+SI+BRSH+PO+HD+NAOS+AOP.png",
     "detailImages": [
@@ -1892,20 +1854,13 @@
     "quantityAvailable": 14,
     "description": "Men's Therma-FIT pullover basketball hoodie from Nike Standard Issue."
   },
-
-
-
-
-
-
-
   {
     "id": "nike-air-mens-fleece-pullover-hoodie",
     "name": "Nike Air",
     "collection": "nike-air",
     "price": 80,
     "genders": ["Men"],
-    "categories": ["cloth", "hoodies"],
+    "categories": ["men", "all-clothing", "hoodies"],
     "colors": ["black white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67bd7a6a-d4d8-493f-985c-0b3f49b5ceb0/M+NIKE+AIR+FLC+PO+HOODIE+BFT.png",
     "detailImages": [
@@ -1917,5 +1872,650 @@
     "inStock": true,
     "quantityAvailable": 19,
     "description": "Men's fleece pullover hoodie with Nike Air style."
-  }
-]
+  },
+  {
+    "id": "nike-sportswear-collection-womens-pleated-track-jacket",
+    "name": "Nike Sportswear Collection",
+    "collection": "nike-sportswear-collection",
+    "price": 200,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "latest-drops"],
+    "colors": ["black", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f01472a-152d-4c41-a01c-3a3aa3927216/W+NSW+CLLCTN+PLEATD+TRK+JKT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f01472a-152d-4c41-a01c-3a3aa3927216/W+NSW+CLLCTN+PLEATD+TRK+JKT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Pleated design", "Track-inspired style", "Premium materials"],
+    "inStock": true,
+    "quantityAvailable": 8,
+    "description": "Women's Pleated Track Jacket from Nike Sportswear Collection."
+  },
+  {
+    "id": "nike-sportswear-collection-womens-pleated-track-pants",
+    "name": "Nike Sportswear Collection",
+    "collection": "nike-sportswear-collection",
+    "price": 160,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "latest-drops"],
+    "colors": ["black", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/78a25773-311e-4306-bfcf-b37696be656c/W+NSW+CLLCTN+PLEATD+TRK+PNT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/78a25773-311e-4306-bfcf-b37696be656c/W+NSW+CLLCTN+PLEATD+TRK+PNT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Mid-rise fit", "Pleated details", "Track-inspired silhouette"],
+    "inStock": true,
+    "quantityAvailable": 12,
+    "description": "Women's Mid-Rise Pleated Track Pants from Nike Sportswear Collection."
+  },
+  {
+    "id": "nike-sportswear-windrunner-womens-shine-vest",
+    "name": "Nike Sportswear Windrunner",
+    "collection": "nike-windrunner",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "best-sellers"],
+    "colors": ["silver", "black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/32ef3915-bb83-443d-892d-2e33edb95835/W+NSW+NK+LIQ+SHINE+VEST.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/32ef3915-bb83-443d-892d-2e33edb95835/W+NSW+NK+LIQ+SHINE+VEST.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Liquid shine finish", "Windrunner heritage", "Packable design"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Women's Shine Vest from Nike Sportswear Windrunner collection."
+  },
+  {
+    "id": "nike-sportswear-windrunner-womens-shine-pants",
+    "name": "Nike Sportswear Windrunner",
+    "collection": "nike-windrunner",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "best-sellers"],
+    "colors": ["silver", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/43ad523d-3357-440c-ba8f-dc904cc2cb22/W+NSW+NK+LIQ+SHINE+PANT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/43ad523d-3357-440c-ba8f-dc904cc2cb22/W+NSW+NK+LIQ+SHINE+PANT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Liquid shine finish", "Windrunner heritage", "Tapered fit"],
+    "inStock": true,
+    "quantityAvailable": 15,
+    "description": "Women's Shine Pants from Nike Sportswear Windrunner collection."
+  },
+  {
+    "id": "nike-sportswear-womens-v-neck-jersey-top",
+    "name": "Nike Sportswear",
+    "collection": "nike-sportswear",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing"],
+    "colors": ["white", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6580735e-e042-4708-b41f-ea2eaf171ae7/W+NSW+V+NECK+JERSEY.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6580735e-e042-4708-b41f-ea2eaf171ae7/W+NSW+V+NECK+JERSEY.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["V-neck design", "Soft jersey fabric", "Classic fit"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Women's V-Neck Jersey Top from Nike Sportswear."
+  },
+  {
+    "id": "nike-sportswear-womens-wide-leg-track-pants",
+    "name": "Nike Sportswear",
+    "collection": "nike-sportswear",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing"],
+    "colors": ["black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/60013fd9-0d62-4365-b177-529879835ef8/W+NSW+WIDE+LEG+TRACK+PNT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/60013fd9-0d62-4365-b177-529879835ef8/W+NSW+WIDE+LEG+TRACK+PNT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Wide-leg silhouette", "Mid-rise fit", "Track-inspired design"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Women's Mid-Rise Wide-Leg Track Pants from Nike Sportswear."
+  },
+  {
+    "id": "nike-sportswear-windrunner-womens-knit-jacket",
+    "name": "Nike Sportswear Windrunner",
+    "collection": "nike-windrunner",
+    "price": 100,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "best-sellers"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3dbe83b8-502b-41da-938f-c5b785226254/W+NSW+NK+WR+POLY+KNIT+JKT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3dbe83b8-502b-41da-938f-c5b785226254/W+NSW+NK+WR+POLY+KNIT+JKT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Windrunner heritage", "Knit construction", "Full-zip closure"],
+    "inStock": true,
+    "quantityAvailable": 14,
+    "description": "Women's Knit Jacket from Nike Sportswear Windrunner collection."
+  },
+  {
+    "id": "nike-sportswear-windrunner-womens-knit-skirt",
+    "name": "Nike Sportswear Windrunner",
+    "collection": "nike-windrunner",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "skirts-dresses"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7402776e-762d-4ce8-abff-4b9e205296a3/W+NSW+NK+WR+POLY+KNIT+SKIRT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7402776e-762d-4ce8-abff-4b9e205296a3/W+NSW+NK+WR+POLY+KNIT+SKIRT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Knit fabric", "Windrunner styling", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Women's Knit Skirt from Nike Sportswear Windrunner collection."
+  },
+  {
+    "id": "nike-pro-womens-dri-fit-loose-crew-sweatshirt",
+    "name": "Nike Pro",
+    "collection": "nike-pro",
+    "price": 70,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "hoodies"],
+    "colors": ["grey", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5bf62bdc-171e-4524-81cf-083fb9f9e566/W+NP+DF+FLC+CREW+TT+GRX.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5bf62bdc-171e-4524-81cf-083fb9f9e566/W+NP+DF+FLC+CREW+TT+GRX.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Dri-FIT technology", "Loose fit", "French terry fabric"],
+    "inStock": true,
+    "quantityAvailable": 16,
+    "description": "Women's Dri-FIT Loose Crew-Neck French Terry Sweatshirt from Nike Pro."
+  },
+  {
+    "id": "nike-zenvy-womens-high-waisted-capri-leggings",
+    "name": "Nike Zenvy",
+    "collection": "nike-zenvy",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "new-arrivals"],
+    "colors": ["black", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/406c50d8-a422-40a1-bf70-4236960e0d5c/W+NK+DF+ZENVY+HR+CAPRI+TGHT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/406c50d8-a422-40a1-bf70-4236960e0d5c/W+NK+DF+ZENVY+HR+CAPRI+TGHT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["High-waisted design", "Capri length", "Zenvy fabric technology"],
+    "inStock": true,
+    "quantityAvailable": 30,
+    "description": "Women's High-Waisted Capri Leggings from Nike Zenvy collection."
+  },
+  {
+    "id": "nike-sportswear-womens-jacquard-striped-skirt",
+    "name": "Nike Sportswear",
+    "collection": "nike-sportswear",
+    "price": 60,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "skirts-dresses"],
+    "colors": ["black", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5871950f-b6c9-49fa-a0b7-abc3adc51519/W+NSW+JQRD+STRIPE+TRACK+SKIRT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5871950f-b6c9-49fa-a0b7-abc3adc51519/W+NSW+JQRD+STRIPE+TRACK+SKIRT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Jacquard striped pattern", "Track-inspired design", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Women's Jacquard Striped Skirt from Nike Sportswear."
+  },
+  {
+    "id": "kobe-womens-woven-skirt",
+    "name": "Kobe",
+    "collection": "kobe",
+    "price": 130,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "skirts-dresses"],
+    "colors": ["black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fddfe32e-64b9-4622-a040-a53286a2020c/KB+W+WVN+SKIRT+W%2F+FEAT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fddfe32e-64b9-4622-a040-a53286a2020c/KB+W+WVN+SKIRT+W%2F+FEAT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Woven construction", "Kobe heritage design", "Premium materials"],
+    "inStock": true,
+    "quantityAvailable": 12,
+    "description": "Women's Woven Skirt from Kobe collection."
+  },
+  {
+    "id": "nike-sportswear-womens-cargo-mini-skirt",
+    "name": "Nike Sportswear",
+    "collection": "nike-sportswear",
+    "price": 90,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "skirts-dresses"],
+    "colors": ["black", "olive"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da5ba021-0bb3-42fc-80a9-452b353ed325/W+NSW+STREET+4%22+CARGO+SKIRT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da5ba021-0bb3-42fc-80a9-452b353ed325/W+NSW+STREET+4%22+CARGO+SKIRT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Mini length", "Cargo pockets", "Street-inspired design"],
+    "inStock": true,
+    "quantityAvailable": 15,
+    "description": "Women's Cargo Mini Skirt from Nike Sportswear."
+  },
+  {
+    "id": "nike-sportswear-womens-loose-cargo-skirt",
+    "name": "Nike Sportswear",
+    "collection": "nike-sportswear",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "skirts-dresses"],
+    "colors": ["black", "khaki"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26ec3d09-9a32-48a8-a75c-cf1bafae099c/W+NSW+STREET+CARGO+SKIRT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26ec3d09-9a32-48a8-a75c-cf1bafae099c/W+NSW+STREET+CARGO+SKIRT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Loose fit", "Cargo styling", "Street fashion"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Women's Loose Cargo Skirt from Nike Sportswear."
+  },
+  {
+    "id": "nike-247-perfectstretch-womens-dri-fit-pleated-shorts",
+    "name": "Nike 24.7 PerfectStretch",
+    "collection": "nike-247-perfectstretch",
+    "price": 90,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "shorts"],
+    "colors": ["black", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fab808c3-8c1e-4d8a-b1ef-954f1efc3ab1/W+NK+24.7+DF+PLEATED+SKORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fab808c3-8c1e-4d8a-b1ef-954f1efc3ab1/W+NK+24.7+DF+PLEATED+SKORT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "High-waisted design", "Pleated styling", "PerfectStretch fabric"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Women's Dri-FIT High-Waisted Loose Pleated Shorts from Nike 24.7 PerfectStretch."
+  },
+  {
+    "id": "nike-x-lego-collection-big-kids-t-shirt",
+    "name": "Nike x LEGO® Collection",
+    "collection": "nike-x-lego",
+    "price": 35,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "jordan", "jordan-kids-all", "jordan-kids-clothing"],
+    "colors": ["multi"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e614cacf-7aba-44dd-ba32-6fe51860a319/B+NK+DF+MULTI+SS++TOP+LBR+HTHR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e614cacf-7aba-44dd-ba32-6fe51860a319/B+NK+DF+MULTI+SS++TOP+LBR+HTHR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Short-sleeve design", "Multi-sport functionality"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Big Kids' Dri-FIT Short-Sleeve Top from Nike Multi."
+  },
+  {
+    "id": "nike-multi-big-kids-dri-fit-training-shorts",
+    "name": "Nike Multi",
+    "collection": "nike-multi",
+    "price": 25,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "new-arrivals"],
+    "colors": ["black", "white", "grey", "navy", "red", "green", "blue", "purple", "pink", "yellow", "orange", "khaki"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/090a8e74-c0f6-4d0a-af8f-e9d26067b308/B+NK+DF+MULTI+WVN+SHORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/090a8e74-c0f6-4d0a-af8f-e9d26067b308/B+NK+DF+MULTI+WVN+SHORT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Dri-FIT moisture management", "Training design", "Multi-sport versatility"],
+    "inStock": true,
+    "quantityAvailable": 32,
+    "description": "Big Kids' Dri-FIT Training Shorts from Nike Multi."
+  },
+  {
+    "id": "nike-sportswear-club-fleece-big-kids-hooded-tracksuit",
+    "name": "Nike Sportswear Club Fleece",
+    "collection": "nike-sportswear-club-fleece",
+    "price": 90,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "hoodies", "best-sellers"],
+    "colors": ["black", "grey", "navy", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/daeb6a3f-5e99-4526-a152-73628376a1a7/K+NSW+CLUB+FLC+HDY+TRACKSUIT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/daeb6a3f-5e99-4526-a152-73628376a1a7/K+NSW+CLUB+FLC+HDY+TRACKSUIT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Fleece construction", "Hooded design", "Complete tracksuit set"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Big Kids' Hooded Tracksuit from Nike Sportswear Club Fleece."
+  },
+  {
+    "id": "nike-tech-big-kids-boys-woven-jacket",
+    "name": "Nike Tech",
+    "collection": "nike-tech",
+    "price": 110,
+    "genders": ["Boys"],
+    "categories": ["kids", "all-clothing", "jordan", "jordan-kids-all", "jordan-big-kids"],
+    "colors": ["black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/801fb1cd-4cc7-4dd7-9a92-a161aeeec85c/B+NSW+TCH+WVN+FZ+JKT+CB+SSNL.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/801fb1cd-4cc7-4dd7-9a92-a161aeeec85c/B+NSW+TCH+WVN+FZ+JKT+CB+SSNL.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Tech construction", "Woven material", "Boys' specific fit"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Big Kids' (Boys') Woven Jacket from Nike Tech."
+  },
+  {
+    "id": "nike-tech-big-kids-boys-woven-pants",
+    "name": "Nike Tech",
+    "collection": "nike-tech",
+    "price": 95,
+    "genders": ["Boys"],
+    "categories": ["kids", "all-clothing", "new-arrivals"],
+    "colors": ["black", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4a341cba-8d61-4f29-9f7f-df9a887a069b/B+NSW+TCH+WVN+PANT+CB+SSNL.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4a341cba-8d61-4f29-9f7f-df9a887a069b/B+NSW+TCH+WVN+PANT+CB+SSNL.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Woven construction", "Tech design", "Modern fit"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Big Kids' (Boys') Woven Pants from Nike Tech."
+  },
+  {
+    "id": "nike-sportswear-tech-fleece-big-kids-boys-oversized-pullover-hoodie",
+    "name": "Nike Sportswear Tech Fleece",
+    "collection": "nike-sportswear-tech-fleece",
+    "price": 110,
+    "genders": ["Boys"],
+    "categories": ["kids", "all-clothing", "hoodies", "jordan", "jordan-kids-all", "jordan-big-kids"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b8a47034-2b3d-4760-840d-ec7469a33200/B+NSW+TCH+FLC+OVRS+PO+HDY-PD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b8a47034-2b3d-4760-840d-ec7469a33200/B+NSW+TCH+FLC+OVRS+PO+HDY-PD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Tech Fleece fabric", "Oversized fit", "Pullover style"],
+    "inStock": true,
+    "quantityAvailable": 16,
+    "description": "Big Kids' (Boys') Oversized Pullover Hoodie from Nike Sportswear Tech Fleece."
+  },
+  {
+    "id": "nike-sportswear-tech-fleece-big-kids-boys-shorts",
+    "name": "Nike Sportswear Tech Fleece",
+    "collection": "nike-sportswear-tech-fleece",
+    "price": 65,
+    "genders": ["Boys"],
+    "categories": ["kids", "all-clothing", "best-sellers"],
+    "colors": ["black", "grey", "navy", "green", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/46364efb-3e14-4242-9a86-2e242bac8f2d/B+NSW+TCH+FLC+SHORT+-+PD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/46364efb-3e14-4242-9a86-2e242bac8f2d/B+NSW+TCH+FLC+SHORT+-+PD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Tech Fleece material", "Athletic shorts design", "Boys' fit"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Big Kids' (Boys') Shorts from Nike Sportswear Tech Fleece."
+  },
+  {
+    "id": "nike-sportswear-club-fleece-big-kids-full-zip-hoodie",
+    "name": "Nike Sportswear Club Fleece",
+    "collection": "nike-sportswear-club-fleece",
+    "price": 50,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "hoodies", "jordan", "jordan-kids-all", "jordan-big-kids"],
+    "colors": ["black", "grey", "navy", "white", "red", "green", "blue", "purple"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/797cef4d-9c48-4ed5-a72b-7654ffcd613d/K+NSW+CLUB+FLC+HD+FZ+LS+LBR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/797cef4d-9c48-4ed5-a72b-7654ffcd613d/K+NSW+CLUB+FLC+HD+FZ+LS+LBR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Full-zip design", "Club Fleece fabric", "Classic fit"],
+    "inStock": true,
+    "quantityAvailable": 30,
+    "description": "Big Kids' Full-Zip Hoodie from Nike Sportswear Club Fleece."
+  },
+  {
+    "id": "nike-sportswear-club-big-kids-6-knit-shorts",
+    "name": "Nike Sportswear Club",
+    "collection": "nike-sportswear-club",
+    "price": 30,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "new-arrivals"],
+    "colors": ["black", "grey", "navy", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a36a38bc-7d1d-4ce9-8078-e88eda915037/K+NSW+CLUB+KNIT+SHORT+6IN+LBR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a36a38bc-7d1d-4ce9-8078-e88eda915037/K+NSW+CLUB+KNIT+SHORT+6IN+LBR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["6-inch inseam", "Knit construction", "Club design"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Big Kids' 6\" Knit Shorts from Nike Sportswear Club."
+  },
+  {
+    "id": "nike-sportswear-club-fleece-big-kids-sweatshirt",
+    "name": "Nike Sportswear Club Fleece",
+    "collection": "nike-sportswear-club-fleece",
+    "price": 40,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "jordan", "jordan-kids-all", "jordan-kids-clothing"],
+    "colors": ["black", "grey", "navy", "white", "red", "green", "blue", "purple", "pink", "yellow", "orange", "brown"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a8c58c2c-2a2a-4315-b100-ea4f4998ab7e/K+NSW+CLUB+FLC+CREW+LS+LBR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a8c58c2c-2a2a-4315-b100-ea4f4998ab7e/K+NSW+CLUB+FLC+CREW+LS+LBR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Crew neck design", "Fleece material", "Classic sweatshirt"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Big Kids' Sweatshirt from Nike Sportswear Club Fleece."
+  },
+  {
+    "id": "nike-sportswear-club-fleece-big-kids-joggers",
+    "name": "Nike Sportswear Club Fleece",
+    "collection": "nike-sportswear-club-fleece",
+    "price": 45,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "best-sellers"],
+    "colors": ["black", "grey", "navy", "white", "red", "green", "blue", "purple", "pink", "yellow", "orange", "brown", "khaki", "maroon", "teal", "lime", "coral", "mint", "lavender", "charcoal"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/83612a8d-4313-4170-9796-aed86c2d5f16/K+NSW+CLUB+FLC+JGGR+LBR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/83612a8d-4313-4170-9796-aed86c2d5f16/K+NSW+CLUB+FLC+JGGR+LBR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Jogger style", "Fleece fabric", "Elastic waistband"],
+    "inStock": true,
+    "quantityAvailable": 40,
+    "description": "Big Kids' Joggers from Nike Sportswear Club Fleece."
+  },
+  {
+    "id": "nike-pro-fleece-big-kids-girls-dri-fit-full-zip-hoodie",
+    "name": "Nike Pro Fleece",
+    "collection": "nike-pro-fleece",
+    "price": 55,
+    "genders": ["Girls"],
+    "categories": ["kids", "all-clothing", "hoodies", "jordan", "jordan-kids-all", "jordan-big-kids"],
+    "colors": ["black", "grey", "navy", "pink", "purple", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6f63b41f-a65d-42b2-abc8-5af1f7dac7a9/G+NP+DF+FZ+FLC+HDY.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6f63b41f-a65d-42b2-abc8-5af1f7dac7a9/G+NP+DF+FZ+FLC+HDY.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Full-zip closure", "Girls' specific fit"],
+    "inStock": true,
+    "quantityAvailable": 24,
+    "description": "Big Kids' (Girls') Dri-FIT Full-Zip Hoodie from Nike Pro Fleece."
+  },
+  {
+    "id": "nike-pro-fleece-big-kids-girls-dri-fit-joggers",
+    "name": "Nike Pro Fleece",
+    "collection": "nike-pro-fleece",
+    "price": 45,
+    "genders": ["Girls"],
+    "categories": ["kids", "all-clothing", "new-arrivals"],
+    "colors": ["black", "grey", "navy", "pink", "purple", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29ff1d80-23fa-4715-aa49-cc9469c875e7/G+NP+DF+FLC+JGGR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29ff1d80-23fa-4715-aa49-cc9469c875e7/G+NP+DF+FLC+JGGR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Dri-FIT moisture management", "Fleece construction", "Jogger fit"],
+    "inStock": true,
+    "quantityAvailable": 26,
+    "description": "Big Kids' (Girls') Dri-FIT Joggers from Nike Pro Fleece."
+  },
+  {
+    "id": "nike-sportswear-tech-fleece-big-kids-full-zip-hoodie",
+    "name": "Nike Sportswear Tech Fleece",
+    "collection": "nike-sportswear-tech-fleece",
+    "price": 105,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "hoodies", "jordan", "jordan-kids-all", "jordan-big-kids"],
+    "colors": ["black", "grey", "navy", "white", "red", "green", "blue", "purple", "pink", "yellow", "orange", "brown", "khaki", "maroon", "teal", "lime", "coral", "mint", "lavender", "charcoal", "beige", "olive"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f8d3748-8a53-4ef5-b249-89f87ad1481b/B+NSW+TCH+FLC+FZ+-+PD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f8d3748-8a53-4ef5-b249-89f87ad1481b/B+NSW+TCH+FLC+FZ+-+PD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Tech Fleece fabric", "Full-zip design", "Premium construction"],
+    "inStock": true,
+    "quantityAvailable": 32,
+    "description": "Big Kids' Full-Zip Hoodie from Nike Sportswear Tech Fleece."
+  },
+  {
+    "id": "nike-sportswear-tech-fleece-big-kids-joggers",
+    "name": "Nike Sportswear Tech Fleece",
+    "collection": "nike-sportswear-tech-fleece",
+    "price": 90,
+    "genders": ["Kids"],
+    "categories": ["kids", "all-clothing", "best-sellers"],
+    "colors": ["black", "grey", "navy", "white", "red", "green", "blue", "purple", "pink", "yellow", "orange", "brown", "khaki", "maroon", "teal", "lime", "coral", "mint"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/226c71b4-ffe8-49ca-a43d-22c79e287f39/B+NSW+TCH+FLC+JGGR+-+PD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/226c71b4-ffe8-49ca-a43d-22c79e287f39/B+NSW+TCH+FLC+JGGR+-+PD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Tech Fleece material", "Tapered jogger fit", "Premium details"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Big Kids' Joggers from Nike Sportswear Tech Fleece."
+  },
+  {
+    "id": "nike-sportswear-tech-fleece-girls-full-zip-hoodie",
+    "name": "Nike Sportswear Tech Fleece",
+    "collection": "nike-sportswear-tech-fleece",
+    "price": 105,
+    "genders": ["Girls"],
+    "categories": ["kids", "all-clothing", "hoodies", "jordan", "jordan-kids-all", "jordan-little-kids"],
+    "colors": ["black", "grey", "navy", "pink", "purple", "white", "coral"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/917897a2-57c4-4da7-b9c2-f40d514d59f7/G+NSW+TCH+FLC+HD+FZ+LS+-+PD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/917897a2-57c4-4da7-b9c2-f40d514d59f7/G+NSW+TCH+FLC+HD+FZ+LS+-+PD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Tech Fleece construction", "Girls' tailored fit", "Full-zip closure"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Girls' Full-Zip Hoodie from Nike Sportswear Tech Fleece."
+  },
+  {
+    "id": "nike-sportswear-tech-fleece-girls-joggers",
+    "name": "Nike Sportswear Tech Fleece",
+    "collection": "nike-sportswear-tech-fleece",
+    "price": 90,
+    "genders": ["Girls"],
+    "categories": ["kids", "all-clothing", "new-arrivals"],
+    "colors": ["black", "grey", "navy", "pink", "purple", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f5800937-540e-4bbc-a107-bea0f45e9c0b/G+NSW+TCH+FLC+JGGR+-+PD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f5800937-540e-4bbc-a107-bea0f45e9c0b/G+NSW+TCH+FLC+JGGR+-+PD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Tech Fleece fabric", "Girls' fit", "Jogger styling"],
+    "inStock": true,
+    "quantityAvailable": 24,
+    "description": "Girls' Joggers from Nike Sportswear Tech Fleece."
+  },
+  {
+    "id": "nike-pro-girls-dri-fit-training-tank-top",
+    "name": "Nike Pro",
+    "collection": "nike-pro",
+    "price": 35,
+    "genders": ["Girls"],
+    "categories": ["kids", "all-clothing", "jordan", "jordan-kids-all", "jordan-little-kids"],
+    "colors": ["black", "white", "pink", "purple", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c4253102-7271-4c66-be2e-0ac0b6562954/G+NP+DF+TANK.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c4253102-7271-4c66-be2e-0ac0b6562954/G+NP+DF+TANK.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Dri-FIT technology", "Training design", "Tank top style"],
+    "inStock": true,
+    "quantityAvailable": 30,
+    "description": "Girls' Dri-FIT Training Tank Top from Nike Pro."
+  },
+  {
+    "id": "nike-pro-fleece-big-kids-girls-dri-fit-shorts",
+    "name": "Nike Pro Fleece",
+    "collection": "nike-pro-fleece",
+    "price": 40,
+    "genders": ["Girls"],
+    "categories": ["kids", "all-clothing", "best-sellers"],
+    "colors": ["black", "grey", "navy", "pink", "purple", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b52fa46-426a-400b-b741-771b81e21e46/G+NP+DF+FLC+SHORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b52fa46-426a-400b-b741-771b81e21e46/G+NP+DF+FLC+SHORT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Dri-FIT moisture wicking", "Fleece construction", "Girls' fit"],
+    "inStock": true,
+    "quantityAvailable": 26,
+    "description": "Big Kids' (Girls') Dri-FIT Shorts from Nike Pro Fleece."
+  }]

@@ -1,10 +1,12 @@
 import { useParams } from "react-router";
 import Slider from "./Slider"
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import productData from '../provider/products.json'
 import BagNotification from './BagNotification'
+import { BasketContext } from "../provider/context";
 
-const Details = ({bagNotification, setBagNotification,basket, setBasket}) => {
+const Details = () => {
+    const {bagNotification, setBagNotification,basket, setBasket} = useContext(BasketContext)
 
     const {productId} = useParams()
     const product = productData.find(el => el.id == productId)
