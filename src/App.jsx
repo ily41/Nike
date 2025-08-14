@@ -9,6 +9,8 @@ import { useEffect, useState } from 'react'
 import Cart from './components/Cart'
 import { BasketContext, FilterContext } from './provider/context'
 import Men from './components/Men'
+import Women from './components/Women'
+import Kids from './components/Kids'
 
 
 
@@ -35,25 +37,27 @@ const App = () => {
       <div className="flex flex-col min-h-screen">
         <BasketContext value={{basket, setBasket, bagNotification, setBagNotification}}>
           <FilterContext value = {{showFilter,setShowFilter,products, setProducts,filtered, setFiltered}}>
-          <Header />
-          <main className="flex-grow">
-            <Routes>
-              <Route path="/" element={<Main />} />
-              <Route path="/products/:category/:subCategory?" element={<Products />} />
-    
-              <Route
-                path="/details/:productId"
-                element={
-                  
-                    <Details />
-                  
-                }
-              />
-              <Route path="/cart" element={<Cart/>} />
-              <Route path='/men' element={<Men/>} />
-            </Routes>
-          </main>
-          {/* <Footer /> */}
+            <Header />
+            <main className="flex-grow">
+              <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/products/:category/:subCategory?" element={<Products />} />
+
+                <Route
+                  path="/details/:productId"
+                  element={
+
+                      <Details />
+
+                  }
+                />
+                <Route path="/cart" element={<Cart/>} />
+                <Route path='/men' element={<Men/>} />
+                <Route path='/women' element={<Women/>} />
+                <Route path='/kids' element={<Kids/>} />
+              </Routes>
+            </main>
+            <Footer />
           </FilterContext>
         </BasketContext>
       </div>

@@ -51,8 +51,16 @@
   src: url('/public/Fonts/HelveticaNow/helveticanowtext-black-demo.ttf');
   font-weight: 500;
   font-style: normal;
+  transform: scaleX(0.8) !important;
+  
 }
 
+@font-face {
+  font-family: 'helveticaNowEBold';
+  src: url('/public/Fonts/HelveticaNow/helvetica-now-text-extra-bold.woff2');
+  font-weight: 500;
+  font-style: Bold;
+}
 .swiper-pagination-bullet {
   height:5px !important;
   width: 5px !important;
