@@ -2518,4 +2518,131 @@
     "inStock": true,
     "quantityAvailable": 26,
     "description": "Big Kids' (Girls') Dri-FIT Shorts from Nike Pro Fleece."
-  }]
+  },
+  {
+    "id": "AJ12-001",
+    "name": "Air Jordan 12 Retro \"French Blue\"",
+    "collection": "air-jordan-12",
+    "price": 150,
+    "genders": ["Big Kids"],
+    "categories": ["kids", "all-shoes", "air-jordan", "basketball", "jordan", "jordanPage", "jordan-big-kids", "jordan-kids-shoes", "jordan-kids-all", "big-kids"],
+    "colors": ["Blue", "White"],
+    "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/366bdb98-088c-49fe-a25a-2c9910ade633/air-jordan-12-retro-french-blue-big-kids-shoes-pz28oX9z.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/366bdb98-088c-49fe-a25a-2c9910ade633/air-jordan-12-retro-french-blue-big-kids-shoes-pz28oX9z.png",
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/366bdb98-088c-49fe-a25a-2c9910ade633/air-jordan-12-retro-french-blue-big-kids-shoes-pz28oX9z.png"
+    ],
+    "availableSizesEU": ["35", "36", "37", "38", "39", "40"],
+    "sizeAvailability": {"35": true, "36": true, "37": false, "38": true, "39": true, "40": false},
+    "features": ["Premium leather upper", "Air-Sole cushioning", "Rubber outsole for traction"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "The Air Jordan 12 Retro \"French Blue\" for Big Kids combines classic style with modern comfort.",
+    "link": "https://www.nike.com/t/air-jordan-12-retro-french-blue-big-kids-shoes-pz28oX9z/153265-114"
+  },
+  {
+    "id": "AJ12-002", 
+    "name": "Jordan 12 Retro \"French Blue\"",
+    "collection": "air-jordan-12",
+    "price": 90,
+    "genders": ["Little Kids"],
+    "categories": ["kids", "all-shoes", "air-jordan", "basketball", "jordan", "jordanPage", "jordan-little-kids", "jordan-kids-shoes", "jordan-kids-all", "little-kids"],
+    "colors": ["Blue", "White"],
+    "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/03d12973-bf69-469a-91ae-a14c797216a8/jordan-12-retro-french-blue-little-kids-shoes-pz28oX9z.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/03d12973-bf69-469a-91ae-a14c797216a8/jordan-12-retro-french-blue-little-kids-shoes-pz28oX9z.png",
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/03d12973-bf69-469a-91ae-a14c797216a8/jordan-12-retro-french-blue-little-kids-shoes-pz28oX9z.png"
+    ],
+    "availableSizesEU": ["27", "28", "29", "30", "31", "32"],
+    "sizeAvailability": {"27": true, "28": true, "29": true, "30": false, "31": true, "32": true},
+    "features": ["Durable construction", "Comfortable fit", "Classic Jordan design"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "The Jordan 12 Retro \"French Blue\" for Little Kids offers iconic style in smaller sizes.",
+    "link": "https://www.nike.com/t/jordan-12-retro-french-blue-little-kids-shoes-pz28oX9z/151186-114"
+  },
+  {
+    "id": "AJ12-003",
+    "name": "Jordan 12 Retro \"French Blue\"",
+    "collection": "air-jordan-12", 
+    "price": 75,
+    "genders": ["Baby/Toddler"],
+    "categories": ["kids", "all-shoes", "air-jordan", "basketball", "jordan", "jordanPage", "jordan-toddler-kids", "jordan-kids-shoes", "jordan-kids-all", "toddlers"],
+    "colors": ["Blue", "White"],
+    "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/36603684-e4d0-4271-87f4-722b8deb9aa6/jordan-12-retro-french-blue-baby-toddler-shoes-aaNSL4pF.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/36603684-e4d0-4271-87f4-722b8deb9aa6/jordan-12-retro-french-blue-baby-toddler-shoes-aaNSL4pF.png",
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/36603684-e4d0-4271-87f4-722b8deb9aa6/jordan-12-retro-french-blue-baby-toddler-shoes-aaNSL4pF.png"
+    ],
+    "availableSizesEU": ["17", "18", "19", "20", "21", "22"],
+    "sizeAvailability": {"17": true, "18": true, "19": true, "20": true, "21": false, "22": true},
+    "features": ["Easy on/off design", "Soft materials", "Jordan branding"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "The Jordan 12 Retro \"French Blue\" for Baby/Toddler provides comfort and style for the littlest Jordan fans.",
+    "link": "https://www.nike.com/t/jordan-12-retro-french-blue-baby-toddler-shoes-aaNSL4pF/850000-114"
+  },
+  {
+    "id": "AJ1-007",
+    "name": "Air Jordan 1 Retro Low",
+    "collection": "air-jordan-1",
+    "price": 165,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "air-jordan", "lifestyle", "jordan", "jordanPage", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["Multi"],
+    "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/3d2e8974-4a7b-4a46-aef6-256e68d9a2a6/air-jordan-1-retro-low-mens-shoes-w7zHBcev.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/3d2e8974-4a7b-4a46-aef6-256e68d9a2a6/air-jordan-1-retro-low-mens-shoes-w7zHBcev.png",
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/3d2e8974-4a7b-4a46-aef6-256e68d9a2a6/air-jordan-1-retro-low-mens-shoes-w7zHBcev.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45"],
+    "sizeAvailability": {"39": true, "40": false, "41": true, "42": true, "43": false, "44": true, "45": true},
+    "features": ["Premium leather", "Air-Sole unit", "Low-top silhouette"],
+    "inStock": true,
+    "quantityAvailable": 32,
+    "description": "The Air Jordan 1 Retro Low offers the iconic AJ1 style in a versatile low-top design.",
+    "link": "https://www.nike.com/launch/t/air-jordan-1-retro-low-mens-shoes-w7zHBcev"
+  },
+  {
+    "id": "AJ8-001",
+    "name": "Air Jordan 8 Retro \"Aqua\"",
+    "collection": "air-jordan-8",
+    "price": 215,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "air-jordan", "basketball", "jordan", "jordanPage", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["Black", "Aqua", "White"],
+    "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/18255d45-84bc-4d06-91e4-a4d434d980ea/air-jordan-8-retro-aqua-mens-shoes-GqvwTv.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/18255d45-84bc-4d06-91e4-a4d434d980ea/air-jordan-8-retro-aqua-mens-shoes-GqvwTv.png",
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/18255d45-84bc-4d06-91e4-a4d434d980ea/air-jordan-8-retro-aqua-mens-shoes-GqvwTv.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": false, "43": true, "44": true, "45": false, "46": true},
+    "features": ["Cross-strap design", "Phylon midsole", "Rubber outsole"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "The Air Jordan 8 Retro \"Aqua\" brings back the classic colorway with premium materials and retro styling.",
+    "link": "https://www.nike.com/t/air-jordan-8-retro-aqua-mens-shoes-GqvwTv/305381-006"
+  },
+  {
+    "id": "AJ4-001",
+    "name": "Air Jordan 4 Retro \"Rare Air\"",
+    "collection": "air-jordan-4",
+    "price": 220,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "air-jordan", "basketball", "jordan", "jordanPage", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["Black", "Grey"],
+    "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/540653a2-a2aa-4e3a-8c33-6451f258946c/air-jordan-4-retro-rare-air-mens-shoes-R20n6n.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_424,c_limit/540653a2-a2aa-4e3a-8c33-6451f258946c/air-jordan-4-retro-rare-air-mens-shoes-R20n6n.png",
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/540653a2-a2aa-4e3a-8c33-6451f258946c/air-jordan-4-retro-rare-air-mens-shoes-R20n6n.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": false, "41": true, "42": true, "43": true, "44": false, "45": true, "46": true},
+    "features": ["Mesh panels", "Visible Air unit", "Wing eyelets"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "The Air Jordan 4 Retro \"Rare Air\" features the iconic AJ4 silhouette with premium construction and classic details.",
+    "link": "https://www.nike.com/t/air-jordan-4-retro-rare-air-mens-shoes-R20n6n/FV5029-003"
+  }
+]

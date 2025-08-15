@@ -2,6 +2,7 @@ import {createContext} from "react"
 
 const BasketContext = createContext()
 const FilterContext = createContext()
+const JordanContext = createContext()
 
-export { BasketContext,FilterContext}
+export { BasketContext,FilterContext,JordanContext}
 

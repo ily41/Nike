@@ -1,19 +1,5 @@
 [
-  {
-    "id": 1,
-    "name": "New",
-    "slug": "new",
-    "subCategories": [
-      {
-        "title": "New & Featured",
-        "categories": [
-          { "id": 11, "name": "New Arrivals", "slug": "new-arrivals" },
-          { "id": 12, "name": "Best Sellers", "slug": "best-sellers" },
-          { "id": 13, "name": "Latest Drops", "slug": "latest-drops" }
-        ]
-      }
-    ]
-  },
+  
   {
     "id": 2,
     "name": "Men",

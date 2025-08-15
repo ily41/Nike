@@ -1,7 +1,6 @@
 import React from 'react'
 
 const MainPageUI = ({cardInfo}) => {
-    console.log(cardInfo)
   return (
      <div className='mt-8'>
             
