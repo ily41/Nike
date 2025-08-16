@@ -98,7 +98,7 @@ const Products = () => {
             <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>
                 
                 {filtered.map((el,idx) => (
-                    <Link key={idx} to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image}/></Link>
+                    <Link key={idx} to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image} categories={category}/></Link>
                 ))}
                 
             </div>

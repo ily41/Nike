@@ -6,7 +6,7 @@ import { Link } from 'react-router'
 const Jordan = () => {
 
     const productsInUse = products.filter(el => el.categories.includes("jordanPage"))
-    console.log(productsInUse)
+
 
   return (
     <div className='bg-[#1F1F21]'>
@@ -31,24 +31,14 @@ const Jordan = () => {
         </section>
 
         <section >
-            <div className='relative'>
-                <img className='h-[70vh] w-full object-cover sm:hidden' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_576,c_limit/a0520c4f-d7ab-437c-9450-bcf360b5543d/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
-                <img className='h-[45vh] w-full object-cover hidden sm:block' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_576,c_limit/a0520c4f-d7ab-437c-9450-bcf360b5543d/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
-                <div className='font-[helveticaNow] absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center  gap-2 p-8 text-center '>
-                    <div>
-                        <h1 className='font-[helveticaNowBold] leading-9  uppercase [@media(min-width:435px)]:whitespace-nowrap tracking-tighter text-3xl sm:text-4xl lg:text-5xl  text-white'>Study Hard.</h1>
-                        <h1 className='font-[helveticaNowBold]   uppercase [@media(min-width:435px)]:whitespace-nowrap tracking-tighter text-3xl sm:text-4xl lg:text-5xl   text-white'>Play Harder.</h1>
-                    </div>
-                    <p className='lg:text-xl text-white'>Get back to class and back to sport.</p>
-                    <button className='bg-white text-black rounded-full p-2 px-4 flex-none hover:bg-[#707072] cursor-pointer'>Shop</button>
-                </div>
-            </div>
+            <img className='hidden sm:block' src="../public/HeaderImg/jordanHeader.png" alt="" />
+            <img className='sm:hidden' src="../public/HeaderImg/jordanHeaderMobile.png" alt="" />
         </section >
 
         <section className='font-[helveticaNow] text-white flex flex-col items-center gap-1 p-9'>
             <span>Jordan Brand Presents</span>
             <h3 className='font-[helveticaNow] uppercase text-6xl'>The One</h3>
-            <span className='text-xl pt-3 pb-5'>A global showcase to crown the best 1-on-1 player in the world. </span>
+            <span className='text-xl text-center pt-3 pb-5'>A global showcase to crown the best 1-on-1 player in the world. </span>
             <button className='bg-white text-black p-1 px-4 font-[helveticaNow] rounded-2xl'>Explore</button>
         </section>
 

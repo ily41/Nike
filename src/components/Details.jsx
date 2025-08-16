@@ -15,6 +15,7 @@ const Details = () => {
     const [sizeChosen, setSizeChosen] = useState(null);
     const [sizeError, setSizeError] = useState(false);
     console.log(sizeError)
+    console.log(product)
 
     const addToBag = () => {
       if(sizeChosen) {
@@ -38,7 +39,9 @@ const Details = () => {
                             size: sizeChosen,
                             id: product.id,
                             image: product.image,
-                          quantity:1}
+                            availableSizesEU: product.availableSizesEU,
+                            sizeAvailability: product.sizeAvailability,
+                            quantity:1}
                           ]));
                         }
 
@@ -244,7 +247,7 @@ const Details = () => {
             </div>
 
 
-{bagNotification && <BagNotification setBagNotification={setBagNotification} product={product} sizeChosen={sizeChosen}/>}
+            {bagNotification && <BagNotification setBagNotification={setBagNotification} product={product} sizeChosen={sizeChosen}/>}
 
     
     </div>

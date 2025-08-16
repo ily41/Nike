@@ -6,7 +6,7 @@ const Card = ({color, price, name, gender, image,categories}) => {
   if (isJordanPage) {
     return (
       <div className="w-full bg-[#1F1F21] text-white">
-        <div className=" rounded-t-md">
+        <div className="rounded-t-md">
           <img 
             src={image} 
             alt={name} 

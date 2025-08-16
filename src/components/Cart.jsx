@@ -1,7 +1,10 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { BasketContext } from '../provider/context'
 
 const Cart = () => {
+
+  const [chosenEl,setChosenEl] = useState(null)
+  console.log(chosenEl)
 
   const changeQuan = (ch,idx) => {
       setBasket(prev =>
@@ -19,6 +22,8 @@ const Cart = () => {
   }
 
   const {basket, setBasket} = useContext(BasketContext)
+  console.log("basket")
+  console.log(basket)
 
 
 
@@ -28,7 +33,7 @@ const Cart = () => {
 
     
 
-    <div className='mt-4 lg:mt-0'>
+    <div className={`mt-4 lg:mt-0 relative   ${chosenEl ? 'overflow-hidden' : ''}`}>
         
         <div className='relative  w-full flex justify-center'>
             <div className='w-11/12 lg:hidden '>
@@ -63,7 +68,7 @@ const Cart = () => {
                           <p className='font-[helveticaNow] lg:hidden'>${el.price * el.quantity}.00 </p>
                           <h3 className='font-[helveticaNow]  lg:flex lg:justify-between lg:order-0 text-md'>{el.name}  <p className='hidden lg:block font-[helveticaNow]'>${el.price * el.quantity}.00 </p></h3>
                           <p className='text-[#878787]'>{el.gender}'s Shoes</p>
-                          <p className='text-[#878787]'>Size {el.size} </p>
+                          <p className='text-[#878787]'>Size <u onClick={() => setChosenEl(el)}>{el.size}</u> </p>
                       </div>
                   </div>
 
@@ -179,6 +184,108 @@ const Cart = () => {
             
           </div>
         </section>
+
+        {chosenEl && (
+  <section className="fixed inset-0 z-52 bg-black/50 flex justify-center items-end">
+    <div className="bg-white w-full lg:w-1/2 rounded-t-2xl p-6 max-h-[80vh] overflow-y-auto">
+      
+      {/* Close button */}
+      <button 
+        onClick={() => setChosenEl(null)}
+        className="absolute top-4 right-6 text-2xl"
+      >
+        ✕
+      </button>
+
+      {/* Product Info */}
+      <div className="flex gap-4 mb-6">
+        <img src={chosenEl?.image} alt={chosenEl?.name} className="w-24 h-24 object-cover rounded-xl"/>
+        <div>
+          <h3 className="font-[helveticaNow] text-lg">{chosenEl.name}</h3>
+          <p className="text-[#878787]">{chosenEl.gender}'s Shoes</p>
+          <p className="font-semibold">${chosenEl.price}.00</p>
+        </div>
+      </div>
+
+      {/* Sizes */}
+      <h4 className="font-[helveticaNow] mb-3">Select Size</h4>
+      <div className="grid grid-cols-3 gap-3">
+        {chosenEl && (
+  <section className="fixed inset-0 z-50 bg-black/50 flex justify-center items-end">
+    <div className="bg-white w-full lg:w-1/2 rounded-t-2xl p-6 max-h-[80vh] overflow-y-auto relative">
+      
+      {/* Close button */}
+      <button 
+        onClick={() => setChosenEl(null)}
+        className="absolute top-4 right-6 text-2xl"
+      >
+        ✕
+      </button>
+
+      {/* Product Info */}
+      <div className="flex gap-4 mb-6">
+        <img src={chosenEl?.image} alt={chosenEl?.name} className="w-24 h-24 object-cover rounded-xl"/>
+        <div>
+          <h3 className="font-[helveticaNow] text-lg">{chosenEl.name}</h3>
+          <p className="text-[#878787]">{chosenEl.gender}'s Shoes</p>
+          <p className="font-semibold">${chosenEl.price}.00</p>
+        </div>
+      </div>
+
+      {/* Sizes */}
+      <h4 className="font-[helveticaNow] mb-3">Select Size</h4>
+      <div className="grid grid-cols-3 gap-3">
+        {chosenEl.availableSizesEU.map((el, index) => {
+          const isAvailable = chosenEl.sizeAvailability[el]
+
+          return (
+            <button
+              key={index}
+              disabled={!isAvailable}
+              onClick={() => {
+                setBasket(prev =>
+                  prev.map(item =>
+                    item.id === chosenEl.id ? { ...item, size: el } : item
+                  )
+                )
+                setChosenEl(null) // close modal after update
+              }}
+              className={`w-full py-4 border flex justify-center items-center rounded-sm font-[helveticaNow]
+                ${chosenEl.size === el ? 'border-black bg-black text-white' : 'border-[#d7d7d7] bg-white'}
+                ${isAvailable ? 'cursor-pointer hover:border-black' : 'opacity-50 cursor-not-allowed'}
+              `}
+            >
+              Size {el}
+            </button>
+          )
+        })}
+      </div>
+
+      {/* Done Button */}
+      <button
+        onClick={() => setChosenEl(null)}
+        className="mt-6 w-full py-3 rounded-xl bg-black text-white font-[helveticaNow]"
+      >
+        Done
+      </button>
+    </div>
+  </section>
+)}
+
+      </div>
+
+      {/* Save Button */}
+      <button
+        onClick={() => setChosenEl(null)}
+        className="mt-6 w-full py-3 rounded-xl bg-black text-white font-[helveticaNow]"
+      >
+        Done
+      </button>
+    </div>
+  </section>
+)}
+
+        
     </div>
   )
 }
