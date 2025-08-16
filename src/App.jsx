@@ -12,13 +12,16 @@ import Men from './components/Men'
 import Women from './components/Women'
 import Kids from './components/Kids'
 import Jordan from './components/Jordan'
+import Favorites from './components/Favorites'
 
 const App = () => {
   const [bagNotification, setBagNotification] = useState(false);
   const [showFilter, setShowFilter] = useState(true)
   const [products, setProducts] = useState([])
   const [filtered, setFiltered] = useState([])
-  const [jordanState, setJordan] = useState(false) // renamed to avoid conflict with component
+  const [favoritesData, setFavorites] = useState([])
+  
+  const [jordanState, setJordan] = useState(false) 
 
   const [basket, setBasket] = useState(() => {
     const stored = sessionStorage.getItem("basket");
@@ -44,7 +47,7 @@ const App = () => {
     <div className="flex flex-col min-h-screen">
       <JordanContext value = {{jordanState}}>
         <BasketContext value={{ basket, setBasket, bagNotification, setBagNotification }}>
-          <FilterContext value={{ showFilter, setShowFilter, products, setProducts, filtered, setFiltered }}>
+          <FilterContext value={{ showFilter, setShowFilter, products, setProducts, filtered, setFiltered, favoritesData, setFavorites }}>
             <Header />
             <main className="flex-grow">
               <Routes>
@@ -56,9 +59,10 @@ const App = () => {
                 <Route path='/women' element={<Women />} />
                 <Route path='/kids' element={<Kids />} />
                 <Route path='/jordan' element={<Jordan />} />
+                <Route path='/favorites' element={<Favorites />} />
               </Routes>
             </main>
-            {/* <Footer /> */}
+            <Footer />
           </FilterContext>
         </BasketContext>
       </JordanContext>

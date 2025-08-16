@@ -2,7 +2,8 @@ import React from 'react'
 import ScrollToTop from './ScrollToTop'
 import { Link } from 'react-router'
 
-const BagNotification = ({setBagNotification,product,sizeChosen}) => {
+const BagNotification = ({setBagNotification,product,sizeChosen,isAddBag}) => {
+  
   return (
     <>
         <div
@@ -11,13 +12,13 @@ const BagNotification = ({setBagNotification,product,sizeChosen}) => {
           
         ><ScrollToTop /></div>
 
-        <div className="fixed bottom-0 w-full p-4 h-[310px] bg-white rounded-xl z-50 lg:w-auto lg:right-10 lg:top-26">
+        <div className="fixed bottom-0 w-full p-4 h-fit bg-white rounded-xl z-50 lg:w-auto lg:right-10 lg:top-26">
             <div className=' flex justify-between'>
                 <div className='flex gap-3'>
                     <svg aria-hidden="true" class="text-color-success mr3-sm" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
                       <path fill="#138F47" d="M12 1.5C6.21 1.5 1.5 6.21 1.5 12S6.21 22.5 12 22.5 22.5 17.79 22.5 12 17.79 1.5 12 1.5zm-1.06 14l-3.18-3.18 1.06-1.06 2.12 2.12 4.24-4.24 1.06 1.06-5.3 5.3z"/>
                     </svg>
-                    <span className='font-[helveticaNow]'>Added to bag</span>
+                    <span className='font-[helveticaNow]'>Added to {isAddBag ? 'Favorites' : 'bag'}</span>
                 </div>
                 <svg onClick={() => setBagNotification(false)} className="p-2 cursor-pointer bg-[#f5f5f5] rounded-full"  aria-hidden="true"  focusable="false"  viewBox="0 0 24 24"  role="img"  width="40px"  height="40px"  fill="none">  <path    stroke="#1c1c1c"    strokeWidth="1.5"    d="M18.973 5.027L5.028 18.972m0-13.945l13.944 13.945"  /></svg>
             </div>
@@ -33,9 +34,15 @@ const BagNotification = ({setBagNotification,product,sizeChosen}) => {
             </div>
 
             <div className='mt-4'>
-                <Link to='/cart' ><button  className="w-full cursor-pointer min-w-[300px] py-3 rounded-4xl text-black border-2 mb-2 border-[#d7d7d7] font-[helveticaNow]"> View Bag (3) </button></Link>
-                <button className="w-full cursor-pointer  py-3 rounded-4xl bg-black text-white font-[helveticaNow]"> Go to Checkout</button>
-
+                {isAddBag ? 
+                    <Link to='/favorites' ><button className="w-full mt-4 min-w-[300px] cursor-pointer  py-4 rounded-4xl bg-black text-white font-[helveticaNow]">View Favorites</button></Link>
+                      :
+                    <>
+                      <Link to='/cart' ><button  className="w-full cursor-pointer min-w-[300px] py-3 rounded-4xl text-black border-2 mb-2 border-[#d7d7d7] font-[helveticaNow]"> View Bag (3) </button></Link>
+                      <button className="w-full cursor-pointer  py-3 rounded-4xl bg-black text-white font-[helveticaNow]"> Go to Checkout</button>
+                    </>
+                }
+                
             </div>
         </div>
     </>
