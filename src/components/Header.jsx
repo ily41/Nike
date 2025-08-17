@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import { JordanContext } from '../provider/context';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faTimes } from '@fortawesome/free-solid-svg-icons';
+import products from '../provider/products.json'
 
 const Header = () => {
 
@@ -11,11 +12,12 @@ const Header = () => {
   const {jordanState} = useContext(JordanContext)
   const [burgerBool, setBurgerBool] = useState(false)
   const [burgerPagination,setBurgerPagination] = useState("all")
-
+  const [searchBool, setSearchBool] = useState(false)
+  const [search, setSearch] = useState(null)
 
 
   useEffect(() => {
-  if (burgerBool) {
+  if (burgerBool ) {
     document.body.style.overflow = 'hidden';
     document.body.style.position = 'fixed';
     document.body.style.width = '100%';
@@ -64,6 +66,18 @@ const renderMenu = () => {
       </div>
     ));
   }
+
+  useEffect(() => {
+  if ( searchBool) {
+    document.body.style.overflow = 'hidden'; 
+  } else {
+    document.body.style.overflow = ''; 
+  }
+
+  return () => {
+    document.body.style.overflow = '';
+  };
+}, [burgerBool, searchBool]);
 
   if (burgerPagination.includes('-')) {
     const [mainSlug, subSlug] = burgerPagination.split('-');
@@ -159,12 +173,13 @@ const renderMenu = () => {
 
           <div className='flex px-8 py-3 flex-1  items-center justify-end gap-2'>
 
-          {jordanState ? 
-            <svg aria-hidden="true" className='lg:hidden' focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg>
-            :
-            <img src="/Icons/Search-icon.svg" className='lg:hidden' alt="Search" />
-          }
-              <div className='relative'>
+
+            {jordanState ? 
+              <svg onClick={() => setSearchBool(true)} aria-hidden="true" className='lg:hidden' focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg>
+              :
+              <img onClick={() => setSearchBool(true)} src="/Icons/Search-icon.svg" className='lg:hidden' alt="Search" />
+            }
+            <div onClick={() => setSearchBool(true)} className='relative'>
               <input
                 type="text"
                 placeholder="Search"
@@ -172,30 +187,135 @@ const renderMenu = () => {
                   ? 'dark bg-black text-white hover:bg-[#39393B]' 
                   : 'bg-[#f5f5f5] text-black hover:bg-[#e5e5e5]'} hidden lg:block placeholder:pl-9 rounded-4xl p-2`} 
               />
-
-                <div className={`absolute top-0 p-2 rounded-[50%] hidden lg:block ${jordanState ? 'dark bg-black text-white' : 'bg-[#f5f5f5] text-black'}`}>
-                  {jordanState ? 
-                    <svg aria-hidden="true"  focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg>
-                    :
-                    <img src="/Icons/Search-icon.svg"  alt="Search" />
-                  }
-                </div>
+              <div className={`absolute top-0 p-2 rounded-[50%] hidden lg:block ${jordanState ? 'dark bg-black text-white' : 'bg-[#f5f5f5] text-black'}`}>
+                {jordanState ? 
+                  <svg aria-hidden="true"  focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg>
+                  :
+                  <img src="/Icons/Search-icon.svg"  alt="Search" />
+                }
               </div>
-          <Link to='/favorites'>
-            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg>
-          </Link>
-          <Link to='/cart'>
-          {jordanState ? 
-            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg>
-            :
-            <img  src="/Icons/basket-icon.svg" className='cursor-pointer' alt="Basket" />
+            </div>
 
-          }
-          </Link>
-          
-          <svg onClick={() => setBurgerBool(prev => !prev)} className = "lg:hidden" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
-            <path stroke="currentColor" strokeWidth="1.5" d="M21 5.25H3M21 12H3m18 6.75H3"></path>
-          </svg>
+
+            {searchBool ? 
+              <>
+                <div className='hidden lg:absolute inset-0 w-screen h-screen bg-black opacity-40 '></div>
+                <div className="fixed inset-0 font-[helveticaNow] p-4 w-screen h-screen lg:h-fit lg:min-h-[200px]  overflow-y-auto bg-white z-[999] ">
+                {/* header of searchbar */}
+                <div className='flex justify-between'>
+
+                  <div className='hidden pl-6 pr-0 sm:px-8 py-3 lg:flex flex-1 items-center'>
+                    <Link to='/'>
+                      {jordanState ? 
+                      <svg  className='cursor-pointer' width="64" height="22" viewBox="0 0 64 22" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7277 12.1511C15.999 12.598 14.4241 12.8196 13.0469 12.8196C11.3396 12.8196 9.94617 12.4728 8.97074 11.7793C4.02962 8.28845 8.54956 0.885548 9.06118 0.0629324C6.88551 2.37923 4.65235 4.80341 2.89851 7.44593C-0.0575023 11.9597 -0.812655 16.2475 0.910825 18.906C2.23896 20.9642 4.40042 22 7.37517 22C10.0146 22 13.2975 21.1832 17.1928 19.5559L64 0.0173385L63.9981 0L17.7277 12.1511Z" fill="white"/></svg> : <img className='cursor-pointer ' src="/Icons/Logo.svg" alt="Logo" />}
+                    </Link>
+                  </div>
+                  
+                  <div className='relative flex-6 '>
+                   <input
+                    onChange={(e) => setSearch(e.target.value)}
+                    type="text"
+                    placeholder="Search"
+                    className={`${jordanState 
+                      ? 'bg-black text-white hover:bg-gray-800' 
+                      : 'bg-gray-100 text-black hover:bg-gray-200'} 
+                      rounded-full p-2 pl-10 w-full outline-none`} 
+                    />
+ 
+                    <div className={`absolute overflow-y-auto top-0 p-2 rounded-3xl  block ${jordanState ? 'dark bg-black text-white' : 'bg-[#f5f5f5] text-black'}`}>
+                      {jordanState ? 
+                        <svg aria-hidden="true"  focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg>
+                        :
+                        <img src="/Icons/Search-icon.svg"  alt="Search" />
+                      }
+                    </div>
+
+                  </div>
+
+                  <span onClick={() => setSearchBool(false)} className='flex-1 pr-5 self-center text-end '>Cancel</span>
+
+                </div>
+
+
+                {/* main of header */}
+                <div className='flex flex-col lg:flex-row'>
+                  <div className='mt-15 ml-10 lg:flex-2'>
+                    <span>Top Suggestions</span>
+
+                    <div className='flex flex-col text-xl mt-7 gap-4'>
+                        {products
+                            .filter(el => el.name.toLowerCase().includes(search.toLowerCase()))
+                            .slice(0, 5)
+                            .map(el => {
+                              const name = el.name;
+                              const index = name.toLowerCase().indexOf(search.toLowerCase());
+                            
+                              if (index === -1 || search === "") {
+                                return <span key={el.id} style={{ color: "#707072" }}>{name}</span>;
+                              }
+                            
+                              const before = name.slice(0, index);
+                              const match = name.slice(index, index + search.length);
+                              const after = name.slice(index + search.length);
+                            
+                              return (
+                                <span key={el.id} style={{ color: "#707072" }}>
+                                  {before}
+                                  <span style={{ color: "black" }}>{match}</span>
+                                  {after}
+                                </span>
+                              );
+                            })}
+                    </div>
+                  </div>
+
+                  <div className='grid grid-cols-2 lg:grid-cols-3 lg:flex  lg:flex-6 gap-4 mt-10'>
+                    {products
+                            .filter(el => el.name.toLowerCase().includes(search.toLowerCase()))
+                            .slice(0, 5)
+                            .map(el => (
+                              <div className="lg:max-w-[200px]  rounded-md dark:bg-white dark:text-gray-800">
+                                <img src={el.image} alt="" className="object-cover object-center w-full rounded-t-md dark:bg-gray-500" />
+                                <div className="flex flex-col justify-between p-3 space-y-8">
+                                  <div className=" flex flex-col">
+                                    <h3 className='text-sm font-[helveticaNow]'>{el.name}</h3>
+                                    <p className=' text-xs sm:text-sm'>{el.genders}'s Shoes</p>  
+                                    <span className='my-2 font-[helveticaNow]'>${el.price}</span>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+
+                   
+                  
+
+                  </div>
+
+                </div>
+
+                
+                </div>
+              </>
+              :
+              <></>
+            }
+            
+
+            <Link to='/favorites'>
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg>
+            </Link>
+
+            <Link to='/cart'>
+              {jordanState ? 
+                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg>
+                :
+                <img  src="/Icons/basket-icon.svg" className='cursor-pointer' alt="Basket" />
+              }
+            </Link>
+
+            <svg onClick={() => setBurgerBool(prev => !prev)} className = "lg:hidden" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+              <path stroke="currentColor" strokeWidth="1.5" d="M21 5.25H3M21 12H3m18 6.75H3"></path>
+            </svg>
 
           
           </div>
