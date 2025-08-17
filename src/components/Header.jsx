@@ -1,23 +1,104 @@
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import data from '../provider/navigation.json'
 import { Link } from 'react-router';
 import { JordanContext } from '../provider/context';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
 
   const [hoveredItem, sethoveredItem] = useState(null)
   const {jordanState} = useContext(JordanContext)
+  const [burgerBool, setBurgerBool] = useState(false)
+  const [burgerPagination,setBurgerPagination] = useState("all")
 
 
 
+  useEffect(() => {
+  if (burgerBool) {
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+  } else {
+    document.body.style.overflow = 'unset';
+    document.body.style.position = 'unset';
+    document.body.style.width = 'unset';
+  }
   
+  return () => {
+    document.body.style.overflow = 'unset';
+    document.body.style.position = 'unset';
+    document.body.style.width = 'unset';
+  };
+}, [burgerBool]);
+
+const renderMenu = () => {
+  if (burgerPagination === "all") {
+    console.log("all works")
+    data.map(item => console.log(item))
+    return data.map((item, idx) => (
+      <div
+        key={idx}
+        className="flex items-center cursor-pointer justify-between"
+        onClick={() => {
+          setBurgerPagination(item.slug) 
+          console.log("slugitem")
+          console.log(item.slug)}}
+      >
+        <h1 className="text-2xl ">{item.name}</h1>
+        <img className="w-7 h-7" src="../public/Icons/right-arrow.svg" alt="" />
+      </div>
+    ));
+  }
+
+  const mainCat = data.find(cat => cat.slug === burgerPagination);
+  if (mainCat) {
+    return mainCat.subCategories.map((subCat, idx) => (
+      <div
+        key={idx}
+        className="flex items-center cursor-pointer justify-between"
+        onClick={() => setBurgerPagination(`${mainCat.slug}-${subCat.slug}`)} 
+      >
+        <h1 className="text-lg text-[#707072] ">{subCat.title}</h1>
+        <img className="w-7 h-7" src="../public/Icons/right-arrow.svg" alt="" />
+      </div>
+    ));
+  }
+
+  if (burgerPagination.includes('-')) {
+    const [mainSlug, subSlug] = burgerPagination.split('-');
+    const mainCategory = data.find(cat => cat.slug === mainSlug);
+    const subCategory = mainCategory?.subCategories.find(sc => sc.slug === subSlug);
+
+    if (subCategory) {
+      return subCategory.categories.map((c, idx) => (
+        <Link to={`/products/${c.slug}`} key={idx}>
+          <div
+            className="flex items-center cursor-pointer justify-between"
+            onClick={() => {
+              setBurgerBool(false);
+              setBurgerPagination("all");
+            }}
+          >
+            <h1 className="text-lg text-[#707072] ">{c.name}</h1>
+          </div>
+        </Link>
+      ));
+    }
+  }
+
+  return null;
+};
+
+
+
 
 
 
   return (
     <header className='z-[51]'>
       {/* Top Nav */}
-      <div className={`${jordanState ? 'dark bg-black text-white' : 'bg-white text-black'} hidden lg:flex  justify-between px-8 py-2`}>
+      <div className={`${jordanState ? 'dark bg-[#111111] text-white' : 'bg-[#F5F5F5] text-black'} hidden lg:flex  justify-between px-8 py-2`}>
         <ul className=' flex gap-4 '>
           {jordanState ? 
             <>
@@ -46,7 +127,8 @@ const Header = () => {
           <div className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
             <div className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
               <Link to='/'>
-                {jordanState ? <svg aria-hidden="true" className="swoosh-svg" focusable="false" viewBox="0 0 24 24" role="img" width="78px" height="78px" fill="none"><path fill="currentColor" fillRule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clipRule="evenodd"/></svg> : <img className='cursor-pointer' src="/Icons/Logo.svg" alt="Logo" />}
+                {jordanState ? 
+                <svg  class="swoosh-svg" width="64" height="22" viewBox="0 0 64 22" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7277 12.1511C15.999 12.598 14.4241 12.8196 13.0469 12.8196C11.3396 12.8196 9.94617 12.4728 8.97074 11.7793C4.02962 8.28845 8.54956 0.885548 9.06118 0.0629324C6.88551 2.37923 4.65235 4.80341 2.89851 7.44593C-0.0575023 11.9597 -0.812655 16.2475 0.910825 18.906C2.23896 20.9642 4.40042 22 7.37517 22C10.0146 22 13.2975 21.1832 17.1928 19.5559L64 0.0173385L63.9981 0L17.7277 12.1511Z" fill="white"/></svg> : <img className='cursor-pointer' src="/Icons/Logo.svg" alt="Logo" />}
               </Link>
             </div>
 
@@ -110,10 +192,61 @@ const Header = () => {
 
           }
           </Link>
-          <svg className = "lg:hidden" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+          
+          <svg onClick={() => setBurgerBool(prev => !prev)} className = "lg:hidden" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
             <path stroke="currentColor" strokeWidth="1.5" d="M21 5.25H3M21 12H3m18 6.75H3"></path>
           </svg>
+
+          
           </div>
+          {burgerBool && (
+            <>
+              <div onClick={() => setBurgerBool(false)} className='absolute lg:hidden top-0 left-0 w-screen h-screen bg-black opacity-40 overflow-hidden'>
+              </div>
+              <div className={`absolute ${jordanState ?  'dark bg-[#1F1F21]': 'bg-white'} lg:hidden font-[helveticaNow] right-0 top-0 z-[10000] bg-opacity-[100] h-screen w-80`}>
+
+
+                <div>
+                  <div onClick={() => {}} className='absolute hidden items-center  top-4 left-6  lg:flex gap-3'>
+                    <img className='w-7 h-7' src="../public/Icons/left-arrow.svg" alt="" />
+                    <span>All</span>
+                  </div>
+                  <button
+                    onClick={() => {setBurgerBool(false); setBurgerPagination("all")}}
+                    className='p-2 absolute top-4 right-6'
+                  >
+                    <FontAwesomeIcon
+                      icon={faTimes}
+                      className='w-6 h-6 text-gray-600'
+                    />
+                  </button>
+                </div>
+
+                <div className='mt-40 mx-10 flex flex-col  gap-4'>
+                  
+                  <Link to={`/${burgerPagination}`}>
+                      <h1 onClick={() => {setBurgerBool(false); setBurgerPagination("all")}} className="cursor-pointer text-2xl mb-7">
+                        {burgerPagination === "all"
+                          ? ""
+                          : data.find(el => el.slug === burgerPagination)?.name ||
+                            data
+                              .find(el => el.subCategories.some(sc => sc.slug === burgerPagination))
+                              ?.subCategories.find(sc => sc.slug === burgerPagination)?.title}
+                      </h1>
+                    </Link>
+
+                  {renderMenu()}
+                  
+
+                  
+                </div>
+
+                
+              </div>
+            </>
+            
+          )}
+
 
 
 

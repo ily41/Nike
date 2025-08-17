@@ -7,11 +7,13 @@ import { FilterContext } from '../provider/context'
 
 
 const Products = () => {
-    const {setShowFilter, setProducts,filtered, setFiltered} = useContext(FilterContext)
+    const {showFilter,setShowFilter, setProducts,filtered, setFiltered} = useContext(FilterContext)
+     
     const {category,subCategory} = useParams()
     const [open,setOpen] = useState(false)
     const location = useLocation();
     const title = location.state?.title || "";
+
 
 
 
@@ -33,18 +35,8 @@ const Products = () => {
     <>
         <div className='w-full font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
         <div className='mx-6 lg:mx-10'>
-            <h2 className='font-[helveticaNow] lg:hidden text-xl my-6'>Mens Shoes & Sneakers</h2>
+            <h2 className='font-[helveticaNow] lg:hidden text-xl my-6'>{title}</h2>
             <div>
-                <ul className='flex gap-5 overflow-x-scroll lg:hidden whitespace-nowrap scrollbar-hide text-black text-lg  shrink-0 font-[helveticaNow]'>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                    <li>Something long</li>
-                </ul>
                 <hr className='px-4 mt-4 lg:hidden text-[#b3b3b3]'/>
 
                 <div className='flex my-5 justify-between'>
@@ -58,10 +50,8 @@ const Products = () => {
                     <div className='flex'>
                         <button 
                             onClick={() => {
-                                if (window.innerWidth < 1024) {
-                                } else {
                                     setShowFilter(prev => !prev)
-                                }
+                                
                                 }}
                             className='flex gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0'>
                               <div className='cursor-pointer'>
@@ -76,7 +66,7 @@ const Products = () => {
                               </svg>
                         </button>
 
-                        <button onClick={() => setOpen(!open)}  className='flex cursor-pointer relative gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0 items-center'>Sort By
+                        <button onClick={() => setOpen(!open)}  className='hidden lg:flex cursor-pointer relative gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0 items-center'>Sort By
                              <img className='w-5 h-5' src="../public/Icons/down-arrow.svg" alt="" />
                                 {open && 
                                 <div className=' text-right p-5  absolute whitespace-nowrap flex flex-col gap-2 top-10 right-0 rounded-xl text-sm  bg-white shadow-amber-100 '>
@@ -91,11 +81,11 @@ const Products = () => {
 
         
         <section className='flex  lg:mx-10'>
-            <div className="hidden lg:block">
+            <div className="bg-white block">
                 <Filter />
             </div>
-
-            <div className='grid grid-cols-2 lg:grid-cols-3  items-start justify-center gap-4'>
+            {console.log(showFilter)}
+            <div className={`lg:grid grid-cols-2 ${showFilter ? 'hidden' : 'grid'} lg:grid-cols-3  items-start justify-center gap-4`}>
                 
                 {filtered.map((el,idx) => (
                     <Link key={idx} to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image} categories={category}/></Link>

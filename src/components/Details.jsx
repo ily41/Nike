@@ -131,11 +131,11 @@ const Details = () => {
 
       <div className="lg:hidden">{headerText()}</div>
 
-      <Slider header={false} />
+      <Slider header={false} productImages={product.detailImages}/>
 
       <div className="lg:flex justify-center mt-10 mx-[100px]">
         {/* Left images */}
-        <div className="inline-flex sticky top-10 gap-2">
+        <div className="inline-flex lg:sticky top-10 gap-2">
           <div className="order-2 max-h-[60vh] hidden lg:block">
             <div className="flex absolute right-8 bottom-8 gap-3">
               <div className="w-10 h-10 flex justify-center items-center rounded-full bg-[#f5f5f5]">
@@ -222,7 +222,6 @@ const Details = () => {
             )}
           </button>
 
-          {/* Shipping & Info Sections */}
           <div className="mb-7">
             <h3 className="font-[helveticaNow]">Shipping</h3>
             <p>You'll see our shipping options at checkout</p>

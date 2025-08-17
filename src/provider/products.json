@@ -1,31 +1,4 @@
-[
-  {
-    "id": "AJ1-001",
-    "name": "Air Jordan 1 Retro High OG \"Black and Muslin\"",
-    "collection": "air-jordan-1",
-    "price": 185,
-    "genders": ["Men"],
-    "categories": ["men", "new","new-arrivals", "all-shoes",  "air-jordan", "basketball", "jordan","jordan-men-shoes","jordan-men-all"],
-    "colors": ["Black"],
-    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2b9c47da-7b03-4711-82e1-2e41e08abb3b/AIR+JORDAN+1+RTR+HIGH+OG+%28GS%29.png",
-    "detailImages": [
-      "https://www.nike.com/t/air-jordan-1-retro-high-og-black-and-muslin-mens-shoes-50q7Sp/DZ5485-002",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1d56e406-92fc-458e-a604-3f56e5ff7ec3/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3890b645-4e09-4c41-8c53-1203af68a113/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/23d07e8c-7a34-4f41-b359-d13b1df5363a/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c2752bf2-5db8-4256-8190-fd534c040581/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/46b50df3-e50c-4bca-9aac-e7bbc0fa7983/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a17db56a-10aa-4c12-9419-2af1e341adc7/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/514db700-bc6b-484a-b77b-d613221f71af/AIR+JORDAN+1+RETRO+HIGH+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f31812a0-6599-4585-88eb-3c0850cc5d84/AIR+JORDAN+1+RETRO+HIGH+OG.png"
-    ],
-    "availableSizesEU": ["39","40","41","42","43","44"],
-    "sizeAvailability": {"39": true,"40": false,"41": false,"42": true,"43": true,"44": true},
-    "features": ["Classic design", "Premium leather", "Iconic Air-Sole unit"],
-    "inStock": true,
-    "quantityAvailable": 50,
-    "description": "The Air Jordan 1 Retro High OG \"Black and Muslin\" features premium materials and timeless design."
-  },
+[            
   {
     "id": "AJ1-002",
     "name": "Air Jordan 1 High OG \"Black and Muslin\"",

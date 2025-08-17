@@ -9,8 +9,10 @@ const Jordan = () => {
 
 
   return (
-    <div className='bg-[#1F1F21]'>
-        <div className='w-full font-[helveticaNow] h-[7vh] bg-black text-white text-[12px]  lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
+    <>
+        <div className='w-full font-[helveticaNow] h-[7vh] bg-[#111111] text-white text-[12px]  lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
+
+        <div className='bg-[#1F1F21]'>
 
 
         <section>
@@ -161,7 +163,8 @@ const Jordan = () => {
             </div>
         </section>
 
-    </div>
+        </div>
+    </>
   )
 }
 

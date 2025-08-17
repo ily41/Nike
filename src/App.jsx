@@ -16,7 +16,7 @@ import Favorites from './components/Favorites'
 
 const App = () => {
   const [bagNotification, setBagNotification] = useState(false);
-  const [showFilter, setShowFilter] = useState(true)
+  const [showFilter, setShowFilter] = useState(false)
   const [products, setProducts] = useState([])
   const [filtered, setFiltered] = useState([])
   const [favoritesData, setFavorites] = useState([])
@@ -41,7 +41,6 @@ const App = () => {
   useEffect(() => {
     sessionStorage.setItem("basket", JSON.stringify(basket));
   }, [basket]);
-  console.log(jordanState)
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -62,7 +61,8 @@ const App = () => {
                 <Route path='/favorites' element={<Favorites />} />
               </Routes>
             </main>
-            <Footer />
+            {!showFilter && <Footer />  }
+            
           </FilterContext>
         </BasketContext>
       </JordanContext>
