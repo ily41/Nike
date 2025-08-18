@@ -5,7 +5,7 @@
     "collection": "air-jordan-1",
     "price": 140,
     "genders": ["Big Kids"],
-    "categories": ["kids", "all-shoes", "new","new-arrivals",  "air-jordan", "basketball", "jordan","jordan-big-kids","jordan-kids-shoes","jordan-kids-all", "big-kids"],
+    "categories": ["training","kids", "all-shoes", "new","new-arrivals",  "air-jordan", "basketball", "jordan","jordan-big-kids","jordan-kids-shoes","jordan-kids-all", "big-kids"],
     "colors": ["Black", "Orange", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85d1d12f-b0a5-49c0-bc81-6238cfc5d9ac/JORDAN+1+RETRO+HIGH+OG+%28PS%29.png",
     "detailImages": ["https://example.com/images/aj1-high-og-black-and-muslin-detail1.jpg"],
@@ -107,7 +107,7 @@
     "collection": "air-jordan-1",
     "price": 130,
     "genders": ["Men"],
-    "categories": ["men", "all-shoes",  "air-jordan", "basketball", "jordan","jordan-men-shoes","jordan-men-all"],
+    "categories": ["training","men", "all-shoes",  "air-jordan", "basketball", "jordan","jordan-men-shoes","jordan-men-all"],
     "colors": ["Blue", "White", "Red"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a42f7b99-9f77-4f13-bfaa-8dd30f40a0e7/AIR+JORDAN+1+MID+%28GS%29.png",
     "detailImages": ["https://example.com/images/air-jordan-1-mid-detail1.jpg"],
@@ -124,7 +124,7 @@
     "collection": "air-jordan-1",
     "price": 110,
     "genders": ["Big Kids"],
-    "categories": ["kids", "all-shoes",  "air-jordan","jordan-kids-shoes", "basketball", "jordan","jordan-men-shoes","jordan-men-all", "big-kids"],
+    "categories": ["training","kids", "all-shoes",  "air-jordan","jordan-kids-shoes", "basketball", "jordan","jordan-men-shoes","jordan-men-all", "big-kids"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a0f62bef-d6c5-4325-b916-ace51b228129/WMNS+AIR+JORDAN+1+LOW+SE.png",
     "detailImages": ["https://example.com/images/air-jordan-1-mid-kids-detail1.jpg"],
@@ -158,7 +158,7 @@
     "collection": "nike-dunk",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["men", "dunk", "all-shoes", "new","new-arrivals", "dunk", "basketball", "lifestyle"],
+    "categories": ["training","men", "dunk", "all-shoes", "new","new-arrivals", "dunk", "basketball", "lifestyle"],
     "colors": ["Brown", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d416b2b2-3931-47a8-8680-862c94846f18/NIKE+DUNK+LOW+RETRO.png",
     "detailImages": [
@@ -241,7 +241,7 @@
     "collection": "nike-dunk",
     "price": 90,
     "genders": ["Big Kids"],
-    "categories": ["kids", "all-shoes", "dunk", "lifestyle", "new" , "best-sellers", "basketball", "big-kids"],
+    "categories": ["training","kids", "all-shoes", "dunk", "lifestyle", "new" , "best-sellers", "basketball", "big-kids"],
     "colors": ["Black", "Blue", "Brown", "Yellow", "Orange"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4f67288-80e9-4b0b-af35-7c6f12917e51/NIKE+DUNK+LOW+BG.png",
     "detailImages": [],
@@ -409,7 +409,7 @@
     "collection": "nike-field-general",
     "price": 105,
     "genders": ["Men"],
-    "categories": ["men", "all-shoes", "field","new","new-arrivals", "lifestyle", "basketball"],
+    "categories": ["training","men", "all-shoes", "field","new","new-arrivals", "lifestyle", "basketball"],
     "colors": ["Blue", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/332638c0-4ba9-4c88-9569-a930f1f4fc99/NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -444,7 +444,7 @@
     "collection": "nike-field-general",
     "price": 115,
     "genders": ["Women"],
-    "categories": ["women", "all-shoes", "field", "new" , "new-arrivals", "lifestyle", "basketball"],
+    "categories": ["training","women", "all-shoes", "field", "new" , "new-arrivals", "lifestyle", "basketball"],
     "colors": ["Gray", "Black"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/be0f03c6-1f18-423b-b1d5-1730807015b5/WMNS+NIKE+FIELD+GENERAL.png",
     "detailImages": [
@@ -522,7 +522,7 @@
     "collection": "nike-field-general",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["kids", "all-shoes", "field", "lifestyle", "basketball", "big-kids"],
+    "categories": ["training","kids", "all-shoes", "field", "lifestyle", "basketball", "big-kids"],
     "colors": ["Brown", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4233edd-7ba8-43e4-a217-bbb2ec313566/NIKE+FIELD+GENERAL+LTR+%28GS%29.png",
     "detailImages": [
@@ -676,7 +676,7 @@
     "collection": "nike-air-force-1",
     "price": 120,
     "genders": ["Men"],
-    "categories": ["men", "all-shoes", "airforce",  "lifestyle", "basketball"],
+    "categories": ["training","men", "all-shoes", "airforce",  "lifestyle", "basketball"],
     "colors": ["Black", "White"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bd6f24de-e7f8-4e6c-ba7d-32313b177f2d/AIR+FORCE+1+%2707+LV8.png",
     "detailImages": [
@@ -851,7 +851,7 @@
     "collection": "nike-air-force-1",
     "price": 90,
     "genders": ["Big Kids"],
-    "categories": ["kids", "all-shoes", "airforce", "lifestyle", "basketball", "big-kids"],
+    "categories": ["training","kids", "all-shoes", "airforce", "lifestyle", "basketball", "big-kids"],
     "colors": ["White", "Gray"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0b89b09f-67d7-4f76-8569-626124420161/AIR+FORCE+1+%28GS%29.png",
     "detailImages": [
@@ -1131,7 +1131,7 @@
     "collection": "nike-zoom-vomero",
     "price": 170,
     "genders": ["Men"],
-    "categories": ["men", "all-shoes", "vomero", "new" , "new-arrivals", "running", "lifestyle"],
+    "categories": ["training","men", "all-shoes", "vomero", "new" , "new-arrivals", "running", "lifestyle"],
     "colors": ["gray"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/46e5b31f-fa63-4762-beea-dc79b056af2d/NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
@@ -1157,7 +1157,7 @@
     "collection": "nike-zoom-vomero",
     "price": 170,
     "genders": ["Women"],
-    "categories": ["women", "all-shoes", "vomero", "running", "lifestyle"],
+    "categories": ["training","women", "all-shoes", "vomero", "running", "lifestyle"],
     "colors": ["black","brown"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45d21cf8-942c-4768-a62a-c6a748cdaea7/W+NIKE+ZOOM+VOMERO+5.png",
     "detailImages": [
@@ -1491,7 +1491,7 @@
     "collection": "nike-c1ty",
     "price": 85,
     "genders": ["Big Kids"],
-    "categories": ["kids", "all-shoes", "city", "lifestyle"],
+    "categories": ["training","kids", "all-shoes", "city", "lifestyle"],
     "colors": ["white","blue"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aac9b3ab-3462-4299-8545-5d8aaab1b85a/NIKE+C1TY+%28GS%29.png",
     "detailImages": [
@@ -2617,5 +2617,957 @@
     "quantityAvailable": 22,
     "description": "The Air Jordan 4 Retro \"Rare Air\" features the iconic AJ4 silhouette with premium construction and classic details.",
     "link": "https://www.nike.com/t/air-jordan-4-retro-rare-air-mens-shoes-R20n6n/FV5029-003"
+  },
+  {
+    "id": "nike-victory-pro-4-golf-shoes-001",
+    "name": "Nike Victory Pro 4",
+    "collection": "nike-victory-pro",
+    "price": 155,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "golf", "scheffler", "sport", "premium"],
+    "colors": ["white", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4e44c988-96c5-4d62-8299-dc44a70fa300/VICTORY+PRO+4.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4e44c988-96c5-4d62-8299-dc44a70fa300/VICTORY+PRO+4.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": false},
+    "features": ["Premium leather upper", "Waterproof construction", "Enhanced traction"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Men's Golf Shoes from Nike Victory Pro 4 collection for superior performance on the course."
+  },
+  {
+    "id": "nike-victory-pro-4-golf-shoes-002",
+    "name": "Nike Victory Pro 4",
+    "collection": "nike-victory-pro",
+    "price": 155,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "golf", "scheffler", "sport", "premium"],
+    "colors": ["grey", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8f2bf906-4d28-4f98-bbab-d8cd662c2340/VICTORY+PRO+4.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8f2bf906-4d28-4f98-bbab-d8cd662c2340/VICTORY+PRO+4.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": false, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Premium leather upper", "Waterproof construction", "Enhanced traction"],
+    "inStock": true,
+    "quantityAvailable": 42,
+    "description": "Men's Golf Shoes from Nike Victory Pro 4 collection in grey colorway."
+  },
+  {
+    "id": "nike-tour-dri-fit-solid-polo",
+    "name": "Nike Tour",
+    "collection": "nike-tour",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["navy", "white", "black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ed610dee-68d0-4ae9-82db-54ed1c2dc0f8/M+NK+DF+TOUR+SOLID+POLO.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ed610dee-68d0-4ae9-82db-54ed1c2dc0f8/M+NK+DF+TOUR+SOLID+POLO.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": false},
+    "features": ["Dri-FIT technology", "Moisture-wicking fabric", "Classic polo design"],
+    "inStock": true,
+    "quantityAvailable": 48,
+    "description": "Men's Dri-FIT Solid Golf Polo from Nike Tour collection."
+  },
+  {
+    "id": "nike-tour-repel-flex-slim-pants",
+    "name": "Nike Tour Repel Flex",
+    "collection": "nike-tour",
+    "price": 100,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["khaki", "navy", "black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f91f8590-c74e-44e9-8f03-1ad00efcbd21/M+NK+TOUR+RPL+FLEX+SLIM+PANT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f91f8590-c74e-44e9-8f03-1ad00efcbd21/M+NK+TOUR+RPL+FLEX+SLIM+PANT.png"
+    ],
+    "availableSizesEU": ["30", "32", "34", "36", "38", "40"],
+    "sizeAvailability": {"30": true, "32": true, "34": true, "36": false, "38": true, "40": true},
+    "features": ["Water-repellent fabric", "4-way stretch", "Slim fit design"],
+    "inStock": true,
+    "quantityAvailable": 32,
+    "description": "Men's Slim Golf Pants from Nike Tour Repel Flex collection."
+  },
+  {
+    "id": "nike-dri-fit-club-cap",
+    "name": "Nike Dri-FIT Club",
+    "collection": "nike-dri-fit-club",
+    "price": 26,
+    "genders": ["Unisex"],
+    "categories": ["men", "women", "all-clothing", "golf", "scheffler", "sport"],
+    "colors": ["white", "navy", "black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e35dcd3b-1609-4da7-862f-2008c5b1bfff/U+NK+DF+CLUB+CAP+S+CB+P.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e35dcd3b-1609-4da7-862f-2008c5b1bfff/U+NK+DF+CLUB+CAP+S+CB+P.png"
+    ],
+    "availableSizesEU": ["One Size"],
+    "sizeAvailability": {"One Size": true},
+    "features": ["Structured design", "Swoosh logo", "Adjustable closure"],
+    "inStock": true,
+    "quantityAvailable": 65,
+    "description": "Structured Swoosh Cap from Nike Dri-FIT Club collection."
+  },
+  {
+    "id": "nike-g-flex-stretch-belt",
+    "name": "Nike G-Flex",
+    "collection": "nike-g-flex",
+    "price": 55,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["black", "brown", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0cfed96f-f51e-4051-a5d3-e3642cc543aa/NK+DIAMOND+STETCH+WVN+BELT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0cfed96f-f51e-4051-a5d3-e3642cc543aa/NK+DIAMOND+STETCH+WVN+BELT.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true},
+    "features": ["Stretch woven fabric", "Diamond pattern", "Flexible design"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Stretch Woven Belt from Nike G-Flex collection for golf comfort."
+  },
+  {
+    "id": "nike-victory-half-zip-golf-top",
+    "name": "Nike Victory",
+    "collection": "nike-victory",
+    "price": 100,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["navy", "black", "grey", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/73c0433a-c215-4408-be19-edb8526cb27f/M+NK+DF+VCTRY+THRMFLX+HZ+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/73c0433a-c215-4408-be19-edb8526cb27f/M+NK+DF+VCTRY+THRMFLX+HZ+TOP.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": false, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "1/2-zip design", "Thermal fleece"],
+    "inStock": true,
+    "quantityAvailable": 29,
+    "description": "Men's Dri-FIT 1/2-Zip Golf Top from Nike Victory collection."
+  },
+  {
+    "id": "nike-tour-striped-golf-polo",
+    "name": "Nike Tour",
+    "collection": "nike-tour",
+    "price": 90,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["navy", "white", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a125a884-358d-467a-bdeb-f061ffa7572c/M+NK+DF+TOUR+STRIPE+POLO+OLC.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a125a884-358d-467a-bdeb-f061ffa7572c/M+NK+DF+TOUR+STRIPE+POLO+OLC.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": false, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Striped design", "Performance fabric"],
+    "inStock": true,
+    "quantityAvailable": 41,
+    "description": "Men's Dri-FIT Striped Golf Polo from Nike Tour collection."
+  },
+  {
+    "id": "nike-tour-heathered-golf-polo",
+    "name": "Nike Tour",
+    "collection": "nike-tour",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["grey", "navy", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/484fc988-c857-429e-b865-9e1935524c0a/M+NK+DF+TOUR+HEATHER+POLO.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/484fc988-c857-429e-b865-9e1935524c0a/M+NK+DF+TOUR+HEATHER+POLO.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": false, "XXL": true},
+    "features": ["Dri-FIT technology", "Heathered fabric", "Classic polo fit"],
+    "inStock": true,
+    "quantityAvailable": 36,
+    "description": "Men's Dri-FIT Heathered Golf Polo from Nike Tour collection."
+  },
+  {
+    "id": "nike-tour-repel-flex-slim-pants-002",
+    "name": "Nike Tour Repel Flex",
+    "collection": "nike-tour",
+    "price": 100,
+    "genders": ["Men"],
+    "categories": ["men", "all-clothing", "golf", "scheffler", "sport", "premium"],
+    "colors": ["charcoal", "olive", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67e0f409-0c2a-4691-b080-cb0e0777b17d/M+NK+TOUR+RPL+FLEX+SLIM+PANT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67e0f409-0c2a-4691-b080-cb0e0777b17d/M+NK+TOUR+RPL+FLEX+SLIM+PANT.png"
+    ],
+    "availableSizesEU": ["30", "32", "34", "36", "38", "40"],
+    "sizeAvailability": {"30": false, "32": true, "34": true, "36": true, "38": true, "40": true},
+    "features": ["Water-repellent fabric", "4-way stretch", "Slim fit design"],
+    "inStock": true,
+    "quantityAvailable": 44,
+    "description": "Men's Slim Golf Pants from Nike Tour Repel Flex collection in dark colorways."
+  },
+  {
+    "id": "jordan-trunner-lx-women-shoes",
+    "name": "Jordan Trunner LX",
+    "collection": "jordan-trunner",
+    "price": 135,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "jordan", "lifestyle", "starfish", "sport", "jordan-women-shoes", "jordan-women-all"],
+    "colors": ["black", "white", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2b5d6d60-9b6c-4240-ac60-93957aa882d8/WMNS+JORDAN+TRUNNER+LX+RA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2b5d6d60-9b6c-4240-ac60-93957aa882d8/WMNS+JORDAN+TRUNNER+LX+RA.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": false, "40": true, "41": true, "42": true},
+    "features": ["Lightweight design", "Comfortable fit", "Jordan branding"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Women's Shoes from Jordan Trunner LX collection combining style and comfort."
+  },
+  {
+    "id": "air-jordan-1-retro-high-og-shattered-backboard",
+    "name": "Air Jordan 1 Retro High OG \"Shattered Backboard\"",
+    "collection": "air-jordan-1",
+    "price": 185,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "air-jordan", "basketball", "jordan", "starfish", "sport", "jordan-men-shoes", "jordan-men-all", "premium"],
+    "colors": ["orange", "black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/81d10257-65bc-45c1-8970-5449316928c6/AIR+JORDAN+1+RETRO+HIGH+OG.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/81d10257-65bc-45c1-8970-5449316928c6/AIR+JORDAN+1+RETRO+HIGH+OG.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": false, "42": true, "43": true, "44": true, "45": true, "46": false},
+    "features": ["Premium leather upper", "Air-Sole cushioning", "High-top silhouette"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Men's Shoes from Air Jordan 1 Retro High OG in the iconic Shattered Backboard colorway."
+  },
+  {
+    "id": "luka-77-bright-mango-basketball",
+    "name": "Luka .77 \"Bright Mango\"",
+    "collection": "jordan-luka",
+    "price": 105,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "basketball", "jordan", "starfish", "sport", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["orange", "black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4e364043-fbc2-40d3-8e88-70e8f6bc1e4d/JORDAN+LUKA+.77.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4e364043-fbc2-40d3-8e88-70e8f6bc1e4d/JORDAN+LUKA+.77.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": false, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Luka Dončić signature", "Performance basketball design", "Bright colorway"],
+    "inStock": true,
+    "quantityAvailable": 42,
+    "description": "Basketball Shoes from Jordan Luka collection in vibrant Bright Mango colorway."
+  },
+  {
+    "id": "air-jordan-3-retro-starfish-women",
+    "name": "Air Jordan 3 Retro \"Starfish\"",
+    "collection": "air-jordan-3",
+    "price": 205,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "air-jordan", "basketball", "jordan", "starfish", "sport", "jordan-women-shoes", "jordan-women-all", "premium"],
+    "colors": ["orange", "white", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b78db1a9-a8e2-4c29-82e1-2f7fc7a759ba/WMNS+AIR+JORDAN+3+RETRO+T.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b78db1a9-a8e2-4c29-82e1-2f7fc7a759ba/WMNS+AIR+JORDAN+3+RETRO+T.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": false, "39": true, "40": true, "41": true, "42": false},
+    "features": ["Elephant print details", "Air-Sole cushioning", "Premium leather construction"],
+    "inStock": true,
+    "quantityAvailable": 31,
+    "description": "Women's Shoes from Air Jordan 3 Retro collection in the stunning Starfish colorway."
+  },
+  {
+    "id": "air-jordan-1-mid-se-men",
+    "name": "Air Jordan 1 Mid SE",
+    "collection": "air-jordan-1",
+    "price": 140,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "air-jordan", "lifestyle", "jordan", "starfish", "sport", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["black", "white", "red", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c5a0aac-e306-46ba-a3d9-9596a2c51f83/AIR+JORDAN+1+MID+SE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c5a0aac-e306-46ba-a3d9-9596a2c51f83/AIR+JORDAN+1+MID+SE.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": false, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Mid-top silhouette", "Premium materials", "Special Edition details"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Men's Shoes from Air Jordan 1 Mid SE collection with special edition styling."
+  },
+  {
+    "id": "air-jordan-1-low-men",
+    "name": "Air Jordan 1 Low",
+    "collection": "air-jordan-1",
+    "price": 120,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "air-jordan", "lifestyle", "jordan", "starfish", "sport", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["white", "black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1d8526b6-ca7a-4f3c-a1fb-fbb79fd475c5/AIR+JORDAN+1+LOW.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1d8526b6-ca7a-4f3c-a1fb-fbb79fd475c5/AIR+JORDAN+1+LOW.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": false, "44": true, "45": true, "46": true},
+    "features": ["Low-top design", "Classic Jordan styling", "Versatile colorway"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "Men's Shoes from Air Jordan 1 Low collection offering timeless basketball style."
+  },
+  {
+    "id": "jordan-flight-fleece-women-pants",
+    "name": "Jordan Flight Fleece",
+    "collection": "jordan-flight",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "jordan", "starfish", "sport", "jordan-women-all"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bfcdefa5-e164-4b25-a4bb-f5301122cff1/W+J+FLT+FLC+FT+OH+PANT+ADJ.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bfcdefa5-e164-4b25-a4bb-f5301122cff1/W+J+FLT+FLC+FT+OH+PANT+ADJ.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["French Terry fabric", "Open-hem design", "Adjustable fit"],
+    "inStock": true,
+    "quantityAvailable": 33,
+    "description": "Women's French Terry Open-Hem Pants from Jordan Flight Fleece collection."
+  },
+  {
+    "id": "jordan-brooklyn-women-pants",
+    "name": "Jordan Brooklyn",
+    "collection": "jordan-brooklyn",
+    "price": 90,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "jordan", "starfish", "sport", "jordan-women-all"],
+    "colors": ["black", "navy", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c784b1c1-9dab-489d-aceb-db586c49a570/W+J+BRK+NVLTY+PANT+SLD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c784b1c1-9dab-489d-aceb-db586c49a570/W+J+BRK+NVLTY+PANT+SLD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Novelty design", "Solid colorway", "Brooklyn inspiration"],
+    "inStock": true,
+    "quantityAvailable": 27,
+    "description": "Women's Pants from Jordan Brooklyn collection with urban-inspired styling."
+  },
+  {
+    "id": "air-jordan-1-high-method-of-make-women",
+    "name": "Air Jordan 1 High Method of Make",
+    "collection": "air-jordan-1",
+    "price": 155,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "air-jordan", "lifestyle", "jordan", "starfish", "sport", "jordan-women-shoes", "jordan-women-all", "premium"],
+    "colors": ["white", "grey", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5b9a5321-c1e8-4af8-9c92-8a2ee4269c68/WMNS+AIR+JORDAN+1+MM+HIGH.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5b9a5321-c1e8-4af8-9c92-8a2ee4269c68/WMNS+AIR+JORDAN+1+MM+HIGH.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": false, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Method of Make construction", "High-top silhouette", "Premium craftsmanship"],
+    "inStock": true,
+    "quantityAvailable": 29,
+    "description": "Women's Shoes from Air Jordan 1 High Method of Make collection showcasing premium construction."
+  },
+  {
+    "id": "jordan-heir-series-basketball",
+    "name": "Jordan Heir Series",
+    "collection": "jordan-heir",
+    "price": 110,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "basketball", "jordan", "starfish", "sport", "jordan-men-shoes", "jordan-men-all"],
+    "colors": ["black", "white", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f237f2f2-e4f0-43ae-b9f0-016829141fa8/JORDAN+HEIR+SERIES.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f237f2f2-e4f0-43ae-b9f0-016829141fa8/JORDAN+HEIR+SERIES.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": false, "45": true, "46": true},
+    "features": ["Basketball performance", "Heir series design", "Jordan legacy"],
+    "inStock": true,
+    "quantityAvailable": 36,
+    "description": "Basketball Shoes from Jordan Heir Series collection continuing the Jordan legacy."
+  },
+  {
+    "id": "nike-phantom-6-low-elite-haaland-1",
+    "name": "Nike Phantom 6 Low Elite \"Erling Haaland\"",
+    "collection": "phantom-6",
+    "price": 270,
+    "genders": ["Men", "Women"],
+    "categories": ["soccer", "sport", "training", "all-shoes", "field", "premium"],
+    "colors": ["black", "yellow"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5a866b6f-6088-4340-903c-376756799cc5/PHANTOM+6+LOW+ELITE+FG+EH.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5a866b6f-6088-4340-903c-376756799cc5/PHANTOM+6+LOW+ELITE+FG+EH.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45"],
+    "sizeAvailability": {"39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true},
+    "features": ["Firm-ground cleats", "Elite performance", "Erling Haaland signature", "Enhanced ball control"],
+    "inStock": true,
+    "quantityAvailable": 15,
+    "description": "Elite firm-ground soccer cleats featuring Erling Haaland's signature design for maximum performance on the pitch."
+  },
+  {
+    "id": "nike-phantom-6-low-elite-2",
+    "name": "Nike Phantom 6 Low Elite",
+    "collection": "phantom-6",
+    "price": 270,
+    "genders": ["Men", "Women"],
+    "categories": ["soccer", "sport", "training", "all-shoes", "field", "premium"],
+    "colors": ["white", "blue", "black", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5d8a0ec0-2c76-4d45-9cb6-34650979a314/PHANTOM+6+LOW+ELITE+FG+LV8.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5d8a0ec0-2c76-4d45-9cb6-34650979a314/PHANTOM+6+LOW+ELITE+FG+LV8.png"
+    ],
+    "availableSizesEU": ["38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"38": true, "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Firm-ground cleats", "Elite performance", "Multi-color options", "Superior ball control"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Elite firm-ground soccer cleats available in multiple colorways for professional-level performance."
+  },
+  {
+    "id": "nike-strike-mens-top-3",
+    "name": "Nike Strike",
+    "collection": "strike",
+    "price": 45,
+    "genders": ["Men"],
+    "categories": ["soccer", "sport", "training", "all-clothing", "men"],
+    "colors": ["blue", "black", "white", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e42906a-48c5-48ea-b861-d5918c298b86/M+NK+DF+STRK+TOP+SS+T90.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e42906a-48c5-48ea-b861-d5918c298b86/M+NK+DF+STRK+TOP+SS+T90.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Moisture-wicking", "Soccer-specific fit", "Breathable fabric"],
+    "inStock": true,
+    "quantityAvailable": 50,
+    "description": "Men's Dri-FIT soccer top designed for training and match performance with moisture-wicking technology."
+  },
+  {
+    "id": "nike-strike-mens-shorts-4",
+    "name": "Nike Strike",
+    "collection": "strike",
+    "price": 50,
+    "genders": ["Men"],
+    "categories": ["soccer", "sport", "training", "all-clothing", "shorts", "men"],
+    "colors": ["black", "blue", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/56c04136-b19c-46a3-a5bb-c867b79be25b/M+NK+DF+STRK+SHORT+KZ.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/56c04136-b19c-46a3-a5bb-c867b79be25b/M+NK+DF+STRK+SHORT+KZ.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Lightweight fabric", "Soccer-specific cut", "Elastic waistband"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "Men's Dri-FIT soccer shorts engineered for optimal performance during training and matches."
+  },
+  {
+    "id": "nike-mercurial-flylite-shin-guards-5",
+    "name": "Nike Mercurial FlyLite SuperLock",
+    "collection": "mercurial",
+    "price": 62,
+    "genders": ["Men", "Women"],
+    "categories": ["soccer", "sport", "training", "field"],
+    "colors": ["white", "black", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29968c49-80d8-4622-985d-2cfb8af8f615/NK+MERC+FLYLITE+SL+-+FA22.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29968c49-80d8-4622-985d-2cfb8af8f615/NK+MERC+FLYLITE+SL+-+FA22.png"
+    ],
+    "availableSizesEU": ["S", "M", "L"],
+    "sizeAvailability": {"S": true, "M": true, "L": true},
+    "features": ["SuperLock technology", "Lightweight protection", "Secure fit", "Impact resistance"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Soccer shin guards featuring SuperLock technology for secure, lightweight protection during play."
+  },
+  {
+    "id": "nike-phantom-soccer-ball-6",
+    "name": "Nike Phantom",
+    "collection": "phantom",
+    "price": 22,
+    "genders": ["Men", "Women", "Kids"],
+    "categories": ["soccer", "sport", "training"],
+    "colors": ["white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a54056a0-8464-40b8-b8b5-a6036dde1f94/NK+PHANTOM+-+FA25.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a54056a0-8464-40b8-b8b5-a6036dde1f94/NK+PHANTOM+-+FA25.png"
+    ],
+    "availableSizesEU": ["5"],
+    "sizeAvailability": {"5": true},
+    "features": ["Official size 5", "Durable construction", "Enhanced grip", "Training quality"],
+    "inStock": true,
+    "quantityAvailable": 100,
+    "description": "Official size soccer ball designed for training and recreational play with enhanced durability."
+  },
+  {
+    "id": "nike-phantom-6-high-elite-7",
+    "name": "Nike Phantom 6 High Elite",
+    "collection": "phantom-6",
+    "price": 295,
+    "genders": ["Men", "Women"],
+    "categories": ["soccer", "sport", "training", "all-shoes", "field", "premium"],
+    "colors": ["white", "black", "blue", "orange"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/683ed683-c55d-4a19-a5a0-8d64faa55c71/PHANTOM+6+HIGH+ELITE+FG.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/683ed683-c55d-4a19-a5a0-8d64faa55c71/PHANTOM+6+HIGH+ELITE+FG.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["High-top design", "Elite performance", "Firm-ground cleats", "Enhanced ankle support"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "High-top elite firm-ground soccer cleats providing superior ankle support and professional performance."
+  },
+  {
+    "id": "nike-mercurial-vapor-16-elite-8",
+    "name": "Nike Mercurial Vapor 16 Elite",
+    "collection": "mercurial-vapor",
+    "price": 270,
+    "genders": ["Men", "Women"],
+    "categories": ["soccer", "sport", "training", "all-shoes", "field", "premium"],
+    "colors": ["white", "black", "blue", "red", "yellow", "green", "orange", "purple"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6c75e6d3-6247-46d6-b3cf-cee3b5837d32/ZM+VAPOR+16+ELITE+FG.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6c75e6d3-6247-46d6-b3cf-cee3b5837d32/ZM+VAPOR+16+ELITE+FG.png"
+    ],
+    "availableSizesEU": ["38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"38": true, "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Low-top design", "Elite performance", "Speed-focused", "Zoom Air technology"],
+    "inStock": true,
+    "quantityAvailable": 30,
+    "description": "Elite firm-ground low-top soccer cleats designed for speed and agility with Zoom Air technology."
+  },
+  {
+    "id": "nike-strike-womens-crew-top-9",
+    "name": "Nike Strike",
+    "collection": "strike",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["soccer", "sport", "training", "all-clothing", "women"],
+    "colors": ["black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a5c28e2d-6182-421f-8140-5585722f4cbe/W+NK+DF+STRIKE+CREW+TOP+K.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a5c28e2d-6182-421f-8140-5585722f4cbe/W+NK+DF+STRIKE+CREW+TOP+K.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Crew-neck design", "Women's specific fit", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 40,
+    "description": "Women's Dri-FIT crew-neck soccer top designed for comfort and performance during training and matches."
+  },
+  {
+    "id": "nike-strike-womens-pants-10",
+    "name": "Nike Strike",
+    "collection": "strike",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["soccer", "sport", "training", "all-clothing", "women"],
+    "colors": ["black", "white", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a55c400b-12c6-4505-a8de-a8302abd290b/W+NK+DF+STRIKE+PANT+KPZ.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a55c400b-12c6-4505-a8de-a8302abd290b/W+NK+DF+STRIKE+PANT+KPZ.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Women's specific fit", "Tapered leg", "Elastic waistband"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Women's Dri-FIT soccer pants engineered for optimal performance and comfort during training sessions."
+  },
+  {
+    "id": "nike-gp-challenge-pro-premium-men-1",
+    "name": "Nike GP Challenge Pro Premium",
+    "collection": "gp-challenge-pro",
+    "price": 125,
+    "genders": ["Men"],
+    "categories": ["tennis", "sport", "all-shoes", "men", "premium"],
+    "colors": ["white", "black", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/74f31b14-da35-431c-a387-6b22fc7e5cb7/ZM+GP+CHALLENGE+PRO+HC+PRM+USO.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/74f31b14-da35-431c-a387-6b22fc7e5cb7/ZM+GP+CHALLENGE+PRO+HC+PRM+USO.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Hard court outsole", "Zoom Air technology", "Premium construction", "Enhanced durability"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Men's hard court tennis shoes featuring Zoom Air technology and premium materials for superior court performance."
+  },
+  {
+    "id": "nike-vapor-12-men-2",
+    "name": "Nike Vapor 12",
+    "collection": "vapor-12",
+    "price": 180,
+    "genders": ["Men"],
+    "categories": ["tennis", "sport", "all-shoes", "men", "premium"],
+    "colors": ["white", "black", "blue", "red", "yellow", "green", "orange", "navy", "gray"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b67ab7bd-0d7e-47f8-867a-a551e01b20a3/M+ZOOM+VAPOR+12+HC.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b67ab7bd-0d7e-47f8-867a-a551e01b20a3/M+ZOOM+VAPOR+12+HC.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Zoom Air cushioning", "Hard court specific", "Lightweight design", "Superior traction"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Men's hard court tennis shoes with Zoom Air cushioning for explosive movement and comfort on the court."
+  },
+  {
+    "id": "nikecourt-slam-mens-tank-3",
+    "name": "NikeCourt Slam",
+    "collection": "nikecourt-slam",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["tennis", "sport", "all-clothing", "men"],
+    "colors": ["white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/06df4512-daf0-4ea8-ae9f-8ba1e7e5692f/M+NKCT+DFADV+SLAM+TANK+NY.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/06df4512-daf0-4ea8-ae9f-8ba1e7e5692f/M+NKCT+DFADV+SLAM+TANK+NY.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT ADV technology", "Tank top design", "Enhanced breathability", "Tennis-specific fit"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "Men's Dri-FIT ADV tennis tank top engineered for maximum breathability and performance during intense matches."
+  },
+  {
+    "id": "nikecourt-slam-mens-shorts-4",
+    "name": "NikeCourt Slam",
+    "collection": "nikecourt-slam",
+    "price": 90,
+    "genders": ["Men"],
+    "categories": ["tennis", "sport", "all-clothing", "shorts", "men"],
+    "colors": ["white", "black", "blue", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4574c658-af79-4ffa-9dc3-8114da14aaca/M+NKCT+DF+SLAM+SHORT+NY.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4574c658-af79-4ffa-9dc3-8114da14aaca/M+NKCT+DF+SLAM+SHORT+NY.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "6-inch inseam", "Tennis-specific cut", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 40,
+    "description": "Men's Dri-FIT 6-inch tennis shorts designed for optimal movement and comfort during competitive play."
+  },
+  {
+    "id": "nike-vapor-pro-3-premium-women-5",
+    "name": "Nike Vapor Pro 3 Premium",
+    "collection": "vapor-pro-3",
+    "price": 135,
+    "genders": ["Women"],
+    "categories": ["tennis", "sport", "all-shoes", "women", "premium"],
+    "colors": ["white", "pink", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/163eec48-7425-43cc-bc89-ade3555c9095/W+ZOOM+VAPOR+PRO+3+HC+PRM.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/163eec48-7425-43cc-bc89-ade3555c9095/W+ZOOM+VAPOR+PRO+3+HC+PRM.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Zoom technology", "Premium materials", "Women's specific fit", "Hard court optimized"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Women's premium hard court tennis shoes with Zoom technology for responsive cushioning and superior court feel."
+  },
+  {
+    "id": "nike-gp-challenge-1-premium-women-6",
+    "name": "Nike GP Challenge 1 Premium",
+    "collection": "gp-challenge-1",
+    "price": 180,
+    "genders": ["Women"],
+    "categories": ["tennis", "sport", "all-shoes", "women", "premium"],
+    "colors": ["white", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c75f1af9-97c6-401d-967c-85c855adb772/W+ZOOM+GP+CHALLENGE+1+HC+PRM+F.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c75f1af9-97c6-401d-967c-85c855adb772/W+ZOOM+GP+CHALLENGE+1+HC+PRM+F.png",
+      "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/c75f1af9-97c6-401d-967c-85c855adb772/W+ZOOM+GP+CHALLENGE+1+HC+PRM+F.png",
+      "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/178f8a13-cbfd-4891-8b0a-93912834f469/W+ZOOM+GP+CHALLENGE+1+HC+PRM.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Zoom Air technology", "Premium construction", "Hard court durability", "Enhanced support"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Women's premium hard court tennis shoes with Zoom Air technology for exceptional performance and comfort."
+  },
+  {
+    "id": "nikecourt-slam-womens-tank-7",
+    "name": "NikeCourt Slam",
+    "collection": "nikecourt-slam",
+    "price": 70,
+    "genders": ["Women"],
+    "categories": ["tennis", "sport", "all-clothing", "women"],
+    "colors": ["white", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f1b9907b-f0b5-4e80-ba12-fd6e313aa5aa/W+NKCT+DF+SLAM+TANK+USO.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f1b9907b-f0b5-4e80-ba12-fd6e313aa5aa/W+NKCT+DF+SLAM+TANK+USO.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Tank top design", "Women's specific fit", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 50,
+    "description": "Women's Dri-FIT tennis tank top designed for comfort and performance during competitive matches."
+  },
+  {
+    "id": "nikecourt-slam-womens-skirt-8",
+    "name": "NikeCourt Slam",
+    "collection": "nikecourt-slam",
+    "price": 78,
+    "genders": ["Women"],
+    "categories": ["tennis", "sport", "all-clothing", "skirts-dresses", "women"],
+    "colors": ["white", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ca084c94-f8b5-4ef7-a447-f8e0a6f6e9b1/W+NKCT+DF+SLAM+SKIRT+HR+USO.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ca084c94-f8b5-4ef7-a447-f8e0a6f6e9b1/W+NKCT+DF+SLAM+SKIRT+HR+USO.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "High-waisted design", "Built-in shorts", "Tennis-specific cut"],
+    "inStock": true,
+    "quantityAvailable": 42,
+    "description": "Women's Dri-FIT high-waisted tennis skirt with built-in shorts for comfort and coverage during play."
+  },
+  {
+    "id": "nike-vapor-12-premium-women-9",
+    "name": "Nike Vapor 12 Premium",
+    "collection": "vapor-12",
+    "price": 190,
+    "genders": ["Women"],
+    "categories": ["tennis", "sport", "all-shoes", "women", "premium"],
+    "colors": ["white", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/92a8dca7-8266-4a88-b6c9-5fe3c158c3cb/W+ZOOM+VAPOR+12+HC+PRM.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/92a8dca7-8266-4a88-b6c9-5fe3c158c3cb/W+ZOOM+VAPOR+12+HC+PRM.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Zoom Air cushioning", "Premium materials", "Hard court specific", "Women's specific fit"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Women's premium hard court tennis shoes with Zoom Air cushioning for elite-level performance and comfort."
+  },
+  {
+    "id": "nike-gp-challenge-pro-premium-women-10",
+    "name": "Nike GP Challenge Pro Premium",
+    "collection": "gp-challenge-pro",
+    "price": 135,
+    "genders": ["Women"],
+    "categories": ["tennis", "sport", "all-shoes", "women", "premium"],
+    "colors": ["white", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/610f80b9-7099-45c1-b7c1-742c6acd5c63/W+ZOOM+GP+CHALLENGE+PRO+HC+PRM.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/610f80b9-7099-45c1-b7c1-742c6acd5c63/W+ZOOM+GP+CHALLENGE+PRO+HC+PRM.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Zoom technology", "Premium construction", "Hard court durability", "Women's specific fit"],
+    "inStock": true,
+    "quantityAvailable": 30,
+    "description": "Women's premium hard court tennis shoes featuring Zoom technology for superior court performance and style."
+  },
+  {
+    "id": "nike-alpha-huarache-elite-4-mid-1",
+    "name": "Nike Alpha Huarache Elite 4 Mid",
+    "collection": "alpha-huarache-elite-4",
+    "price": 105,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "all-shoes", "men", "field"],
+    "colors": ["white", "black", "blue", "red", "gray"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8e893085-3183-4cba-9b06-248e276d2865/ALPHA+HUARACHE+ELITE+4+MID.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8e893085-3183-4cba-9b06-248e276d2865/ALPHA+HUARACHE+ELITE+4+MID.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Mid-top design", "Baseball-specific cleats", "Enhanced ankle support", "Durable construction"],
+    "inStock": true,
+    "quantityAvailable": 30,
+    "description": "Men's mid-top baseball cleats featuring enhanced ankle support and durable construction for diamond performance."
+  },
+  {
+    "id": "nike-alpha-huarache-elite-4-low-2",
+    "name": "Nike Alpha Huarache Elite 4 Low",
+    "collection": "alpha-huarache-elite-4",
+    "price": 95,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "all-shoes", "men", "field"],
+    "colors": ["white", "black", "blue", "red", "gray", "navy", "green"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1dc24bf6-598a-4d04-ac6d-3dac1aae100a/ALPHA+HUARACHE+ELITE+4+LOW.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1dc24bf6-598a-4d04-ac6d-3dac1aae100a/ALPHA+HUARACHE+ELITE+4+LOW.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Low-top design", "Baseball cleats", "Lightweight construction", "Superior traction"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Men's low-top baseball cleats designed for speed and agility with lightweight construction and superior traction."
+  },
+  {
+    "id": "nike-pro-mens-fitness-top-3",
+    "name": "Nike Pro",
+    "collection": "nike-pro",
+    "price": 35,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "training", "all-clothing", "men"],
+    "colors": ["black", "white", "gray", "blue", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9beb653d-8e3b-4e87-8a87-eb3dbac9d97f/M+NP+DF+SLIM+TOP+LS.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9beb653d-8e3b-4e87-8a87-eb3dbac9d97f/M+NP+DF+SLIM+TOP+LS.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Slim fit", "Long sleeve", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 60,
+    "description": "Men's Dri-FIT slim long-sleeve fitness top perfect for training and base layer performance."
+  },
+  {
+    "id": "nike-unlimited-mens-shorts-4",
+    "name": "Nike Unlimited",
+    "collection": "nike-unlimited",
+    "price": 70,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "training", "all-clothing", "shorts", "men"],
+    "colors": ["black", "white", "gray", "blue", "navy", "red", "green", "orange", "purple", "yellow", "maroon"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52865f25-6632-4aa0-91a9-cc8ba67a9ca6/M+NK+DF+UNLIMITED+WVN+7IN+2IN1.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52865f25-6632-4aa0-91a9-cc8ba67a9ca6/M+NK+DF+UNLIMITED+WVN+7IN+2IN1.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "7-inch inseam", "2-in-1 design", "Versatile performance"],
+    "inStock": true,
+    "quantityAvailable": 55,
+    "description": "Men's Dri-FIT 7-inch 2-in-1 versatile shorts designed for training and athletic performance."
+  },
+  {
+    "id": "nike-alpha-huarache-nxt-mcs-5",
+    "name": "Nike Alpha Huarache NXT MCS",
+    "collection": "alpha-huarache-nxt",
+    "price": 155,
+    "genders": ["Men", "Women"],
+    "categories": ["baseball", "sport", "all-shoes", "field", "premium"],
+    "colors": ["white", "black", "blue", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6f85cf00-2284-4fd3-b4aa-f181b9d63ab6/ALPHA+HUARACHE+NXT+MCS.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6f85cf00-2284-4fd3-b4aa-f181b9d63ab6/ALPHA+HUARACHE+NXT+MCS.png"
+    ],
+    "availableSizesEU": ["39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["MCS technology", "Premium construction", "Advanced traction", "Next-generation design"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Premium baseball cleats featuring MCS technology and next-generation design for elite diamond performance."
+  },
+  {
+    "id": "nike-alpha-huarache-elite-4-low-mcs-6",
+    "name": "Nike Alpha Huarache Elite 4 Low MCS",
+    "collection": "alpha-huarache-elite-4",
+    "price": 90,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "all-shoes", "men", "field"],
+    "colors": ["white", "black", "blue", "red", "gray", "navy", "green", "orange"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67d931db-1808-4349-9e78-887ffe47812a/ALPHA+HUARACHE+ELITE+4+LOW+MCS.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67d931db-1808-4349-9e78-887ffe47812a/ALPHA+HUARACHE+ELITE+4+LOW+MCS.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["MCS cleat system", "Low-top design", "Enhanced durability", "Multi-surface traction"],
+    "inStock": true,
+    "quantityAvailable": 40,
+    "description": "Men's low-top baseball cleats with MCS system for superior traction and durability on multiple surfaces."
+  },
+  {
+    "id": "ronald-acuna-jr-braves-jersey-away-7",
+    "name": "Ronald Acuña Jr. Atlanta Braves",
+    "collection": "mlb-limited-jersey",
+    "price": 175,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "all-clothing", "men", "premium"],
+    "colors": ["red", "navy", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75453ab3-1e94-4ac1-bae6-bf59d321d135/2025+NK+M+Ltd+PLYRs+JSYs+-+Ftf.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75453ab3-1e94-4ac1-bae6-bf59d321d135/2025+NK+M+Ltd+PLYRs+JSYs+-+Ftf.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT ADV technology", "Limited edition", "Official MLB jersey", "Player-specific design"],
+    "inStock": true,
+    "quantityAvailable": 15,
+    "description": "Men's Nike Dri-FIT ADV MLB limited edition Ronald Acuña Jr. Atlanta Braves jersey with premium construction."
+  },
+  {
+    "id": "ronald-acuna-jr-braves-jersey-home-8",
+    "name": "Ronald Acuña Jr. Atlanta Braves",
+    "collection": "mlb-limited-jersey",
+    "price": 175,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "all-clothing", "men", "premium"],
+    "colors": ["white", "red", "navy", "gray"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/127c47ab-4077-4378-aae2-43c9c9d10f88/Limited+Home+Baseball+Jersey.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/127c47ab-4077-4378-aae2-43c9c9d10f88/Limited+Home+Baseball+Jersey.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT ADV technology", "Limited home jersey", "Official MLB authentic", "Premium materials"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Men's Nike Dri-FIT ADV MLB limited edition Ronald Acuña Jr. Atlanta Braves home jersey with authentic design."
+  },
+  {
+    "id": "nike-flex-rep-fitness-top-9",
+    "name": "Nike Flex Rep",
+    "collection": "nike-flex-rep",
+    "price": 65,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "training", "all-clothing", "men"],
+    "colors": ["black", "white", "gray"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bfa7de6-640a-43fc-8c01-7cea0617bd2e/M+NK+DF+FLEX+REP+SS+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bfa7de6-640a-43fc-8c01-7cea0617bd2e/M+NK+DF+FLEX+REP+SS+TOP.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Short sleeve", "Flexible fit", "Training optimized"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "Men's Dri-FIT short-sleeve fitness top designed for flexible movement during training and workouts."
+  },
+  {
+    "id": "nike-form-tapered-pants-10",
+    "name": "Nike Form",
+    "collection": "nike-form",
+    "price": 60,
+    "genders": ["Men"],
+    "categories": ["baseball", "sport", "training", "all-clothing", "men"],
+    "colors": ["black", "gray", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d089e166-7c9c-416b-aebe-97da961b1634/M+NK+DF+FORM+PANT+TPR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d089e166-7c9c-416b-aebe-97da961b1634/M+NK+DF+FORM+PANT+TPR.png"
+    ],
+    "availableSizesEU": ["S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Tapered fit", "Versatile design", "Training focused"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Men's Dri-FIT tapered versatile pants designed for training and athletic performance with modern fit."
   }
 ]

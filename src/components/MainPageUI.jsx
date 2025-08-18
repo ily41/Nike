@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const MainPageUI = ({cardInfo}) => {
   console.log("info",cardInfo.components.length)
@@ -27,24 +28,24 @@ const MainPageUI = ({cardInfo}) => {
             <section className="flex w-full p-8  text-lg font-semibold overflow-x-scroll  scrollbar-hide  gap-5 ">
 
                 {cardInfo.components.map((item,idx) => (
-                        <div key={idx} className={` relative min-w-[40%] max-w-[70%] lg:flex-1 ${cardInfo.components.length <=  3 ? 'lg:max-w-none lg:min-w-0' : '' }  flex-shrink-0`}> 
-                          <img className = " h-auto w-full object-cover" src={item.imageURL} alt="" />
-                          {cardInfo.title === "Shop by Collection" ? (
-                            <>
-                              <h3 className="mt-2 text-sm sm:text-lg">{item.secondTitle}</h3>
-                              <h3 className="mt-2 text-lg sm:text-xl  ">{item.buttonTitle}</h3> 
-                            </>
-                          ) : (
-                            <>
-                              <h3 className="mt-5 sm:hidden">{item.buttonTitle}</h3>
-                              <button className="hidden sm:block absolute bg-white text-black rounded-3xl font-medium px-[14px] py-[3px] tracking-tighter text-sm bottom-3 left-3 lg:bottom-9 lg:left-9 lg:text-lg lg:px-[16px] lg:py-[5px]">
-                                {item.buttonTitle}
-                              </button>
-                            </>
-                          )}
+                          <Link to={`/products/${item.slug}`} state={{title:item.buttonTitle}} key={idx} className={` relative min-w-[40%] max-w-[70%] lg:flex-1 ${cardInfo.components.length <=  3 ? 'lg:max-w-none lg:min-w-0' : '' }  flex-shrink-0`}> 
+                            <img className = " h-auto w-full object-cover" src={item.imageURL} alt="" />
+                            {cardInfo.title === "Shop by Collection" ? (
+                              <>
+                                <h3 className="mt-2 text-sm sm:text-lg">{item.secondTitle}</h3>
+                                <h3 className="mt-2 text-lg sm:text-xl  ">{item.buttonTitle}</h3> 
+                              </>
+                            ) : (
+                              <>
+                                <h3 className="mt-5 sm:hidden">{item.buttonTitle}</h3>
+                                <button className="hidden sm:block absolute bg-white text-black rounded-3xl font-medium px-[14px] py-[3px] tracking-tighter text-sm bottom-3 left-3 lg:bottom-9 lg:left-9 lg:text-lg lg:px-[16px] lg:py-[5px]">
+                                  {item.buttonTitle}
+                                </button>
+                              </>
+                            )}
 
-                         
-                        </div>
+                          
+                          </Link>
                 )
 
                 )}

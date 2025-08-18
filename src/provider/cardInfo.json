@@ -4,15 +4,20 @@
     "components": [
       {
         "buttonTitle": "Shop Training",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_743,c_limit/bde3650b-fc78-4496-8d70-447e745eb179/nike-just-do-it.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_743,c_limit/bde3650b-fc78-4496-8d70-447e745eb179/nike-just-do-it.jpg",
+        "slug": "training"
       },
       {
         "buttonTitle": "Shop Running",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_743,c_limit/21439061-fbf7-46e2-a341-c79385b59c6d/nike-just-do-it.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_743,c_limit/21439061-fbf7-46e2-a341-c79385b59c6d/nike-just-do-it.jpg",
+        "slug": "running"
+        
       },
       {
         "buttonTitle": "Shop Golf",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_743,c_limit/89e623fc-39e8-4a7d-acc9-ce79e58be88c/nike-just-do-it.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_743,c_limit/89e623fc-39e8-4a7d-acc9-ce79e58be88c/nike-just-do-it.jpg",
+        "slug": "golf"
+
       }
     ]
   },
@@ -21,25 +26,31 @@
     "components": [
       {
         "buttonTitle": "Shop Basketball",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/954d8d82-4837-448b-8ef4-c792190c6607/men-s-shoes-clothing-accessories.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/954d8d82-4837-448b-8ef4-c792190c6607/men-s-shoes-clothing-accessories.jpg",
+        "slug": "basketball"
       },
       {
         "buttonTitle": "Shop Soccer",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/7201d6cb-3b57-475d-aca2-541512a745e5/men-s-shoes-clothing-accessories.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/7201d6cb-3b57-475d-aca2-541512a745e5/men-s-shoes-clothing-accessories.jpg",
+        "slug": "soccer"
       },
       {
         "buttonTitle": "Shop Tennis",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/eae1a252-284f-478e-845f-83e6e8c01195/men-s-shoes-clothing-accessories.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/eae1a252-284f-478e-845f-83e6e8c01195/men-s-shoes-clothing-accessories.jpg",
+        "slug": "tennis"
       },
       {
         "buttonTitle": "Shop Baseball",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/f07c14f9-ed0d-47da-88d1-f62eddfa0301/men-s-shoes-clothing-accessories.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/f07c14f9-ed0d-47da-88d1-f62eddfa0301/men-s-shoes-clothing-accessories.jpg",
+        "slug": "baseball"
       },
       {
         "buttonTitle": "Shop Training",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/ecf3a550-7b18-4b73-a0b0-81977ad7393d/men-s-shoes-clothing-accessories.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_505,c_limit/ecf3a550-7b18-4b73-a0b0-81977ad7393d/men-s-shoes-clothing-accessories.jpg",
+        "slug": "training"
       }
     ]
+
   },
   {
      "title": "Shop by Collection",

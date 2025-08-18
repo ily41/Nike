@@ -45,9 +45,9 @@ const Header = () => {
     document.body.style.position = 'unset';
     document.body.style.width = 'unset';
   };
-}, [burgerBool]);
+  }, [burgerBool]);
 
-const renderMenu = () => {
+  const renderMenu = () => {
   if (burgerPagination === "all") {
     return data.map((item, idx) => (
       <div
@@ -111,27 +111,33 @@ const renderMenu = () => {
   }
 
   return null;
-};
+  };
 
 
-const searchProducts = () => {
-  const allCategories = [];
-  
-  data.forEach(mainCat => {
-    allCategories.push({
-      name: mainCat.name,
-      slug: mainCat.slug
-    });
-    
-    mainCat.subCategories.forEach(subCat => {
-      subCat.categories.forEach(cat => {
-        allCategories.push({
-          name: cat.name,
-          slug: cat.slug
-        });
-      });
+  const searchProducts = () => {
+  let categoriesArray = new Set();
+
+  products.forEach(el => {
+    el.categories.forEach(cat => {
+      const name = cat
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, char => char.toUpperCase());
+
+      categoriesArray.add(JSON.stringify({ name, slug: cat }));
     });
   });
+
+  data.forEach(mainCat => {
+    categoriesArray.add(JSON.stringify({
+      name: mainCat.name,
+      slug: mainCat.slug
+    }));
+  });
+
+  const allCategories = Array.from(categoriesArray).map(item => JSON.parse(item));
+  console.log(allCategories)
+
+
 
   const matchingCategories = allCategories
     .filter((categoryObj, index, array) => 
@@ -140,10 +146,10 @@ const searchProducts = () => {
     )
     .slice(0, 4);
 
-return matchingCategories.map((categoryObj, idx) => {
-    if (search === "") {
-      return null;
-    }
+    return matchingCategories.map((categoryObj, idx) => {
+      if (search === "") {
+        return null;
+      }
 
     const categoryName = categoryObj.name;
     const categorySlug = categoryObj.slug;
@@ -191,14 +197,14 @@ return matchingCategories.map((categoryObj, idx) => {
       </Link>
     );
   });
-}
+  }
 
-useEffect(() => {
+  useEffect(() => {
   const locationState = window.location.state;
   if (locationState?.fromSearch && locationState?.title) {
     setSearchTitle(locationState.title);
   }
-}, []);
+  }, []);
 
 
 
