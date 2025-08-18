@@ -7,12 +7,15 @@ import { FilterContext } from '../provider/context'
 
 
 const Products = () => {
+    
     const {showFilter,setShowFilter, setProducts,filtered, setFiltered} = useContext(FilterContext)
      
     const {category,subCategory} = useParams()
     const [open,setOpen] = useState(false)
     const location = useLocation();
     const title = location.state?.title || "";
+    const isFromSearch = location.state?.fromSearch;
+    const searchTerm = location.state?.searchTerm;
 
 
 
@@ -35,7 +38,9 @@ const Products = () => {
     <>
         <div className='w-full font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
         <div className='mx-6 lg:mx-10'>
+            {isFromSearch && <span>Search results for</span>}
             <h2 className='font-[helveticaNow] lg:hidden text-xl my-6'>{title}</h2>
+            
             <div>
                 <hr className='px-4 mt-4 lg:hidden text-[#b3b3b3]'/>
 
@@ -67,7 +72,7 @@ const Products = () => {
                         </button>
 
                         <button onClick={() => setOpen(!open)}  className='hidden lg:flex cursor-pointer relative gap-3 font-[helveticaNow] rounded-2xl px-4 py-1 border-1 lg:border-0 items-center'>Sort By
-                             <img className='w-5 h-5' src="../public/Icons/down-arrow.svg" alt="" />
+                             <img className='w-5 h-5' src="/Icons/down-arrow.svg" alt="" />
                                 {open && 
                                 <div className=' text-right p-5  absolute whitespace-nowrap flex flex-col gap-2 top-10 right-0 rounded-xl text-sm  bg-white shadow-amber-100 '>
                                     <span onClick={() => filtered.sort((a,b) => b.price - a.price)}>Price:Hig ht-Low</span>
@@ -84,7 +89,6 @@ const Products = () => {
             <div className="bg-white block">
                 <Filter />
             </div>
-            {console.log(showFilter)}
             <div className={`lg:grid grid-cols-2 ${showFilter ? 'hidden' : 'grid'} lg:grid-cols-3  items-start justify-center gap-4`}>
                 
                 {filtered.map((el,idx) => (

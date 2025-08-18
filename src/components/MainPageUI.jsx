@@ -1,10 +1,11 @@
 import React from 'react'
 
 const MainPageUI = ({cardInfo}) => {
+  console.log("info",cardInfo.components.length)
   return (
      <div className='mt-8'>
             
-              <div className="hidden sm:flex justify-between items-center mx-5">
+              <div className="hidden sm:flex  justify-between items-center mx-5">
                 <h2 className="text-2xl px-8 font-thin font-[helveticaNow]">{cardInfo.title}</h2>
                 {cardInfo.title == "Gear up by Sport" ? <></> : 
                 <div className="flex gap-3">
@@ -23,10 +24,10 @@ const MainPageUI = ({cardInfo}) => {
             
             
             
-            <section className="flex w-full p-8  text-lg font-semibold overflow-x-scroll scrollbar-hide  gap-5 ">
+            <section className="flex w-full p-8  text-lg font-semibold overflow-x-scroll  scrollbar-hide  gap-5 ">
 
                 {cardInfo.components.map((item,idx) => (
-                        <div key={idx} className=" relative min-w-[40%] max-w-[70%] lg:max-w-[40%]  flex-shrink-0"> 
+                        <div key={idx} className={` relative min-w-[40%] max-w-[70%] lg:flex-1 ${cardInfo.components.length <=  3 ? 'lg:max-w-none lg:min-w-0' : '' }  flex-shrink-0`}> 
                           <img className = " h-auto w-full object-cover" src={item.imageURL} alt="" />
                           {cardInfo.title === "Shop by Collection" ? (
                             <>

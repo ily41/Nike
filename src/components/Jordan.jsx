@@ -33,8 +33,8 @@ const Jordan = () => {
         </section>
 
         <section >
-            <img className='hidden sm:block' src="../public/HeaderImg/jordanHeader.png" alt="" />
-            <img className='sm:hidden' src="../public/HeaderImg/jordanHeaderMobile.png" alt="" />
+            <img className='hidden sm:block' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1440,c_limit/2347dec0-e79f-44cd-8f68-78b9ae5d5be6/jordan.png" alt="" />
+            <img className='sm:hidden' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_724,c_limit/d3ece557-a082-4aad-845f-4afab00df876/jordan.png" alt="" />
         </section >
 
         <section className='font-[helveticaNow] text-white flex flex-col items-center gap-1 p-9'>

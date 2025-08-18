@@ -13,7 +13,20 @@ const Header = () => {
   const [burgerBool, setBurgerBool] = useState(false)
   const [burgerPagination,setBurgerPagination] = useState("all")
   const [searchBool, setSearchBool] = useState(false)
-  const [search, setSearch] = useState(null)
+  const [search, setSearch] = useState("")
+  const [hoveredSearchResult, setHoveredSearchResult] = useState(null)
+  const [searchTitle, setSearchTitle] = useState(null)
+
+
+
+
+
+  useEffect(() => {
+    if(search == "") { 
+      setHoveredSearchResult(null)
+    }
+    
+  },[search])
 
 
   useEffect(() => {
@@ -36,16 +49,12 @@ const Header = () => {
 
 const renderMenu = () => {
   if (burgerPagination === "all") {
-    console.log("all works")
-    data.map(item => console.log(item))
     return data.map((item, idx) => (
       <div
         key={idx}
         className="flex items-center cursor-pointer justify-between"
         onClick={() => {
-          setBurgerPagination(item.slug) 
-          console.log("slugitem")
-          console.log(item.slug)}}
+          setBurgerPagination(item.slug) }}
       >
         <h1 className="text-2xl ">{item.name}</h1>
         <img className="w-7 h-7" src="../public/Icons/right-arrow.svg" alt="" />
@@ -105,12 +114,98 @@ const renderMenu = () => {
 };
 
 
+const searchProducts = () => {
+  const allCategories = [];
+  
+  data.forEach(mainCat => {
+    allCategories.push({
+      name: mainCat.name,
+      slug: mainCat.slug
+    });
+    
+    mainCat.subCategories.forEach(subCat => {
+      subCat.categories.forEach(cat => {
+        allCategories.push({
+          name: cat.name,
+          slug: cat.slug
+        });
+      });
+    });
+  });
+
+  const matchingCategories = allCategories
+    .filter((categoryObj, index, array) => 
+      categoryObj.name.toLowerCase().includes(search.toLowerCase()) && 
+      array.findIndex(item => item.slug === categoryObj.slug) === index
+    )
+    .slice(0, 4);
+
+return matchingCategories.map((categoryObj, idx) => {
+    if (search === "") {
+      return null;
+    }
+
+    const categoryName = categoryObj.name;
+    const categorySlug = categoryObj.slug;
+    const index = categoryName.toLowerCase().indexOf(search.toLowerCase());
+    
+    if (index === -1) {
+      return (
+        <Link key={idx} to={`/products/${categorySlug}`} state={{ fromSearch: true, title: categoryName }}>
+          <div 
+            onClick={() => {
+              setSearchBool(false);
+              setSearchTitle(categoryName);
+              setSearch("")
+              
+            }} 
+            onMouseEnter={() => setHoveredSearchResult(categorySlug)} 
+            className='hover:border-[#1151FF] self-start border-2 border-transparent p-1 rounded-xl cursor-pointer'
+          >
+            <span style={{ color: "#707072" }}>{categoryName}</span>
+          </div>
+        </Link>
+      );
+    }
+
+    const before = categoryName.slice(0, index);
+    const match = categoryName.slice(index, index + search.length);
+    const after = categoryName.slice(index + search.length);
+
+    return (
+      <Link key={idx} to={`/products/${categorySlug}`} state={{ fromSearch: true, title: categoryName }}>
+        <div 
+          onClick={() => {
+            setSearchBool(false);
+            setSearchTitle(categoryName); 
+          }} 
+          onMouseEnter={() => setHoveredSearchResult(categorySlug)} 
+          className='hover:border-[#1151FF] self-start border-2 border-transparent p-1 rounded-xl cursor-pointer'
+        >
+          <span style={{ color: "#707072" }}>
+            {before}
+            <span style={{ color: "black" }}>{match}</span>
+            {after}
+          </span>
+        </div>
+      </Link>
+    );
+  });
+}
+
+useEffect(() => {
+  const locationState = window.location.state;
+  if (locationState?.fromSearch && locationState?.title) {
+    setSearchTitle(locationState.title);
+  }
+}, []);
+
 
 
 
 
   return (
-    <header className='z-[51]'>
+    <header className='z-[999]'>
       {/* Top Nav */}
       <div className={`${jordanState ? 'dark bg-[#111111] text-white' : 'bg-[#F5F5F5] text-black'} hidden lg:flex  justify-between px-8 py-2`}>
         <ul className=' flex gap-4 '>
@@ -138,8 +233,8 @@ const renderMenu = () => {
       <nav className={` sticky ${jordanState ? 'dark bg-[#1F1F21] text-white' : 'bg-white text-black'} top-0 flex justify-between `}>
  
           {/* logo */}
-          <div className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
-            <div className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
+          <div  className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
+            <div  className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
               <Link to='/'>
                 {jordanState ? 
                 <svg  class="swoosh-svg" width="64" height="22" viewBox="0 0 64 22" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7277 12.1511C15.999 12.598 14.4241 12.8196 13.0469 12.8196C11.3396 12.8196 9.94617 12.4728 8.97074 11.7793C4.02962 8.28845 8.54956 0.885548 9.06118 0.0629324C6.88551 2.37923 4.65235 4.80341 2.89851 7.44593C-0.0575023 11.9597 -0.812655 16.2475 0.910825 18.906C2.23896 20.9642 4.40042 22 7.37517 22C10.0146 22 13.2975 21.1832 17.1928 19.5559L64 0.0173385L63.9981 0L17.7277 12.1511Z" fill="white"/></svg> : <img className='cursor-pointer' src="/Icons/Logo.svg" alt="Logo" />}
@@ -182,7 +277,7 @@ const renderMenu = () => {
             <div onClick={() => setSearchBool(true)} className='relative'>
               <input
                 type="text"
-                placeholder="Search"
+                placeholder= {searchTitle ? searchTitle : "Search"}
                 className={`${jordanState 
                   ? 'dark bg-black text-white hover:bg-[#39393B]' 
                   : 'bg-[#f5f5f5] text-black hover:bg-[#e5e5e5]'} hidden lg:block placeholder:pl-9 rounded-4xl p-2`} 
@@ -200,11 +295,11 @@ const renderMenu = () => {
             {searchBool ? 
               <>
                 <div className='hidden lg:absolute inset-0 w-screen h-screen bg-black opacity-40 '></div>
-                <div className="fixed inset-0 font-[helveticaNow] p-4 w-screen h-screen lg:h-fit lg:min-h-[200px]  overflow-y-auto bg-white z-[999] ">
+                <div className={`fixed inset-0 font-[helveticaNow] ${jordanState ? "bg-[#1F1F21]" : "bg-white"} p-4 w-screen h-screen lg:h-fit lg:min-h-[200px]  overflow-y-auto  z-[999] `}>
                 {/* header of searchbar */}
                 <div className='flex justify-between'>
 
-                  <div className='hidden pl-6 pr-0 sm:px-8 py-3 lg:flex flex-1 items-center'>
+                  <div onClick={() => setSearchBool(false)} className='hidden pl-6 pr-0 sm:px-8 py-3 lg:flex flex-1 items-center'>
                     <Link to='/'>
                       {jordanState ? 
                       <svg  className='cursor-pointer' width="64" height="22" viewBox="0 0 64 22" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7277 12.1511C15.999 12.598 14.4241 12.8196 13.0469 12.8196C11.3396 12.8196 9.94617 12.4728 8.97074 11.7793C4.02962 8.28845 8.54956 0.885548 9.06118 0.0629324C6.88551 2.37923 4.65235 4.80341 2.89851 7.44593C-0.0575023 11.9597 -0.812655 16.2475 0.910825 18.906C2.23896 20.9642 4.40042 22 7.37517 22C10.0146 22 13.2975 21.1832 17.1928 19.5559L64 0.0173385L63.9981 0L17.7277 12.1511Z" fill="white"/></svg> : <img className='cursor-pointer ' src="/Icons/Logo.svg" alt="Logo" />}
@@ -232,63 +327,41 @@ const renderMenu = () => {
 
                   </div>
 
-                  <span onClick={() => setSearchBool(false)} className='flex-1 pr-5 self-center text-end '>Cancel</span>
+                  <span onClick={() => setSearchBool(false)} className='flex-1 pr-5 cursor-pointer self-center text-end '>Cancel</span>
 
                 </div>
 
 
                 {/* main of header */}
                 <div className='flex flex-col lg:flex-row'>
-                  <div className='mt-15 ml-10 lg:flex-2'>
+                  <div className='mt-10 ml-5 lg:flex-2'>
                     <span>Top Suggestions</span>
 
                     <div className='flex flex-col text-xl mt-7 gap-4'>
-                        {products
-                            .filter(el => el.name.toLowerCase().includes(search.toLowerCase()))
-                            .slice(0, 5)
-                            .map(el => {
-                              const name = el.name;
-                              const index = name.toLowerCase().indexOf(search.toLowerCase());
-                            
-                              if (index === -1 || search === "") {
-                                return <span key={el.id} style={{ color: "#707072" }}>{name}</span>;
-                              }
-                            
-                              const before = name.slice(0, index);
-                              const match = name.slice(index, index + search.length);
-                              const after = name.slice(index + search.length);
-                            
-                              return (
-                                <span key={el.id} style={{ color: "#707072" }}>
-                                  {before}
-                                  <span style={{ color: "black" }}>{match}</span>
-                                  {after}
-                                </span>
-                              );
-                            })}
+                        {searchProducts()}
                     </div>
                   </div>
 
                   <div className='grid grid-cols-2 lg:grid-cols-3 lg:flex  lg:flex-6 gap-4 mt-10'>
                     {products
-                            .filter(el => el.name.toLowerCase().includes(search.toLowerCase()))
-                            .slice(0, 5)
-                            .map(el => (
-                              <div className="lg:max-w-[200px]  rounded-md dark:bg-white dark:text-gray-800">
-                                <img src={el.image} alt="" className="object-cover object-center w-full rounded-t-md dark:bg-gray-500" />
-                                <div className="flex flex-col justify-between p-3 space-y-8">
-                                  <div className=" flex flex-col">
-                                    <h3 className='text-sm font-[helveticaNow]'>{el.name}</h3>
-                                    <p className=' text-xs sm:text-sm'>{el.genders}'s Shoes</p>  
-                                    <span className='my-2 font-[helveticaNow]'>${el.price}</span>
-                                  </div>
+                        .filter(el => el.categories.some(cat => cat.toLowerCase().includes(hoveredSearchResult ? hoveredSearchResult : search?.toLowerCase())))
+                        .slice(0, 5)
+                        .map(el => {
+                          return(
+                          <Link to={`/details/${el.id}`}>
+                            <div onClick={() => setSearchBool(false)} className={`lg:max-w-[200px] ${jordanState ? 'bg-[#1F1F21]' : 'bg-white'} rounded-md `}>
+                              <img src={el.image} alt="" className="object-cover object-center w-full rounded-t-md dark:bg-gray-500" />
+                              <div className="flex flex-col justify-between p-3 space-y-8">
+                                <div className=" flex flex-col">
+                                  <h3 className='text-sm font-[helveticaNow]'>{el.name}</h3>
+                                  <p className=' text-xs sm:text-sm'>{el.genders}'s Shoes</p>  
+                                  <span className='my-2 font-[helveticaNow]'>${el.price}</span>
                                 </div>
                               </div>
-                            ))}
-
-                   
-                  
-
+                            </div>
+                          </Link>
+                        )})}
+                        
                   </div>
 
                 </div>
@@ -374,17 +447,17 @@ const renderMenu = () => {
         <div 
         onMouseEnter={() => {sethoveredItem(hoveredItem)}}
         onMouseLeave={() => {sethoveredItem(null)}}
-        className={`absolute  left-0  z-1000 w-screen flex justify-center items-start py-10 ${jordanState ? 'dark bg-[#1F1F21] text-white top-30' : 'bg-white text-black top-16'}`}>
+        className={`absolute  left-0  z-1000 w-screen flex justify-center items-start py-10 ${jordanState ? 'dark bg-[#1F1F21] text-white ' : 'bg-white text-black '} top-16`}>
           {data[hoveredItem].subCategories.map((item,idx) => {
             return (
               <div className='px-12' key={idx}>
-                <h5 className='font-semibold cursor-pointer mb-3'><Link to ='/products'>{item.title}</Link ></h5>
+                <h5 className='font-semibold cursor-pointer mb-3'>{item.title}</h5>
                 <ul>
                   {item.categories.map((link,idx) => {
                         return (
                           <li 
                             key={idx} 
-                            className='text-sm py-1 cursor-pointer hover:text-black font-[helveticaNow] text-[#707072]'
+                            className={`text-sm py-1 cursor-pointer ${jordanState ? 'hover:text-white': 'hover:text-black'}  font-[helveticaNow] text-[#707072]`}
                           >                     
                           <Link to={`/products/${data[hoveredItem].slug}/${link.slug}`} state={{ title: link.name}}>
                             {link.name}

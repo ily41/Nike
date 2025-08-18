@@ -155,10 +155,10 @@ const Filter = () => {
 
           {/* Gender Filter */}
           <div className='mb-6'>
-            <details className="hidden lg:group w-40" >
+            <details className="hidden lg:group lg:block w-40" >
               <summary className="flex cursor-pointer justify-between items-center">
                 <span>Gender</span>
-                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="../public/Icons/down-arrow.svg" alt="arrow" />
+                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="/Icons/down-arrow.svg" alt="arrow" />
               </summary>
               <div className="mt-2 space-y-1">
                 <FIlterUi state={men} setState={setMen} name="Men" />
@@ -181,14 +181,11 @@ const Filter = () => {
 
           {/* Price Filter */}
           <div className='mb-6'>
-            <details className="hidden lg:group" >
+            <details className="hidden lg:group  lg:block" >
               <summary className="flex justify-between items-center cursor-pointer list-none">
                 <span>Shop by Price</span>
-                <img
-                  className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center"
-                  src="../public/Icons/down-arrow.svg"
-                  alt=""
-                />
+                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="/Icons/down-arrow.svg" alt="arrow" />
+
               </summary>
               <div className="mt-2">
                 <FIlterUi state={twentyF} setState={setTwentyF} name="$25 - $50" />
@@ -213,10 +210,10 @@ const Filter = () => {
       
           {/* Kids Filter */}
           <div className='mb-6'>
-            <details className="hidden lg:group" >
+            <details className="hidden lg:group  lg:block" >
               <summary className="flex justify-between items-center cursor-pointer">
                 <span>Kids</span>
-                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="../public/Icons/down-arrow.svg" alt="" />
+                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="/Icons/down-arrow.svg" alt="arrow" />
               </summary>
               <div className="mt-2">
                 <FIlterUi state={bigKids} setState={setBigKids} name="Big Kids" />
@@ -239,10 +236,10 @@ const Filter = () => {
 
           {/* Color Filter */}
           <div className='mb-6'>
-            <details className="hidden lg:group" >
+            <details className="hidden lg:group  lg:block" >
               <summary className="flex justify-between items-center cursor-pointer">
                 <span>Colors</span>
-                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="../public/Icons/down-arrow.svg" alt="" />
+                <img className="w-4 transition-transform duration-300 group-open:rotate-180 origin-center" src="/Icons/down-arrow.svg" alt="arrow" />
               </summary>
               <div className="mt-2 grid grid-cols-3 gap-3">
                 {colors.map(({ name, hex }) => (
