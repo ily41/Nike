@@ -21,13 +21,22 @@ const Jordan = () => {
                 
                 <div 
                   className="font-[helveticaNow] text-white flex gap-7 overflow-x-auto scrollbar-hide justify-center w-full"
-
                 >
-                  <span className="shrink-0 whitespace-nowrap">New Arrivals</span>
-                  <span className="shrink-0 whitespace-nowrap">Jordan Sport</span>
-                  <span className="shrink-0 whitespace-nowrap">Shoes</span>
-                  <span className="shrink-0 whitespace-nowrap">Clothing</span>
-                  <span className="shrink-0 whitespace-nowrap">Accessories</span>
+                  <Link to="/products/jordan/new-arrivals" state={{title: "Jordan New Releases"}}>
+                      <span className='cursor-pointer hover:text-[#949494] text-base shrink-0 whitespace-nowrap'>New Arrivals</span>
+                  </Link>
+                  <Link to="/products/jordan/sport" state={{title: "Jordan Sport Products"}}>
+                      <span className='cursor-pointer hover:text-[#949494] text-base shrink-0 whitespace-nowrap'>Jordan Sport</span>
+                  </Link>
+                  <Link to="/products/jordan/all-shoes" state={{title: "Jordan Shoes"}}>
+                      <span className='cursor-pointer hover:text-[#949494] text-base shrink-0 whitespace-nowrap'>Shoes</span>
+                  </Link>
+                  <Link to="/products/jordan/all-clothing" state={{title: "Jordan Clothing"}}>
+                      <span className='cursor-pointer hover:text-[#949494] text-base shrink-0 whitespace-nowrap'>Clothing</span>
+                  </Link>
+                  <Link to="/products/jordan/" state={{title: ""}}>
+                      <span className='cursor-pointer hover:text-[#949494] text-base shrink-0 whitespace-nowrap'>Accessories</span>
+                  </Link>
                 </div>
             </div>
         </section>
@@ -41,13 +50,15 @@ const Jordan = () => {
             <span>Jordan Brand Presents</span>
             <h3 className='font-[helveticaNow] uppercase text-6xl'>The One</h3>
             <span className='text-xl text-center pt-3 pb-5'>A global showcase to crown the best 1-on-1 player in the world. </span>
-            <button className='bg-white text-black p-1 px-4 font-[helveticaNow] rounded-2xl'>Explore</button>
+            <a href='https://www.youtube.com/live/sO_u0GCuJbE'>
+                <button className='bg-white cursor-pointer hover:text-[#949494] text-black p-1 px-4 font-[helveticaNow] rounded-2xl'>Explore</button>
+            </a>
         </section>
 
         <section className='font-[helveticaNow]'>   
             <h3 className='text-xl text-white uppercase p-8'>on the street</h3>
 
-            <div className='relative'>
+            <Link to="/products/jordan/air-jordan" state={{title: "Shattered Backboard Capsule"}} className='relative cursor-pointer'>
                 <img className='sm:hidden' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_830,c_limit/ba4729c1-1a0f-4802-bc91-6ba3421f435d/jordan.png" alt="" />
                 <img className='hidden sm:block' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_1225,c_limit/f90e2631-abb0-4dd4-8163-b70caa960ee1/jordan.png" alt="" />
                 <div className='absolute left-6 bottom-6 text-white'>
@@ -55,7 +66,7 @@ const Jordan = () => {
                     <h3 className='text-4xl font-[helveticaNowBold] pt-2 pb-7'>LACE 'EM UP.  <br></br> TEAR IT DOWN.</h3>
                     <button className='bg-white text-black p-1 px-4 font-[helveticaNow] rounded-2xl'>Get Notified</button>
                 </div>
-            </div>
+            </Link>
         </section>
 
         <section>
@@ -83,22 +94,22 @@ const Jordan = () => {
                 </div>
 
                 <div className='flex flex-col sm:flex-row gap-2 sm:gap-0'>
-                    <div className='relative sm:w-[50%]'>
+                    <Link to="/products/jordan/kids" state={{title: "Jordan Kids Products"}} className='relative sm:w-[50%]'>
                         <img  src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_765,c_limit/fd976db6-4983-4693-bf4e-9056f64b46f7/jordan.png" alt="" />
                         <div className='absolute left-10 bottom-10 flex flex-col gap-1 '>
                             <p className='text-white text-lg '>Confident Era</p>
                             <h3 className='uppercase text-white text-3xl '>she rules. keep up.</h3>
                             <button className='bg-white text-black rounded-full p-2 px-4 mt-4  hover:bg-[#707072] cursor-pointer self-start'>Shop</button>
                         </div>
-                    </div>
-                    <div className='relative sm:w-[50%]'>
+                    </Link>
+                    <Link to="/products/jordan/training" state={{title: "Jordan Training shoes"}} className='relative sm:w-[50%]'>
                         <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_589,c_limit/492c0ed5-7e66-4582-8c99-b123f024b865/jordan.png" alt="" />
                         <div className='absolute left-10 bottom-10 flex flex-col gap-1 '>
                             <p className='text-white text-lg '>Air Jordan 4RM</p>
                             <h3 className='uppercase text-white text-3xl '>ride easy</h3>
                             <button className='bg-white text-black rounded-full p-2 px-4 mt-4  hover:bg-[#707072] cursor-pointer self-start'>Shop</button>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </section>
@@ -148,18 +159,20 @@ const Jordan = () => {
         <section className='font-[helveticaNow] mx-5 mt-10'>
             <h2 className="text-2xl  pb-6 font-thin uppercase text-white ">shop</h2>
             <div className='flex gap-4 overflow-x-scroll sm:overflow-x-hidden'>
-                <div className='flex flex-col gap-3 min-w-[70%] sm:min-w-0'>
+                <Link to="/products/jordan/men" state={{title: "Jordan Men Products"}} className='flex flex-col gap-3 min-w-[70%] sm:min-w-0'>
                     <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_707,c_limit/92abb27b-46f5-4e9d-8d0a-c64191410829/jordan.jpg" alt="" />
                     <span className='text-white text-lg uppercase'>mens</span>
-                </div>
-                <div className='flex flex-col gap-3 min-w-[70%] sm:min-w-0'>
+                </Link>
+                 
+                <Link to="/products/jordan/women" state={{title: "Jordan Women Products"}} className='flex flex-col gap-3 min-w-[70%] sm:min-w-0'>
                     <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_586,c_limit/9f7b46c2-95e8-4b38-970a-d90998e5ae87/jordan.jpg" alt="" />
                     <span className='text-white text-lg uppercase'>womens</span>
-                </div>
-                <div className='flex flex-col gap-3 min-w-[70%] sm:min-w-0'>
+                </Link>
+
+                <Link to="/products/jordan/kids" state={{title: "Jordan Kids products"}} className='flex flex-col gap-3 min-w-[70%] sm:min-w-0'>
                     <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_586,c_limit/477edaa4-c231-4027-ab28-3c6055a4318d/jordan.jpg" alt="" />
                     <span className='text-white text-lg uppercase'>kids</span>
-                </div>
+                </Link>
             </div>
         </section>
 

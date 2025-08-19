@@ -69,9 +69,19 @@
   font-weight: 100;
 }
 
-.scrollbar-hide::-webkit-scrollbar {
+
+.scrollbar-hide::-webkit-scrollbar { 
   display: none;
 }
+.scrollbar-show::-webkit-scrollbar {
+  width: auto;
+}
+.scrollbar-show {
+  -ms-overflow-style: auto;  /* IE and Edge */
+  scrollbar-width: auto;     /* Firefox */
+}
+
+
 
 /* scrollbar behaviour on hover */
 .scroll-on-hover {

@@ -16,13 +16,24 @@ import Favorites from './components/Favorites'
 
 const App = () => {
   const [bagNotification, setBagNotification] = useState(false);
-  const [showFilter, setShowFilter] = useState(false)
+  
   const [products, setProducts] = useState([])
   const [filtered, setFiltered] = useState([])
   const [favoritesData, setFavorites] = useState([])
   
   const [jordanState, setJordan] = useState(false) 
+  const [showFilter, setShowFilter] = useState(window.innerWidth > 1024);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setShowFilter(window.innerWidth > 1024);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   const [basket, setBasket] = useState(() => {
     const stored = sessionStorage.getItem("basket");
     return stored ? JSON.parse(stored) : [];

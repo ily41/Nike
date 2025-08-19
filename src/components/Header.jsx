@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import data from '../provider/navigation.json'
 import { Link } from 'react-router';
-import { JordanContext } from '../provider/context';
+import { FilterContext, JordanContext } from '../provider/context';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faTimes } from '@fortawesome/free-solid-svg-icons';
 import products from '../provider/products.json'
@@ -16,6 +16,7 @@ const Header = () => {
   const [search, setSearch] = useState("")
   const [hoveredSearchResult, setHoveredSearchResult] = useState(null)
   const [searchTitle, setSearchTitle] = useState(null)
+  const {showFilter} = useContext(FilterContext)
 
 
 
@@ -211,7 +212,7 @@ const Header = () => {
 
 
   return (
-    <header className='z-[999]'>
+    <header className={`${showFilter ? 'z-50' : 'z-[1000]'} lg:z-[1000]`}>
       {/* Top Nav */}
       <div className={`${jordanState ? 'dark bg-[#111111] text-white' : 'bg-[#F5F5F5] text-black'} hidden lg:flex  justify-between px-8 py-2`}>
         <ul className=' flex gap-4 '>
@@ -453,7 +454,7 @@ const Header = () => {
         <div 
         onMouseEnter={() => {sethoveredItem(hoveredItem)}}
         onMouseLeave={() => {sethoveredItem(null)}}
-        className={`absolute  left-0  z-1000 w-screen flex justify-center items-start py-10 ${jordanState ? 'dark bg-[#1F1F21] text-white ' : 'bg-white text-black '} top-16`}>
+        className={`absolute  left-0  z-[1000] w-screen flex justify-center items-start py-10 ${jordanState ? 'dark bg-[#1F1F21] text-white ' : 'bg-white text-black '} top-16`}>
           {data[hoveredItem].subCategories.map((item,idx) => {
             return (
               <div className='px-12' key={idx}>

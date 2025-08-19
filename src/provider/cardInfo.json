@@ -58,32 +58,38 @@
   {
     "buttonTitle": "Nike 24.7",
     "secondTitle": "Tailored For All-Day Comfort",
-    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/e8f9a335-d80f-4838-a21a-0112ae0a1b14/women-s-shoes-clothing-accessories.jpg"
+    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/e8f9a335-d80f-4838-a21a-0112ae0a1b14/women-s-shoes-clothing-accessories.jpg",
+    "slug": "nike24-7"
   },
   {
     "buttonTitle": "Nike Form",
     "secondTitle": "Your One And Only Layer",
-    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/43344da3-65ad-4a0c-a0ec-7532833933e1/women-s-shoes-clothing-accessories.jpg"
+    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/43344da3-65ad-4a0c-a0ec-7532833933e1/women-s-shoes-clothing-accessories.jpg",
+    "slug":"nike-form"
   },
   {
     "buttonTitle": "Nike Pro",
     "secondTitle": "Strength Training Essentials",
-    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/a66bbb70-d5fd-410d-bf9d-70dfd4720d8f/women-s-shoes-clothing-accessories.jpg"
+    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/a66bbb70-d5fd-410d-bf9d-70dfd4720d8f/women-s-shoes-clothing-accessories.jpg",
+    "slug":"nike-pro"
   },
   {
     "buttonTitle": "Nike Zenvy",
     "secondTitle": "Softness That Lasts",
-    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/2a872ef9-56b7-46fd-9be4-6d8bf9674e8a/women-s-shoes-clothing-accessories.jpg"
+    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/2a872ef9-56b7-46fd-9be4-6d8bf9674e8a/women-s-shoes-clothing-accessories.jpg",
+    "slug":"nike-zenvy"
   },
   {
     "buttonTitle": "Nike Swift",
     "secondTitle": "Run Ready",
-    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/4a1f800f-e072-49b9-bd98-84fcee46f64a/women-s-shoes-clothing-accessories.jpg"
+    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/4a1f800f-e072-49b9-bd98-84fcee46f64a/women-s-shoes-clothing-accessories.jpg",
+    "slug":"nike-swift"
   },
   {
     "buttonTitle": "Sabrina Ionescu",
     "secondTitle": "The Blueprint to Success",
-    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/54ae57af-4c63-4fe0-9016-bbd03a4fa2f2/women-s-shoes-clothing-accessories.jpg"
+    "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_501,c_limit/54ae57af-4c63-4fe0-9016-bbd03a4fa2f2/women-s-shoes-clothing-accessories.jpg",
+    "slug":""
   }
 ]
 
@@ -93,15 +99,18 @@
     "components": [
       {
         "buttonTitle": "Shop Running",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_412,c_limit/9535401f-c6e2-4d2f-88f9-572673ebc724/nike-kids-shoes-clothing-and-accessories-nike-com.png"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_412,c_limit/9535401f-c6e2-4d2f-88f9-572673ebc724/nike-kids-shoes-clothing-and-accessories-nike-com.png",
+        "slug": "running"
       },
       {
         "buttonTitle": "Shop Soccer",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_412,c_limit/87bc85f3-f774-4c98-bc6e-6793356d8cce/nike-kids-shoes-clothing-and-accessories-nike-com.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_412,c_limit/87bc85f3-f774-4c98-bc6e-6793356d8cce/nike-kids-shoes-clothing-and-accessories-nike-com.jpg",
+        "slug": "soccer"
       },
       {
         "buttonTitle": "Shop Basketball",
-        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_412,c_limit/1e13afe4-2cc5-4a73-80d6-a0ba93f579a1/nike-kids-shoes-clothing-and-accessories-nike-com.jpg"
+        "imageURL": "https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_412,c_limit/1e13afe4-2cc5-4a73-80d6-a0ba93f579a1/nike-kids-shoes-clothing-and-accessories-nike-com.jpg",
+        "slug": "basketball"
       }
     ]
   }

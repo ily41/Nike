@@ -3569,5 +3569,1278 @@
     "inStock": true,
     "quantityAvailable": 38,
     "description": "Men's Dri-FIT tapered versatile pants designed for training and athletic performance with modern fit."
+  },
+  {
+    "id": "nike-metcon-10-men-workout",
+    "name": "Nike Metcon 10",
+    "collection": "metcon-10",
+    "price": 155,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "sport", "best-sellers", "premium"],
+    "colors": ["black", "white", "grey", "red", "blue", "green", "orange"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/674dc066-a243-404b-a7b1-ea4b898fdbbf/M+NIKE+METCON+10.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/674dc066-a243-404b-a7b1-ea4b898fdbbf/M+NIKE+METCON+10.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": false, "44": true, "45": true, "46": true},
+    "features": ["Versatile training shoe", "Enhanced stability", "Durable construction", "Multi-directional traction"],
+    "inStock": true,
+    "quantityAvailable": 42,
+    "description": "Men's Workout Shoes from Nike Metcon 10 collection designed for high-intensity training and versatile workouts."
+  },
+  {
+    "id": "nike-metcon-10-women-workout",
+    "name": "Nike Metcon 10",
+    "collection": "metcon-10",
+    "price": 155,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "training", "metcon", "sport", "best-sellers", "premium"],
+    "colors": ["white", "pink", "black", "purple"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6edddf69-27cb-473d-bb28-4e3d3458cd7d/W+NIKE+METCON+10.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6edddf69-27cb-473d-bb28-4e3d3458cd7d/W+NIKE+METCON+10.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": false, "40": true, "41": true, "42": true},
+    "features": ["Women-specific fit", "Enhanced stability", "Durable construction", "Multi-directional traction"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Women's Workout Shoes from Nike Metcon 10 collection designed for high-intensity training and versatile workouts."
+  },
+  {
+    "id": "nike-free-metcon-6-men-workout",
+    "name": "Nike Free Metcon 6",
+    "collection": "free-metcon-6",
+    "price": 120,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "sport", "best-sellers"],
+    "colors": ["black", "white", "grey", "red", "blue", "green", "orange", "yellow", "navy", "brown", "purple", "pink", "teal", "maroon", "olive", "cyan", "magenta", "lime", "coral", "silver"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/733f68f7-eea5-4ee8-a5e6-67e8e5cf634c/NIKE+FREE+METCON+6.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/733f68f7-eea5-4ee8-a5e6-67e8e5cf634c/NIKE+FREE+METCON+6.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": false, "46": true},
+    "features": ["Free sole technology", "Flexible construction", "Natural movement", "Training versatility"],
+    "inStock": true,
+    "quantityAvailable": 58,
+    "description": "Men's Workout Shoes from Nike Free Metcon 6 collection combining flexibility with training performance."
+  },
+  {
+    "id": "nike-free-metcon-6-se-women-workout",
+    "name": "Nike Free Metcon 6 SE",
+    "collection": "free-metcon-6-se",
+    "price": 135,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "training", "metcon", "sport", "premium", "best-sellers"],
+    "colors": ["white", "black", "pink", "purple", "grey", "blue", "red", "green", "yellow", "navy", "coral", "teal", "silver"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/868044a9-1b6d-4a7b-ad7b-a442f5a9fab8/W+NIKE+FREE+METCON+6+SE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/868044a9-1b6d-4a7b-ad7b-a442f5a9fab8/W+NIKE+FREE+METCON+6+SE.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": false, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Special Edition design", "Free sole technology", "Premium materials", "Enhanced comfort"],
+    "inStock": true,
+    "quantityAvailable": 31,
+    "description": "Women's Workout Shoes from Nike Free Metcon 6 SE collection featuring special edition styling with flexible performance."
+  },
+  {
+    "id": "nike-metcon-1-og-men-workout",
+    "name": "Nike Metcon 1 OG",
+    "collection": "metcon-1-og",
+    "price": 155,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "sport", "premium", "lifestyle"],
+    "colors": ["grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45b696ea-2143-423e-8b92-765d63a01ce4/NIKE+METCON+1+OG.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45b696ea-2143-423e-8b92-765d63a01ce4/NIKE+METCON+1+OG.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": false, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Original Metcon design", "Classic colorway", "Proven performance", "Heritage styling"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Men's Workout Shoes from Nike Metcon 1 OG collection featuring the original Metcon design that started it all."
+  },
+  {
+    "id": "nike-romaleos-4-se-weightlifting",
+    "name": "Nike Romaleos 4 SE",
+    "collection": "romaleos-4-se",
+    "price": 210,
+    "genders": ["Men", "Women"],
+    "categories": ["training", "metcon", "sport", "premium", "all-shoes"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/759884b7-fe65-4fb8-93ed-38c121cdf143/NIKE+ROMALEOS+4+SE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/759884b7-fe65-4fb8-93ed-38c121cdf143/NIKE+ROMALEOS+4+SE.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": true, "41": true, "42": true, "43": true, "44": false, "45": true, "46": true},
+    "features": ["Weightlifting heel", "Maximum stability", "Special Edition design", "Competition ready"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Weightlifting Shoe from Nike Romaleos 4 SE collection designed for serious weightlifting and powerlifting."
+  },
+  {
+    "id": "nike-savaleos-weightlifting-1",
+    "name": "Nike Savaleos",
+    "collection": "savaleos",
+    "price": 125,
+    "genders": ["Men", "Women"],
+    "categories": ["training", "metcon", "sport", "all-shoes"],
+    "colors": ["white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f5491d81-8072-4453-8783-1324532dffd8/NIKE+SAVALEOS.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f5491d81-8072-4453-8783-1324532dffd8/NIKE+SAVALEOS.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"36": true, "37": true, "38": false, "39": true, "40": true, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Entry-level weightlifting", "Stable heel", "Affordable performance", "Durable construction"],
+    "inStock": true,
+    "quantityAvailable": 40,
+    "description": "Weightlifting Shoes from Nike Savaleos collection providing stable platform for weightlifting at an accessible price."
+  },
+  {
+    "id": "nike-savaleos-se-weightlifting-2",
+    "name": "Nike Savaleos SE",
+    "collection": "savaleos-se",
+    "price": 125,
+    "genders": ["Men", "Women"],
+    "categories": ["training", "metcon", "sport", "all-shoes", "premium"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ddd8a780-b3fa-42ad-8916-0511a4362e87/NIKE+SAVALEOS+SE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ddd8a780-b3fa-42ad-8916-0511a4362e87/NIKE+SAVALEOS+SE.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": false, "41": true, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Special Edition styling", "Stable heel", "Enhanced aesthetics", "Weightlifting performance"],
+    "inStock": true,
+    "quantityAvailable": 33,
+    "description": "Weightlifting Shoes from Nike Savaleos SE collection featuring special edition design with proven weightlifting performance."
+  },
+  {
+    "id": "nike-air-max-alpha-trainer-6-men",
+    "name": "Nike Air Max Alpha Trainer 6",
+    "collection": "air-max-alpha-trainer-6",
+    "price": 95,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "sport", "airmax"],
+    "colors": ["black", "white", "grey", "red", "blue", "navy", "green"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0250a238-7111-41bc-9ee5-8711dbcae109/M+AIR+MAX+ALPHA+TRAINER+6.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0250a238-7111-41bc-9ee5-8711dbcae109/M+AIR+MAX+ALPHA+TRAINER+6.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": false, "42": true, "43": true, "44": true, "45": true, "46": true},
+    "features": ["Air Max cushioning", "All-day comfort", "Versatile training", "Durable outsole"],
+    "inStock": true,
+    "quantityAvailable": 47,
+    "description": "Men's Workout Shoes from Nike Air Max Alpha Trainer 6 collection combining Air Max comfort with training performance."
+  },
+  {
+    "id": "nike-uplift-sc-men-shoes",
+    "name": "Nike Uplift SC",
+    "collection": "uplift-sc",
+    "price": 65,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "lifestyle"],
+    "colors": ["white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9cf5d005-2a40-4db8-b65e-af9142a1aafb/NIKE+UPLIFT+SC.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9cf5d005-2a40-4db8-b65e-af9142a1aafb/NIKE+UPLIFT+SC.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": true, "45": false, "46": true},
+    "features": ["Affordable option", "Basic training functionality", "Clean design", "Everyday wear"],
+    "inStock": true,
+    "quantityAvailable": 52,
+    "description": "Men's Shoes from Nike Uplift SC collection offering essential training features at an accessible price point."
+  },
+  {
+    "id": "nike-mc-trainer-2-women-workout",
+    "name": "Nike MC Trainer 2",
+    "collection": "mc-trainer-2",
+    "price": 80,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "training", "metcon", "sport"],
+    "colors": ["white", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4e299eb-e5c8-4f3f-9776-6def71d10f1d/W+NIKE+MC+TRAINER+2.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4e299eb-e5c8-4f3f-9776-6def71d10f1d/W+NIKE+MC+TRAINER+2.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": true, "40": false, "41": true, "42": true},
+    "features": ["Multi-court versatility", "Supportive design", "Women-specific fit", "Training focused"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Women's Workout Shoes from Nike MC Trainer 2 collection designed for multi-court and training activities."
+  },
+  {
+    "id": "nike-mc-trainer-3-women-workout",
+    "name": "Nike MC Trainer 3",
+    "collection": "mc-trainer-3",
+    "price": 80,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "training", "metcon", "sport"],
+    "colors": ["pink", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/02621ada-47d5-4630-b453-dd9fb96b6eab/W+NIKE+MC+TRAINER+3.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/02621ada-47d5-4630-b453-dd9fb96b6eab/W+NIKE+MC+TRAINER+3.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": false, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Updated design", "Enhanced support", "Multi-court functionality", "Improved comfort"],
+    "inStock": true,
+    "quantityAvailable": 34,
+    "description": "Women's Workout Shoes from Nike MC Trainer 3 collection featuring updated design for versatile training."
+  },
+  {
+    "id": "nike-mc-trainer-3-men-workout",
+    "name": "Nike MC Trainer 3",
+    "collection": "mc-trainer-3",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "sport"],
+    "colors": ["black", "white", "grey", "red", "blue", "navy", "green"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a3a073ca-b73d-4f3a-ae36-635a2fd6b24e/M+NIKE+MC+TRAINER+3.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a3a073ca-b73d-4f3a-ae36-635a2fd6b24e/M+NIKE+MC+TRAINER+3.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": false, "44": true, "45": true, "46": true},
+    "features": ["Updated design", "Enhanced support", "Multi-court functionality", "Durable construction"],
+    "inStock": true,
+    "quantityAvailable": 41,
+    "description": "Men's Workout Shoes from Nike MC Trainer 3 collection featuring updated design for versatile training activities."
+  },
+  {
+    "id": "lebron-tr-1-men-workout",
+    "name": "LeBron TR 1",
+    "collection": "lebron-tr-1",
+    "price": 135,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "sport", "basketball", "premium"],
+    "colors": ["black", "white", "red", "blue", "grey", "yellow"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f36a314f-3a9d-49bc-9d36-88a28b55fbfa/LEBRON+TR+1.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f36a314f-3a9d-49bc-9d36-88a28b55fbfa/LEBRON+TR+1.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": false, "43": true, "44": true, "45": true, "46": true},
+    "features": ["LeBron James inspired", "Training performance", "Basketball heritage", "Premium materials"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Men's Workout Shoes from LeBron TR 1 collection combining LeBron's basketball legacy with training performance."
+  },
+  {
+    "id": "nike-bella-7-women-workout",
+    "name": "Nike Bella 7",
+    "collection": "bella-7",
+    "price": 85,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "training", "metcon", "sport"],
+    "colors": ["white", "black", "pink", "purple", "grey", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6ce3db94-78d7-4f9c-b0f3-fdca633c9b83/W+NIKE+AIR+ZOOM+BELLA+7.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6ce3db94-78d7-4f9c-b0f3-fdca633c9b83/W+NIKE+AIR+ZOOM+BELLA+7.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": false, "39": true, "40": true, "41": true, "42": true},
+    "features": ["Air Zoom cushioning", "Feminine styling", "Training versatility", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 39,
+    "description": "Women's Workout Shoes from Nike Bella 7 collection featuring Air Zoom technology for responsive training."
+  },
+  {
+    "id": "nike-air-monarch-iv-men-workout",
+    "name": "Nike Air Monarch IV",
+    "collection": "air-monarch-iv",
+    "price": 80,
+    "genders": ["Men"],
+    "categories": ["men", "all-shoes", "training", "metcon", "lifestyle"],
+    "colors": ["white", "black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7d146390-81a2-4060-a684-c8f4cca1610e/AIR+MONARCH+IV.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7d146390-81a2-4060-a684-c8f4cca1610e/AIR+MONARCH+IV.png"
+    ],
+    "availableSizesEU": ["40", "41", "42", "43", "44", "45", "46"],
+    "sizeAvailability": {"40": true, "41": true, "42": true, "43": true, "44": false, "45": true, "46": true},
+    "features": ["Classic design", "Air cushioning", "Durable leather", "All-day comfort"],
+    "inStock": true,
+    "quantityAvailable": 55,
+    "description": "Men's Workout Shoes from Nike Air Monarch IV collection offering classic comfort and reliable performance."
+  },
+  {
+    "id": "nike-legend-essential-2-premium-women",
+    "name": "Nike Legend Essential 2 Premium",
+    "collection": "legend-essential-2-premium",
+    "price": 65,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "training", "metcon", "premium"],
+    "colors": ["pink", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b0625408-ac9b-4039-b9f3-980c2be498da/W+NIKE+LEGEND+ESSENTIAL+2+PRM.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b0625408-ac9b-4039-b9f3-980c2be498da/W+NIKE+LEGEND+ESSENTIAL+2+PRM.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": true, "39": false, "40": true, "41": true, "42": true},
+    "features": ["Premium materials", "Essential training", "Affordable luxury", "Stylish design"],
+    "inStock": true,
+    "quantityAvailable": 43,
+    "description": "Women's Training Shoes from Nike Legend Essential 2 Premium collection combining premium styling with essential training features."
+  },
+  {
+    "id": "nike-24-7-perfectstretch-women-ls-shirt",
+    "name": "Nike 24.7 PerfectStretch",
+    "collection": "nike-24-7-perfectstretch",
+    "price": 130,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "premium", "sport"],
+    "colors": ["black", "white", "grey", "navy", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d2af914c-c860-4a68-8465-7c930f59a2af/W+NK+24.7+DF+LS+SHIRT+WVN.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d2af914c-c860-4a68-8465-7c930f59a2af/W+NK+24.7+DF+LS+SHIRT+WVN.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Oversized fit", "Long-sleeve design", "PerfectStretch fabric", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 32,
+    "description": "Women's Dri-FIT Oversized Long-Sleeve Shirt from Nike 24.7 PerfectStretch collection featuring advanced moisture management and comfort."
+  },
+  {
+    "id": "nike-24-7-perfectstretch-women-wide-leg-pants",
+    "name": "Nike 24.7 PerfectStretch",
+    "collection": "nike-24-7-perfectstretch",
+    "price": 110,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "premium", "sport"],
+    "colors": ["black", "grey", "navy", "brown", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c9df85-f1e0-44af-8a16-29c1f52eabf6/W+NK+24.7+DF+HR+WD+LEG+PANT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c9df85-f1e0-44af-8a16-29c1f52eabf6/W+NK+24.7+DF+HR+WD+LEG+PANT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "High-waisted design", "Loose wide-leg fit", "PerfectStretch fabric", "Comfortable waistband"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Women's Dri-FIT High-Waisted Loose Wide-Leg Pants from Nike 24.7 PerfectStretch collection offering style and performance."
+  },
+  {
+    "id": "nike-24-7-impossiblysoft-women-half-zip",
+    "name": "Nike 24.7 ImpossiblySoft",
+    "collection": "nike-24-7-impossiblysoft",
+    "price": 110,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "premium", "sport"],
+    "colors": ["black", "grey", "white", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e47c9461-059b-45c3-a12c-a63ad6271ef6/W+NK+24.7+DF+HZ+TOP+SOFT+KNIT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e47c9461-059b-45c3-a12c-a63ad6271ef6/W+NK+24.7+DF+HZ+TOP+SOFT+KNIT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "ImpossiblySoft fabric", "Oversized fit", "1/2-zip design", "Soft knit construction"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Women's Dri-FIT Oversized 1/2-Zip Top from Nike 24.7 ImpossiblySoft collection featuring ultra-soft comfort."
+  },
+  {
+    "id": "nike-24-7-impossiblysoft-women-flare-pants",
+    "name": "Nike 24.7 ImpossiblySoft",
+    "collection": "nike-24-7-impossiblysoft",
+    "price": 120,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "premium", "sport"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0564712b-c4e6-4f12-a632-76f7f8cbbec6/W+NK+24.7+DF+FLARE+PNT+SFT+KNT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0564712b-c4e6-4f12-a632-76f7f8cbbec6/W+NK+24.7+DF+FLARE+PNT+SFT+KNT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false, "XXL": true},
+    "features": ["Dri-FIT technology", "ImpossiblySoft fabric", "High-waisted design", "Loose flared fit", "Soft knit construction"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Women's Dri-FIT High-Waisted Loose Flared Pants from Nike 24.7 ImpossiblySoft collection with premium comfort."
+  },
+  {
+    "id": "nike-24-7-impossiblysoft-women-crew-top",
+    "name": "Nike 24.7 ImpossiblySoft",
+    "collection": "nike-24-7-impossiblysoft",
+    "price": 90,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "sport"],
+    "colors": ["grey", "black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8cbfbf46-2457-41c0-8f2c-f3d86500065e/W+NK+24.7+DF+CREW+SOFT+KNIT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8cbfbf46-2457-41c0-8f2c-f3d86500065e/W+NK+24.7+DF+CREW+SOFT+KNIT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "ImpossiblySoft fabric", "Oversized fit", "Crew-neck design", "Soft knit construction"],
+    "inStock": true,
+    "quantityAvailable": 41,
+    "description": "Women's Dri-FIT Oversized Crew-Neck Top from Nike 24.7 ImpossiblySoft collection for all-day comfort."
+  },
+  {
+    "id": "nike-24-7-impossiblysoft-women-joggers",
+    "name": "Nike 24.7 ImpossiblySoft",
+    "collection": "nike-24-7-impossiblysoft",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "sport", "lifestyle"],
+    "colors": ["black", "grey", "navy", "brown"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98344b2c-f368-46b0-bb53-c97ab31fd5d0/W+NK+24.7+DF+MR+JOGGER+SOFT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98344b2c-f368-46b0-bb53-c97ab31fd5d0/W+NK+24.7+DF+MR+JOGGER+SOFT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "ImpossiblySoft fabric", "Mid-rise fit", "Jogger style", "Elastic waistband"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Women's Dri-FIT Mid-Rise Joggers from Nike 24.7 ImpossiblySoft collection combining comfort and style."
+  },
+  {
+    "id": "nike-zenvy-women-ls-top",
+    "name": "Nike Zenvy",
+    "collection": "nike-zenvy",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "sport"],
+    "colors": ["black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/19e86c41-099b-43a5-8182-9c02f6b572e2/W+NK+INF+DF+LS+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/19e86c41-099b-43a5-8182-9c02f6b572e2/W+NK+INF+DF+LS+TOP.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false, "XXL": true},
+    "features": ["Dri-FIT technology", "Long-sleeve design", "Zenvy fabric", "Moisture-wicking", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "Women's Dri-FIT Long-Sleeve Top from Nike Zenvy collection offering essential performance and comfort."
+  },
+  {
+    "id": "nike-24-7-perfectstretch-women-barrel-pants",
+    "name": "Nike 24.7 PerfectStretch",
+    "collection": "nike-24-7-perfectstretch",
+    "price": 115,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "premium", "sport"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/02899804-0d7e-4b6b-bb8e-076423849e2b/W+NK+24.7+DF+HR+BARREL+PANT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/02899804-0d7e-4b6b-bb8e-076423849e2b/W+NK+24.7+DF+HR+BARREL+PANT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "PerfectStretch fabric", "High-waisted design", "Loose barrel-leg fit", "Trendy silhouette"],
+    "inStock": true,
+    "quantityAvailable": 26,
+    "description": "Women's Dri-FIT High-Waisted Loose Barrel-Leg Pants from Nike 24.7 PerfectStretch collection with modern styling."
+  },
+  {
+    "id": "nike-24-7-impossiblysoft-women-4-inch-shorts",
+    "name": "Nike 24.7 ImpossiblySoft",
+    "collection": "nike-24-7-impossiblysoft",
+    "price": 70,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "sport", "shorts"],
+    "colors": ["black", "grey", "white", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/89e3e764-a2e0-4b6c-b0e6-431b3cf8a2a7/W+NK+24.7+DF+SHORT+SOFT+KNIT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/89e3e764-a2e0-4b6c-b0e6-431b3cf8a2a7/W+NK+24.7+DF+SHORT+SOFT+KNIT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "ImpossiblySoft fabric", "Mid-rise fit", "4-inch inseam", "Loose comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 52,
+    "description": "Women's Dri-FIT Mid-Rise Loose 4\" Shorts from Nike 24.7 ImpossiblySoft collection perfect for workouts and leisure."
+  },
+  {
+    "id": "nike-zenvy-rib-women-sports-bra",
+    "name": "Nike Zenvy Rib",
+    "collection": "nike-zenvy-rib",
+    "price": 60,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike24-7", "sport"],
+    "colors": ["black"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/833ceded-4a31-44a0-bf31-aed23d2087ad/W+NK+ZENVY+RIB+BRA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/833ceded-4a31-44a0-bf31-aed23d2087ad/W+NK+ZENVY+RIB+BRA.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true, "XXL": false},
+    "features": ["Light-support design", "Padded construction", "Zenvy Rib fabric", "Comfortable fit", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 34,
+    "description": "Women's Light-Support Padded Sports Bra from Nike Zenvy Rib collection providing comfort and support for low-impact activities."
+  },
+  {
+    "id": "nike-form-women-triangle-sports-bra",
+    "name": "Nike Form",
+    "collection": "nike-form",
+    "price": 40,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "sport"],
+    "colors": ["black", "white", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7571cd23-0e68-457f-a6c9-86971d43c8a0/W+NK+DF+TRIANGLE+BRA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7571cd23-0e68-457f-a6c9-86971d43c8a0/W+NK+DF+TRIANGLE+BRA.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true, "XXL": true},
+    "features": ["Light-support design", "Non-padded construction", "Triangle style", "Dri-FIT technology", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 48,
+    "description": "Women's Light-Support Non-Padded Triangle Sports Bra from Nike Form collection providing essential support and comfort."
+  },
+  {
+    "id": "nike-form-women-boyshorts",
+    "name": "Nike Form",
+    "collection": "nike-form",
+    "price": 45,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "sport", "shorts"],
+    "colors": ["black", "white", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ee523e2c-adee-4efc-b9b3-d37e45c80351/W+NK+BOYSHORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ee523e2c-adee-4efc-b9b3-d37e45c80351/W+NK+BOYSHORT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Boyshort style", "Form-fitting design", "Moisture-wicking", "Seamless construction", "All-day comfort"],
+    "inStock": true,
+    "quantityAvailable": 42,
+    "description": "Women's Boyshorts from Nike Form collection featuring comfortable fit and performance fabric technology."
+  },
+  {
+    "id": "nike-form-women-tank-top",
+    "name": "Nike Form",
+    "collection": "nike-form",
+    "price": 65,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "sport"],
+    "colors": ["black", "white", "grey", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6a3408ff-fe8f-4255-971d-7d4fc3ea85d6/W+NK+DF+TANK.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6a3408ff-fe8f-4255-971d-7d4fc3ea85d6/W+NK+DF+TANK.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Tank top design", "Breathable fabric", "Athletic fit", "Versatile styling"],
+    "inStock": true,
+    "quantityAvailable": 36,
+    "description": "Women's Tank Top from Nike Form collection offering breathable comfort and athletic performance."
+  },
+  {
+    "id": "nike-form-women-ls-bodysuit",
+    "name": "Nike Form",
+    "collection": "nike-form",
+    "price": 80,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "sport", "premium"],
+    "colors": ["black", "white", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e8ce3360-3e49-480e-af88-6a68e1956e61/W+NK+DF+LS+BODYSUIT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e8ce3360-3e49-480e-af88-6a68e1956e61/W+NK+DF+LS+BODYSUIT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "Long-sleeve design", "Bodysuit construction", "Form-fitting", "Snap closure"],
+    "inStock": true,
+    "quantityAvailable": 29,
+    "description": "Women's Long-Sleeve Bodysuit from Nike Form collection featuring sleek design and performance fabric technology."
+  },
+  {
+    "id": "nike-v5-rnr-women-shoes",
+    "name": "Nike V5 RNR",
+    "collection": "nike-v5-rnr",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "nike-form", "lifestyle", "sport"],
+    "colors": ["white", "black", "grey", "pink", "blue", "purple", "red", "green", "yellow", "navy", "brown"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/daee5c9d-35c0-40f5-a733-65f416039cc0/W+NIKE+V5+RNR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/daee5c9d-35c0-40f5-a733-65f416039cc0/W+NIKE+V5+RNR.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": true, "38": false, "39": true, "40": true, "41": true, "42": true},
+    "features": ["V5 technology", "Runner design", "Lightweight construction", "Versatile styling", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 55,
+    "description": "Women's Shoes from Nike V5 RNR collection combining modern technology with versatile lifestyle appeal."
+  },
+  {
+    "id": "nike-al8-women-shoes",
+    "name": "Nike AL8",
+    "collection": "nike-al8",
+    "price": 90,
+    "genders": ["Women"],
+    "categories": ["women", "all-shoes", "nike-form", "lifestyle", "sport"],
+    "colors": ["white", "black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52e88966-46bd-4247-9383-3fb258b1a597/W+NIKE+AL8.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52e88966-46bd-4247-9383-3fb258b1a597/W+NIKE+AL8.png"
+    ],
+    "availableSizesEU": ["36", "37", "38", "39", "40", "41", "42"],
+    "sizeAvailability": {"36": true, "37": false, "38": true, "39": true, "40": true, "41": true, "42": true},
+    "features": ["AL8 design language", "Contemporary styling", "Comfortable cushioning", "Lifestyle focus", "Modern silhouette"],
+    "inStock": true,
+    "quantityAvailable": 33,
+    "description": "Women's Shoes from Nike AL8 collection featuring contemporary design and modern lifestyle appeal."
+  },
+  {
+    "id": "nike-form-women-ss-top",
+    "name": "Nike Form",
+    "collection": "nike-form",
+    "price": 65,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "sport"],
+    "colors": ["black", "white", "grey", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/603c2bb4-f8eb-4353-b093-664592becaac/W+NK+DF+SS+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/603c2bb4-f8eb-4353-b093-664592becaac/W+NK+DF+SS+TOP.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false, "XXL": true},
+    "features": ["Dri-FIT technology", "Short-sleeve design", "Form-fitting", "Breathable fabric", "Athletic cut"],
+    "inStock": true,
+    "quantityAvailable": 44,
+    "description": "Women's Short-Sleeve Top from Nike Form collection providing essential performance and comfortable fit."
+  },
+  {
+    "id": "nike-24-7-impossiblysoft-women-joggers-form",
+    "name": "Nike 24.7 ImpossiblySoft",
+    "collection": "nike-24-7-impossiblysoft",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "sport", "lifestyle"],
+    "colors": ["black", "grey", "navy", "brown"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98344b2c-f368-46b0-bb53-c97ab31fd5d0/W+NK+24.7+DF+MR+JOGGER+SOFT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98344b2c-f368-46b0-bb53-c97ab31fd5d0/W+NK+24.7+DF+MR+JOGGER+SOFT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Dri-FIT technology", "ImpossiblySoft fabric", "Mid-rise fit", "Jogger style", "Elastic waistband"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Women's Dri-FIT Mid-Rise Joggers from Nike 24.7 ImpossiblySoft collection combining comfort and style."
+  },
+  {
+    "id": "nike-sportswear-chill-poplin-women-tank",
+    "name": "Nike Sportswear Chill Poplin",
+    "collection": "nike-sportswear-chill-poplin",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "lifestyle"],
+    "colors": ["white", "black", "beige"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5267e5c4-b858-4eb0-820f-e8f7988982cf/W+NSW+NK+CHLL+PPLN+SPR+CRP+TNK.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5267e5c4-b858-4eb0-820f-e8f7988982cf/W+NSW+NK+CHLL+PPLN+SPR+CRP+TNK.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true, "XXL": true},
+    "features": ["Chill Poplin fabric", "Slim fit", "Cropped design", "Tank top style", "Lightweight feel"],
+    "inStock": true,
+    "quantityAvailable": 41,
+    "description": "Women's Slim Cropped Tank Top from Nike Sportswear Chill Poplin collection featuring lightweight comfort and modern styling."
+  },
+  {
+    "id": "nike-sportswear-chill-poplin-women-shorts",
+    "name": "Nike Sportswear Chill Poplin",
+    "collection": "nike-sportswear-chill-poplin",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-form", "lifestyle", "shorts"],
+    "colors": ["khaki"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/62a0ae3b-c2e1-426d-861f-f2aab6c41d51/W+NSW+NK+CHLL+PPLN+HR+4%22+SHORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/62a0ae3b-c2e1-426d-861f-f2aab6c41d51/W+NSW+NK+CHLL+PPLN+HR+4%22+SHORT.png"
+    ],
+    "availableSizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false, "XXL": true},
+    "features": ["Chill Poplin fabric", "Mid-rise fit", "5-inch inseam", "Relaxed comfort", "Casual styling"],
+    "inStock": true,
+    "quantityAvailable": 25,
+    "description": "Women's Mid-Rise 5\" Shorts from Nike Sportswear Chill Poplin collection offering relaxed comfort and casual style."
+  },
+  {
+    "id": "nike-pro-light-support-sports-bra",
+    "name": "Nike Pro Light-Support Non-Padded Sports Bra",
+    "collection": "nike-pro",
+    "price": 42,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon"],
+    "colors": ["black", "white", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8f037012-12bc-4e1a-8e3f-2ae080a0f58f/W+NP+LS+BRA+TT+GRX.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8f037012-12bc-4e1a-8e3f-2ae080a0f58f/W+NP+LS+BRA+TT+GRX.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Light support", "Non-padded design", "Moisture-wicking fabric", "Comfortable fit"],
+    "inStock": true,
+    "quantityAvailable": 24,
+    "description": "Women's light-support sports bra from Nike Pro collection designed for low-intensity workouts and everyday comfort."
+  },
+  {
+    "id": "nike-pro-3in-biker-shorts",
+    "name": "Nike Pro Mid-Rise 3\" Biker Shorts",
+    "collection": "nike-pro",
+    "price": 38,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon", "shorts"],
+    "colors": ["black", "navy", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/316271e4-3dcc-4883-8173-fe569cdfc370/W+NP+365+MR+3IN+SHORT+TT+GRX.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/316271e4-3dcc-4883-8173-fe569cdfc370/W+NP+365+MR+3IN+SHORT+TT+GRX.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Mid-rise waistband", "3-inch inseam", "Stretch fabric", "Squat-proof design"],
+    "inStock": true,
+    "quantityAvailable": 32,
+    "description": "Women's mid-rise 3-inch biker shorts from Nike Pro collection perfect for training and everyday wear."
+  },
+  {
+    "id": "nike-pro-indy-plunge-sports-bra",
+    "name": "Nike Pro Indy Plunge Medium-Support Sports Bra",
+    "collection": "nike-pro",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon", "premium"],
+    "colors": ["black", "white", "blue", "pink", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec47c95d-c385-4752-9cb6-c1a8c1b69120/W+NP+INDY+PLUNGE+BRA+BOLD.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec47c95d-c385-4752-9cb6-c1a8c1b69120/W+NP+INDY+PLUNGE+BRA+BOLD.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Medium support", "Padded cups", "Plunge neckline", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Women's medium-support padded sports bra with plunge neckline from Nike Pro Indy collection for versatile training."
+  },
+  {
+    "id": "nike-pro-sculpt-high-waisted-shorts",
+    "name": "Nike Pro Sculpt High-Waisted 3\" Biker Shorts",
+    "collection": "nike-pro",
+    "price": 38,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon", "shorts"],
+    "colors": ["black", "grey", "navy", "burgundy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4c1ea7d9-1101-415b-8774-7f42e914c761/W+NP+SCULPT+DF+HR+3IN+SHORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4c1ea7d9-1101-415b-8774-7f42e914c761/W+NP+SCULPT+DF+HR+3IN+SHORT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true},
+    "features": ["High-waisted design", "Sculpting fit", "3-inch inseam", "Body-contouring fabric"],
+    "inStock": true,
+    "quantityAvailable": 27,
+    "description": "Women's high-waisted 3-inch biker shorts from Nike Pro Sculpt collection designed for a flattering, supportive fit."
+  },
+  {
+    "id": "nike-pro-dri-fit-crew-sweatshirt",
+    "name": "Nike Pro Dri-FIT Loose Crew-Neck French Terry Sweatshirt",
+    "collection": "nike-pro",
+    "price": 70,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon", "sweatshirts"],
+    "colors": ["black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8b2a2cec-4bc6-4cdd-87c4-eb8b64faef80/W+NP+DF+FLC+CREW+TT+GRX.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8b2a2cec-4bc6-4cdd-87c4-eb8b64faef80/W+NP+DF+FLC+CREW+TT+GRX.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "French terry fabric", "Loose fit", "Crew neckline"],
+    "inStock": true,
+    "quantityAvailable": 15,
+    "description": "Women's loose-fitting crew-neck sweatshirt from Nike Pro collection featuring French terry fabric and Dri-FIT technology."
+  },
+  {
+    "id": "nike-pro-mesh-panel-leggings",
+    "name": "Nike Pro Mid-Rise 7/8 Mesh-Panel Graphic Leggings",
+    "collection": "nike-pro",
+    "price": 65,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/12d66437-774b-4d82-81de-99f275adab93/W+NP+365+MR+7%2F8+TIGHT+TT+GRX.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/12d66437-774b-4d82-81de-99f275adab93/W+NP+365+MR+7%2F8+TIGHT+TT+GRX.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["7/8 length", "Mesh panels", "Mid-rise waistband", "Graphic design"],
+    "inStock": true,
+    "quantityAvailable": 21,
+    "description": "Women's mid-rise 7/8 leggings from Nike Pro collection featuring mesh panels and graphic design for enhanced breathability."
+  },
+  {
+    "id": "nike-pro-dri-fit-crop-tank",
+    "name": "Nike Pro Dri-FIT Cropped Tank Top",
+    "collection": "nike-pro",
+    "price": 40,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon"],
+    "colors": ["black", "white", "grey", "pink", "blue", "green"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ac3da689-7818-4995-bf37-83c770d4cd43/NIKE+PRO+DF+365+CROP+TANK.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ac3da689-7818-4995-bf37-83c770d4cd43/NIKE+PRO+DF+365+CROP+TANK.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Cropped design", "Dri-FIT technology", "Tank style", "Versatile fit"],
+    "inStock": true,
+    "quantityAvailable": 33,
+    "description": "Women's cropped tank top from Nike Pro collection with Dri-FIT technology for moisture management during workouts."
+  },
+  {
+    "id": "nike-pro-3in-shorts",
+    "name": "Nike Pro 3\" Shorts",
+    "collection": "nike-pro",
+    "price": 32,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon", "shorts"],
+    "colors": ["black", "white", "grey", "navy", "pink", "blue", "green", "red", "purple", "yellow", "orange", "brown", "beige", "khaki", "maroon", "teal", "coral"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a21fc74d-09cf-4596-a0bb-c43ae102cfa4/W+NP+365+SHORT+3IN.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a21fc74d-09cf-4596-a0bb-c43ae102cfa4/W+NP+365+SHORT+3IN.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["3-inch inseam", "Stretch fabric", "Comfortable waistband", "Versatile design"],
+    "inStock": true,
+    "quantityAvailable": 45,
+    "description": "Women's 3-inch shorts from Nike Pro collection available in multiple colors for versatile training and casual wear."
+  },
+  {
+    "id": "nike-pro-dri-fit-tank-elastika",
+    "name": "Nike Pro Dri-FIT Tank Top",
+    "collection": "nike-pro",
+    "price": 45,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon"],
+    "colors": ["black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/470f0dcb-b060-4d02-b89f-aef8b87e1243/W+NP+DF+TANK+ELASTIKA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/470f0dcb-b060-4d02-b89f-aef8b87e1243/W+NP+DF+TANK+ELASTIKA.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Tank design", "Elastika fabric", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Women's tank top from Nike Pro collection featuring Dri-FIT technology and Elastika fabric for superior comfort and performance."
+  },
+  {
+    "id": "nike-pro-dri-fit-cropped-long-sleeve",
+    "name": "Nike Pro Dri-FIT Cropped Long-Sleeve Top",
+    "collection": "nike-pro",
+    "price": 70,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-pro", "training", "sport", "metcon"],
+    "colors": ["black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2ed93171-bea4-473a-bd8f-b004661f26e2/W+NP+DF+LS+TOP+GG+SHINE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2ed93171-bea4-473a-bd8f-b004661f26e2/W+NP+DF+LS+TOP+GG+SHINE.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Cropped fit", "Long sleeves", "Dri-FIT technology", "Shine fabric"],
+    "inStock": true,
+    "quantityAvailable": 19,
+    "description": "Women's cropped long-sleeve top from Nike Pro collection with Dri-FIT technology and shine fabric for style and performance."
+  },
+  {
+    "id": "nike-zenvy-light-support-sports-bra",
+    "name": "Nike Zenvy Light-Support Lightly Lined Sports Bra",
+    "collection": "nike-zenvy",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon"],
+    "colors": ["black", "white", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/73ec5efb-8cdb-4046-8bfe-fca95d4d6bd1/W+NK+ZENVY+BRA+CS+SSNL.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/73ec5efb-8cdb-4046-8bfe-fca95d4d6bd1/W+NK+ZENVY+BRA+CS+SSNL.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["Light support", "Lightly lined", "Comfortable fit", "Zenvy fabric technology"],
+    "inStock": true,
+    "quantityAvailable": 22,
+    "description": "Women's light-support lightly lined sports bra from Nike Zenvy collection featuring premium comfort and support."
+  },
+  {
+    "id": "nike-zenvy-high-waisted-flared-leggings",
+    "name": "Nike Zenvy High-Waisted Flared Leggings",
+    "collection": "nike-zenvy",
+    "price": 110,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon", "premium"],
+    "colors": ["black", "white", "grey", "navy", "brown", "green", "pink", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67f793ac-59de-464a-abee-e836daa6d135/W+NK+DF+ZENVY+HR+FLARE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67f793ac-59de-464a-abee-e836daa6d135/W+NK+DF+ZENVY+HR+FLARE.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["High-waisted design", "Flared silhouette", "Dri-FIT technology", "Zenvy premium fabric"],
+    "inStock": true,
+    "quantityAvailable": 18,
+    "description": "Women's high-waisted flared leggings from Nike Zenvy collection combining style and performance with Dri-FIT technology."
+  },
+  {
+    "id": "nike-zenvy-padded-printed-sports-bra",
+    "name": "Nike Zenvy Light-Support Padded Printed Sports Bra",
+    "collection": "nike-zenvy",
+    "price": 60,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon"],
+    "colors": ["multicolor"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/430e105d-497e-4606-ba50-2864a5f41729/W+NK+ZENVY+AOP+BRA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/430e105d-497e-4606-ba50-2864a5f41729/W+NK+ZENVY+AOP+BRA.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Light support", "Padded design", "All-over print", "Premium Zenvy fabric"],
+    "inStock": true,
+    "quantityAvailable": 14,
+    "description": "Women's light-support padded sports bra from Nike Zenvy collection featuring unique all-over print design."
+  },
+  {
+    "id": "nike-zenvy-printed-7-8-leggings",
+    "name": "Nike Zenvy High-Waisted 7/8 Printed Leggings",
+    "collection": "nike-zenvy",
+    "price": 110,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon", "premium"],
+    "colors": ["black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/40d61bfb-d7d0-408e-9271-98015f5de372/W+NK+DF+ZENVY+HR+7%2F8+TGHT+AOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/40d61bfb-d7d0-408e-9271-98015f5de372/W+NK+DF+ZENVY+HR+7%2F8+TGHT+AOP.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["High-waisted design", "7/8 length", "All-over print", "Dri-FIT technology"],
+    "inStock": true,
+    "quantityAvailable": 26,
+    "description": "Women's high-waisted 7/8 printed leggings from Nike Zenvy collection with Dri-FIT technology and stylish all-over print."
+  },
+  {
+    "id": "nike-zenvy-full-zip-long-sleeve",
+    "name": "Nike Zenvy Dri-FIT Full-Zip Long-Sleeve Top",
+    "collection": "nike-zenvy",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon"],
+    "colors": ["black", "white", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/caa70814-333f-4abe-8e61-d1385f1db509/W+NK+INF+DF+FZ+LS+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/caa70814-333f-4abe-8e61-d1385f1db509/W+NK+INF+DF+FZ+LS+TOP.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["Full-zip design", "Long sleeves", "Dri-FIT technology", "Zenvy fabric"],
+    "inStock": true,
+    "quantityAvailable": 20,
+    "description": "Women's full-zip long-sleeve top from Nike Zenvy collection featuring Dri-FIT technology for superior moisture management."
+  },
+  {
+    "id": "nike-zenvy-high-waisted-7-8-leggings",
+    "name": "Nike Zenvy High-Waisted 7/8 Leggings",
+    "collection": "nike-zenvy",
+    "price": 100,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon", "premium"],
+    "colors": ["black", "white", "grey", "navy", "brown", "green", "pink", "blue", "purple", "red", "beige"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/106a3277-9f00-4bc5-b8ad-828dd189c120/W+NK+DF+ZENVY+HR+7%2F8+TGHT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/106a3277-9f00-4bc5-b8ad-828dd189c120/W+NK+DF+ZENVY+HR+7%2F8+TGHT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["High-waisted design", "7/8 length", "Dri-FIT technology", "Premium Zenvy fabric"],
+    "inStock": true,
+    "quantityAvailable": 35,
+    "description": "Women's high-waisted 7/8 leggings from Nike Zenvy collection available in multiple colors with premium fabric technology."
+  },
+  {
+    "id": "nike-zenvy-strappy-padded-sports-bra",
+    "name": "Nike Zenvy Strappy Light-Support Padded Sports Bra",
+    "collection": "nike-zenvy",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon"],
+    "colors": ["black", "white", "grey", "navy", "brown", "green", "pink", "blue", "purple", "red", "beige", "yellow", "orange"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2b728256-5bbf-4280-a65f-f2191d69de6f/W+NK+DF+ALATE+TRACE+BRA.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2b728256-5bbf-4280-a65f-f2191d69de6f/W+NK+DF+ALATE+TRACE+BRA.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true},
+    "features": ["Light support", "Padded cups", "Strappy design", "Dri-FIT technology"],
+    "inStock": true,
+    "quantityAvailable": 42,
+    "description": "Women's light-support padded sports bra from Nike Zenvy Strappy collection featuring stylish strappy design and Dri-FIT technology."
+  },
+  {
+    "id": "nike-zenvy-rib-flared-leggings",
+    "name": "Nike Zenvy Rib High-Waisted Flared Leggings",
+    "collection": "nike-zenvy",
+    "price": 120,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon", "premium"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/203c03d8-f8a9-474a-a1c2-ab806b6d6a08/W+NK+DF+ZENVY+HR+RIB+FLARE.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/203c03d8-f8a9-474a-a1c2-ab806b6d6a08/W+NK+DF+ZENVY+HR+RIB+FLARE.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["High-waisted design", "Ribbed texture", "Flared silhouette", "Dri-FIT technology"],
+    "inStock": true,
+    "quantityAvailable": 16,
+    "description": "Women's high-waisted ribbed flared leggings from Nike Zenvy collection featuring premium ribbed texture and Dri-FIT technology."
+  },
+  {
+    "id": "nike-zenvy-dri-fit-tank",
+    "name": "Nike Zenvy Dri-FIT Tank Top",
+    "collection": "nike-zenvy",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon"],
+    "colors": ["black", "white"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/538d5c78-bebe-44dd-9642-8eb5014483f7/W+NK+ZENVY+DF+TANK+NV.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/538d5c78-bebe-44dd-9642-8eb5014483f7/W+NK+ZENVY+DF+TANK+NV.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Tank design", "Dri-FIT technology", "Zenvy fabric", "Moisture-wicking"],
+    "inStock": true,
+    "quantityAvailable": 31,
+    "description": "Women's tank top from Nike Zenvy collection featuring Dri-FIT technology and premium Zenvy fabric for superior comfort."
+  },
+  {
+    "id": "nike-zenvy-high-waisted-capri-leggings",
+    "name": "Nike Zenvy High-Waisted Capri Leggings",
+    "collection": "nike-zenvy",
+    "price": 95,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-zenvy", "training", "sport", "metcon"],
+    "colors": ["black", "grey"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/406c50d8-a422-40a1-bf70-4236960e0d5c/W+NK+DF+ZENVY+HR+CAPRI+TGHT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/406c50d8-a422-40a1-bf70-4236960e0d5c/W+NK+DF+ZENVY+HR+CAPRI+TGHT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["High-waisted design", "Capri length", "Dri-FIT technology", "Zenvy fabric"],
+    "inStock": true,
+    "quantityAvailable": 23,
+    "description": "Women's high-waisted capri leggings from Nike Zenvy collection featuring Dri-FIT technology and premium comfort."
+  },
+  {
+    "id": "nike-swift-dri-fit-short-sleeve-top",
+    "name": "Nike Swift Dri-FIT Short-Sleeve Running Top",
+    "collection": "nike-swift",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running"],
+    "colors": ["black", "white", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8581faac-5ddd-4d41-9668-acf1288d5b56/W+NK+SWIFT+DF+SS+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8581faac-5ddd-4d41-9668-acf1288d5b56/W+NK+SWIFT+DF+SS+TOP.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Dri-FIT technology", "Short sleeves", "Running-specific design", "Lightweight fabric"],
+    "inStock": true,
+    "quantityAvailable": 28,
+    "description": "Women's short-sleeve running top from Nike Swift collection featuring Dri-FIT technology for optimal moisture management."
+  },
+  {
+    "id": "nike-swift-high-waisted-4in-shorts",
+    "name": "Nike Swift High-Waisted 4\" Tight Running Shorts with Pockets",
+    "collection": "nike-swift",
+    "price": 55,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running", "shorts"],
+    "colors": ["black", "white", "grey", "navy", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/82cbe792-1e2d-41d4-be4f-2863bd285fd6/W+NK+DF+SWIFT+HR+4IN+SHORT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/82cbe792-1e2d-41d4-be4f-2863bd285fd6/W+NK+DF+SWIFT+HR+4IN+SHORT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["High-waisted design", "4-inch inseam", "Side pockets", "Tight fit"],
+    "inStock": true,
+    "quantityAvailable": 34,
+    "description": "Women's high-waisted 4-inch tight running shorts from Nike Swift collection with convenient side pockets for storage."
+  },
+  {
+    "id": "nike-swift-full-zip-mid-layer-top",
+    "name": "Nike Swift Dri-FIT Full-Zip Mid-Layer Running Top",
+    "collection": "nike-swift",
+    "price": 90,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running"],
+    "colors": ["black", "grey", "navy"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aff6d393-ff50-4812-99cc-c0331b513f47/W+NK+SWIFT+DF+FZ+MDLYR.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aff6d393-ff50-4812-99cc-c0331b513f47/W+NK+SWIFT+DF+FZ+MDLYR.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Full-zip closure", "Mid-layer design", "Dri-FIT technology", "Running-specific fit"],
+    "inStock": true,
+    "quantityAvailable": 21,
+    "description": "Women's full-zip mid-layer running top from Nike Swift collection perfect for layering during variable weather conditions."
+  },
+  {
+    "id": "nike-swift-novelty-short-sleeve-top",
+    "name": "Nike Swift Dri-FIT Short-Sleeve Running Top",
+    "collection": "nike-swift",
+    "price": 65,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running"],
+    "colors": ["multicolor"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d387d7f4-4a8a-47ad-b287-dac28c4c8d47/W+NK+SWIFT+NVLT+DF+SS+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d387d7f4-4a8a-47ad-b287-dac28c4c8d47/W+NK+SWIFT+NVLT+DF+SS+TOP.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": false, "M": true, "L": true, "XL": true},
+    "features": ["Novelty design", "Short sleeves", "Dri-FIT technology", "Unique styling"],
+    "inStock": true,
+    "quantityAvailable": 17,
+    "description": "Women's short-sleeve running top from Nike Swift collection featuring unique novelty design and Dri-FIT technology."
+  },
+  {
+    "id": "nike-swift-2in1-printed-shorts",
+    "name": "Nike Swift Dri-FIT Mid-Rise 2-in-1 Printed Running Shorts",
+    "collection": "nike-swift",
+    "price": 75,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running", "shorts"],
+    "colors": ["multicolor"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dd2bcd05-f1a6-4089-af7a-1ce61f0667b7/W+NK+SWT+NVLT+DF+MR+2IN1+SHRT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dd2bcd05-f1a6-4089-af7a-1ce61f0667b7/W+NK+SWT+NVLT+DF+MR+2IN1+SHRT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["2-in-1 design", "Mid-rise waistband", "Printed pattern", "Dri-FIT technology"],
+    "inStock": true,
+    "quantityAvailable": 19,
+    "description": "Women's mid-rise 2-in-1 printed running shorts from Nike Swift collection combining style and performance with built-in compression."
+  },
+  {
+    "id": "nike-swift-packable-running-jacket",
+    "name": "Nike Swift Dri-FIT Packable Running Jacket",
+    "collection": "nike-swift",
+    "price": 135,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running", "premium"],
+    "colors": ["black", "white", "grey", "navy", "pink", "blue"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1cafc4e0-9855-4cdc-9544-a519229ae597/W+NK+SWIFT+NVLT+DF+JKT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1cafc4e0-9855-4cdc-9544-a519229ae597/W+NK+SWIFT+NVLT+DF+JKT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["Packable design", "Dri-FIT technology", "Lightweight construction", "Running-specific fit"],
+    "inStock": true,
+    "quantityAvailable": 12,
+    "description": "Women's packable running jacket from Nike Swift collection featuring lightweight, weather-resistant design that packs into its own pocket."
+  },
+  {
+    "id": "nike-swift-uv-long-sleeve-crew",
+    "name": "Nike Swift Dri-FIT UV Long-Sleeve Crew-Neck Running Top",
+    "collection": "nike-swift",
+    "price": 60,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running"],
+    "colors": ["black", "white", "grey", "navy", "pink"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f97ced5-4f59-4d77-a0d0-2309e590978c/W+NK+SWIFT+DF+UV+LS+CRW.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f97ced5-4f59-4d77-a0d0-2309e590978c/W+NK+SWIFT+DF+UV+LS+CRW.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": true, "XL": false},
+    "features": ["UV protection", "Long sleeves", "Crew neckline", "Dri-FIT technology"],
+    "inStock": true,
+    "quantityAvailable": 26,
+    "description": "Women's long-sleeve crew-neck running top from Nike Swift collection with UV protection and Dri-FIT technology for sun safety."
+  },
+  {
+    "id": "nike-swift-brief-lined-shorts",
+    "name": "Nike Swift Dri-FIT Mid-Rise 2.5\" Brief-Lined Running Shorts",
+    "collection": "nike-swift",
+    "price": 60,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running", "shorts"],
+    "colors": ["black", "white", "grey", "navy", "pink", "blue", "green", "purple", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3d65c780-4b69-402f-a762-ad1aa63d48f7/W+NK+SWIFT+DF+MR+2.5%22+BR+SHRT.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3d65c780-4b69-402f-a762-ad1aa63d48f7/W+NK+SWIFT+DF+MR+2.5%22+BR+SHRT.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": false, "S": true, "M": true, "L": true, "XL": true},
+    "features": ["2.5-inch inseam", "Brief-lined", "Mid-rise waistband", "Dri-FIT technology"],
+    "inStock": true,
+    "quantityAvailable": 38,
+    "description": "Women's mid-rise 2.5-inch brief-lined running shorts from Nike Swift collection available in multiple colors for versatile training."
+  },
+  {
+    "id": "nike-swift-running-tank-top",
+    "name": "Nike Swift Dri-FIT Running Tank Top",
+    "collection": "nike-swift",
+    "price": 50,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running"],
+    "colors": ["black", "white", "grey", "navy", "pink", "blue", "green", "purple", "red"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15cb6bf6-ec6f-4082-8649-1d51473b0a99/W+NK+SWIFT+DF+TANK+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15cb6bf6-ec6f-4082-8649-1d51473b0a99/W+NK+SWIFT+DF+TANK+TOP.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": false, "L": true, "XL": true},
+    "features": ["Tank top design", "Dri-FIT technology", "Breathable fabric", "Running-specific cut"],
+    "inStock": true,
+    "quantityAvailable": 41,
+    "description": "Women's running tank top from Nike Swift collection featuring Dri-FIT technology and breathable design for optimal performance."
+  },
+  {
+    "id": "nike-swift-uv-quarter-zip-top",
+    "name": "Nike Swift Dri-FIT UV 1/4-Zip Running Top",
+    "collection": "nike-swift",
+    "price": 70,
+    "genders": ["Women"],
+    "categories": ["women", "all-clothing", "nike-swift", "training", "sport", "metcon", "running"],
+    "colors": ["black", "white", "grey", "navy", "pink", "blue", "green", "purple"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5fc2357d-f124-444b-9823-80a252efc72b/W+NK+SWIFT+DF+UV+HZ+TOP.png",
+    "detailImages": [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5fc2357d-f124-444b-9823-80a252efc72b/W+NK+SWIFT+DF+UV+HZ+TOP.png"
+    ],
+    "availableSizesEU": ["XS", "S", "M", "L", "XL"],
+    "sizeAvailability": {"XS": true, "S": true, "M": true, "L": false, "XL": true},
+    "features": ["1/4-zip design", "UV protection", "Dri-FIT technology", "Long sleeves"],
+    "inStock": true,
+    "quantityAvailable": 33,
+    "description": "Women's 1/4-zip running top from Nike Swift collection with UV protection and Dri-FIT technology for extended outdoor training."
   }
 ]

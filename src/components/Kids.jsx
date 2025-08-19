@@ -1,8 +1,9 @@
 import React from 'react'
 import Main from './Main'
-import MainPageUI from './mainPageUI'
+import MainPageUI from './MainPageUI'
 import cardInfo from '../provider/cardInfo.json'
 import Classics from './Classics'
+import { Link } from 'react-router'
 
 const Kids = () => {
   return (
@@ -13,16 +14,22 @@ const Kids = () => {
             <div className='font-[helveticaNow]  p-6 lg:p-8 flex flex-col lg:flex-row items-center lg:justify-between gap-3'>
                 <span className='text-2xl'>Kids</span>
                 <div className='flex gap-6'>
-                    <span className='text-base'>Shoes</span>
-                    <span>Clothing</span>
-                    <span>Accessories</span>
+                    <Link to="/products/kids/all-shoes" state={{title: "Kids Shoes"}}>
+                        <span className='cursor-pointer hover:text-[#949494] text-base'>Shoes</span>
+                    </Link>
+                    <Link to="/products/kids/all-clothing" state={{title: "Kids Clothing"}}>
+                        <span className='cursor-pointer hover:text-[#949494] text-base'>Clothing</span>
+                    </Link>
+                    <Link to="/products/kids" state={{title: "Kids Accessories"}}>
+                        <span className='cursor-pointer hover:text-[#949494] text-base'>Accessories</span>
+                    </Link>
                 </div>
                 <div className='hidden lg:block'></div>
             </div>
         </section>
 
         <section >
-            <div className='relative'>
+            <Link to="/products/kids" state={{title: "Kids Back to School"}} className='relative cursor-pointer'>
                 <img className='h-[70vh] w-full object-cover sm:hidden' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_576,c_limit/a0520c4f-d7ab-437c-9450-bcf360b5543d/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
                 <img className='h-[45vh] w-full object-cover hidden sm:block' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_576,c_limit/a0520c4f-d7ab-437c-9450-bcf360b5543d/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
                 <div className='font-[helveticaNow] absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center  gap-2 p-8 text-center '>
@@ -33,7 +40,7 @@ const Kids = () => {
                     <p className='lg:text-xl text-white'>Get back to class and back to sport.</p>
                     <button className='bg-white text-black rounded-4xl p-2 px-4 flex-none hover:bg-[#707072] cursor-pointer'>Shop</button>
                 </div>
-            </div>
+            </Link>
         </section >
 
         <section className='mt-14 ml-6'>
@@ -51,21 +58,21 @@ const Kids = () => {
             </div>
 
             <div className='flex overflow-x-scroll pb-4 mt-5 gap-3 '>
-                <div className='min-w-[80%] sm:min-w-[30%]'>
+                <Link to="/products/kids/new-arrivals" state={{title: "Kids' New Arrivals"}} className='min-w-[80%] sm:min-w-[30%]'>
                     <img className='w-full' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_668,c_limit/bf0082c0-19e7-40e9-8ed2-04aa634b9d25/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
-                </div>
-                <div className='min-w-[80%] sm:min-w-[30%]'>
+                </Link>
+                <Link to="/products/kids/best-sellers" state={{title: "Kids' Best Sellers"}}  className='min-w-[80%] sm:min-w-[30%]'>
                     <img className='w-full' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_668,c_limit/83feb045-1516-4e92-b3cf-7674f401fe07/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
-                </div>
-                <div className='min-w-[80%] sm:min-w-[30%]'>
+                </Link>
+                <Link to="/products/kids/running" state={{title: "Kids' Retro Running Shoes"}} className='min-w-[80%] sm:min-w-[30%]'>
                     <img className='w-full' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_668,c_limit/510b61d1-11f3-4359-973c-1e1f083e046d/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
-                </div>
-                <div className='min-w-[80%] sm:min-w-[30%]'>
+                </Link>
+                <Link to="/products/kids/running" state={{title: "Teen Running Shoes"}} className='min-w-[80%] sm:min-w-[30%]'>
                     <img className='w-full' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_399,c_limit/fa8c9fb9-4667-4bd2-b801-8e5211e1760c/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
-                </div>
-                <div className='min-w-[80%] sm:min-w-[30%]'>
+                </Link>
+                <Link to="/products/kids/jordan" state={{title: "Kids' Jordan Products"}} className='min-w-[80%] sm:min-w-[30%]'>
                     <img className='w-full' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_668,c_limit/27cbc5e2-323a-45ef-aec1-3cff689571ad/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
-                </div>
+                </Link>
             </div>
         </section>
 
@@ -73,18 +80,18 @@ const Kids = () => {
         <section className='mt-19 mx-14 sm:mx-20'>
             <span className='font-[helveticaNow] text-2xl'>First Day Flex</span>
             <div className='flex gap-3 mt-3 overflow-x-scroll scrollbar-hide'>
-                <div className='min-w-[60%] sm:min-w-0'>
+                <Link  to="/products/kids/all-clothing" state={{title: "Kids Back to School Clothing"}} className='min-w-[60%] sm:min-w-0'>
                     <img className='mb-4' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_616,c_limit/20e4ad85-017c-43f5-ba4f-402a804ed008/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
                     <span className=' text-xl font-[helveticaNow]'>Day-One Essentials</span>
-                </div >  
-                <div className='min-w-[60%] sm:min-w-0'>
+                </Link >  
+                <Link  to="/products/kids/all-shoes" state={{title: "Kids Back to School Shoes"}} className='min-w-[60%] sm:min-w-0'>
                     <img className='mb-4' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_616,c_limit/364b91d6-b683-4da1-9390-1dcc28c1bd58/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
                     <span className=' text-xl font-[helveticaNow]'>Top Kicks: Featuring V5 RNR</span>
-                </div>
-                <div className='min-w-[60%] sm:min-w-0'>
+                </Link>
+                <Link to="/products/kids/all-shoes" state={{title: "Kids Back to School Shoes"}} className='min-w-[60%] sm:min-w-0'>
                     <img className='mb-4' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_616,c_limit/7e321b73-60e3-4f5f-8448-12098b48e2dd/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
                     <span className=' text-xl font-[helveticaNow]'>Bags and Backpacks</span>
-                </div>
+                </Link>
             </div>
         </section>
 
@@ -111,32 +118,32 @@ const Kids = () => {
         <section className='mt-19 mx-20 font-[helveticaNow]'>
             <span className=' text-2xl'>Shop By Age</span>
             <div className='flex mt-5 overflow-x-scroll scrollbar-hide gap-4'>
-                <div className='mt-3 min-w-[70%] lg:min-w-[35%] flex flex-col '>
+                <Link to="/products/toddlers" state={{title: "Babies & Toddlers (0-3 yrs)"}} className='mt-3 min-w-[70%] cursor-pointer lg:min-w-[35%] flex flex-col '>
                     <img className='w-full max-h-[400px] lg:max-h-[550px] items-start object-cover' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_500,c_limit/c059b149-cc3f-4aae-98d5-4109c7eeee0c/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
                     <div className='mt-3 mb-6 flex flex-col gap-3'>
                         <h3 className='text-xl'>Babies and Toddlers</h3>
                         <span className='text-[#767676]'>Explore apparel (0M–4T) and shoes (0C–10C).</span>
                     </div>
-                    <button className='text-white  self-start bg-black p-2 px-4 text-;g rounded-4xl'>Shop</button>
-                </div>
+                    <button className='text-white hover:bg-[#707072]  self-start bg-black p-2 px-4 text-;g rounded-4xl'>Shop</button>
+                </Link>
 
-                <div className='mt-3 min-w-[70%] lg:min-w-[35%] flex flex-col '>
+                <Link to="/products/little-kids" state={{title: "Little Kids' Products"}} className='mt-3 min-w-[70%] cursor-pointer lg:min-w-[35%] flex flex-col '>
                     <img className='w-full max-h-[400px] lg:max-h-[550px] items-start object-cover' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_569,c_limit/ebab8a51-30a6-4808-ad0f-8a833081bb7a/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
                     <div className='mt-3 mb-6 flex flex-col gap-3'>
                         <h3 className='text-xl'>Little Kids</h3>
                         <span className='text-[#767676]'>Explore apparel (4–7) and shoes (10.5C–3Y).</span>
                     </div>
-                    <button className='text-white  self-start bg-black p-2 px-4 text-;g rounded-4xl'>Shop</button>
-                </div>
+                    <button className='text-white hover:bg-[#707072] self-start bg-black p-2 px-4 text-;g rounded-4xl'>Shop</button>
+                </Link>
 
-                <div className='mt-3 min-w-[70%] lg:min-w-[35%] flex flex-col '>
+                <Link to="/products/big-kids" state={{title: "Big Kids' Products"}} className='mt-3 min-w-[70%] cursor-pointer lg:min-w-[35%] flex flex-col '>
                     <img className='w-full max-h-[400px] lg:max-h-[550px] items-start object-cover' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_569,c_limit/195b4bd3-811d-48f4-b3ed-7e78a1bf2090/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="" />
                     <div className='mt-3 mb-6 flex flex-col gap-3'>
                         <h3 className='text-xl'>Big Kids</h3>
                         <span className='text-[#767676]'>Explore apparel (XS–XL) and shoes (3.5–7Y).</span>
                     </div>
-                    <button className='text-white  self-start bg-black p-2 px-4 text-;g rounded-4xl'>Shop</button>
-                </div>
+                    <button className='text-white hover:bg-[#707072] self-start bg-black p-2 px-4 text-;g rounded-4xl'>Shop</button>
+                </Link>
 
             </div>
         </section>
