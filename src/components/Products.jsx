@@ -15,7 +15,6 @@ const Products = () => {
     const location = useLocation();
     const title = location.state?.title || "";
     const isFromSearch = location.state?.fromSearch;
-    const genderFromLocation = location.state?.gender
 
 
 

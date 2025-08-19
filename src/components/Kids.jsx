@@ -1,11 +1,44 @@
-import React from 'react'
-import Main from './Main'
+
 import MainPageUI from './MainPageUI'
 import cardInfo from '../provider/cardInfo.json'
 import Classics from './Classics'
 import { Link } from 'react-router'
+import React, { useRef, useState, useEffect } from 'react'
 
 const Kids = () => {
+    const scrollRef = useRef(null)
+      const [canScrollLeft, setCanScrollLeft] = useState(false)
+      const [canScrollRight, setCanScrollRight] = useState(true)
+    
+      // Scroll function
+      const scroll = (direction) => {
+        if (!scrollRef.current) return
+        const { clientWidth } = scrollRef.current
+        const scrollAmount = direction === 'left' ? -clientWidth : clientWidth
+        scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' })
+      }
+    
+      // Check if scroll reached start or end
+      const checkScroll = () => {
+        if (!scrollRef.current) return
+        const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current
+        setCanScrollLeft(scrollLeft > 0)
+        setCanScrollRight(scrollLeft + clientWidth < scrollWidth)
+      }
+    
+      // Add scroll listener
+      useEffect(() => {
+        const ref = scrollRef.current
+        if (!ref) return
+        checkScroll() // initial check
+        ref.addEventListener('scroll', checkScroll)
+        window.addEventListener('resize', checkScroll) // handle resize
+    
+        return () => {
+          ref.removeEventListener('scroll', checkScroll)
+          window.removeEventListener('resize', checkScroll)
+        }
+      }, [])
   return (
     <div >
         <div className='w-full font-[helveticaNow] h-[7vh] bg-[#F7F7F7] text-[#090909] text-[12px] my-2 lg:text-sm underline flex justify-center items-center'>Up to 50% Off Select Styles: Use code SPORT</div>
@@ -43,21 +76,31 @@ const Kids = () => {
             </Link>
         </section >
 
-        <section className='mt-14 ml-6'>
+        <section   className='mt-14 ml-6'>
             <div className="hidden sm:flex justify-between items-center mx-5">
               <h2 className="text-2xl px-8 font-thin font-[helveticaNow]">The Latest</h2>
               <div className="flex gap-3">
-                <div className="w-12 h-12 flex justify-center items-center rounded-full bg-[#f5f5f5]">
-                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
-                </div>
-
-                <div className="w-12 h-12 flex justify-center items-center rounded-full bg-[#CACACB]">
-                  <img src="../public/Icons/right-arrow.svg" alt="" />
-                </div>
+                <button
+                  onClick={() => scroll('left')}
+                  disabled={!canScrollLeft}
+                  className={`w-12 h-12 flex cursor-pointer justify-center items-center rounded-full bg-[#E5E5E5]   ${canScrollLeft ? 'hover:bg-[#CACACB]' : 'opacity-50 cursor-not-allowed'}`}
+                >
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                    <path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path>
+                  </svg>
+                </button>
+    
+                <button
+                  onClick={() => scroll('right')}
+                  disabled={!canScrollRight}
+                  className={`w-12 h-12 flex cursor-pointer justify-center items-center rounded-full bg-[#E5E5E5]   ${canScrollRight ? 'hover:bg-[#CACACB]' : 'opacity-50 cursor-not-allowed'}`}
+                >
+                  <img src="../public/Icons/right-arrow.svg" alt="Right arrow" />
+                </button>
               </div>
             </div>
 
-            <div className='flex overflow-x-scroll pb-4 mt-5 gap-3 '>
+            <div ref={scrollRef} className='flex overflow-x-scroll pb-4 mt-5 gap-3 '>
                 <Link to="/products/kids/new-arrivals" state={{title: "Kids' New Arrivals"}} className='min-w-[80%] sm:min-w-[30%]'>
                     <img className='w-full' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_668,c_limit/bf0082c0-19e7-40e9-8ed2-04aa634b9d25/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
                 </Link>

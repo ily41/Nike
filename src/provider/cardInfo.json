@@ -1,6 +1,7 @@
 [
   {
     "title": "Shop by Sport",
+    "page": "Main",
     "components": [
       {
         "buttonTitle": "Shop Training",
@@ -23,6 +24,7 @@
   },
   {
     "title": "Shop by Sport",
+    "page": "men",
     "components": [
       {
         "buttonTitle": "Shop Basketball",
@@ -54,6 +56,7 @@
   },
   {
      "title": "Shop by Collection",
+     "page": "women",
     "components": [
   {
     "buttonTitle": "Nike 24.7",
@@ -96,6 +99,7 @@
   },
   {
     "title": "Gear up by Sport",
+    "page": "kids",
     "components": [
       {
         "buttonTitle": "Shop Running",

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Card = ({color, price, name, gender, image,categories}) => {
+  console.log(gender)
   const isJordanPage = categories.includes('jordanPage');
   
   if (isJordanPage) {

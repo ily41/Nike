@@ -129,7 +129,7 @@ const Filter = () => {
 
   return (
     showFilter && (
-      <div className='absolute top-0 left-0 overflow-hidden bg-white h-fit w-screen z-55 lg:sticky lg:w-fit lg:h-auto lg:top-10 lg:flex lg:flex-col lg:mr-18'>
+      <div className='fixed inset-0 overflow-y-auto bg-white h-full w-full z-55 lg:sticky lg:w-fit lg:h-auto lg:top-10 lg:flex lg:flex-col lg:mr-18'>
         {/* Mobile Header with Close Button */}
         <div className='lg:hidden flex justify-between items-center p-4 border-b border-gray-200'>
           <h2 className='text-lg font-medium'>Filter</h2>

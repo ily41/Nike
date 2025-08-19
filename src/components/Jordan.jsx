@@ -1,11 +1,41 @@
-import React from 'react'
 import Card from './Card'
 import products from '../provider/products.json'
 import { Link } from 'react-router'
+import  { useRef, useState, useEffect } from 'react'
 
 const Jordan = () => {
 
     const productsInUse = products.filter(el => el.categories.includes("jordanPage"))
+    const scrollRef = useRef(null)
+    const [canScrollLeft, setCanScrollLeft] = useState(false)
+    const [canScrollRight, setCanScrollRight] = useState(true)
+
+    const scroll = (direction) => {
+      if (!scrollRef.current) return
+      const { clientWidth } = scrollRef.current
+      const scrollAmount = direction === 'left' ? -clientWidth : clientWidth
+      scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' })
+    }
+
+    const checkScroll = () => {
+      if (!scrollRef.current) return
+      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current
+      setCanScrollLeft(scrollLeft > 0)
+      setCanScrollRight(scrollLeft + clientWidth < scrollWidth)
+    }
+
+    useEffect(() => {
+      const ref = scrollRef.current
+      if (!ref) return
+      checkScroll() 
+      ref.addEventListener('scroll', checkScroll)
+      window.addEventListener('resize', checkScroll) 
+
+      return () => {
+        ref.removeEventListener('scroll', checkScroll)
+        window.removeEventListener('resize', checkScroll)
+      }
+    }, [])
 
 
   return (
@@ -119,13 +149,23 @@ const Jordan = () => {
             <div className="flex justify-between items-center mx-5 mt-15 mb-5">
                 <h2 className="text-2xl px-8 font-thin uppercase text-white font-[helveticaNow]">on trend</h2>
                 <div className="hidden sm:flex gap-3">
-                  <div className="w-12 h-12 flex justify-center items-center rounded-full bg-[#f5f5f5]">
-                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg>
-                  </div>
-
-                  <div className="w-12 h-12 flex justify-center items-center rounded-full bg-[#CACACB]">
-                    <img src="../public/Icons/right-arrow.svg" alt="" />
-                  </div>
+                  <button
+                    onClick={() => scroll('left')}
+                    disabled={!canScrollLeft}
+                    className={`w-12 h-12 flex cursor-pointer justify-center items-center rounded-full bg-[#E5E5E5]   ${canScrollLeft ? 'hover:bg-[#CACACB]' : 'opacity-50 cursor-not-allowed'}`}
+                  >
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                      <path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path>
+                    </svg>
+                  </button>
+      
+                  <button
+                    onClick={() => scroll('right')}
+                    disabled={!canScrollRight}
+                    className={`w-12 h-12 flex cursor-pointer justify-center items-center rounded-full bg-[#E5E5E5]   ${canScrollRight ? 'hover:bg-[#CACACB]' : 'opacity-50 cursor-not-allowed'}`}
+                  >
+                    <img src="../public/Icons/right-arrow.svg" alt="Right arrow" />
+                  </button>
 
                 </div>
                 
@@ -133,7 +173,7 @@ const Jordan = () => {
             </div>
 
             <div className="mx-10">
-                <div className="flex overflow-x-scroll gap-4 pb-4 custom-scrollbar">
+                <div ref={scrollRef} className="flex overflow-x-scroll gap-4 pb-4 custom-scrollbar">
                 {productsInUse.map((el,idx) => (
                       <div
                         key={el.id}

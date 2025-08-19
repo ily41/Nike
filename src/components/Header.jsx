@@ -47,6 +47,17 @@ const Header = () => {
     document.body.style.width = 'unset';
   };
   }, [burgerBool]);
+  useEffect(() => {
+  if ( searchBool) {
+    document.body.style.overflow = 'hidden'; 
+  } else {
+    document.body.style.overflow = ''; 
+  }
+
+  return () => {
+    document.body.style.overflow = '';
+  };
+}, [ searchBool,burgerBool]);
 
   const renderMenu = () => {
   if (burgerPagination === "all") {
@@ -77,17 +88,6 @@ const Header = () => {
     ));
   }
 
-  useEffect(() => {
-  if ( searchBool) {
-    document.body.style.overflow = 'hidden'; 
-  } else {
-    document.body.style.overflow = ''; 
-  }
-
-  return () => {
-    document.body.style.overflow = '';
-  };
-}, [burgerBool, searchBool]);
 
   if (burgerPagination.includes('-')) {
     const [mainSlug, subSlug] = burgerPagination.split('-');
@@ -212,7 +212,7 @@ const Header = () => {
 
 
   return (
-    <header className={`${showFilter ? 'z-50' : 'z-[1000]'} lg:z-[1000]`}>
+    <header className={`${showFilter ? 'z-50' : 'z-[1000]'} lg:z-[1000] `}>
       {/* Top Nav */}
       <div className={`${jordanState ? 'dark bg-[#111111] text-white' : 'bg-[#F5F5F5] text-black'} hidden lg:flex  justify-between px-8 py-2`}>
         <ul className=' flex gap-4 '>
@@ -301,8 +301,8 @@ const Header = () => {
 
             {searchBool ? 
               <>
-                <div className='hidden lg:absolute inset-0 w-screen h-screen bg-black opacity-40 '></div>
-                <div className={`fixed inset-0 font-[helveticaNow] ${jordanState ? "bg-[#1F1F21]" : "bg-white"} p-4 w-screen h-screen lg:h-fit lg:min-h-[200px]  overflow-y-auto  z-[999] `}>
+                <div onClick={() => setSearchBool(false)} className='absolute inset-0 w-screen h-screen z-[998]  bg-black opacity-40 '></div>
+                <div className={`fixed inset-0 font-[helveticaNow] ${jordanState ? "bg-[#1F1F21]" : "bg-white"} p-4 w-full h-full lg:h-fit lg:min-h-[200px]  overflow-y-auto  z-[999] `}>
                 {/* header of searchbar */}
                 <div className='flex justify-between'>
 

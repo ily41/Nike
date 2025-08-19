@@ -1,8 +1,7 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import Slider from "./Slider";
 import { Link } from "react-router";
 import cardInfo from '../provider/cardInfo.json'
-import MainPageUI from "./mainPageUI";
+import MainPageUI from "./MainPageUI";
 import Classics from "./Classics";
 
 
@@ -36,7 +35,7 @@ const Main = () => {
 
       {/* 3 categories */}
 
-      <section className="flex w-full p-8 text-lg font-semibold overflow-x-scroll scrollbar-hide  gap-5 ">
+      <section className="flex w-full p-8 text-lg font-semibold  scrollbar-hide  gap-5 ">
         <MainPageUI cardInfo={cardInfo[0]}/>
       </section>
 

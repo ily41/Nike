@@ -38,6 +38,7 @@ const App = () => {
     const stored = sessionStorage.getItem("basket");
     return stored ? JSON.parse(stored) : [];
   });
+  {console.log("Filter",showFilter)}
 
   const location = useLocation();
 
@@ -72,7 +73,8 @@ const App = () => {
                 <Route path='/favorites' element={<Favorites />} />
               </Routes>
             </main>
-            {!showFilter && <Footer />  }
+            
+            <Footer />
             
           </FilterContext>
         </BasketContext>
