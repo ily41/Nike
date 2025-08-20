@@ -90,9 +90,19 @@ const Products = () => {
             </div>
             <div className={`lg:grid grid-cols-2 ${showFilter ? 'hidden' : 'grid'} lg:grid-cols-3  items-start justify-center gap-4`}>
                 
-                {filtered.map((el,idx) => (
-                    <Link key={idx} to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image} categories={category}/></Link>
-                ))}
+                {filtered.map((el,idx) => {
+                    function getProductType(categories) {
+                      if (categories.includes("all-shoes")) return "Shoes";
+                      if (categories.includes("all-clothing")) return "Clothing";
+                      if (categories.includes("accessories")) return "Accessories";
+                      return "";
+                    }
+                    
+                    const productType = getProductType(el.categories);
+
+                    return(
+                        <Link key={idx} to={`/details/${el.id}`}><Card key={el.id} color={el.colors} price={el.price} name={el.name} gender={el.genders} image={el.image} categories={category} productType={productType} /></Link>
+                )})}
                 
             </div>
         </section>

@@ -1,5 +1,4 @@
 [
-  
   {
     "id": 2,
     "name": "Men",
@@ -7,6 +6,7 @@
     "subCategories": [
       {
         "title": "New & Featured",
+        "slug": "newFeatured",
         "categories": [
           { "id": 21, "name": "New Arrivals", "slug": "new-arrivals" },
           { "id": 22, "name": "Best Sellers", "slug": "best-sellers" },
@@ -15,6 +15,7 @@
       },
       {
         "title": "Clothing",
+        "slug": "clothing",
         "categories": [
           { "id": 24, "name": "All Clothing", "slug": "all-clothing" },
           { "id": 25, "name": "Hoodies & Sweatshirts", "slug": "hoodies" }
@@ -22,6 +23,7 @@
       },
       {
         "title": "Shoes",
+        "slug": "shoes",
         "categories": [
           { "id": 29, "name": "All Shoes", "slug": "all-shoes" },
           { "id": 30, "name": "Basketball", "slug": "basketball" },
@@ -32,6 +34,7 @@
       },
       {
         "title": "Accessories",
+        "slug": "accessories",
         "categories": [
           { "id": 34, "name": "Bags", "slug": "bags" },
           { "id": 36, "name": "Hats", "slug": "hats" }
@@ -46,6 +49,7 @@
     "subCategories": [
       {
         "title": "New & Featured",
+        "slug": "newFeatured",
         "categories": [
           { "id": 41, "name": "New Arrivals", "slug": "new-arrivals" },
           { "id": 42, "name": "Best Sellers", "slug": "best-sellers" },
@@ -54,6 +58,7 @@
       },
       {
         "title": "Clothing",
+        "slug": "clothing",
         "categories": [
           { "id": 44, "name": "All Clothing", "slug": "all-clothing" },
           { "id": 45, "name": "Hoodies & Sweatshirts", "slug": "hoodies" },
@@ -62,6 +67,7 @@
       },
       {
         "title": "Shoes",
+        "slug": "shoes",
         "categories": [
           { "id": 50, "name": "All Shoes", "slug": "all-shoes" },
           { "id": 51, "name": "Basketball", "slug": "basketball" },
@@ -72,6 +78,7 @@
       },
       {
         "title": "Accessories",
+        "slug": "accessories",
         "categories": [
           { "id": 55, "name": "Bags", "slug": "bags" },
           { "id": 57, "name": "Hats", "slug": "hats" }
@@ -86,6 +93,7 @@
     "subCategories": [
       {
         "title": "Get Set for School",
+        "slug": "getSetForSchool",
         "categories": [
           { "id": 61, "name": "New Arrivals", "slug": "new-arrivals" },
           { "id": 62, "name": "Best Sellers", "slug": "best-sellers" }
@@ -93,6 +101,7 @@
       },
       {
         "title": "Shoes",
+        "slug": "shoes",
         "categories": [
           { "id": 64, "name": "All Shoes", "slug": "all-shoes" },
           { "id": 65, "name": "Basketball", "slug": "basketball" },
@@ -106,6 +115,7 @@
       },
       {
         "title": "Clothing",
+        "slug": "clothing",
         "categories": [
           { "id": 72, "name": "All Clothing", "slug": "all-clothing" },
           { "id": 73, "name": "Hoodies & Sweatshirts", "slug": "hoodies" },
@@ -114,6 +124,7 @@
       },
       {
         "title": "Accessories",
+        "slug": "accessories",
         "categories": [
           { "id": 77, "name": "Bags", "slug": "bags" },
           { "id": 79, "name": "Hats", "slug": "hats" }
@@ -128,6 +139,7 @@
     "subCategories": [
       {
         "title": "New & Featured",
+        "slug": "newFeatured",
         "categories": [
           { "id": 81, "name": "New Arrivals", "slug": "new-arrivals" },
           { "id": 82, "name": "Best Sellers", "slug": "best-sellers" }
@@ -135,6 +147,7 @@
       },
       {
         "title": "Men",
+        "slug": "men",
         "categories": [
           { "id": 85, "name": "Shop All", "slug": "jordan-men-all" },
           { "id": 86, "name": "Shoes", "slug": "jordan-men-shoes" },
@@ -143,6 +156,7 @@
       },
       {
         "title": "Women",
+        "slug": "women",
         "categories": [
           { "id": 88, "name": "Shop All", "slug": "jordan-women-all" },
           { "id": 89, "name": "Shoes", "slug": "jordan-women-shoes" },
@@ -151,6 +165,7 @@
       },
       {
         "title": "Kids",
+        "slug": "kids",
         "categories": [
           { "id": 91, "name": "Shop All", "slug": "jordan-kids-all" },
           { "id": 92, "name": "Shoes", "slug": "jordan-kids-shoes" },
@@ -162,6 +177,7 @@
       },
       {
         "title": "Accessories",
+        "slug": "accessories",
         "categories": [
           { "id": 97, "name": "Shop All", "slug": "jordan-accessories-all" },
           { "id": 98, "name": "Bags & Backpacks", "slug": "bags" },
@@ -177,6 +193,7 @@
     "subCategories": [
       {
         "title": "Basketball",
+        "slug": "basketball",
         "categories": [
           { "id": 100, "name": "Shoes", "slug": "sport-shoes" },
           { "id": 101, "name": "Jordan", "slug": "jordan" }
@@ -184,6 +201,7 @@
       },
       {
         "title": "Running",
+        "slug": "running",
         "categories": [
           { "id": 102, "name": "Road", "slug": "running-road" },
           { "id": 103, "name": "Race", "slug": "running-race" },
@@ -192,6 +210,7 @@
       },
       {
         "title": "Training",
+        "slug": "training",
         "categories": [
           { "id": 105, "name": "Shoes", "slug": "training-shoes" },
           { "id": 106, "name": "Socks", "slug": "socks" },

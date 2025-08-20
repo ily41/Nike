@@ -1,8 +1,10 @@
 import React from 'react'
+import { useParams } from 'react-router';
 
-const Card = ({color, price, name, gender, image,categories}) => {
-  console.log(gender)
+const Card = ({color, price, name, gender, image, categories,productType}) => {
+
   const isJordanPage = categories.includes('jordanPage');
+
   
   if (isJordanPage) {
     return (
@@ -29,7 +31,7 @@ const Card = ({color, price, name, gender, image,categories}) => {
       <div className="flex flex-col justify-between p-3 space-y-8">
         <div className=" flex flex-col">
           <h3 className='text-sm sm:text-lg font-[helveticaNow]'>{name}</h3>
-          <p className=' text-xs sm:text-sm'>{gender}'s Shoes</p>
+          <p className=' text-xs sm:text-sm'>{gender}{gender != 'Unisex' ? "'s" : ' '} {productType}</p>
           <p className='text-xs sm:text-sm'>{color.length} Color</p>
           <span className='my-2 font-[helveticaNow]'>${price}</span>
           <span className='text-[#007D48] font-[helveticaNow]'>See Price in Bag</span>

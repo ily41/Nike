@@ -17,6 +17,7 @@ const Details = () => {
   const [sizeChosen, setSizeChosen] = useState(null);
   const [sizeError, setSizeError] = useState(false);
   const [isAddBag, setisAddBag] = useState(true)
+  const [currentImage,setCurrentImage] = useState(product.image)
 
   console.log(favoritesData)
 
@@ -133,26 +134,16 @@ const Details = () => {
 
       <Slider header={false} productImages={product.detailImages}/>
 
-      <div className="lg:flex justify-center mt-10 mx-[100px]">
+      <div className="lg:flex  justify-center mt-10 mx-[100px]">
         {/* Left images */}
-        <div className="inline-flex lg:sticky top-10 gap-2">
-          <div className="order-2 max-h-[60vh] hidden lg:block">
-            <div className="flex absolute right-8 bottom-8 gap-3">
-              <div className="w-10 h-10 flex justify-center items-center rounded-full bg-[#f5f5f5]">
-                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
-                  <path stroke="currentColor" strokeWidth="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path>
-                </svg>
-              </div>
-              <div className="w-10 h-10 flex justify-center items-center rounded-full bg-[#FFFF]">
-                <img src="../public/Icons/right-arrow.svg" alt="" />
-              </div>
-            </div>
+        <div className="inline-flex lg:h-[450px] lg:w-[530px] lg:sticky top-10 gap-2">
+          <div className="order-2 relative lg:h-[450px]  hidden lg:block">
 
             <img
               onLoad={handleImgLoad}
               ref={imgRef}
-              className="object-contain max-w-[450px] rounded-sm"
-              src={product.image}
+              className="object-cover lg:max-w-[450px] lg:min-h-[450px] lg:h-[450px] lg:w-[450px] rounded-sm"
+              src={currentImage}
               alt={product.name}
             />
           </div>
@@ -160,8 +151,9 @@ const Details = () => {
           <div style={{ maxHeight: imgHeight ? `${imgHeight}px` : "auto" }} className="order-1 scrollbar-hide overflow-y-scroll flex lg:flex-col">
             {product.detailImages.map((el, index) => (
               <img
+                onMouseEnter={() => setCurrentImage(el)}
                 key={index}
-                className="lg:max-w-15 mb-2 object-cover max-h-30 mx-1 rounded-sm"
+                className="lg:max-w-15 mb-2 o cursor-pointer hover:brightness-70 max-h-30 mx-1 rounded-sm"
                 src={el}
                 alt={`${product.name} detail ${index}`}
               />

@@ -12,6 +12,7 @@ const Header = () => {
   const {jordanState} = useContext(JordanContext)
   const [burgerBool, setBurgerBool] = useState(false)
   const [burgerPagination,setBurgerPagination] = useState("all")
+  const [navigationStack, setNavigationStack] = useState([{ name: 'All', slug: 'all' }]);
   const [searchBool, setSearchBool] = useState(false)
   const [search, setSearch] = useState("")
   const [hoveredSearchResult, setHoveredSearchResult] = useState(null)
@@ -28,7 +29,6 @@ const Header = () => {
     }
     
   },[search])
-
 
   useEffect(() => {
   if (burgerBool ) {
@@ -47,6 +47,7 @@ const Header = () => {
     document.body.style.width = 'unset';
   };
   }, [burgerBool]);
+
   useEffect(() => {
   if ( searchBool) {
     document.body.style.overflow = 'hidden'; 
@@ -66,7 +67,9 @@ const Header = () => {
         key={idx}
         className="flex items-center cursor-pointer justify-between"
         onClick={() => {
-          setBurgerPagination(item.slug) }}
+          setBurgerPagination(item.slug);
+          setNavigationStack(prev => [...prev, { name: item.name, slug: item.slug }]);
+        }}
       >
         <h1 className="text-2xl ">{item.name}</h1>
         <img className="w-7 h-7" src="../public/Icons/right-arrow.svg" alt="" />
@@ -80,7 +83,10 @@ const Header = () => {
       <div
         key={idx}
         className="flex items-center cursor-pointer justify-between"
-        onClick={() => setBurgerPagination(`${mainCat.slug}-${subCat.slug}`)} 
+        onClick={() => {
+          setBurgerPagination(`${mainCat.slug}-${subCat.slug}`);
+          setNavigationStack(prev => [...prev, { name: subCat.title, slug: `${mainCat.slug}-${subCat.slug}` }]);
+        }} 
       >
         <h1 className="text-lg text-[#707072] ">{subCat.title}</h1>
         <img className="w-7 h-7" src="../public/Icons/right-arrow.svg" alt="" />
@@ -88,31 +94,54 @@ const Header = () => {
     ));
   }
 
-
   if (burgerPagination.includes('-')) {
     const [mainSlug, subSlug] = burgerPagination.split('-');
     const mainCategory = data.find(cat => cat.slug === mainSlug);
     const subCategory = mainCategory?.subCategories.find(sc => sc.slug === subSlug);
 
     if (subCategory) {
-      return subCategory.categories.map((c, idx) => (
-        <Link to={`/products/${c.slug}`} key={idx}>
-          <div
-            className="flex items-center cursor-pointer justify-between"
-            onClick={() => {
-              setBurgerBool(false);
-              setBurgerPagination("all");
-            }}
-          >
-            <h1 className="text-lg text-[#707072] ">{c.name}</h1>
-          </div>
-        </Link>
-      ));
+      return subCategory.categories.map((c, idx) => {
+        console.log("console slug", c.slug);
+        return (
+          <Link to={`/products/${c.slug}`} state={{ title: c.name }} key={idx}>
+            <div
+              className="flex items-center cursor-pointer justify-between"
+              onClick={() => {
+                setBurgerBool(false);
+                setBurgerPagination("all");
+                setNavigationStack([{ name: 'All', slug: 'all' }]);
+              }}
+            >
+              <h1 className="text-lg text-[#707072] ">{c.name}</h1>
+            </div>
+          </Link>
+        );
+      });
     }
   }
 
   return null;
-  };
+};
+const handleBackButtonClick = () => {
+  if (navigationStack.length > 1) {
+    // Remove current level from stack
+    const newStack = [...navigationStack];
+    newStack.pop();
+    setNavigationStack(newStack);
+    
+    // Set pagination to previous level
+    const previousLevel = newStack[newStack.length - 1];
+    setBurgerPagination(previousLevel.slug);
+  }
+};
+
+// Get the previous navigation level name for display
+const getPreviousLevelName = () => {
+  if (navigationStack.length > 1) {
+    return navigationStack[navigationStack.length - 2].name;
+  }
+  return 'All';
+};
 
 
   const searchProducts = () => {
@@ -208,13 +237,33 @@ const Header = () => {
   }, []);
 
 
+  // Scroll Effect
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setShowHeader(false);
+      } else {
+        setShowHeader(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
+
 
 
 
   return (
-    <header className={`${showFilter ? 'z-50' : 'z-[1000]'} lg:z-[1000] `}>
-      {/* Top Nav */}
-      <div className={`${jordanState ? 'dark bg-[#111111] text-white' : 'bg-[#F5F5F5] text-black'} hidden lg:flex  justify-between px-8 py-2`}>
+    <>
+    {/* Top Nav */}
+    <div className={`${jordanState ? 'dark bg-[#111111] text-white' : 'bg-[#F5F5F5] text-black'} hidden lg:flex  justify-between px-8 py-2`}>
         <ul className=' flex gap-4 '>
           {jordanState ? 
             <>
@@ -236,13 +285,24 @@ const Header = () => {
             <li className='border-r-1 pr-2'>Join Us</li>
             <li>Sign In</li>
         </ul>
-      </div >
+    </div >
+    <header className={`
+        ${showHeader ? 'translate-y-0' : '-translate-y-full'}
+        ${showFilter ? 'z-50' : 'z-[1000]'}
+        lg:z-[1000]
+        sticky
+        top-0
+        transition-transform
+        duration-300
+      `}>
+      
+      
       <nav className={` sticky ${jordanState ? 'dark bg-[#1F1F21] text-white' : 'bg-white text-black'} top-0 flex justify-between `}>
  
           {/* logo */}
           <div  className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
             <div  className='pl-6 pr-0 sm:px-8 py-3 flex flex-1 items-center'>
-              <Link to='/'>
+              <Link className='shrink-0' to='/'>
                 {jordanState ? 
                 <svg  class="swoosh-svg" width="64" height="22" viewBox="0 0 64 22" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7277 12.1511C15.999 12.598 14.4241 12.8196 13.0469 12.8196C11.3396 12.8196 9.94617 12.4728 8.97074 11.7793C4.02962 8.28845 8.54956 0.885548 9.06118 0.0629324C6.88551 2.37923 4.65235 4.80341 2.89851 7.44593C-0.0575023 11.9597 -0.812655 16.2475 0.910825 18.906C2.23896 20.9642 4.40042 22 7.37517 22C10.0146 22 13.2975 21.1832 17.1928 19.5559L64 0.0173385L63.9981 0L17.7277 12.1511Z" fill="white"/></svg> : <img className='cursor-pointer' src="/Icons/Logo.svg" alt="Logo" />}
               </Link>
@@ -382,18 +442,18 @@ const Header = () => {
             
 
             <Link to='/favorites'>
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg>
+              <svg  aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path><title>non-filled</title></svg>
             </Link>
 
-            <Link to='/cart'>
+            <Link className='shrink-0' to='/cart'>
               {jordanState ? 
-                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg>
+                <svg className='shrink-0' aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg>
                 :
                 <img  src="/Icons/basket-icon.svg" className='cursor-pointer' alt="Basket" />
               }
             </Link>
 
-            <svg onClick={() => setBurgerBool(prev => !prev)} className = "lg:hidden" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+            <svg  onClick={() => setBurgerBool(prev => !prev)} className = "lg:hidden shrink-0" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
               <path stroke="currentColor" strokeWidth="1.5" d="M21 5.25H3M21 12H3m18 6.75H3"></path>
             </svg>
 
@@ -403,16 +463,24 @@ const Header = () => {
             <>
               <div onClick={() => setBurgerBool(false)} className='absolute lg:hidden top-0 left-0 w-screen h-screen bg-black opacity-40 overflow-hidden'>
               </div>
-              <div className={`absolute ${jordanState ?  'dark bg-[#1F1F21]': 'bg-white'} lg:hidden font-[helveticaNow] right-0 top-0 z-[10000] bg-opacity-[100] h-screen w-80`}>
-
-
+              <div className={`absolute ${jordanState ? 'dark bg-[#1F1F21]': 'bg-white'} lg:hidden font-[helveticaNow] right-0 top-0 z-[10000] bg-opacity-[100] h-screen w-80`}>
+                    
                 <div>
-                  <div onClick={() => {}} className='absolute hidden items-center  top-4 left-6  lg:flex gap-3'>
-                    <img className='w-7 h-7' src="../public/Icons/left-arrow.svg" alt="" />
-                    <span>All</span>
+                  <div 
+                    onClick={handleBackButtonClick}
+                    className={`absolute ${burgerPagination === 'all' && 'hidden'} flex gap-4 top-7 left-5 cursor-pointer`}
+                  >
+                    <img src="/Icons/left-arrow.svg" alt="" />
+                    <span>{getPreviousLevelName()}</span>
                   </div>
+                    
                   <button
-                    onClick={() => {setBurgerBool(false); setBurgerPagination("all")}}
+                    onClick={() => {
+                      setBurgerBool(false); 
+                      setBurgerPagination("all");
+                      // Reset navigation stack when closing menu
+                      setNavigationStack([{ name: 'All', slug: 'all' }]);
+                    }}
                     className='p-2 absolute top-4 right-6'
                   >
                     <FontAwesomeIcon
@@ -421,30 +489,31 @@ const Header = () => {
                     />
                   </button>
                 </div>
-
-                <div className='mt-40 mx-10 flex flex-col  gap-4'>
                   
-                  <Link to={`/${burgerPagination}`}>
-                      <h1 onClick={() => {setBurgerBool(false); setBurgerPagination("all")}} className="cursor-pointer text-2xl mb-7">
-                        {burgerPagination === "all"
-                          ? ""
-                          : data.find(el => el.slug === burgerPagination)?.name ||
-                            data
-                              .find(el => el.subCategories.some(sc => sc.slug === burgerPagination))
-                              ?.subCategories.find(sc => sc.slug === burgerPagination)?.title}
-                      </h1>
-                    </Link>
-
+                <div className='mt-40 mx-10 flex flex-col gap-4'>
+                  
+                  <Link to={`/${burgerPagination}`} className={`${burgerPagination.includes('-') && 'hidden'}`}>
+                    <h1 
+                      onClick={() => {
+                        setBurgerBool(false); 
+                        setBurgerPagination("all");
+                        setNavigationStack([{ name: 'All', slug: 'all' }]);
+                      }} 
+                      className="cursor-pointer text-2xl mb-7"
+                    >
+                      {burgerPagination === "all"
+                        ? ""
+                        : data.find(el => el.slug === burgerPagination)?.name ||
+                          data
+                            .find(el => el.subCategories.some(sc => sc.slug === burgerPagination))
+                            ?.subCategories.find(sc => sc.slug === burgerPagination)?.title}
+                    </h1>
+                  </Link>
+                      
                   {renderMenu()}
-                  
-
-                  
                 </div>
-
-                
               </div>
             </>
-            
           )}
 
 
@@ -484,6 +553,7 @@ const Header = () => {
       
       
     </header>
+    </>
   );
 };
 

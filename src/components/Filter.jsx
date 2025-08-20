@@ -122,7 +122,7 @@ const Filter = () => {
           if(selectedColors.length > 0 ) { 
           result = result.filter(el => el.colors.some(g => selectedColors.includes(g.toLowerCase())))
           }
-          
+        console.log("Result",result)
         setFiltered(result);
 
   },[men,women,unisex,twentyF,fiftyH,HundF,overHf,bigKids,littleKids,toddlers,colorFilters])

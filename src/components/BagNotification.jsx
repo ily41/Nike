@@ -38,7 +38,7 @@ const BagNotification = ({setBagNotification,product,sizeChosen,isAddBag}) => {
                     <Link to='/favorites' ><button className="w-full mt-4 min-w-[300px] cursor-pointer  py-4 rounded-4xl bg-black text-white font-[helveticaNow]">View Favorites</button></Link>
                       :
                     <>
-                      <Link to='/cart' ><button  className="w-full cursor-pointer min-w-[300px] py-3 rounded-4xl text-black border-2 mb-2 border-[#d7d7d7] font-[helveticaNow]"> View Bag (3) </button></Link>
+                      <Link onClick={() => setBagNotification(false)} to='/cart' ><button  className="w-full cursor-pointer min-w-[300px] py-3 rounded-4xl text-black border-2 mb-2 border-[#d7d7d7] font-[helveticaNow]"> View Bag (3) </button></Link>
                       <button className="w-full cursor-pointer  py-3 rounded-4xl bg-black text-white font-[helveticaNow]"> Go to Checkout</button>
                     </>
                 }

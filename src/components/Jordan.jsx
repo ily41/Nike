@@ -103,7 +103,7 @@ const Jordan = () => {
             <h3 className='uppercase text-white text-2xl p-5 pt-9'>Trending</h3>
             <div className='flex flex-col gap-2 sm:gap-20 font-[helveticaNow]'>
                 <div className='flex flex-col sm:flex-row gap-2 sm:gap-0'>
-                    <div className='relative'>
+                    <Link to="/products/mule" state={{title: "Jordan Mule Products"}} className='relative'>
                         <img className='sm:hidden' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_704,c_limit/6bec1803-d60e-4253-8012-2eb1a5ed24d3/jordan.png" alt="" />
                         <img className='hidden sm:block' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_567,c_limit/213158d8-fb0a-4355-94da-ab8848f5c5ee/jordan.png" alt="" />
                         <div className='absolute left-10 bottom-10 flex flex-col gap-5 '>
@@ -111,8 +111,8 @@ const Jordan = () => {
                             <button className='bg-white text-black rounded-full p-2 px-4  hover:bg-[#707072] cursor-pointer self-start'>Shop</button>
 
                         </div>
-                    </div>
-                    <div className='relative'>
+                    </Link>
+                    <Link to="/products/MMV3" state={{title: "Air Jordan 1 MMV3 Low "}} className='relative'>
                         <img className='sm:hidden'  src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_704,c_limit/3333fe78-a113-4f4e-9e6d-5d13df6dfb74/jordan.png" alt="" />
                         <img className='hidden sm:block' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_567,c_limit/e635cf5c-2b98-48f3-975c-a529b2dcfe94/jordan.png" alt="" />
                         <div className='absolute left-10 bottom-10 flex flex-col gap-5 '>
@@ -120,7 +120,7 @@ const Jordan = () => {
                             <button className='bg-white text-black rounded-full p-2 px-4  hover:bg-[#707072] cursor-pointer self-start'>Shop</button>
 
                         </div>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className='flex flex-col sm:flex-row gap-2 sm:gap-0'>

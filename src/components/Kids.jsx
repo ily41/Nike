@@ -131,7 +131,7 @@ const Kids = () => {
                     <img className='mb-4' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_616,c_limit/364b91d6-b683-4da1-9390-1dcc28c1bd58/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
                     <span className=' text-xl font-[helveticaNow]'>Top Kicks: Featuring V5 RNR</span>
                 </Link>
-                <Link to="/products/kids/all-shoes" state={{title: "Kids Back to School Shoes"}} className='min-w-[60%] sm:min-w-0'>
+                <Link to="/products/backpack" state={{title: "Kids Back to School Shoes"}} className='min-w-[60%] sm:min-w-0'>
                     <img className='mb-4' src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_616,c_limit/7e321b73-60e3-4f5f-8448-12098b48e2dd/nike-kids-shoes-clothing-and-accessories-nike-com.png" alt="" />
                     <span className=' text-xl font-[helveticaNow]'>Bags and Backpacks</span>
                 </Link>
@@ -145,10 +145,10 @@ const Kids = () => {
             <div className='flex mt-10 flex-col gap-4 sm:items-center font-[helveticaNow]'>
                 <span className='text-2xl'>Dunk Low x LEGO® Collection</span>
                 <h3 className='font-[helveticaNowBold] uppercase text-5xl sm:text-7xl tracking-[-0.2rem]'>Primed to Shine</h3>
-                <div className='flex gap-3 mt-4'>
-                    <button className='text-white bg-black p-3 px-6 text-2xl lg:text-lg lg:p-3 lg:px-4  rounded-4xl'>Get Notified</button>
-                    <button className='text-white bg-black p-3 px-6 text-2xl lg:text-lg lg:p-3 lg:px-4  rounded-4xl'>Explore</button>
-                </div>  
+                <Link to="/products/kids/lego" state={{title: "Nike x LEGO® Collection"}} className='flex gap-3 mt-4'>
+                    
+                    <button className='text-white bg-black p-3 px-8 hover:bg-[#707072] cursor-pointer text-2xl lg:text-lg lg:p-3 lg:px-4  rounded-4xl'>Explore</button>
+                </Link>  
             </div>
 
         </section>

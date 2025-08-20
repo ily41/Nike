@@ -13,6 +13,7 @@ import Women from './components/Women'
 import Kids from './components/Kids'
 import Jordan from './components/Jordan'
 import Favorites from './components/Favorites'
+import Error from './components/Error'
 
 const App = () => {
   const [bagNotification, setBagNotification] = useState(false);
@@ -71,6 +72,7 @@ const App = () => {
                 <Route path='/kids' element={<Kids />} />
                 <Route path='/jordan' element={<Jordan />} />
                 <Route path='/favorites' element={<Favorites />} />
+                <Route path='/*' element={<Error />} />
               </Routes>
             </main>
             
