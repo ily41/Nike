@@ -149,3 +149,13 @@
 .custom-scrollbar::-webkit-scrollbar-corner {
   background: #e2e8f0 !important;
 }
+
+.radiocss {
+  accent-color: black;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::marker {
+  content: "";
+}

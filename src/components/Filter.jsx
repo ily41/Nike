@@ -17,6 +17,8 @@ const Filter = () => {
     const [bigKids,setBigKids] = useState(false)
     const [littleKids,setLittleKids] = useState(false)
     const [toddlers,setToddlers] = useState(false)
+    const [sort,setSort] = useState(null)
+
 
     const [colorFilters,setColorFilters] = useState([
                   { name: "black", selected: false },
@@ -70,6 +72,7 @@ const Filter = () => {
       setLittleKids(false);
       setToddlers(false);
       setColorFilters(prev => prev.map(color => ({ ...color, selected: false })));
+      setSort(null)
     };
 
     const applyFilters = () => {
@@ -80,7 +83,10 @@ const Filter = () => {
       const genderCount = [men, women, unisex, bigKids, littleKids, toddlers].filter(Boolean).length;
       const priceCount = [twentyF, fiftyH, HundF, overHf].filter(Boolean).length;
       const colorCount = colorFilters.filter(color => color.selected).length;
-      return genderCount + priceCount + colorCount;
+      let total = genderCount + priceCount + colorCount
+      if(sort) total +=1
+      
+      return total;
     };
 
 
@@ -123,6 +129,9 @@ const Filter = () => {
           result = result.filter(el => el.colors.some(g => selectedColors.includes(g.toLowerCase())))
           }
         console.log("Result",result)
+
+        
+
         setFiltered(result);
 
   },[men,women,unisex,twentyF,fiftyH,HundF,overHf,bigKids,littleKids,toddlers,colorFilters])
@@ -153,6 +162,20 @@ const Filter = () => {
 
           <hr className='lg:block hidden px-4 my-4 text-[#b3b3b3]'/>
 
+          {/* Sort Filter */}
+          <div className='mb-6 lg:hidden'>
+            <h3 className="text-lg  font-medium mb-6">Sort By </h3>
+            <div className='flex gap-2 mb-4 items-center'>
+              <input checked={sort == 1} onChange={() =>{ setFiltered(prev => prev.sort((a,b) => b.price - a.price)), setSort(1)}} className='p-4 w-5 h-5 radiocss ' type="radio" name='sort'/>
+              <span>Price: High-Low</span>
+            </div>
+
+            <div className='flex gap-2 items-center'>
+              <input checked={sort == 2} onChange = {() => {setFiltered(prev => prev.sort((a,b) => a.price - b.price)),setSort(2)}} className='p-4 w-5 h-5 radiocss ' type="radio" name='sort' />
+              <span>Price: Low-High</span>
+            </div>
+          </div>
+
           {/* Gender Filter */}
           <div className='mb-6'>
             <details className="hidden lg:group lg:block w-40" >
@@ -168,7 +191,7 @@ const Filter = () => {
             </details>
 
             <div className="lg:hidden">
-              <h3 className="text-lg font-medium mb-3">Gender ({[men, women, unisex].filter(Boolean).length})</h3>
+              <h3 className="text-lg font-medium mb-3">Gender</h3>
               <div className="space-y-3">
                 <FIlterUi state={men} setState={setMen} name="Men" />
                 <FIlterUi state={women} setState={setWomen} name="Women" />
