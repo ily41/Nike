@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { FilterContext } from '../provider/context';
-import { Link } from 'react-router-dom';
+import { FilterContext } from '../../provider/context';
+
 
 const Favorites = () => {
   const { favoritesData, setFavorites } = useContext(FilterContext);

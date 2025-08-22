@@ -1,7 +1,7 @@
 
-import MainPageUI from './MainPageUI'
-import cardInfo from '../provider/cardInfo.json'
-import Classics from './Classics'
+import MainPageUI from '../UI/MainPageUI'
+import cardInfo from '../../provider/cardInfo.json'
+import Classics from '../UI/Classics'
 import { Link } from 'react-router'
 import React, { useRef, useState, useEffect } from 'react'
 
@@ -146,7 +146,6 @@ const Kids = () => {
                 <span className='text-2xl'>Dunk Low x LEGO® Collection</span>
                 <h3 className='font-[helveticaNowBold] uppercase text-5xl sm:text-7xl tracking-[-0.2rem]'>Primed to Shine</h3>
                 <Link to="/products/kids/lego" state={{title: "Nike x LEGO® Collection"}} className='flex gap-3 mt-4'>
-                    
                     <button className='text-white bg-black p-3 px-8 hover:bg-[#707072] cursor-pointer text-2xl lg:text-lg lg:p-3 lg:px-4  rounded-4xl'>Explore</button>
                 </Link>  
             </div>

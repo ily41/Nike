@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollToTop from './ScrollToTop'
+import ScrollToTop from '../ScrollToTop'
 import { Link } from 'react-router'
 
 const BagNotification = ({setBagNotification,product,sizeChosen,isAddBag}) => {

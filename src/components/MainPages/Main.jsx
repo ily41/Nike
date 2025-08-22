@@ -1,8 +1,8 @@
-import Slider from "./Slider";
+import Slider from "../UI/Slider";
 import { Link } from "react-router";
-import cardInfo from '../provider/cardInfo.json'
-import MainPageUI from "./MainPageUI";
-import Classics from "./Classics";
+import cardInfo from '../../provider/cardInfo.json'
+import MainPageUI from "../UI/MainPageUI";
+import Classics from "../UI/Classics";
 
 
 const Main = () => {      

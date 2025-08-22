@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { BasketContext } from '../provider/context'
+import { BasketContext } from '../../provider/context'
 
 const Cart = () => {
 

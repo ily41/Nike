@@ -5,8 +5,6 @@ import 'swiper/css/pagination';
 import { Link } from 'react-router';
 
 const Slider = ({header,productImages}) => {
-  console.log("product image")
-  console.log(productImages)
   return (
     <>
     {header ? <Swiper

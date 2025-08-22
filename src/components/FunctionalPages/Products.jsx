@@ -1,9 +1,9 @@
 import  { useContext, useEffect, useState } from 'react'
-import Card from './Card'
+import Card from '../UI/Card'
 import { Link, useLocation, useParams } from 'react-router'
-import productData from '../provider/products.json'
+import productData from '../../provider/products.json'
 import Filter from './Filter'
-import { FilterContext } from '../provider/context'
+import { FilterContext } from '../../provider/context'
 
 
 const Products = () => {

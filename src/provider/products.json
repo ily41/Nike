@@ -2700,7 +2700,7 @@
     "collection": "nike-dri-fit-club",
     "price": 26,
     "genders": ["Unisex"],
-    "categories": ["men", "women", "all-clothing", "golf", "scheffler", "sport"],
+    "categories": ["accessories","men", "women", "all-clothing", "golf", "scheffler", "sport"],
     "colors": ["white", "navy", "black", "grey"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e35dcd3b-1609-4da7-862f-2008c5b1bfff/U+NK+DF+CLUB+CAP+S+CB+P.png",
     "detailImages": [
@@ -3080,7 +3080,7 @@
     "collection": "mercurial",
     "price": 62,
     "genders": ["Unisex"],
-    "categories": ["men", "women","soccer", "sport", "training", "field"],
+    "categories": ["accessories","men", "women","soccer", "sport", "training", "field"],
     "colors": ["white", "black", "blue"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29968c49-80d8-4622-985d-2cfb8af8f615/NK+MERC+FLYLITE+SL+-+FA22.png",
     "detailImages": [
@@ -3099,7 +3099,7 @@
     "collection": "phantom",
     "price": 22,
     "genders": ["Unisex"],
-    "categories": ["men", "women","soccer", "sport", "training"],
+    "categories": ["accessories","men", "women","soccer", "sport", "training"],
     "colors": ["white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a54056a0-8464-40b8-b8b5-a6036dde1f94/NK+PHANTOM+-+FA25.png",
     "detailImages": [
@@ -3156,7 +3156,7 @@
     "collection": "strike",
     "price": 75,
     "genders": ["Women"],
-    "categories": ["soccer", "sport", "training", "all-clothing", "women"],
+    "categories": ["accessories","soccer", "sport", "training", "all-clothing", "women"],
     "colors": ["black", "white"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a5c28e2d-6182-421f-8140-5585722f4cbe/W+NK+DF+STRIKE+CREW+TOP+K.png",
     "detailImages": [
@@ -3538,7 +3538,7 @@
     "collection": "nike-flex-rep",
     "price": 65,
     "genders": ["Men"],
-    "categories": ["baseball", "sport", "training", "all-clothing", "men"],
+    "categories": ["accessories","baseball", "sport", "training", "all-clothing", "men"],
     "colors": ["black", "white", "gray"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bfa7de6-640a-43fc-8c01-7cea0617bd2e/M+NK+DF+FLEX+REP+SS+TOP.png",
     "detailImages": [
@@ -5190,7 +5190,7 @@
     "collection": "lego-apparel",
     "price": 120,
     "genders": ["Big Kids"],
-    "categories": ["lego", "kids", "big-kids", "all-clothing", "basketball", "lifestyle", "new"],
+    "categories": ["accessories","lego", "kids", "big-kids", "all-clothing", "basketball", "lifestyle", "new"],
     "colors": ["Multi", "LEGO Colors"],
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b4ae353-14a6-4c33-b7b8-dd0f1b40451c/NIKE+X+LEGO+COLLECTION+JACKET.png",
     "detailImages": ["https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b4ae353-14a6-4c33-b7b8-dd0f1b40451c/NIKE+X+LEGO+COLLECTION+JACKET.png"],

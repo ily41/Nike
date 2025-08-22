@@ -1,8 +1,8 @@
 import { useContext, useEffect, useRef, useState } from 'react'
-import FIlterUi from './FIlterUi';
+import FIlterUi from '../UI/FIlterUi';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { FilterContext } from '../provider/context';
+import { FilterContext } from '../../provider/context';
 
 const Filter = () => {
     const {showFilter, setShowFilter, products, setFiltered} = useContext(FilterContext)

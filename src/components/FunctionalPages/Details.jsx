@@ -1,9 +1,9 @@
 import { useParams } from "react-router";
-import Slider from "./Slider";
+import Slider from "../UI/Slider";
 import { useContext, useEffect, useRef, useState } from "react";
-import productData from '../provider/products.json';
-import BagNotification from './BagNotification';
-import { BasketContext, FilterContext } from "../provider/context";
+import productData from '../../provider/products.json';
+import BagNotification from '../UI/BagNotification';
+import { BasketContext, FilterContext } from "../../provider/context";
 
 const Details = () => {
   const { bagNotification, setBagNotification, basket, setBasket } = useContext(BasketContext);

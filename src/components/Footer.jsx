@@ -32,62 +32,62 @@ const Footer = () => {
 
         <div className='px-4 font-[helveticaNow]'>
 
-            <div className='flex flex-col sm:flex-row sm:justify-around my-18 gap-4'>
+            <div className='flex flex-col sm:flex-row sm:justify-between lg:mx-15 my-18 gap-4'>
 
             <div>
               <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
                 <summary className="cursor-pointer font-semibold text-[#707072]">
-                  <h4 className="text-xl mb-5 text-black">Featured</h4>
+                  <h4 className={`text-xl mb-5 text-black ${jordanState && 'text-white'}`}>Featured</h4>
                 </summary>
                 <ul className="mt-3 flex flex-col gap-3 pl-10  sm:pl-0 font-semibold text-[#8f8f8f]">
-                  <li><Link to="/products/airforce" state={{title: "Air Force 1 Products"}}>Air Force 1</Link></li>
-                  <li><Link to="/products/jordan" state={{title: "Jordan Products"}}>Jordan 1</Link></li>
-                  <li><Link to="/products/airmax" state={{title: "Air Max Dn Products"}}>Air Max Dn</Link></li>
-                  <li><Link to="/products/vomero" state={{title: "Vomero Products"}}>Vomero</Link></li>
-                  <li><Link to="/products/metcon" state={{title: "Metcon Products"}}>Metcon</Link></li>
-                  <li><Link to="/products/city" state={{title: "City Products"}}>City</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`}><Link to="/products/airforce" state={{title: "Air Force 1 Products"}}>Air Force 1</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/jordan" state={{title: "Jordan Products"}}>Jordan 1</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/airmax" state={{title: "Air Max Dn Products"}}>Air Max Dn</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/vomero" state={{title: "Vomero Products"}}>Vomero</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/metcon" state={{title: "Metcon Products"}}>Metcon</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/city" state={{title: "City Products"}}>City</Link></li>
                 </ul>
               </details>
             </div>
             <div>
               <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
                 <summary className="cursor-pointer font-semibold text-[#707072]">
-                  <h4 className="text-xl mb-5 text-black">Shoes</h4>
+                  <h4 className={`text-xl mb-5 text-black ${jordanState && 'text-white'}`}>Shoes</h4>
                 </summary>
                 <ul className="mt-3 flex flex-col cursor-pointer gap-3 pl-10 sm:pl-0 font-semibold text-[#707072]">
-                  <li><Link to="/products/all-shoes" state={{title: "All Shoes Products"}}>All Shoes</Link></li>
-                  <li><Link to="/products/all-shoes/jordan" state={{title: "Jordan Shoes Products"}}>Jordan Shoes</Link></li>
-                  <li><Link to="/products/all-shoes/running" state={{title: "Running Shoes Products"}}>Running Shoes</Link></li>
-                  <li><Link to="/products/all-shoes/basketball" state={{title: "Basketball Shoes Products"}}>Basketball Shoes</Link></li>
-                  <li><Link to="/products/all-shoes/training" state={{title: "Training Shoes Products"}}>Training Shoes</Link></li>
-                  <li><Link to="/products/all-shoes/soccer" state={{title: "Soccer Shoes Products"}}>Soccer Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes" state={{title: "All Shoes Products"}}>All Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes/jordan" state={{title: "Jordan Shoes Products"}}>Jordan Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes/running" state={{title: "Running Shoes Products"}}>Running Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes/basketball" state={{title: "Basketball Shoes Products"}}>Basketball Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes/training" state={{title: "Training Shoes Products"}}>Training Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes/soccer" state={{title: "Soccer Shoes Products"}}>Soccer Shoes</Link></li>
                 </ul>
               </details>
             </div>
             <div>
               <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
                 <summary className="cursor-pointer font-semibold text-[#707072]">
-                  <h4 className="text-xl mb-5 text-black">Clothing</h4>
+                  <h4 className={`text-xl mb-5 text-black ${jordanState && 'text-white'}`}>Clothing</h4>
                 </summary>
                 <ul className="mt-3 flex flex-col gap-3 font-semibold text-[#707072]">
-                  <li><Link to="/products/all-clothing" state={{title: "All Clothing Products"}}>All Clothing</Link></li>
-                  <li><Link to="/products/hoodies" state={{title: "Hoodies & Sweatshirts Products"}}>Hoodies & Sweatshirts</Link></li>
-                  <li><Link to="/products/skirts-dresses" state={{title: "Skirts & Dresses Products"}}>Skirts & Dresses</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-clothing" state={{title: "All Clothing Products"}}>All Clothing</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/hoodies" state={{title: "Hoodies & Sweatshirts Products"}}>Hoodies & Sweatshirts</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/skirts-dresses" state={{title: "Skirts & Dresses Products"}}>Skirts & Dresses</Link></li>
                 </ul>
               </details>
             </div>
             <div>
               <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
                 <summary className="cursor-pointer font-semibold text-[#707072]">
-                  <h4 className="text-xl mb-5 text-black">Kids</h4>
+                  <h4 className={`text-xl mb-5 text-black ${jordanState && 'text-white'}`}>Kids</h4>
                 </summary>
                 <ul className="mt-3 flex flex-col gap-3 pl-10 sm:pl-0 font-semibold text-[#707072]">
-                  <li><Link to="/products/toddlers" state={{title: "Infant & Toddler Shoes Products"}}>Infant & Toddler Shoes</Link></li>
-                  <li><Link to="/products/all-shoes/kids" state={{title: "Kids Shoes Products"}}>Kids Shoes</Link></li>
-                  <li><Link to="/products/basketball/kids" state={{title: "Kids Basketball Products"}}>Kids Basketball Products</Link></li>
-                  <li><Link to="/products/jordan-kids-shoes" state={{title: "Kids Jordan Shoes Products"}}>Kids Jordan Shoes</Link></li>
-                  <li><Link to="/products/all-clothing/kids" state={{title: "Kids Clothing Products"}}>Kids Clothing</Link></li>
-                  <li><Link to="/products/backpack/kids" state={{title: "Kids Backpacks Products"}}>Kids Backpacks</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/toddlers" state={{title: "Infant & Toddler Shoes Products"}}>Infant & Toddler Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-shoes/kids" state={{title: "Kids Shoes Products"}}>Kids Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/basketball/kids" state={{title: "Kids Basketball Products"}}>Kids Basketball Products</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/jordan-kids-shoes" state={{title: "Kids Jordan Shoes Products"}}>Kids Jordan Shoes</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/all-clothing/kids" state={{title: "Kids Clothing Products"}}>Kids Clothing</Link></li>
+                  <li className={`hover:text-black ${jordanState && 'hover:text-white'}`} ><Link to="/products/backpack/kids" state={{title: "Kids Backpacks Products"}}>Kids Backpacks</Link></li>
                 </ul>
                 
               </details>
@@ -100,12 +100,12 @@ const Footer = () => {
 
             <hr className={`px-4 ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
             
-            <div className='block lg:flex justify-around mb-15'>
-    <div>
+            <div className='block lg:flex justify-between lg:mx-15 mb-15'>
+                <div>
         <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
             <summary className="cursor-pointer font-semibold text-[#707072]">
                 <div className='flex lg:flex-col justify-between mt-10'>
-                    <p>Resources</p>
+                    <p className={`${jordanState && 'text-white'}`}>Resources</p>
                     {jordanState ? 
                         <svg className='lg:hidden' aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
                             <path stroke="currentColor" strokeWidth="1.5" d="M8.25 8.25L12 12l3.75-3.75"></path>
@@ -123,15 +123,15 @@ const Footer = () => {
                 <li>Site Feedback</li>
             </ul>
         </details>
-    </div>
+                </div>
 
-    <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
+                <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
 
-    <div>
+                <div>
         <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
             <summary className="cursor-pointer font-semibold text-[#707072]">
                 <div className='flex lg:flex-col justify-between mt-10'>
-                    <p>Help</p>
+                    <p className={`${jordanState && 'text-white'}`}>Help</p>
                     {jordanState ? 
                         <svg className='lg:hidden' aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
                             <path stroke="currentColor" strokeWidth="1.5" d="M8.25 8.25L12 12l3.75-3.75"></path>
@@ -152,15 +152,15 @@ const Footer = () => {
                 <li>Contact Us</li>
             </ul>
         </details>
-    </div>
+                </div>
 
-    <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
+                <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
 
-    <div>
+                <div>
         <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
             <summary className="cursor-pointer font-semibold text-[#707072]">
                 <div className='flex lg:flex-col justify-between mt-10'>
-                    <p>Company</p>
+                    <p className={`${jordanState && 'text-white'}`} >Company</p>
                     {jordanState ? 
                         <svg className='lg:hidden' aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
                             <path stroke="currentColor" strokeWidth="1.5" d="M8.25 8.25L12 12l3.75-3.75"></path>
@@ -179,15 +179,15 @@ const Footer = () => {
                 <li>Sustainability</li>
             </ul>
         </details>
-    </div>
+                </div>
 
-    <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
+                <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
 
-    <div>
+                <div>
         <details open={isLarge} className="[&>summary::-webkit-details-marker]:hidden">
             <summary className="cursor-pointer font-semibold text-[#707072]">
                 <div className='flex lg:flex-col justify-between mt-10'>
-                    <p>Promotions and Discounts</p>
+                    <p className={`${jordanState && 'text-white'}`} >Promotions and Discounts</p>
                     {jordanState ? 
                         <svg className='lg:hidden' aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
                             <path stroke="currentColor" strokeWidth="1.5" d="M8.25 8.25L12 12l3.75-3.75"></path>
@@ -205,23 +205,23 @@ const Footer = () => {
                 <li>Birthday</li>
             </ul>
         </details>
-    </div>
+                </div>
 
-    <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
+                <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
 
-    <div className='flex flex-col justify-between mt-10 text-[#707072]'>
+                <div className='flex flex-col justify-between mt-10 text-[#707072]'>
         <p className='flex gap-3 items-center text-sm'>
             <svg aria-hidden="true" className="css-npy3on" focusable="false" viewBox="0 0 24 24" role="img" width="20px" height="20px" fill="none"><path stroke="currentColor" strokeMiterlimit="10" strokeWidth="1.5" d="M21.75 12A9.75 9.75 0 0112 21.75M21.75 12A9.75 9.75 0 0012 2.25M21.75 12c0 2.071-4.365 3.75-9.75 3.75S2.25 14.071 2.25 12m19.5 0c0-2.071-4.365-3.75-9.75-3.75S2.25 9.929 2.25 12M12 21.75A9.75 9.75 0 012.25 12M12 21.75c2.9 0 5.25-4.365 5.25-9.75S14.9 2.25 12 2.25m0 19.5c-2.9 0-5.25-4.365-5.25-9.75S9.1 2.25 12 2.25M2.25 12A9.75 9.75 0 0112 2.25"></path></svg>
             United States
         </p>
-    </div>
+                </div>
 
-    <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
-</div>
+                <hr className={`px-4 mt-4 lg:hidden ${jordanState ? 'border-[#39393B]' : 'border-[#b3b3b3]'}`}/>
+            </div>
+            
+            <p className='text-[#7e7e7e] my-4 lg:mx-15'>&copy; 2025  Nike, Inc. All Rights Reserved</p>
 
-            <p className='text-[#7e7e7e] my-4'>&copy; 2025  Nike, Inc. All Rights Reserved</p>
-
-            <ul className='text-[#7e7e7e] text-sm flex flex-col mb-20 gap-2'>
+            <ul className='text-[#7e7e7e] text-sm lg:mx-15 flex flex-col lg:flex-row mb-20 gap-2'>
                 <li className='flex gap-1'>
                     Guides 
                     {jordanState ? 

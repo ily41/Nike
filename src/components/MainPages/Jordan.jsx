@@ -1,5 +1,5 @@
-import Card from './Card'
-import products from '../provider/products.json'
+import Card from '../UI/Card'
+import products from '../../provider/products.json'
 import { Link } from 'react-router'
 import  { useRef, useState, useEffect } from 'react'
 
@@ -94,7 +94,7 @@ const Jordan = () => {
                 <div className='absolute left-6 bottom-6 text-white'>
                     <span>AJ1 'Shattered Backboard'</span>
                     <h3 className='text-4xl font-[helveticaNowBold] pt-2 pb-7'>LACE 'EM UP.  <br></br> TEAR IT DOWN.</h3>
-                    <button className='bg-white text-black p-1 px-4 font-[helveticaNow] rounded-2xl'>Get Notified</button>
+                    <button className='bg-white cursor-pointer hover:bg-[#707072] text-black p-1 px-4 font-[helveticaNow] rounded-2xl'>Get Notified</button>
                 </div>
             </Link>
         </section>

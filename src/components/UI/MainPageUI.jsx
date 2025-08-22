@@ -66,7 +66,7 @@ const MainPageUI = ({ cardInfo }) => {
 
       <section
         ref={scrollRef}
-        className={`flex w-full p-8 text-lg font-semibold overflow-x-scroll ${cardInfo.page === "Main" ? 'lg:overflow-auto scrollbar-hide' : ''} gap-5 scroll-smooth`}
+        className={`flex w-full p-8 text-lg font-semibold overflow-x-scroll ${cardInfo.page === "Main" || cardInfo.page == "kids" ? 'lg:overflow-auto scrollbar-hide' : ''} gap-5 scroll-smooth`}
       >
         {cardInfo.components.map((item, idx) => (
           <Link

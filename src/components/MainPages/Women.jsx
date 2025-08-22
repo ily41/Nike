@@ -1,7 +1,7 @@
 import React from 'react'
-import MainPageUI from './MainPageUI'
-import cardInfo from '../provider/cardInfo.json'
-import Classics from './Classics'
+import MainPageUI from '../UI/MainPageUI'
+import cardInfo from '../../provider/cardInfo.json'
+import Classics from '../UI/Classics'
 import { Link } from 'react-router'
 
 const Women = () => {
